@@ -1,0 +1,8199 @@
+17:56:35
+{'Sensor':'GasArray CO', 'data':  4210.53 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1680.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+17:56:36
+{'Sensor':'GasArray CO', 'data':  5052.63 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1760.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+17:56:37
+{'Sensor':'GasArray CO', 'data':  5894.74 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1520.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+17:56:38
+{'Sensor':'GasArray CO', 'data':  6315.79 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  960.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+17:56:39
+{'Sensor':'GasArray CO', 'data':  5894.74 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  960.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  600.00 ppm'}
+
+17:56:40
+{'Sensor':'GasArray CO', 'data':  5052.63 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1040.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+17:56:41
+{'Sensor':'GasArray CO', 'data':  6315.79 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1040.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+17:56:42
+{'Sensor':'GasArray CO', 'data':  6736.84 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  560.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+17:56:43
+{'Sensor':'GasArray CO', 'data':  6736.84 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+17:56:44
+{'Sensor':'GasArray CO', 'data':  7578.95 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  800.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+17:56:45
+{'Sensor':'GasArray CO', 'data':  7157.89 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  800.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+17:56:46
+{'Sensor':'GasArray CO', 'data':  5052.63 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -800.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  812.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  650.00 ppm'}
+
+17:56:47
+{'Sensor':'GasArray CO', 'data':  5052.63 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+17:56:48
+{'Sensor':'GasArray CO', 'data':  6315.79 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1040.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  812.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+17:56:49
+{'Sensor':'GasArray CO', 'data':  7578.95 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1360.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  687.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+17:56:50
+{'Sensor':'GasArray CO', 'data':  8421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  560.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+17:56:51
+{'Sensor':'GasArray CO', 'data':  7157.89 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1120.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+17:56:52
+{'Sensor':'GasArray CO', 'data':  6736.84 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+17:56:53
+{'Sensor':'GasArray CO', 'data':  7157.89 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  880.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+17:56:54
+{'Sensor':'GasArray CO', 'data':  6315.79 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1040.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+17:56:55
+{'Sensor':'GasArray CO', 'data':  5052.63 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1200.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+17:56:56
+{'Sensor':'GasArray CO', 'data':  7157.89 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  880.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  650.00 ppm'}
+
+17:56:57
+{'Sensor':'GasArray CO', 'data':  7578.95 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  800.00 ppm'}
+
+17:56:58
+{'Sensor':'GasArray CO', 'data':  7157.89 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  700.00 ppm'}
+
+17:56:59
+{'Sensor':'GasArray CO', 'data':  6736.84 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  850.00 ppm'}
+
+17:57:00
+{'Sensor':'GasArray CO', 'data':  5894.74 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  750.00 ppm'}
+
+17:57:02
+{'Sensor':'GasArray CO', 'data':  5894.74 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1000.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  800.00 ppm'}
+
+17:57:03
+{'Sensor':'GasArray CO', 'data':  5473.68 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1000.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  800.00 ppm'}
+
+17:57:04
+{'Sensor':'GasArray CO', 'data':  5052.63 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  62.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  800.00 ppm'}
+
+17:57:05
+{'Sensor':'GasArray CO', 'data':  5052.63 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+17:57:06
+{'Sensor':'GasArray CO', 'data':  4210.53 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  750.00 ppm'}
+
+17:57:07
+{'Sensor':'GasArray CO', 'data':  4631.58 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+17:57:08
+{'Sensor':'GasArray CO', 'data':  4631.58 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1120.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  937.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  650.00 ppm'}
+
+17:57:09
+{'Sensor':'GasArray CO', 'data':  5052.63 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1200.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+17:57:10
+{'Sensor':'GasArray CO', 'data':  5052.63 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2880.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  750.00 ppm'}
+
+17:57:11
+{'Sensor':'GasArray CO', 'data':  4631.58 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  5840.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1812.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  600.00 ppm'}
+
+17:57:12
+{'Sensor':'GasArray CO', 'data':  4631.58 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  7920.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  2250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  600.00 ppm'}
+
+17:57:13
+{'Sensor':'GasArray CO', 'data':  9263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  4400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  812.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  850.00 ppm'}
+
+17:57:14
+{'Sensor':'GasArray CO', 'data':  13473.68 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  7040.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+17:57:15
+{'Sensor':'GasArray CO', 'data':  13894.74 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  6000.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+17:57:16
+{'Sensor':'GasArray CO', 'data':  10947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2880.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  750.00 ppm'}
+
+17:57:17
+{'Sensor':'GasArray CO', 'data':  10105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  750.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  950.00 ppm'}
+
+17:57:18
+{'Sensor':'GasArray CO', 'data':  8842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  4480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  800.00 ppm'}
+
+17:57:19
+{'Sensor':'GasArray CO', 'data':  5052.63 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1000.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+17:57:20
+{'Sensor':'GasArray CO', 'data':  5894.74 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  3360.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  937.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  850.00 ppm'}
+
+17:57:21
+{'Sensor':'GasArray CO', 'data':  4631.58 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  4720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1000.00 ppm'}
+
+17:57:22
+{'Sensor':'GasArray CO', 'data':  2947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2880.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  750.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  700.00 ppm'}
+
+17:57:23
+{'Sensor':'GasArray CO', 'data':  1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  4160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1050.00 ppm'}
+
+17:57:24
+{'Sensor':'GasArray CO', 'data':  2947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  3760.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  750.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  650.00 ppm'}
+
+17:57:25
+{'Sensor':'GasArray CO', 'data':  5052.63 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  4240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  875.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  850.00 ppm'}
+
+17:57:26
+{'Sensor':'GasArray CO', 'data':  7578.95 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  3040.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  812.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+17:57:27
+{'Sensor':'GasArray CO', 'data':  8421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  3280.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  750.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+17:57:28
+{'Sensor':'GasArray CO', 'data':  8000.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  3280.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  875.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+17:57:29
+{'Sensor':'GasArray CO', 'data':  8421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  687.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  650.00 ppm'}
+
+17:57:30
+{'Sensor':'GasArray CO', 'data':  8842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1280.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  650.00 ppm'}
+
+17:57:31
+{'Sensor':'GasArray CO', 'data':  7578.95 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2080.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+17:57:32
+{'Sensor':'GasArray CO', 'data':  6315.79 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  600.00 ppm'}
+
+17:57:33
+{'Sensor':'GasArray CO', 'data':  5473.68 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  125.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+17:57:34
+{'Sensor':'GasArray CO', 'data':  5473.68 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1040.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+17:57:35
+{'Sensor':'GasArray CO', 'data':  7157.89 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  3440.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+17:57:36
+{'Sensor':'GasArray CO', 'data':  8421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  600.00 ppm'}
+
+17:57:37
+{'Sensor':'GasArray CO', 'data':  9263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  3440.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  600.00 ppm'}
+
+17:57:38
+{'Sensor':'GasArray CO', 'data':  8842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  4000.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1125.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  700.00 ppm'}
+
+17:57:39
+{'Sensor':'GasArray CO', 'data':  10947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  6800.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  600.00 ppm'}
+
+17:57:40
+{'Sensor':'GasArray CO', 'data':  14736.84 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  7840.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1812.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  850.00 ppm'}
+
+17:57:41
+{'Sensor':'GasArray CO', 'data':  13052.63 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1150.00 ppm'}
+
+17:57:42
+{'Sensor':'GasArray CO', 'data':  9684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  3680.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  750.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1050.00 ppm'}
+
+17:57:43
+{'Sensor':'GasArray CO', 'data':  8000.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  250.00 ppm'}
+
+17:57:44
+{'Sensor':'GasArray CO', 'data':  4631.58 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1840.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+17:57:45
+{'Sensor':'GasArray CO', 'data':  3368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1920.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+17:57:46
+{'Sensor':'GasArray CO', 'data':  2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1920.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+17:57:47
+{'Sensor':'GasArray CO', 'data':  -1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1440.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+17:57:48
+{'Sensor':'GasArray CO', 'data':  -842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1440.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  200.00 ppm'}
+
+17:57:49
+{'Sensor':'GasArray CO', 'data':  -842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1280.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  125.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+17:57:50
+{'Sensor':'GasArray CO', 'data':  -842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1040.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  50.00 ppm'}
+
+17:57:51
+{'Sensor':'GasArray CO', 'data':  -1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1120.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  62.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+17:57:52
+{'Sensor':'GasArray CO', 'data':  -1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1600.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+17:57:53
+{'Sensor':'GasArray CO', 'data':  -421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -960.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+17:57:54
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -800.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  125.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+17:57:55
+{'Sensor':'GasArray CO', 'data':  421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -800.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+17:57:56
+{'Sensor':'GasArray CO', 'data':  1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1200.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+17:57:57
+{'Sensor':'GasArray CO', 'data':  2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1040.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+17:57:58
+{'Sensor':'GasArray CO', 'data':  2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -960.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+17:57:59
+{'Sensor':'GasArray CO', 'data':  1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+17:58:00
+{'Sensor':'GasArray CO', 'data':  1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -560.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+17:58:01
+{'Sensor':'GasArray CO', 'data':  1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -560.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+17:58:02
+{'Sensor':'GasArray CO', 'data':  421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -800.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+17:58:03
+{'Sensor':'GasArray CO', 'data':  421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -800.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+17:58:04
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  250.00 ppm'}
+
+17:58:05
+{'Sensor':'GasArray CO', 'data':  1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  150.00 ppm'}
+
+17:58:06
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -880.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+17:58:07
+{'Sensor':'GasArray CO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  250.00 ppm'}
+
+17:58:09
+{'Sensor':'GasArray CO', 'data':  -421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  250.00 ppm'}
+
+17:58:10
+{'Sensor':'GasArray CO', 'data':  421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  125.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+17:58:11
+{'Sensor':'GasArray CO', 'data':  -842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+17:58:12
+{'Sensor':'GasArray CO', 'data':  421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+17:58:13
+{'Sensor':'GasArray CO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+17:58:14
+{'Sensor':'GasArray CO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+17:58:15
+{'Sensor':'GasArray CO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+17:58:16
+{'Sensor':'GasArray CO', 'data':  -421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+17:58:17
+{'Sensor':'GasArray CO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+17:58:18
+{'Sensor':'GasArray CO', 'data':  -842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+17:58:19
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  150.00 ppm'}
+
+17:58:20
+{'Sensor':'GasArray CO', 'data':  2947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  -150.00 ppm'}
+
+17:58:21
+{'Sensor':'GasArray CO', 'data':  1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  150.00 ppm'}
+
+17:58:22
+{'Sensor':'GasArray CO', 'data':  1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+17:58:23
+{'Sensor':'GasArray CO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  250.00 ppm'}
+
+17:58:24
+{'Sensor':'GasArray CO', 'data':  -1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  150.00 ppm'}
+
+17:58:25
+{'Sensor':'GasArray CO', 'data':  -2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+17:58:26
+{'Sensor':'GasArray CO', 'data':  -3368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1040.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  200.00 ppm'}
+
+17:58:27
+{'Sensor':'GasArray CO', 'data':  -4210.53 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  50.00 ppm'}
+
+17:58:28
+{'Sensor':'GasArray CO', 'data':  -2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  150.00 ppm'}
+
+17:58:29
+{'Sensor':'GasArray CO', 'data':  -2947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+17:58:30
+{'Sensor':'GasArray CO', 'data':  -1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+17:58:31
+{'Sensor':'GasArray CO', 'data':  -2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+17:58:32
+{'Sensor':'GasArray CO', 'data':  -842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+17:58:33
+{'Sensor':'GasArray CO', 'data':  421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+17:58:34
+{'Sensor':'GasArray CO', 'data':  1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  560.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  125.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+17:58:35
+{'Sensor':'GasArray CO', 'data':  1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1120.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+17:58:36
+{'Sensor':'GasArray CO', 'data':  2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1040.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+17:58:37
+{'Sensor':'GasArray CO', 'data':  2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  800.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+17:58:38
+{'Sensor':'GasArray CO', 'data':  1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  687.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+17:58:39
+{'Sensor':'GasArray CO', 'data':  421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+17:58:40
+{'Sensor':'GasArray CO', 'data':  -1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  960.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+17:58:41
+{'Sensor':'GasArray CO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1920.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+17:58:42
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1840.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+17:58:43
+{'Sensor':'GasArray CO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  687.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  250.00 ppm'}
+
+17:58:44
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1000.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+17:58:45
+{'Sensor':'GasArray CO', 'data':  1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1000.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+17:58:46
+{'Sensor':'GasArray CO', 'data':  2947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  150.00 ppm'}
+
+17:58:47
+{'Sensor':'GasArray CO', 'data':  2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  812.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+17:58:48
+{'Sensor':'GasArray CO', 'data':  2947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  100.00 ppm'}
+
+17:58:49
+{'Sensor':'GasArray CO', 'data':  1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  100.00 ppm'}
+
+17:58:50
+{'Sensor':'GasArray CO', 'data':  2947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  960.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+17:58:51
+{'Sensor':'GasArray CO', 'data':  421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  880.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  125.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  250.00 ppm'}
+
+17:58:52
+{'Sensor':'GasArray CO', 'data':  2947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  960.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+17:58:53
+{'Sensor':'GasArray CO', 'data':  4631.58 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1200.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+17:58:54
+{'Sensor':'GasArray CO', 'data':  5473.68 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1280.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+17:58:55
+{'Sensor':'GasArray CO', 'data':  5473.68 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1200.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+17:58:56
+{'Sensor':'GasArray CO', 'data':  3789.47 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1200.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+17:58:57
+{'Sensor':'GasArray CO', 'data':  3789.47 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1040.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+17:58:58
+{'Sensor':'GasArray CO', 'data':  4210.53 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1200.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  687.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+17:58:59
+{'Sensor':'GasArray CO', 'data':  4631.58 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1120.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  750.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+17:59:00
+{'Sensor':'GasArray CO', 'data':  5473.68 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  880.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  750.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+17:59:01
+{'Sensor':'GasArray CO', 'data':  5473.68 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1120.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  750.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+17:59:02
+{'Sensor':'GasArray CO', 'data':  1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+17:59:03
+{'Sensor':'GasArray CO', 'data':  2947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  650.00 ppm'}
+
+17:59:04
+{'Sensor':'GasArray CO', 'data':  3789.47 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  960.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  812.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+17:59:05
+{'Sensor':'GasArray CO', 'data':  3368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  560.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+17:59:06
+{'Sensor':'GasArray CO', 'data':  3789.47 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+17:59:07
+{'Sensor':'GasArray CO', 'data':  4631.58 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+17:59:08
+{'Sensor':'GasArray CO', 'data':  4631.58 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  875.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+17:59:09
+{'Sensor':'GasArray CO', 'data':  5894.74 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1040.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  687.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+17:59:10
+{'Sensor':'GasArray CO', 'data':  5473.68 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1680.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  750.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  600.00 ppm'}
+
+17:59:11
+{'Sensor':'GasArray CO', 'data':  7578.95 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1520.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  812.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  650.00 ppm'}
+
+17:59:12
+{'Sensor':'GasArray CO', 'data':  5894.74 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1520.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  937.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+17:59:13
+{'Sensor':'GasArray CO', 'data':  10526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2080.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  875.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  650.00 ppm'}
+
+17:59:14
+{'Sensor':'GasArray CO', 'data':  12210.53 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+17:59:15
+{'Sensor':'GasArray CO', 'data':  10526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2080.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  750.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+17:59:17
+{'Sensor':'GasArray CO', 'data':  10526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  3600.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  900.00 ppm'}
+
+17:59:18
+{'Sensor':'GasArray CO', 'data':  10105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  5680.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  800.00 ppm'}
+
+17:59:19
+{'Sensor':'GasArray CO', 'data':  10105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  8320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  2437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  250.00 ppm'}
+
+17:59:20
+{'Sensor':'GasArray CO', 'data':  9263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  9680.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  2437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+17:59:21
+{'Sensor':'GasArray CO', 'data':  8842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  9280.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  2187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  800.00 ppm'}
+
+17:59:22
+{'Sensor':'GasArray CO', 'data':  9684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  9440.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1937.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  650.00 ppm'}
+
+17:59:23
+{'Sensor':'GasArray CO', 'data':  11368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  8800.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+17:59:24
+{'Sensor':'GasArray CO', 'data':  9684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  7120.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  600.00 ppm'}
+
+17:59:25
+{'Sensor':'GasArray CO', 'data':  11368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  8880.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1875.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  650.00 ppm'}
+
+17:59:26
+{'Sensor':'GasArray CO', 'data':  10947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  8880.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  2187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1200.00 ppm'}
+
+17:59:27
+{'Sensor':'GasArray CO', 'data':  9263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  8880.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  2125.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  900.00 ppm'}
+
+17:59:28
+{'Sensor':'GasArray CO', 'data':  8842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  8720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  700.00 ppm'}
+
+17:59:29
+{'Sensor':'GasArray CO', 'data':  13052.63 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  7600.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  650.00 ppm'}
+
+17:59:30
+{'Sensor':'GasArray CO', 'data':  8842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  6880.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+17:59:31
+{'Sensor':'GasArray CO', 'data':  8842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  7840.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1062.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1400.00 ppm'}
+
+17:59:32
+{'Sensor':'GasArray CO', 'data':  9263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  8880.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1750.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1100.00 ppm'}
+
+17:59:33
+{'Sensor':'GasArray CO', 'data':  11789.47 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  7200.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  875.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  800.00 ppm'}
+
+17:59:34
+{'Sensor':'GasArray CO', 'data':  11368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  7040.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  812.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  750.00 ppm'}
+
+17:59:35
+{'Sensor':'GasArray CO', 'data':  11368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  7200.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1000.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1050.00 ppm'}
+
+17:59:36
+{'Sensor':'GasArray CO', 'data':  13473.68 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  7280.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1937.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  650.00 ppm'}
+
+17:59:37
+{'Sensor':'GasArray CO', 'data':  15578.95 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  6560.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  937.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1500.00 ppm'}
+
+17:59:38
+{'Sensor':'GasArray CO', 'data':  14736.84 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  6880.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1500.00 ppm'}
+
+17:59:39
+{'Sensor':'GasArray CO', 'data':  15157.89 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  6640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  750.00 ppm'}
+
+17:59:40
+{'Sensor':'GasArray CO', 'data':  17684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  6960.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1687.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  950.00 ppm'}
+
+17:59:41
+{'Sensor':'GasArray CO', 'data':  17684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  8160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1300.00 ppm'}
+
+17:59:42
+{'Sensor':'GasArray CO', 'data':  16421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  8640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  2000.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1700.00 ppm'}
+
+17:59:43
+{'Sensor':'GasArray CO', 'data':  13894.74 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  8720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  2062.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1450.00 ppm'}
+
+17:59:44
+{'Sensor':'GasArray CO', 'data':  13894.74 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  7520.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  2312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  800.00 ppm'}
+
+17:59:45
+{'Sensor':'GasArray CO', 'data':  13473.68 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  8720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1650.00 ppm'}
+
+17:59:46
+{'Sensor':'GasArray CO', 'data':  12210.53 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  8880.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  2375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1500.00 ppm'}
+
+17:59:47
+{'Sensor':'GasArray CO', 'data':  13473.68 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  7520.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1200.00 ppm'}
+
+17:59:48
+{'Sensor':'GasArray CO', 'data':  17684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  5920.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1300.00 ppm'}
+
+17:59:49
+{'Sensor':'GasArray CO', 'data':  25263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  5360.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  750.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1700.00 ppm'}
+
+17:59:50
+{'Sensor':'GasArray CO', 'data':  27789.47 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  6000.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  812.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  700.00 ppm'}
+
+17:59:51
+{'Sensor':'GasArray CO', 'data':  30315.79 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  6240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1125.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1550.00 ppm'}
+
+17:59:52
+{'Sensor':'GasArray CO', 'data':  24000.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  6880.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  800.00 ppm'}
+
+17:59:53
+{'Sensor':'GasArray CO', 'data':  25684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  5120.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1750.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  -200.00 ppm'}
+
+17:59:54
+{'Sensor':'GasArray CO', 'data':  16842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  5760.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  2050.00 ppm'}
+
+17:59:55
+{'Sensor':'GasArray CO', 'data':  15157.89 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  6640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1750.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1300.00 ppm'}
+
+17:59:56
+{'Sensor':'GasArray CO', 'data':  14736.84 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  8000.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1250.00 ppm'}
+
+17:59:57
+{'Sensor':'GasArray CO', 'data':  13473.68 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  7040.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  687.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  700.00 ppm'}
+
+17:59:58
+{'Sensor':'GasArray CO', 'data':  15578.95 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  7360.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  600.00 ppm'}
+
+17:59:59
+{'Sensor':'GasArray CO', 'data':  14315.79 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  8000.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1750.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1150.00 ppm'}
+
+18:00:00
+{'Sensor':'GasArray CO', 'data':  13894.74 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  7760.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  687.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  150.00 ppm'}
+
+18:00:01
+{'Sensor':'GasArray CO', 'data':  16000.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  7440.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  2437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1350.00 ppm'}
+
+18:00:02
+{'Sensor':'GasArray CO', 'data':  20631.58 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  7200.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  812.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  950.00 ppm'}
+
+18:00:03
+{'Sensor':'GasArray CO', 'data':  19789.47 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  4080.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  -100.00 ppm'}
+
+18:00:04
+{'Sensor':'GasArray CO', 'data':  18526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  4400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  650.00 ppm'}
+
+18:00:05
+{'Sensor':'GasArray CO', 'data':  16000.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -875.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1000.00 ppm'}
+
+18:00:06
+{'Sensor':'GasArray CO', 'data':  10947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -2640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -1625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  -400.00 ppm'}
+
+18:00:07
+{'Sensor':'GasArray CO', 'data':  5894.74 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -3120.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:00:08
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -3840.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -1000.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  250.00 ppm'}
+
+18:00:09
+{'Sensor':'GasArray CO', 'data':  -842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -4560.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -125.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  -550.00 ppm'}
+
+18:00:10
+{'Sensor':'GasArray CO', 'data':  4210.53 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -3360.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -812.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:00:11
+{'Sensor':'GasArray CO', 'data':  7578.95 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1200.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:00:12
+{'Sensor':'GasArray CO', 'data':  8000.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  600.00 ppm'}
+
+18:00:13
+{'Sensor':'GasArray CO', 'data':  1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1600.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  0.00 ppm'}
+
+18:00:14
+{'Sensor':'GasArray CO', 'data':  8842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  960.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:00:15
+{'Sensor':'GasArray CO', 'data':  13052.63 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  2125.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  600.00 ppm'}
+
+18:00:16
+{'Sensor':'GasArray CO', 'data':  11368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  3760.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  2250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  900.00 ppm'}
+
+18:00:17
+{'Sensor':'GasArray CO', 'data':  17684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  3520.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  100.00 ppm'}
+
+18:00:18
+{'Sensor':'GasArray CO', 'data':  20631.58 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2000.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:00:19
+{'Sensor':'GasArray CO', 'data':  21894.74 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1440.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  812.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  950.00 ppm'}
+
+18:00:20
+{'Sensor':'GasArray CO', 'data':  22736.84 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1760.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  -100.00 ppm'}
+
+18:00:21
+{'Sensor':'GasArray CO', 'data':  13052.63 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -5520.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -1687.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  150.00 ppm'}
+
+18:00:22
+{'Sensor':'GasArray CO', 'data':  13894.74 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -4720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -1125.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  200.00 ppm'}
+
+18:00:23
+{'Sensor':'GasArray CO', 'data':  11789.47 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -3200.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  250.00 ppm'}
+
+18:00:25
+{'Sensor':'GasArray CO', 'data':  13473.68 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1520.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  150.00 ppm'}
+
+18:00:26
+{'Sensor':'GasArray CO', 'data':  2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1360.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  -50.00 ppm'}
+
+18:00:27
+{'Sensor':'GasArray CO', 'data':  4210.53 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -3600.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  62.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  250.00 ppm'}
+
+18:00:28
+{'Sensor':'GasArray CO', 'data':  13473.68 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -3440.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:00:29
+{'Sensor':'GasArray CO', 'data':  15578.95 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -2400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  125.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  200.00 ppm'}
+
+18:00:30
+{'Sensor':'GasArray CO', 'data':  15157.89 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1760.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  900.00 ppm'}
+
+18:00:31
+{'Sensor':'GasArray CO', 'data':  14736.84 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -880.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:00:32
+{'Sensor':'GasArray CO', 'data':  8842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1760.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:00:33
+{'Sensor':'GasArray CO', 'data':  6736.84 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1040.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  62.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  150.00 ppm'}
+
+18:00:34
+{'Sensor':'GasArray CO', 'data':  12210.53 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1360.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  250.00 ppm'}
+
+18:00:35
+{'Sensor':'GasArray CO', 'data':  10947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1360.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:00:36
+{'Sensor':'GasArray CO', 'data':  4631.58 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1760.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  687.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:00:37
+{'Sensor':'GasArray CO', 'data':  2947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  100.00 ppm'}
+
+18:00:38
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1600.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:00:39
+{'Sensor':'GasArray CO', 'data':  5052.63 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1360.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  125.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  250.00 ppm'}
+
+18:00:40
+{'Sensor':'GasArray CO', 'data':  7578.95 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  125.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1750.00 ppm'}
+
+18:00:41
+{'Sensor':'GasArray CO', 'data':  7578.95 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1120.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:00:42
+{'Sensor':'GasArray CO', 'data':  5052.63 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1440.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  -1500.00 ppm'}
+
+18:00:43
+{'Sensor':'GasArray CO', 'data':  2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  880.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  812.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  850.00 ppm'}
+
+18:00:44
+{'Sensor':'GasArray CO', 'data':  421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1280.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  650.00 ppm'}
+
+18:00:45
+{'Sensor':'GasArray CO', 'data':  -2947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1520.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:00:46
+{'Sensor':'GasArray CO', 'data':  -2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  800.00 ppm'}
+
+18:00:47
+{'Sensor':'GasArray CO', 'data':  2947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  750.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  850.00 ppm'}
+
+18:00:48
+{'Sensor':'GasArray CO', 'data':  -9263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  4000.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  750.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1100.00 ppm'}
+
+18:00:49
+{'Sensor':'GasArray CO', 'data':  -14736.84 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  5600.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  2250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1600.00 ppm'}
+
+18:00:50
+{'Sensor':'GasArray CO', 'data':  -21052.63 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  4960.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -875.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  2100.00 ppm'}
+
+18:00:51
+{'Sensor':'GasArray CO', 'data':  -14315.79 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  7680.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  937.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1050.00 ppm'}
+
+18:00:52
+{'Sensor':'GasArray CO', 'data':  -16421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  6480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  62.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1100.00 ppm'}
+
+18:00:53
+{'Sensor':'GasArray CO', 'data':  -11368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  6320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1450.00 ppm'}
+
+18:00:54
+{'Sensor':'GasArray CO', 'data':  -13052.63 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  4880.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1687.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1650.00 ppm'}
+
+18:00:55
+{'Sensor':'GasArray CO', 'data':  -5473.68 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  4640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  750.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  750.00 ppm'}
+
+18:00:56
+{'Sensor':'GasArray CO', 'data':  -2947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  6240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1550.00 ppm'}
+
+18:00:57
+{'Sensor':'GasArray CO', 'data':  -1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  6640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  3062.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1450.00 ppm'}
+
+18:00:58
+{'Sensor':'GasArray CO', 'data':  -421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  7840.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1875.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  800.00 ppm'}
+
+18:00:59
+{'Sensor':'GasArray CO', 'data':  -6315.79 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  10080.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1937.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1800.00 ppm'}
+
+18:01:00
+{'Sensor':'GasArray CO', 'data':  -6736.84 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  9680.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  2312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1500.00 ppm'}
+
+18:01:01
+{'Sensor':'GasArray CO', 'data':  2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  7920.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -1187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  -300.00 ppm'}
+
+18:01:02
+{'Sensor':'GasArray CO', 'data':  2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  8000.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  2062.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  -200.00 ppm'}
+
+18:01:03
+{'Sensor':'GasArray CO', 'data':  -5473.68 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  8880.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  2062.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1300.00 ppm'}
+
+18:01:04
+{'Sensor':'GasArray CO', 'data':  -2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  8080.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  2000.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1300.00 ppm'}
+
+18:01:05
+{'Sensor':'GasArray CO', 'data':  2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1600.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -1500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  -300.00 ppm'}
+
+18:01:06
+{'Sensor':'GasArray CO', 'data':  4210.53 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  4160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1000.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  -100.00 ppm'}
+
+18:01:07
+{'Sensor':'GasArray CO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  4560.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -2062.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  -200.00 ppm'}
+
+18:01:08
+{'Sensor':'GasArray CO', 'data':  2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  3440.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -1812.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  0.00 ppm'}
+
+18:01:09
+{'Sensor':'GasArray CO', 'data':  6315.79 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1360.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -1000.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  -450.00 ppm'}
+
+18:01:10
+{'Sensor':'GasArray CO', 'data':  11368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -875.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  -350.00 ppm'}
+
+18:01:11
+{'Sensor':'GasArray CO', 'data':  10105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1520.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  -450.00 ppm'}
+
+18:01:12
+{'Sensor':'GasArray CO', 'data':  12631.58 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1200.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  -50.00 ppm'}
+
+18:01:13
+{'Sensor':'GasArray CO', 'data':  12631.58 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -2720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -812.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  -250.00 ppm'}
+
+18:01:14
+{'Sensor':'GasArray CO', 'data':  16000.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:01:15
+{'Sensor':'GasArray CO', 'data':  17684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  -100.00 ppm'}
+
+18:01:16
+{'Sensor':'GasArray CO', 'data':  18105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1440.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  -100.00 ppm'}
+
+18:01:17
+{'Sensor':'GasArray CO', 'data':  22736.84 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  -650.00 ppm'}
+
+18:01:18
+{'Sensor':'GasArray CO', 'data':  26105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  880.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  2187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  -700.00 ppm'}
+
+18:01:19
+{'Sensor':'GasArray CO', 'data':  23157.89 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  960.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1750.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  -50.00 ppm'}
+
+18:01:20
+{'Sensor':'GasArray CO', 'data':  20210.53 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  750.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  0.00 ppm'}
+
+18:01:21
+{'Sensor':'GasArray CO', 'data':  20210.53 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1200.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  812.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  -100.00 ppm'}
+
+18:01:22
+{'Sensor':'GasArray CO', 'data':  17684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1040.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  875.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  0.00 ppm'}
+
+18:01:23
+{'Sensor':'GasArray CO', 'data':  21473.68 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1200.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1062.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  200.00 ppm'}
+
+18:01:24
+{'Sensor':'GasArray CO', 'data':  26526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  4800.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  2937.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  0.00 ppm'}
+
+18:01:25
+{'Sensor':'GasArray CO', 'data':  23157.89 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  5840.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  -450.00 ppm'}
+
+18:01:26
+{'Sensor':'GasArray CO', 'data':  8000.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -2000.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  100.00 ppm'}
+
+18:01:27
+{'Sensor':'GasArray CO', 'data':  15157.89 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1840.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  100.00 ppm'}
+
+18:01:28
+{'Sensor':'GasArray CO', 'data':  9684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1040.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  200.00 ppm'}
+
+18:01:29
+{'Sensor':'GasArray CO', 'data':  11368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  3440.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  -100.00 ppm'}
+
+18:01:30
+{'Sensor':'GasArray CO', 'data':  10947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  3840.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  50.00 ppm'}
+
+18:01:32
+{'Sensor':'GasArray CO', 'data':  8421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  150.00 ppm'}
+
+18:01:33
+{'Sensor':'GasArray CO', 'data':  12210.53 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  150.00 ppm'}
+
+18:01:34
+{'Sensor':'GasArray CO', 'data':  3789.47 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -800.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  -200.00 ppm'}
+
+18:01:35
+{'Sensor':'GasArray CO', 'data':  4210.53 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:01:36
+{'Sensor':'GasArray CO', 'data':  8842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1520.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  100.00 ppm'}
+
+18:01:37
+{'Sensor':'GasArray CO', 'data':  16000.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  0.00 ppm'}
+
+18:01:38
+{'Sensor':'GasArray CO', 'data':  25684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  3920.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:01:39
+{'Sensor':'GasArray CO', 'data':  26947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  3040.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  812.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  150.00 ppm'}
+
+18:01:40
+{'Sensor':'GasArray CO', 'data':  18947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  50.00 ppm'}
+
+18:01:41
+{'Sensor':'GasArray CO', 'data':  19368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -960.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  -150.00 ppm'}
+
+18:01:42
+{'Sensor':'GasArray CO', 'data':  18105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  937.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  -200.00 ppm'}
+
+18:01:43
+{'Sensor':'GasArray CO', 'data':  17263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  4080.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  3187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  50.00 ppm'}
+
+18:01:44
+{'Sensor':'GasArray CO', 'data':  2947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  3920.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:01:45
+{'Sensor':'GasArray CO', 'data':  8421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  3760.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  -450.00 ppm'}
+
+18:01:46
+{'Sensor':'GasArray CO', 'data':  7578.95 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:01:47
+{'Sensor':'GasArray CO', 'data':  8842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  3840.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  812.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  150.00 ppm'}
+
+18:01:48
+{'Sensor':'GasArray CO', 'data':  15157.89 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  4480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  50.00 ppm'}
+
+18:01:49
+{'Sensor':'GasArray CO', 'data':  15157.89 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2960.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  937.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  250.00 ppm'}
+
+18:01:50
+{'Sensor':'GasArray CO', 'data':  16421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  3120.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  50.00 ppm'}
+
+18:01:51
+{'Sensor':'GasArray CO', 'data':  14736.84 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  3120.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1062.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  150.00 ppm'}
+
+18:01:52
+{'Sensor':'GasArray CO', 'data':  13052.63 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  3200.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  200.00 ppm'}
+
+18:01:53
+{'Sensor':'GasArray CO', 'data':  8421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1360.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -62.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:01:54
+{'Sensor':'GasArray CO', 'data':  12210.53 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  4880.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -62.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  -13800.00 ppm'}
+
+18:01:55
+{'Sensor':'GasArray CO', 'data':  12631.58 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1840.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  875.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  600.00 ppm'}
+
+18:01:56
+{'Sensor':'GasArray CO', 'data':  13052.63 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  2375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  200.00 ppm'}
+
+18:01:57
+{'Sensor':'GasArray CO', 'data':  17684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  4960.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  150.00 ppm'}
+
+18:01:58
+{'Sensor':'GasArray CO', 'data':  19789.47 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  4080.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  50.00 ppm'}
+
+18:01:59
+{'Sensor':'GasArray CO', 'data':  22315.79 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2880.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  3437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:02:00
+{'Sensor':'GasArray CO', 'data':  22736.84 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  4880.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  2312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:02:01
+{'Sensor':'GasArray CO', 'data':  23578.95 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  11760.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  812.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:02:02
+{'Sensor':'GasArray CO', 'data':  21894.74 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  11840.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:02:03
+{'Sensor':'GasArray CO', 'data':  21894.74 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  10560.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  250.00 ppm'}
+
+18:02:04
+{'Sensor':'GasArray CO', 'data':  21894.74 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  6960.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:02:05
+{'Sensor':'GasArray CO', 'data':  20210.53 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  9200.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  250.00 ppm'}
+
+18:02:06
+{'Sensor':'GasArray CO', 'data':  10105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  6720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1687.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:02:07
+{'Sensor':'GasArray CO', 'data':  11368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  9520.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  687.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:02:08
+{'Sensor':'GasArray CO', 'data':  11789.47 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  7760.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  687.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:02:09
+{'Sensor':'GasArray CO', 'data':  13052.63 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  8720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:02:10
+{'Sensor':'GasArray CO', 'data':  13052.63 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  6240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:02:11
+{'Sensor':'GasArray CO', 'data':  8000.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  6400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -1375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:02:12
+{'Sensor':'GasArray CO', 'data':  14315.79 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  4960.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1000.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  250.00 ppm'}
+
+18:02:13
+{'Sensor':'GasArray CO', 'data':  13473.68 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  4560.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:02:14
+{'Sensor':'GasArray CO', 'data':  15157.89 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  5200.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  812.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:02:15
+{'Sensor':'GasArray CO', 'data':  13894.74 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:02:16
+{'Sensor':'GasArray CO', 'data':  13473.68 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  800.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:02:17
+{'Sensor':'GasArray CO', 'data':  6736.84 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -800.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:02:18
+{'Sensor':'GasArray CO', 'data':  2947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1200.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:02:19
+{'Sensor':'GasArray CO', 'data':  7578.95 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1600.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:02:20
+{'Sensor':'GasArray CO', 'data':  8421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:02:21
+{'Sensor':'GasArray CO', 'data':  10947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:02:22
+{'Sensor':'GasArray CO', 'data':  20210.53 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2080.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  750.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:02:23
+{'Sensor':'GasArray CO', 'data':  26105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  4080.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  750.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:02:24
+{'Sensor':'GasArray CO', 'data':  21894.74 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  5520.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  875.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:02:25
+{'Sensor':'GasArray CO', 'data':  18526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  4320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1000.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  100.00 ppm'}
+
+18:02:26
+{'Sensor':'GasArray CO', 'data':  16842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1440.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  200.00 ppm'}
+
+18:02:27
+{'Sensor':'GasArray CO', 'data':  19789.47 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  150.00 ppm'}
+
+18:02:28
+{'Sensor':'GasArray CO', 'data':  16000.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1280.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  50.00 ppm'}
+
+18:02:29
+{'Sensor':'GasArray CO', 'data':  6736.84 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:02:30
+{'Sensor':'GasArray CO', 'data':  8000.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  62.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:02:31
+{'Sensor':'GasArray CO', 'data':  -842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -2320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -687.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:02:32
+{'Sensor':'GasArray CO', 'data':  4210.53 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1200.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  62.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:02:33
+{'Sensor':'GasArray CO', 'data':  3368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1760.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -125.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:02:34
+{'Sensor':'GasArray CO', 'data':  -13894.74 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -1000.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  100.00 ppm'}
+
+18:02:35
+{'Sensor':'GasArray CO', 'data':  -24000.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -62.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  200.00 ppm'}
+
+18:02:36
+{'Sensor':'GasArray CO', 'data':  -38736.84 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  960.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  200.00 ppm'}
+
+18:02:37
+{'Sensor':'GasArray CO', 'data':  -31157.89 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2800.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:02:39
+{'Sensor':'GasArray CO', 'data':  -20631.58 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  750.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:02:40
+{'Sensor':'GasArray CO', 'data':  -3789.47 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1600.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:02:41
+{'Sensor':'GasArray CO', 'data':  5473.68 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  750.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:02:42
+{'Sensor':'GasArray CO', 'data':  10947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:02:43
+{'Sensor':'GasArray CO', 'data':  12631.58 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:02:44
+{'Sensor':'GasArray CO', 'data':  17684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  200.00 ppm'}
+
+18:02:45
+{'Sensor':'GasArray CO', 'data':  18105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:02:46
+{'Sensor':'GasArray CO', 'data':  16421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:02:47
+{'Sensor':'GasArray CO', 'data':  14315.79 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:02:48
+{'Sensor':'GasArray CO', 'data':  20210.53 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1200.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:02:49
+{'Sensor':'GasArray CO', 'data':  16842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -3040.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:02:50
+{'Sensor':'GasArray CO', 'data':  14736.84 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:02:51
+{'Sensor':'GasArray CO', 'data':  10947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:02:52
+{'Sensor':'GasArray CO', 'data':  16421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1120.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:02:53
+{'Sensor':'GasArray CO', 'data':  12210.53 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:02:54
+{'Sensor':'GasArray CO', 'data':  9684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1280.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:02:55
+{'Sensor':'GasArray CO', 'data':  10105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1040.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:02:56
+{'Sensor':'GasArray CO', 'data':  5894.74 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1440.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -62.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:02:57
+{'Sensor':'GasArray CO', 'data':  2947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:02:58
+{'Sensor':'GasArray CO', 'data':  2947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  3920.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:02:59
+{'Sensor':'GasArray CO', 'data':  8842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:03:00
+{'Sensor':'GasArray CO', 'data':  11789.47 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  4720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:03:01
+{'Sensor':'GasArray CO', 'data':  13894.74 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  7600.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  2687.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  600.00 ppm'}
+
+18:03:02
+{'Sensor':'GasArray CO', 'data':  16842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  9600.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  250.00 ppm'}
+
+18:03:03
+{'Sensor':'GasArray CO', 'data':  18105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  11360.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  2062.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:03:04
+{'Sensor':'GasArray CO', 'data':  17684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  9040.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  150.00 ppm'}
+
+18:03:05
+{'Sensor':'GasArray CO', 'data':  34105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  9280.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  2437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  900.00 ppm'}
+
+18:03:06
+{'Sensor':'GasArray CO', 'data':  40842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  8800.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  2687.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  900.00 ppm'}
+
+18:03:07
+{'Sensor':'GasArray CO', 'data':  34526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  5440.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  2250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1100.00 ppm'}
+
+18:03:08
+{'Sensor':'GasArray CO', 'data':  33684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  5040.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1750.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1000.00 ppm'}
+
+18:03:09
+{'Sensor':'GasArray CO', 'data':  33684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  6400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1875.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  600.00 ppm'}
+
+18:03:10
+{'Sensor':'GasArray CO', 'data':  28631.58 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  7280.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  2187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  850.00 ppm'}
+
+18:03:11
+{'Sensor':'GasArray CO', 'data':  29473.68 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  6720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  2062.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1300.00 ppm'}
+
+18:03:12
+{'Sensor':'GasArray CO', 'data':  31157.89 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  6400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  2062.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1050.00 ppm'}
+
+18:03:13
+{'Sensor':'GasArray CO', 'data':  27368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  7120.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1062.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1050.00 ppm'}
+
+18:03:14
+{'Sensor':'GasArray CO', 'data':  26526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  6080.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  687.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  650.00 ppm'}
+
+18:03:15
+{'Sensor':'GasArray CO', 'data':  18947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  3840.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  800.00 ppm'}
+
+18:03:16
+{'Sensor':'GasArray CO', 'data':  18105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  3040.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1062.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  850.00 ppm'}
+
+18:03:17
+{'Sensor':'GasArray CO', 'data':  16421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  4480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  700.00 ppm'}
+
+18:03:18
+{'Sensor':'GasArray CO', 'data':  7578.95 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2000.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  950.00 ppm'}
+
+18:03:19
+{'Sensor':'GasArray CO', 'data':  -4210.53 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  700.00 ppm'}
+
+18:03:20
+{'Sensor':'GasArray CO', 'data':  -5473.68 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  700.00 ppm'}
+
+18:03:21
+{'Sensor':'GasArray CO', 'data':  -8421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:03:22
+{'Sensor':'GasArray CO', 'data':  -11368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -2880.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -812.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  700.00 ppm'}
+
+18:03:23
+{'Sensor':'GasArray CO', 'data':  -16421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -2960.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -1625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:03:24
+{'Sensor':'GasArray CO', 'data':  -16000.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -2320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:03:25
+{'Sensor':'GasArray CO', 'data':  -9684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1920.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -750.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:03:26
+{'Sensor':'GasArray CO', 'data':  -6736.84 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -880.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  62.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:03:27
+{'Sensor':'GasArray CO', 'data':  -12210.53 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:03:28
+{'Sensor':'GasArray CO', 'data':  -3368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -800.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -125.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  700.00 ppm'}
+
+18:03:29
+{'Sensor':'GasArray CO', 'data':  -12631.58 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -4240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  600.00 ppm'}
+
+18:03:30
+{'Sensor':'GasArray CO', 'data':  -6736.84 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -2000.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -125.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:03:31
+{'Sensor':'GasArray CO', 'data':  -5052.63 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1280.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:03:32
+{'Sensor':'GasArray CO', 'data':  -5473.68 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1040.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:03:33
+{'Sensor':'GasArray CO', 'data':  3789.47 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  560.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  62.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  0.00 ppm'}
+
+18:03:34
+{'Sensor':'GasArray CO', 'data':  8421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  200.00 ppm'}
+
+18:03:35
+{'Sensor':'GasArray CO', 'data':  14315.79 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  875.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:03:36
+{'Sensor':'GasArray CO', 'data':  16421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  600.00 ppm'}
+
+18:03:37
+{'Sensor':'GasArray CO', 'data':  15578.95 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  150.00 ppm'}
+
+18:03:38
+{'Sensor':'GasArray CO', 'data':  5473.68 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -62.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:03:39
+{'Sensor':'GasArray CO', 'data':  5894.74 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:03:40
+{'Sensor':'GasArray CO', 'data':  6736.84 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  650.00 ppm'}
+
+18:03:41
+{'Sensor':'GasArray CO', 'data':  4631.58 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -800.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:03:42
+{'Sensor':'GasArray CO', 'data':  5052.63 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1200.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:03:43
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -800.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:03:44
+{'Sensor':'GasArray CO', 'data':  1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:03:45
+{'Sensor':'GasArray CO', 'data':  -1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -560.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  750.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:03:47
+{'Sensor':'GasArray CO', 'data':  -421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -880.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:03:48
+{'Sensor':'GasArray CO', 'data':  -421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1120.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:03:49
+{'Sensor':'GasArray CO', 'data':  2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:03:50
+{'Sensor':'GasArray CO', 'data':  6315.79 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:03:51
+{'Sensor':'GasArray CO', 'data':  3789.47 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -560.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:03:52
+{'Sensor':'GasArray CO', 'data':  4210.53 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:03:53
+{'Sensor':'GasArray CO', 'data':  1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:03:54
+{'Sensor':'GasArray CO', 'data':  -1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  800.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:03:55
+{'Sensor':'GasArray CO', 'data':  -3368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -880.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:03:56
+{'Sensor':'GasArray CO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:03:57
+{'Sensor':'GasArray CO', 'data':  -842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:03:58
+{'Sensor':'GasArray CO', 'data':  -1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:03:59
+{'Sensor':'GasArray CO', 'data':  -3789.47 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:04:00
+{'Sensor':'GasArray CO', 'data':  -2947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  250.00 ppm'}
+
+18:04:01
+{'Sensor':'GasArray CO', 'data':  -2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:04:02
+{'Sensor':'GasArray CO', 'data':  -1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:04:03
+{'Sensor':'GasArray CO', 'data':  -4631.58 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1040.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:04:04
+{'Sensor':'GasArray CO', 'data':  -7578.95 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  62.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:04:05
+{'Sensor':'GasArray CO', 'data':  -2947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1920.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  200.00 ppm'}
+
+18:04:06
+{'Sensor':'GasArray CO', 'data':  -4631.58 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1840.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:04:07
+{'Sensor':'GasArray CO', 'data':  -5473.68 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -960.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  100.00 ppm'}
+
+18:04:08
+{'Sensor':'GasArray CO', 'data':  -13473.68 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1920.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:04:09
+{'Sensor':'GasArray CO', 'data':  -5894.74 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  62.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:04:10
+{'Sensor':'GasArray CO', 'data':  -21473.68 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -560.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  50.00 ppm'}
+
+18:04:11
+{'Sensor':'GasArray CO', 'data':  -37052.63 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  50.00 ppm'}
+
+18:04:12
+{'Sensor':'GasArray CO', 'data':  -26947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1440.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  62.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  -50.00 ppm'}
+
+18:04:13
+{'Sensor':'GasArray CO', 'data':  -13473.68 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:04:14
+{'Sensor':'GasArray CO', 'data':  -5052.63 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  750.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:04:15
+{'Sensor':'GasArray CO', 'data':  -2947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  50.00 ppm'}
+
+18:04:16
+{'Sensor':'GasArray CO', 'data':  -421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  200.00 ppm'}
+
+18:04:17
+{'Sensor':'GasArray CO', 'data':  5473.68 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  150.00 ppm'}
+
+18:04:18
+{'Sensor':'GasArray CO', 'data':  2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:04:19
+{'Sensor':'GasArray CO', 'data':  2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:04:20
+{'Sensor':'GasArray CO', 'data':  5473.68 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  650.00 ppm'}
+
+18:04:21
+{'Sensor':'GasArray CO', 'data':  5894.74 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:04:22
+{'Sensor':'GasArray CO', 'data':  2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  250.00 ppm'}
+
+18:04:23
+{'Sensor':'GasArray CO', 'data':  1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  880.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:04:24
+{'Sensor':'GasArray CO', 'data':  1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:04:25
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  800.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  600.00 ppm'}
+
+18:04:26
+{'Sensor':'GasArray CO', 'data':  2947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  880.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:04:27
+{'Sensor':'GasArray CO', 'data':  -3368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1200.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:04:28
+{'Sensor':'GasArray CO', 'data':  -2947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -125.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:04:29
+{'Sensor':'GasArray CO', 'data':  -4210.53 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:04:30
+{'Sensor':'GasArray CO', 'data':  -1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  250.00 ppm'}
+
+18:04:31
+{'Sensor':'GasArray CO', 'data':  -8000.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  62.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  100.00 ppm'}
+
+18:04:32
+{'Sensor':'GasArray CO', 'data':  -20210.53 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:04:33
+{'Sensor':'GasArray CO', 'data':  -12631.58 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  150.00 ppm'}
+
+18:04:34
+{'Sensor':'GasArray CO', 'data':  -5052.63 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  875.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  200.00 ppm'}
+
+18:04:35
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  100.00 ppm'}
+
+18:04:36
+{'Sensor':'GasArray CO', 'data':  -421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:04:37
+{'Sensor':'GasArray CO', 'data':  2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1440.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1000.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  700.00 ppm'}
+
+18:04:38
+{'Sensor':'GasArray CO', 'data':  4631.58 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  700.00 ppm'}
+
+18:04:39
+{'Sensor':'GasArray CO', 'data':  -3789.47 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  250.00 ppm'}
+
+18:04:40
+{'Sensor':'GasArray CO', 'data':  -2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -62.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  150.00 ppm'}
+
+18:04:41
+{'Sensor':'GasArray CO', 'data':  -2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  150.00 ppm'}
+
+18:04:42
+{'Sensor':'GasArray CO', 'data':  -842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  250.00 ppm'}
+
+18:04:43
+{'Sensor':'GasArray CO', 'data':  -9684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -2400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  200.00 ppm'}
+
+18:04:44
+{'Sensor':'GasArray CO', 'data':  -2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1040.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:04:45
+{'Sensor':'GasArray CO', 'data':  -5894.74 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  150.00 ppm'}
+
+18:04:46
+{'Sensor':'GasArray CO', 'data':  -13052.63 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -937.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  150.00 ppm'}
+
+18:04:47
+{'Sensor':'GasArray CO', 'data':  -10105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  0.00 ppm'}
+
+18:04:48
+{'Sensor':'GasArray CO', 'data':  -9684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1680.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  125.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  200.00 ppm'}
+
+18:04:49
+{'Sensor':'GasArray CO', 'data':  -4210.53 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  250.00 ppm'}
+
+18:04:50
+{'Sensor':'GasArray CO', 'data':  2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  125.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:04:51
+{'Sensor':'GasArray CO', 'data':  421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1200.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:04:52
+{'Sensor':'GasArray CO', 'data':  -6736.84 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -880.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  50.00 ppm'}
+
+18:04:54
+{'Sensor':'GasArray CO', 'data':  -2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -800.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:04:55
+{'Sensor':'GasArray CO', 'data':  -8421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -560.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  650.00 ppm'}
+
+18:04:56
+{'Sensor':'GasArray CO', 'data':  -7578.95 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  62.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:04:57
+{'Sensor':'GasArray CO', 'data':  -3368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:04:58
+{'Sensor':'GasArray CO', 'data':  -5052.63 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1120.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:04:59
+{'Sensor':'GasArray CO', 'data':  -2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -880.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:05:00
+{'Sensor':'GasArray CO', 'data':  421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:05:01
+{'Sensor':'GasArray CO', 'data':  1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:05:02
+{'Sensor':'GasArray CO', 'data':  2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  250.00 ppm'}
+
+18:05:03
+{'Sensor':'GasArray CO', 'data':  2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:05:04
+{'Sensor':'GasArray CO', 'data':  -3368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -2240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:05:05
+{'Sensor':'GasArray CO', 'data':  2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1200.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  100.00 ppm'}
+
+18:05:06
+{'Sensor':'GasArray CO', 'data':  -3789.47 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1040.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:05:07
+{'Sensor':'GasArray CO', 'data':  -1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:05:08
+{'Sensor':'GasArray CO', 'data':  1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  250.00 ppm'}
+
+18:05:09
+{'Sensor':'GasArray CO', 'data':  1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  200.00 ppm'}
+
+18:05:10
+{'Sensor':'GasArray CO', 'data':  421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:05:11
+{'Sensor':'GasArray CO', 'data':  -842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:05:12
+{'Sensor':'GasArray CO', 'data':  -2947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:05:13
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2080.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:05:14
+{'Sensor':'GasArray CO', 'data':  6315.79 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  7040.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  4312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1350.00 ppm'}
+
+18:05:15
+{'Sensor':'GasArray CO', 'data':  7157.89 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  6240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  3062.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1000.00 ppm'}
+
+18:05:16
+{'Sensor':'GasArray CO', 'data':  9263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  5760.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  3125.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1100.00 ppm'}
+
+18:05:17
+{'Sensor':'GasArray CO', 'data':  14315.79 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  5680.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  3062.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1000.00 ppm'}
+
+18:05:18
+{'Sensor':'GasArray CO', 'data':  9263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  5120.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  2437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  900.00 ppm'}
+
+18:05:19
+{'Sensor':'GasArray CO', 'data':  12210.53 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  4160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  2187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  1050.00 ppm'}
+
+18:05:20
+{'Sensor':'GasArray CO', 'data':  16000.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2880.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  2312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  800.00 ppm'}
+
+18:05:21
+{'Sensor':'GasArray CO', 'data':  16000.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  4160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  850.00 ppm'}
+
+18:05:22
+{'Sensor':'GasArray CO', 'data':  16421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  3520.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  2187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  800.00 ppm'}
+
+18:05:23
+{'Sensor':'GasArray CO', 'data':  10526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  3520.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  2312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  700.00 ppm'}
+
+18:05:24
+{'Sensor':'GasArray CO', 'data':  14736.84 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  3760.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1937.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  750.00 ppm'}
+
+18:05:25
+{'Sensor':'GasArray CO', 'data':  14315.79 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  937.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:05:26
+{'Sensor':'GasArray CO', 'data':  18526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  3440.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  700.00 ppm'}
+
+18:05:27
+{'Sensor':'GasArray CO', 'data':  17263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  3600.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  250.00 ppm'}
+
+18:05:28
+{'Sensor':'GasArray CO', 'data':  17684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2960.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  875.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:05:29
+{'Sensor':'GasArray CO', 'data':  16000.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1000.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  600.00 ppm'}
+
+18:05:30
+{'Sensor':'GasArray CO', 'data':  5894.74 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  3280.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  700.00 ppm'}
+
+18:05:31
+{'Sensor':'GasArray CO', 'data':  6315.79 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  650.00 ppm'}
+
+18:05:32
+{'Sensor':'GasArray CO', 'data':  16000.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1520.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:05:33
+{'Sensor':'GasArray CO', 'data':  19368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  812.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  100.00 ppm'}
+
+18:05:34
+{'Sensor':'GasArray CO', 'data':  19789.47 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  3280.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  812.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:05:35
+{'Sensor':'GasArray CO', 'data':  16842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  3120.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  700.00 ppm'}
+
+18:05:36
+{'Sensor':'GasArray CO', 'data':  17263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1920.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:05:37
+{'Sensor':'GasArray CO', 'data':  18947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1840.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:05:38
+{'Sensor':'GasArray CO', 'data':  20631.58 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1760.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  600.00 ppm'}
+
+18:05:39
+{'Sensor':'GasArray CO', 'data':  8000.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1280.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:05:40
+{'Sensor':'GasArray CO', 'data':  3789.47 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1040.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:05:41
+{'Sensor':'GasArray CO', 'data':  14315.79 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:05:42
+{'Sensor':'GasArray CO', 'data':  18105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1600.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:05:43
+{'Sensor':'GasArray CO', 'data':  18105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1000.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:05:44
+{'Sensor':'GasArray CO', 'data':  19789.47 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  2320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1125.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  600.00 ppm'}
+
+18:05:45
+{'Sensor':'GasArray CO', 'data':  17263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1760.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:05:46
+{'Sensor':'GasArray CO', 'data':  17263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  560.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  687.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:05:47
+{'Sensor':'GasArray CO', 'data':  15578.95 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1120.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  750.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:05:48
+{'Sensor':'GasArray CO', 'data':  18947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1760.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1062.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:05:49
+{'Sensor':'GasArray CO', 'data':  11789.47 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1440.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:05:50
+{'Sensor':'GasArray CO', 'data':  9684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1200.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:05:51
+{'Sensor':'GasArray CO', 'data':  8421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:05:52
+{'Sensor':'GasArray CO', 'data':  8842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:05:53
+{'Sensor':'GasArray CO', 'data':  12631.58 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1680.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:05:54
+{'Sensor':'GasArray CO', 'data':  8421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  200.00 ppm'}
+
+18:05:55
+{'Sensor':'GasArray CO', 'data':  3789.47 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -960.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -1062.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:05:56
+{'Sensor':'GasArray CO', 'data':  6315.79 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -687.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:05:57
+{'Sensor':'GasArray CO', 'data':  5052.63 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:05:58
+{'Sensor':'GasArray CO', 'data':  12631.58 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  560.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  250.00 ppm'}
+
+18:05:59
+{'Sensor':'GasArray CO', 'data':  12210.53 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:06:00
+{'Sensor':'GasArray CO', 'data':  15157.89 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:06:02
+{'Sensor':'GasArray CO', 'data':  11368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  875.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:06:03
+{'Sensor':'GasArray CO', 'data':  14315.79 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1520.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  937.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:06:04
+{'Sensor':'GasArray CO', 'data':  11368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  800.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:06:05
+{'Sensor':'GasArray CO', 'data':  14315.79 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  880.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  750.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:06:06
+{'Sensor':'GasArray CO', 'data':  17684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1200.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:06:07
+{'Sensor':'GasArray CO', 'data':  10105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  700.00 ppm'}
+
+18:06:08
+{'Sensor':'GasArray CO', 'data':  10526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:06:09
+{'Sensor':'GasArray CO', 'data':  9263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:06:10
+{'Sensor':'GasArray CO', 'data':  3368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1360.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:06:11
+{'Sensor':'GasArray CO', 'data':  12210.53 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:06:12
+{'Sensor':'GasArray CO', 'data':  10105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -125.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:06:13
+{'Sensor':'GasArray CO', 'data':  13894.74 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:06:14
+{'Sensor':'GasArray CO', 'data':  8842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  200.00 ppm'}
+
+18:06:15
+{'Sensor':'GasArray CO', 'data':  8000.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  650.00 ppm'}
+
+18:06:16
+{'Sensor':'GasArray CO', 'data':  6736.84 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:06:17
+{'Sensor':'GasArray CO', 'data':  6736.84 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:06:18
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  650.00 ppm'}
+
+18:06:19
+{'Sensor':'GasArray CO', 'data':  1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:06:20
+{'Sensor':'GasArray CO', 'data':  -2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:06:21
+{'Sensor':'GasArray CO', 'data':  -1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:06:22
+{'Sensor':'GasArray CO', 'data':  -1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1200.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:06:23
+{'Sensor':'GasArray CO', 'data':  2947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:06:24
+{'Sensor':'GasArray CO', 'data':  -3368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -125.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  50.00 ppm'}
+
+18:06:25
+{'Sensor':'GasArray CO', 'data':  -1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:06:26
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:06:27
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  125.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:06:28
+{'Sensor':'GasArray CO', 'data':  -4631.58 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:06:29
+{'Sensor':'GasArray CO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -62.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:06:30
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  960.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:06:31
+{'Sensor':'GasArray CO', 'data':  2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  960.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  650.00 ppm'}
+
+18:06:32
+{'Sensor':'GasArray CO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1360.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:06:33
+{'Sensor':'GasArray CO', 'data':  -1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:06:34
+{'Sensor':'GasArray CO', 'data':  -1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:06:35
+{'Sensor':'GasArray CO', 'data':  -842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:06:36
+{'Sensor':'GasArray CO', 'data':  -842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:06:37
+{'Sensor':'GasArray CO', 'data':  -421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  800.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:06:38
+{'Sensor':'GasArray CO', 'data':  -8421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:06:39
+{'Sensor':'GasArray CO', 'data':  -3368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1040.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  687.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:06:40
+{'Sensor':'GasArray CO', 'data':  -3789.47 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1000.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:06:41
+{'Sensor':'GasArray CO', 'data':  1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  560.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  875.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:06:42
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  687.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:06:43
+{'Sensor':'GasArray CO', 'data':  1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  800.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:06:44
+{'Sensor':'GasArray CO', 'data':  2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  800.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  62.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:06:45
+{'Sensor':'GasArray CO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  250.00 ppm'}
+
+18:06:46
+{'Sensor':'GasArray CO', 'data':  -2947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  200.00 ppm'}
+
+18:06:47
+{'Sensor':'GasArray CO', 'data':  421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:06:48
+{'Sensor':'GasArray CO', 'data':  421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:06:49
+{'Sensor':'GasArray CO', 'data':  421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1120.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:06:50
+{'Sensor':'GasArray CO', 'data':  3368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  560.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:06:51
+{'Sensor':'GasArray CO', 'data':  3789.47 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  880.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:06:52
+{'Sensor':'GasArray CO', 'data':  5894.74 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  687.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:06:53
+{'Sensor':'GasArray CO', 'data':  5052.63 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  880.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:06:54
+{'Sensor':'GasArray CO', 'data':  4210.53 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1040.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  750.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  250.00 ppm'}
+
+18:06:55
+{'Sensor':'GasArray CO', 'data':  5894.74 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:06:56
+{'Sensor':'GasArray CO', 'data':  3789.47 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1120.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:06:57
+{'Sensor':'GasArray CO', 'data':  421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -62.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:06:58
+{'Sensor':'GasArray CO', 'data':  2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:06:59
+{'Sensor':'GasArray CO', 'data':  2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  62.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:07:00
+{'Sensor':'GasArray CO', 'data':  2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:07:01
+{'Sensor':'GasArray CO', 'data':  4631.58 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:07:02
+{'Sensor':'GasArray CO', 'data':  2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  880.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  125.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:07:03
+{'Sensor':'GasArray CO', 'data':  3368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:07:04
+{'Sensor':'GasArray CO', 'data':  2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:07:05
+{'Sensor':'GasArray CO', 'data':  5894.74 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  62.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:07:06
+{'Sensor':'GasArray CO', 'data':  2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  880.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  600.00 ppm'}
+
+18:07:07
+{'Sensor':'GasArray CO', 'data':  3789.47 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  650.00 ppm'}
+
+18:07:09
+{'Sensor':'GasArray CO', 'data':  3368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:07:10
+{'Sensor':'GasArray CO', 'data':  1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:07:11
+{'Sensor':'GasArray CO', 'data':  -2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1680.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -62.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:07:12
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:07:13
+{'Sensor':'GasArray CO', 'data':  421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  150.00 ppm'}
+
+18:07:14
+{'Sensor':'GasArray CO', 'data':  1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:07:15
+{'Sensor':'GasArray CO', 'data':  1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  125.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:07:16
+{'Sensor':'GasArray CO', 'data':  6736.84 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:07:17
+{'Sensor':'GasArray CO', 'data':  3368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1440.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  600.00 ppm'}
+
+18:07:18
+{'Sensor':'GasArray CO', 'data':  -421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  125.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:07:19
+{'Sensor':'GasArray CO', 'data':  421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:07:20
+{'Sensor':'GasArray CO', 'data':  1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:07:21
+{'Sensor':'GasArray CO', 'data':  1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  800.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:07:22
+{'Sensor':'GasArray CO', 'data':  1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  800.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:07:23
+{'Sensor':'GasArray CO', 'data':  -842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1120.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:07:24
+{'Sensor':'GasArray CO', 'data':  421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  800.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:07:25
+{'Sensor':'GasArray CO', 'data':  -1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1200.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:07:26
+{'Sensor':'GasArray CO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:07:27
+{'Sensor':'GasArray CO', 'data':  1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:07:28
+{'Sensor':'GasArray CO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:07:29
+{'Sensor':'GasArray CO', 'data':  -2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1040.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  125.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:07:30
+{'Sensor':'GasArray CO', 'data':  -4631.58 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:07:31
+{'Sensor':'GasArray CO', 'data':  -1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:07:32
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:07:33
+{'Sensor':'GasArray CO', 'data':  1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:07:34
+{'Sensor':'GasArray CO', 'data':  -2947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:07:35
+{'Sensor':'GasArray CO', 'data':  -8000.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  62.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:07:36
+{'Sensor':'GasArray CO', 'data':  -3789.47 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:07:37
+{'Sensor':'GasArray CO', 'data':  -3368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:07:38
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:07:39
+{'Sensor':'GasArray CO', 'data':  -421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:07:40
+{'Sensor':'GasArray CO', 'data':  -4631.58 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1040.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:07:41
+{'Sensor':'GasArray CO', 'data':  -4210.53 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  200.00 ppm'}
+
+18:07:42
+{'Sensor':'GasArray CO', 'data':  -1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:07:43
+{'Sensor':'GasArray CO', 'data':  421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  600.00 ppm'}
+
+18:07:44
+{'Sensor':'GasArray CO', 'data':  -3368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1200.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:07:45
+{'Sensor':'GasArray CO', 'data':  -10526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:07:46
+{'Sensor':'GasArray CO', 'data':  -5052.63 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:07:47
+{'Sensor':'GasArray CO', 'data':  -1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:07:48
+{'Sensor':'GasArray CO', 'data':  -2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:07:49
+{'Sensor':'GasArray CO', 'data':  -421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:07:50
+{'Sensor':'GasArray CO', 'data':  -2947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1600.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -62.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:07:51
+{'Sensor':'GasArray CO', 'data':  -3789.47 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:07:52
+{'Sensor':'GasArray CO', 'data':  -4631.58 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1600.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  50.00 ppm'}
+
+18:07:53
+{'Sensor':'GasArray CO', 'data':  -5052.63 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:07:54
+{'Sensor':'GasArray CO', 'data':  -3789.47 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:07:55
+{'Sensor':'GasArray CO', 'data':  -1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:07:56
+{'Sensor':'GasArray CO', 'data':  -421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1120.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:07:57
+{'Sensor':'GasArray CO', 'data':  -842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  687.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  600.00 ppm'}
+
+18:07:58
+{'Sensor':'GasArray CO', 'data':  -2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1440.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  100.00 ppm'}
+
+18:07:59
+{'Sensor':'GasArray CO', 'data':  -421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  750.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  100.00 ppm'}
+
+18:08:00
+{'Sensor':'GasArray CO', 'data':  -1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:08:01
+{'Sensor':'GasArray CO', 'data':  -842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  250.00 ppm'}
+
+18:08:02
+{'Sensor':'GasArray CO', 'data':  2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  600.00 ppm'}
+
+18:08:03
+{'Sensor':'GasArray CO', 'data':  1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  880.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  125.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:08:04
+{'Sensor':'GasArray CO', 'data':  1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  960.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  125.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:08:05
+{'Sensor':'GasArray CO', 'data':  2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:08:06
+{'Sensor':'GasArray CO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:08:07
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:08:08
+{'Sensor':'GasArray CO', 'data':  421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:08:09
+{'Sensor':'GasArray CO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:08:10
+{'Sensor':'GasArray CO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:08:11
+{'Sensor':'GasArray CO', 'data':  -2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:08:12
+{'Sensor':'GasArray CO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  250.00 ppm'}
+
+18:08:13
+{'Sensor':'GasArray CO', 'data':  -842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:08:14
+{'Sensor':'GasArray CO', 'data':  421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  560.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  125.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:08:15
+{'Sensor':'GasArray CO', 'data':  -1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  800.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:08:17
+{'Sensor':'GasArray CO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:08:18
+{'Sensor':'GasArray CO', 'data':  -3368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  250.00 ppm'}
+
+18:08:19
+{'Sensor':'GasArray CO', 'data':  -2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:08:20
+{'Sensor':'GasArray CO', 'data':  -2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:08:21
+{'Sensor':'GasArray CO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:08:22
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:08:23
+{'Sensor':'GasArray CO', 'data':  -842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  800.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  650.00 ppm'}
+
+18:08:24
+{'Sensor':'GasArray CO', 'data':  421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:08:25
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:08:26
+{'Sensor':'GasArray CO', 'data':  -421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  62.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:08:27
+{'Sensor':'GasArray CO', 'data':  -842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:08:28
+{'Sensor':'GasArray CO', 'data':  -2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:08:29
+{'Sensor':'GasArray CO', 'data':  -2947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  250.00 ppm'}
+
+18:08:30
+{'Sensor':'GasArray CO', 'data':  -3368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  250.00 ppm'}
+
+18:08:31
+{'Sensor':'GasArray CO', 'data':  -2947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:08:32
+{'Sensor':'GasArray CO', 'data':  -2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:08:33
+{'Sensor':'GasArray CO', 'data':  -2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  880.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:08:34
+{'Sensor':'GasArray CO', 'data':  -2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:08:35
+{'Sensor':'GasArray CO', 'data':  -1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:08:36
+{'Sensor':'GasArray CO', 'data':  -2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  125.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  150.00 ppm'}
+
+18:08:37
+{'Sensor':'GasArray CO', 'data':  -1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  200.00 ppm'}
+
+18:08:38
+{'Sensor':'GasArray CO', 'data':  -3368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:08:39
+{'Sensor':'GasArray CO', 'data':  -2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  62.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:08:40
+{'Sensor':'GasArray CO', 'data':  -2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:08:41
+{'Sensor':'GasArray CO', 'data':  -2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:08:42
+{'Sensor':'GasArray CO', 'data':  -1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -125.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:08:43
+{'Sensor':'GasArray CO', 'data':  -421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:08:44
+{'Sensor':'GasArray CO', 'data':  1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:08:45
+{'Sensor':'GasArray CO', 'data':  2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:08:46
+{'Sensor':'GasArray CO', 'data':  3368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:08:47
+{'Sensor':'GasArray CO', 'data':  3368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  250.00 ppm'}
+
+18:08:48
+{'Sensor':'GasArray CO', 'data':  2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  250.00 ppm'}
+
+18:08:49
+{'Sensor':'GasArray CO', 'data':  -1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  800.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:08:50
+{'Sensor':'GasArray CO', 'data':  -2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -125.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:08:51
+{'Sensor':'GasArray CO', 'data':  -421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:08:52
+{'Sensor':'GasArray CO', 'data':  -421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:08:53
+{'Sensor':'GasArray CO', 'data':  -2947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:08:54
+{'Sensor':'GasArray CO', 'data':  -2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:08:55
+{'Sensor':'GasArray CO', 'data':  -1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  125.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:08:56
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  850.00 ppm'}
+
+18:08:57
+{'Sensor':'GasArray CO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:08:58
+{'Sensor':'GasArray CO', 'data':  -4210.53 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:08:59
+{'Sensor':'GasArray CO', 'data':  -8000.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -62.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  150.00 ppm'}
+
+18:09:00
+{'Sensor':'GasArray CO', 'data':  -7578.95 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:09:01
+{'Sensor':'GasArray CO', 'data':  -8000.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  62.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  200.00 ppm'}
+
+18:09:02
+{'Sensor':'GasArray CO', 'data':  -8000.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1120.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  62.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:09:03
+{'Sensor':'GasArray CO', 'data':  -4210.53 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1040.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:09:04
+{'Sensor':'GasArray CO', 'data':  -2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:09:05
+{'Sensor':'GasArray CO', 'data':  -3368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:09:06
+{'Sensor':'GasArray CO', 'data':  -2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:09:07
+{'Sensor':'GasArray CO', 'data':  -12210.53 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  250.00 ppm'}
+
+18:09:08
+{'Sensor':'GasArray CO', 'data':  -11368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  200.00 ppm'}
+
+18:09:09
+{'Sensor':'GasArray CO', 'data':  -21894.74 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  50.00 ppm'}
+
+18:09:10
+{'Sensor':'GasArray CO', 'data':  -29473.68 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  125.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  100.00 ppm'}
+
+18:09:11
+{'Sensor':'GasArray CO', 'data':  -26526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  62.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  50.00 ppm'}
+
+18:09:12
+{'Sensor':'GasArray CO', 'data':  -29894.74 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  100.00 ppm'}
+
+18:09:13
+{'Sensor':'GasArray CO', 'data':  -16842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:09:14
+{'Sensor':'GasArray CO', 'data':  -17263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:09:15
+{'Sensor':'GasArray CO', 'data':  -13473.68 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  150.00 ppm'}
+
+18:09:16
+{'Sensor':'GasArray CO', 'data':  -7157.89 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -880.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  125.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  50.00 ppm'}
+
+18:09:17
+{'Sensor':'GasArray CO', 'data':  -8421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  100.00 ppm'}
+
+18:09:18
+{'Sensor':'GasArray CO', 'data':  -13052.63 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -560.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  62.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  200.00 ppm'}
+
+18:09:19
+{'Sensor':'GasArray CO', 'data':  -5473.68 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:09:20
+{'Sensor':'GasArray CO', 'data':  -3368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:09:21
+{'Sensor':'GasArray CO', 'data':  -4210.53 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:09:22
+{'Sensor':'GasArray CO', 'data':  -7578.95 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  -100.00 ppm'}
+
+18:09:24
+{'Sensor':'GasArray CO', 'data':  -7578.95 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  250.00 ppm'}
+
+18:09:25
+{'Sensor':'GasArray CO', 'data':  -842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1040.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  750.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:09:26
+{'Sensor':'GasArray CO', 'data':  1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:09:27
+{'Sensor':'GasArray CO', 'data':  -3789.47 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:09:28
+{'Sensor':'GasArray CO', 'data':  -2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  200.00 ppm'}
+
+18:09:29
+{'Sensor':'GasArray CO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  250.00 ppm'}
+
+18:09:30
+{'Sensor':'GasArray CO', 'data':  5894.74 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  250.00 ppm'}
+
+18:09:31
+{'Sensor':'GasArray CO', 'data':  6736.84 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:09:32
+{'Sensor':'GasArray CO', 'data':  6315.79 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:09:33
+{'Sensor':'GasArray CO', 'data':  8000.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:09:34
+{'Sensor':'GasArray CO', 'data':  8000.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:09:35
+{'Sensor':'GasArray CO', 'data':  7578.95 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:09:36
+{'Sensor':'GasArray CO', 'data':  5052.63 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:09:37
+{'Sensor':'GasArray CO', 'data':  4631.58 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:09:38
+{'Sensor':'GasArray CO', 'data':  4631.58 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:09:39
+{'Sensor':'GasArray CO', 'data':  4210.53 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:09:40
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1280.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  600.00 ppm'}
+
+18:09:41
+{'Sensor':'GasArray CO', 'data':  3368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:09:42
+{'Sensor':'GasArray CO', 'data':  4210.53 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:09:43
+{'Sensor':'GasArray CO', 'data':  -2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:09:44
+{'Sensor':'GasArray CO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  0.00 ppm'}
+
+18:09:45
+{'Sensor':'GasArray CO', 'data':  1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  750.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:09:46
+{'Sensor':'GasArray CO', 'data':  3789.47 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  687.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  -150.00 ppm'}
+
+18:09:47
+{'Sensor':'GasArray CO', 'data':  -842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:09:48
+{'Sensor':'GasArray CO', 'data':  421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -960.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:09:49
+{'Sensor':'GasArray CO', 'data':  -842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  187.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:09:50
+{'Sensor':'GasArray CO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -720.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:09:51
+{'Sensor':'GasArray CO', 'data':  3368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -800.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:09:52
+{'Sensor':'GasArray CO', 'data':  3368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  50.00 ppm'}
+
+18:09:53
+{'Sensor':'GasArray CO', 'data':  3368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  600.00 ppm'}
+
+18:09:54
+{'Sensor':'GasArray CO', 'data':  2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:09:55
+{'Sensor':'GasArray CO', 'data':  4631.58 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -640.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:09:56
+{'Sensor':'GasArray CO', 'data':  3789.47 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -480.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:09:57
+{'Sensor':'GasArray CO', 'data':  2947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:09:58
+{'Sensor':'GasArray CO', 'data':  2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:09:59
+{'Sensor':'GasArray CO', 'data':  2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:10:00
+{'Sensor':'GasArray CO', 'data':  1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  150.00 ppm'}
+
+18:10:01
+{'Sensor':'GasArray CO', 'data':  2947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -560.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:10:02
+{'Sensor':'GasArray CO', 'data':  3368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -560.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:10:03
+{'Sensor':'GasArray CO', 'data':  2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:10:04
+{'Sensor':'GasArray CO', 'data':  1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:10:05
+{'Sensor':'GasArray CO', 'data':  1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:10:06
+{'Sensor':'GasArray CO', 'data':  1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:10:07
+{'Sensor':'GasArray CO', 'data':  1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:10:08
+{'Sensor':'GasArray CO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:10:09
+{'Sensor':'GasArray CO', 'data':  -1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:10:10
+{'Sensor':'GasArray CO', 'data':  -1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:10:11
+{'Sensor':'GasArray CO', 'data':  -1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:10:12
+{'Sensor':'GasArray CO', 'data':  -842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:10:13
+{'Sensor':'GasArray CO', 'data':  -842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:10:14
+{'Sensor':'GasArray CO', 'data':  -842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:10:15
+{'Sensor':'GasArray CO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:10:16
+{'Sensor':'GasArray CO', 'data':  1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:10:17
+{'Sensor':'GasArray CO', 'data':  2947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:10:18
+{'Sensor':'GasArray CO', 'data':  2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:10:19
+{'Sensor':'GasArray CO', 'data':  1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:10:20
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:10:21
+{'Sensor':'GasArray CO', 'data':  421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:10:22
+{'Sensor':'GasArray CO', 'data':  -421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:10:23
+{'Sensor':'GasArray CO', 'data':  -421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:10:24
+{'Sensor':'GasArray CO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:10:25
+{'Sensor':'GasArray CO', 'data':  421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:10:26
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:10:27
+{'Sensor':'GasArray CO', 'data':  1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:10:28
+{'Sensor':'GasArray CO', 'data':  1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:10:29
+{'Sensor':'GasArray CO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:10:30
+{'Sensor':'GasArray CO', 'data':  -421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:10:32
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  200.00 ppm'}
+
+18:10:33
+{'Sensor':'GasArray CO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  200.00 ppm'}
+
+18:10:34
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:10:35
+{'Sensor':'GasArray CO', 'data':  2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:10:36
+{'Sensor':'GasArray CO', 'data':  2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:10:37
+{'Sensor':'GasArray CO', 'data':  1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:10:38
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:10:39
+{'Sensor':'GasArray CO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:10:40
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:10:41
+{'Sensor':'GasArray CO', 'data':  421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:10:42
+{'Sensor':'GasArray CO', 'data':  1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:10:43
+{'Sensor':'GasArray CO', 'data':  421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:10:44
+{'Sensor':'GasArray CO', 'data':  421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:10:45
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:10:46
+{'Sensor':'GasArray CO', 'data':  421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:10:47
+{'Sensor':'GasArray CO', 'data':  421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:10:48
+{'Sensor':'GasArray CO', 'data':  421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:10:49
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:10:50
+{'Sensor':'GasArray CO', 'data':  421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:10:51
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:10:52
+{'Sensor':'GasArray CO', 'data':  421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:10:53
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:10:54
+{'Sensor':'GasArray CO', 'data':  421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:10:55
+{'Sensor':'GasArray CO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:10:56
+{'Sensor':'GasArray CO', 'data':  421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:10:57
+{'Sensor':'GasArray CO', 'data':  1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:10:58
+{'Sensor':'GasArray CO', 'data':  1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:10:59
+{'Sensor':'GasArray CO', 'data':  1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:11:00
+{'Sensor':'GasArray CO', 'data':  1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:11:01
+{'Sensor':'GasArray CO', 'data':  1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:11:02
+{'Sensor':'GasArray CO', 'data':  1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:11:03
+{'Sensor':'GasArray CO', 'data':  421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:11:04
+{'Sensor':'GasArray CO', 'data':  421.05 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:11:05
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:11:06
+{'Sensor':'GasArray CO', 'data':  1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:11:07
+{'Sensor':'GasArray CO', 'data':  1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:11:08
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:11:09
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:11:10
+{'Sensor':'GasArray CO', 'data':  1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:11:11
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:11:12
+{'Sensor':'GasArray CO', 'data':  1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:11:13
+{'Sensor':'GasArray CO', 'data':  1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  700.00 ppm'}
+
+18:11:14
+{'Sensor':'GasArray CO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:11:15
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:11:16
+{'Sensor':'GasArray CO', 'data':  3368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:11:17
+{'Sensor':'GasArray CO', 'data':  3789.47 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:11:18
+{'Sensor':'GasArray CO', 'data':  2947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:11:19
+{'Sensor':'GasArray CO', 'data':  2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:11:20
+{'Sensor':'GasArray CO', 'data':  2947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  1062.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:11:21
+{'Sensor':'GasArray CO', 'data':  2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  1120.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  -62.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  100.00 ppm'}
+
+18:11:22
+{'Sensor':'GasArray CO', 'data':  2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:11:23
+{'Sensor':'GasArray CO', 'data':  1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  250.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:11:24
+{'Sensor':'GasArray CO', 'data':  1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:11:25
+{'Sensor':'GasArray CO', 'data':  2947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:11:26
+{'Sensor':'GasArray CO', 'data':  3368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:11:27
+{'Sensor':'GasArray CO', 'data':  3368.42 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:11:28
+{'Sensor':'GasArray CO', 'data':  2947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:11:29
+{'Sensor':'GasArray CO', 'data':  1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:11:30
+{'Sensor':'GasArray CO', 'data':  1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  687.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:11:31
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  750.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:11:32
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:11:33
+{'Sensor':'GasArray CO', 'data':  1263.16 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  600.00 ppm'}
+
+18:11:34
+{'Sensor':'GasArray CO', 'data':  2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  600.00 ppm'}
+
+18:11:35
+{'Sensor':'GasArray CO', 'data':  2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:11:36
+{'Sensor':'GasArray CO', 'data':  2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:11:37
+{'Sensor':'GasArray CO', 'data':  2947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:11:39
+{'Sensor':'GasArray CO', 'data':  1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  400.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:11:40
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -1680.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  2125.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:11:41
+{'Sensor':'GasArray CO', 'data':  1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:11:42
+{'Sensor':'GasArray CO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:11:43
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  0.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:11:44
+{'Sensor':'GasArray CO', 'data':  1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:11:45
+{'Sensor':'GasArray CO', 'data':  2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:11:46
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:11:47
+{'Sensor':'GasArray CO', 'data':  1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  -80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  600.00 ppm'}
+
+18:11:48
+{'Sensor':'GasArray CO', 'data':  2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  500.00 ppm'}
+
+18:11:49
+{'Sensor':'GasArray CO', 'data':  2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
+18:11:50
+{'Sensor':'GasArray CO', 'data':  2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  240.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  375.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:11:51
+{'Sensor':'GasArray CO', 'data':  2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  437.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:11:52
+{'Sensor':'GasArray CO', 'data':  2947.37 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  550.00 ppm'}
+
+18:11:53
+{'Sensor':'GasArray CO', 'data':  2105.26 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  312.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:11:54
+{'Sensor':'GasArray CO', 'data':  2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:11:55
+{'Sensor':'GasArray CO', 'data':  1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  300.00 ppm'}
+
+18:11:56
+{'Sensor':'GasArray CO', 'data':  2526.32 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  320.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  250.00 ppm'}
+
+18:11:57
+{'Sensor':'GasArray CO', 'data':  1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  625.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  400.00 ppm'}
+
+18:11:58
+{'Sensor':'GasArray CO', 'data':  1684.21 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  160.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  500.00 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  350.00 ppm'}
+
+18:11:59
+{'Sensor':'GasArray CO', 'data':  842.11 ppm'}
+
+{'Sensor':'GasArray SO', 'data':  80.00 ppm'}
+
+{'Sensor':'GasArray O', 'data':  562.50 ppm'}
+
+{'Sensor':'GasArray NO', 'data':  450.00 ppm'}
+
