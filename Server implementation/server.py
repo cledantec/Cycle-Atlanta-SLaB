@@ -1,4 +1,5 @@
 __author__ = "Jayanth M"
+__project__ = "Seeing like a bike"
 
 from flask import Flask, request, jsonify
 from datetime import datetime
@@ -22,19 +23,24 @@ ledfile = open('led.log',mode='w')
 ledStatus = ['W', 'Z', 'Z', 'Z', 'Z', 'Z', 'B', 'B', 'B', 'B', 'B', 'W', 'Z', 'Z', 'Z', 'Z', 'G', 'G', 'G', 'G', 'G', 'G', 'W', 'Z', 'Z', 'Z', 'Z', 'Z', 'Z', 'Z', 'Z', 'Z', 'Z', 'W', 'W']
 OFFSET = 0
 
+# DEPRECATED: using /getstatus endpoint now
+# use LED file for keeping track of status
 def writeLedFile():
     ledfile.seek(0)
     ledfile.truncate()
     ledfile.write(str(ledStatus).replace("\'", "\""))
     ledfile.flush()
 
+# return what the LED status at current time is
 @app.route('/getstatus', methods=['GET'])
 def retstatus():
     return str(ledStatus).replace("\'","\"")
 
+# update the LED statuses - only Proximity and Surface Quality teams
 @app.route('/status',methods=['POST'])
 def getstat():
     payload = json.loads(str(request.get_json()).replace("\'","\""))
+    # to keep track of which API is getting data
     if 'lidarLeftStatus' in payload:
         ledStatus[OFFSET+1:OFFSET+6] = ['Z']*5
         if payload['lidarLeftStatus'] == 'true':
@@ -53,7 +59,7 @@ def getstat():
             writeLedFile()
     return str(ledStatus) #,str(200)
 
-
+# proximity sensors receiver
 @app.route('/proximity', methods = ['POST'])
 def proximity():
     payload = json.loads(str(request.get_json()).replace("\'","\""))
@@ -64,6 +70,7 @@ def proximity():
     proxfile.flush()
     return str(200)
 
+# inertial motion unit receiver
 @app.route('/inertial', methods = ['POST'])
 def inertial():
     try:
@@ -81,10 +88,12 @@ def inertial():
     writeLedFile()
     return str(500)
 
+# humidity data receiver
 @app.route('/humidity', methods = ['POST'])
 def temphumi():
     try:
         payload = json.loads(str(request.get_json()).replace("\'","\"").replace("True","true"))
+        # getting temperature data from pressure sensor, that seems more accurate
         payload.pop('temperature_raw', None)
         payload.pop('temperature_is_calibrated', None)
         payload.pop('temperature', None)
@@ -101,6 +110,7 @@ def temphumi():
     writeLedFile()
     return str(500)
 
+# ultraviolet sensor receiver
 @app.route('/uvindex', methods = ['POST'])
 def uvindex():
     try:
@@ -118,6 +128,7 @@ def uvindex():
     writeLedFile()
     return str(500)
 
+# pressure, temperature and altitude receiver
 @app.route('/prestempalt', methods = ['POST'])
 def pressure():
     try:
@@ -135,5 +146,6 @@ def pressure():
     writeLedFile()
     return str(500)
 
+# run the server
 if __name__ == "__main__":
     app.run(debug=True, host='0.0.0.0')
