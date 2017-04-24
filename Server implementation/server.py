@@ -53,9 +53,18 @@ def getstat():
             ledStatus[OFFSET+4] = 'B'
         if payload['diskWriteStatus'] == 'true':
             ledStatus[OFFSET+5] = 'B'
-##    if 'pmstatus' in payload:
-##        if payload['diskWriteStatus'] == 'true':
-##            ledStatus[OFFSET+5] = 'B'
+    if 'o3' in payload:
+        if payload['pm'] == 'true':
+            ledStatus[OFFSET+24] = 'R'
+        if payload['gas'] == 'true':
+            ledStatus[OFFSET+25] = 'R'
+    if 'lat' in payload:
+        if payload['gps'] == 'true':
+            ledStatus[OFFSET+26] = 'R'
+    if 'mic' in payload:
+        if payload['mic'] == 'true':
+            ledStatus[OFFSET+27] = 'R'
+
             writeLedFile()
     return str(ledStatus) #,str(200)
 
