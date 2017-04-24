@@ -64,8 +64,7 @@ def getstat():
     if 'mic' in payload:
         if payload['mic'] == 'true':
             ledStatus[OFFSET+27] = 'R'
-
-            writeLedFile()
+    writeLedFile()
     return str(ledStatus) #,str(200)
 
 # proximity sensors receiver
@@ -151,6 +150,58 @@ def pressure():
         file.write(str(data))
         file.write("\n")
         file.flush()
+        return str(200)
+    writeLedFile()
+    return str(500)
+
+@app.route('/gas', methods = ['POST'])
+def gas():
+
+    try:
+        payload = json.loads(str(request.get_json()).replace("\'","\""))
+        time = datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
+        data = {'sensor':'gasarray', 'timestamp':time, 'data':payload}
+    except Exception:
+        ledStatus[OFFSET+24] = 'Z'
+    else:
+        ledStatus[OFFSET+24] = 'R'
+        file.write(str(data))
+        file.write("\n")
+        file.flush()
+        return str(200)
+    finally:
+        writeLedFile()
+
+@app.route('/gps', methods = ['POST'])
+def gps():
+    try:
+        payload = json.loads(str(request.get_json()).replace("\'","\""))
+        time = datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
+        data = {'sensor':'gps', 'timestamp':time, 'data':payload}
+    except Exception:
+        ledStatus[OFFSET+25] = 'Z'
+    else:
+        ledStatus[OFFSET+25] = 'R'
+        file.write(str(data))
+        file.write("\n")
+        file.flush()
+        return str(200)
+    writeLedFile()
+    return str(500)
+
+@app.route('/mic', methods = ['POST'])
+def mic():
+    try:
+        payload = json.loads(str(request.get_json()).replace("\'","\""))
+        time = datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
+        data = {'sensor':'surfacemic', 'timestamp':time, 'data':payload}
+    except Exception:
+        ledStatus[OFFSET+26] = 'Z'
+    else:
+        ledStatus[OFFSET+26] = 'R'
+        micfile.write(str(data))
+        micfile.write("\n")
+        micfile.flush()
         return str(200)
     writeLedFile()
     return str(500)
