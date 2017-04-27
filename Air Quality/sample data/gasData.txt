@@ -1,0 +1,41 @@
+Reading ADS1x15 values, press Ctrl-C to quit...
+CO: 0.00 ppm
+SO2 : 281.00 ppm
+NO2/O3 : 286.00 ppm
+NO2/O3 : 290.00 ppm
+CO: 0.00 ppm
+SO2 : 281.00 ppm
+NO2/O3 : 288.00 ppm
+NO2/O3 : 297.00 ppm
+CO: 0.00 ppm
+SO2 : 282.00 ppm
+NO2/O3 : 289.00 ppm
+NO2/O3 : 304.00 ppm
+CO: 0.00 ppm
+SO2 : 287.00 ppm
+NO2/O3 : 292.00 ppm
+NO2/O3 : 303.00 ppm
+CO: 0.00 ppm
+SO2 : 286.00 ppm
+NO2/O3 : 291.00 ppm
+NO2/O3 : 297.00 ppm
+CO: 0.00 ppm
+SO2 : 287.00 ppm
+NO2/O3 : 288.00 ppm
+NO2/O3 : 287.00 ppm
+CO: 0.00 ppm
+SO2 : 284.00 ppm
+NO2/O3 : 286.00 ppm
+NO2/O3 : 287.00 ppm
+CO: 0.00 ppm
+SO2 : 281.00 ppm
+NO2/O3 : 288.00 ppm
+NO2/O3 : 296.00 ppm
+CO: 0.00 ppm
+SO2 : 282.00 ppm
+NO2/O3 : 289.00 ppm
+NO2/O3 : 301.00 ppm
+CO: 0.00 ppm
+SO2 : 284.00 ppm
+NO2/O3 : 291.00 ppm
+NO2/O3 : 302.00 ppm
