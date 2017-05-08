@@ -16,7 +16,7 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setup(enable, GPIO.OUT)
 
 
-def GPSInit():
+def GPSread():
     GPIO.output(enable, GPIO.HIGH)
     global UTC_time
     global status 
@@ -41,50 +41,17 @@ def GPSInit():
     EW_indicator = x[6]
     speed = x[7]
     course = x[8]
-    date = x[9]
+    day = x[9]
     #while status == 'V':
         
-    GPIO.output(enable, GPIO.LOW)
-    
-def get_speed():
-    GPSInit()
-    print ("{'Sensor':'speed', 'data':  %s '}\n" %speed)
-    return
-
-def get_lat():
-    GPSInit()
-    print ("{'Sensor':'Latitude', 'data':  %s '}\n" %Latitude)
-    return
-
-def get_long():
-    GPSInit()
-    print ("{'Sensor':'Longitude', 'data':  %s '}\n" %Longitude)
-    return
-
-def get_time():
-    GPSInit()
-    print ("{'Sensor':'UTC_time', 'data':  %s '}\n" %UTC_time)
-    return
-
-def get_course():
-    GPSInit()
-    print ("{'Sensor':'course', 'data':  %s ' }\n"%course)
-    return 
-
-def get_date():
-    GPSInit()
-    print ("{'Sensor':'date', 'data':  %s '}\n" %date)
-    return
-def get_status():
-    GPSInit()
-    print ("{'Sensor':'status', 'data':  %s '}\n" %status)
-    return
-
-get_speed()
-get_date()
-get_time()
-get_long()
-get_lat()
-get_status()
+    GPSoutput = {"speed": speed, "lat": Latitude, "long": Longitude, "utc_time": UTC_time, "day": day, "course": course}
+    return GPSoutput
+f = open("datalog.txt", "a+")
+GPSread()
+#if status == 'A':
+#print GPSread()
+f.write(str(GPSread()))
+f.write("\n")
+f.close()
 
 

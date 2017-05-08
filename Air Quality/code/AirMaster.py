@@ -7,12 +7,19 @@ import time
 import RPi.GPIO as GPIO
 import json
 import requests
+import subprocess
 import ast
 # Import the ADS1x15 module.
 import Adafruit_ADS1x15
+jsonStatusLabels = ["gas","gps"]
 
+proc = subprocess.Popen(['ls /dev/ttyACM*'], stdout=subprocess.PIPE, shell=True)
+(out,err) = proc.communicate()
+print(out.strip())
 USBser = serial.Serial('/dev/ttyACM0', 9600)
 url = 'http://192.168.1.10:5000/gas'
+url2 = 'http://192.168.1.10:5000/gps'
+statusurl = 'http://192.168.1.10:5000/status'
 headers = {'Content-type': 'application/json'}
 def getpm():
     USBser.flushInput()
@@ -35,13 +42,15 @@ gps = serial.Serial(
 enable = 23
 
 trigger = 25
+trigger_en = 24#will remain high and connected to trigger via the switch
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(enable, GPIO.OUT)
+GPIO.setup(trigger_en, GPIO.OUT)
 GPIO.setup(trigger, GPIO.IN, pull_up_down = GPIO.PUD_DOWN)
 GPIO.output(enable, GPIO.HIGH)#turn enable high for duration of program
-
-def GPSInit():
+GPIO.output(trigger_en, GPIO.HIGH)#high for duration of program
+def GPSRead():
     
     global UTC_time
     global status 
@@ -103,7 +112,7 @@ def getgas():
     values[2] = (values[2] - VxO)/(500000*Oi)
     values[3] = (values[3] - VxNO)/(500000*NOi)
 
-    gasarray = {"co":round(values[0], 2), "so2":round(values[1], 2), "o3":round(values[2], 2), "no2":round(values[3],2), "pm":getpm()}
+    gasarray = {"co":round(values[0], 2), "so2":round(values[1], 2), "o3":round(values[2], 2), "no2":round(values[3],2)}#, "pm":getpm()}
     return (json.dumps(gasarray))
 ##    print ("{'Sensor':'GasArray CO', 'data':  %.2f'}\n" %values[0])  
 ##    print ("{'Sensor':'GasArray SO', 'data':  %.2f'}\n" %values[1])   
@@ -117,17 +126,33 @@ while True:
     #loop while pin is low (continue to read pin and delay)
     while not t:
         t = GPIO.input(trigger)
-        
-    GPSInit()
-    #check if GPS data is valid or invalid; 'A' = valid data
-    #Sif status == 'A':
-    print GPSInit()#comment
-        #uncomment for server connection
-        #requests.post(url, data = GPSInit(), headers = headers)
-    print str(getgas())
-    #uncomment for server connection
-    #response = requests.post(url, data=getgas(), headers=headers)
-    #print(response.content)
-    time.sleep (4)
+        try:
+            statusList = ["false","false"]
+            statusData = json.dumps(dict(zip(jsonStatusLabels,statusList)))
+            response2 = requests.post(statusurl, data=statusData, headers=headers)
+            print(response2.content)
+        except Exception:
+            pass
+    GPSRead()
+    try:
+        if status == 'A':
+           response2 = requests.post(url2, data = GPSRead(), headers = headers)
+           print(response2.content)
+    except Exception:
+        pass
+    #print str(getgas())
+    try:
+        response = requests.post(url, data=getgas(), headers=headers)
+        print(response.content)
+    except Exception:
+        pass
+    statusList = ["true",str(status == 'A').lower()]
+    statusData = json.dumps(dict(zip(jsonStatusLabels,statusList)))
+    try:
+        response2 = requests.post(statusurl, data=statusData, headers=headers)
+        print(response2.content)
+    except Exception:
+        pass
+   # time.sleep (4)
     
 

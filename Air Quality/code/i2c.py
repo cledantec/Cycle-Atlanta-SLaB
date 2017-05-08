@@ -44,47 +44,56 @@ SOi = 0.000000025
 Oi = 0.000000032
 NOi = 0.000000040
 # Main loop.
-while True:
-    # Read all the ADC channel values in a list.
-    values = [0]*4
-    for i in range(4):
-        # Read the specified ADC channel using the previously set gain value.
-        #todo
-        #change PMSense to gasArray
-        values[i] = float(gasArray.read_adc(i, gain=GAIN))
-        
-        # Note you can also pass in an optional data_rate parameter that controls
-        # the ADC conversion time (in samples/second). Each chip has a different
-        # set of allowed data rate values, see datasheet Table 9 config register
-        # DR bit values.
-        #values[i] = adc.read_adc(i, gain=GAIN, data_rate=128)
-        # Each value will be a 12 or 16 bit signed integer value depending on the
-        # ADC (ADS1015 = 12-bit, ADS1115 = 16-bit).
-    # Print the ADC values.
-    #pmVal = PMSense.read_adc(0, gain = GAIN)
-    #print 'PM concentration : %.2f kPa' %pmVal
-    
-    
-    values[0] = (values[0] - VxCO)/(500000*COi)
-    values[1] = (values[1] - VxSO)/(500000*SOi)
-    values[2] = (values[2] - VxO)/(500000*Oi)
-    values[3] = (values[3] - VxNO)/(500000*NOi)
-    #print 'Vx: %.f ' %masterVal
-
-    print time.strftime('%H:%M:%S')
-    
-    print ("{'Sensor':'GasArray CO', 'data':  %.2f ppm'}\n" %values[0])
-    
-    print ("{'Sensor':'GasArray SO', 'data':  %.2f ppm'}\n" %values[1])
-    
-    print ("{'Sensor':'GasArray O', 'data':  %.2f ppm'}\n" %values[2])
-    
-    print ("{'Sensor':'GasArray NO', 'data':  %.2f ppm'}\n" %values[3])
-
-    #print('| {0:>6} | {1:>6} | {2:>6} | {3:>6} |'.format(*values))
-    # Pause for half a second.
+#while True:
+# Read all the ADC channel values in a list.
+values = [0]*4
+for i in range(4):
+    # Read the specified ADC channel using the previously set gain value.
     #todo
-    #store the values from the pmSense[2] for 1second as
-    #mic measurments
-    time.sleep(1)
+    #change PMSense to gasArray
+    values[i] = float(gasArray.read_adc(i, gain=GAIN))
+    
+    # Note you can also pass in an optional data_rate parameter that controls
+    # the ADC conversion time (in samples/second). Each chip has a different
+    # set of allowed data rate values, see datasheet Table 9 config register
+    # DR bit values.
+    #values[i] = adc.read_adc(i, gain=GAIN, data_rate=128)
+    # Each value will be a 12 or 16 bit signed integer value depending on the
+    # ADC (ADS1015 = 12-bit, ADS1115 = 16-bit).
+# Print the ADC values.
+#pmVal = PMSense.read_adc(0, gain = GAIN)
+#print 'PM concentration : %.2f kPa' %pmVal
+
+
+values[0] = (values[0] - VxCO)/(500000*COi)
+values[1] = (values[1] - VxSO)/(500000*SOi)
+values[2] = (values[2] - VxO)/(500000*Oi)
+values[3] = (values[3] - VxNO)/(500000*NOi)
+
+
+##print("{'Sensor':'LocalTime', 'data':"),
+##print time.strftime('%H:%M:%S'),
+##print("}\n")
+##
+##print ("{'Sensor':'GasArray CO', 'data':  %.2f ppm'}\n" %values[0])
+##
+##print ("{'Sensor':'GasArray SO', 'data':  %.2f ppm'}\n" %values[1])
+##
+##print ("{'Sensor':'GasArray O', 'data':  %.2f ppm'}\n" %values[2])
+##
+##print ("{'Sensor':'GasArray NO', 'data':  %.2f ppm'}\n" %values[3])
+
+f = open("datalog.txt", "a+")
+f.write("{'Sensor':'LocalTime', 'data':"),
+f.write(time.strftime('%H:%M:%S')),
+f.write("}\n")
+
+f.write("{'Sensor':'GasArray CO', 'data':  %.2f ppm'}\n" %values[0])
+
+f.write("{'Sensor':'GasArray SO', 'data':  %.2f ppm'}\n" %values[1])
+
+f.write("{'Sensor':'GasArray O', 'data':  %.2f ppm'}\n" %values[2])
+
+f.write("{'Sensor':'GasArray NO', 'data':  %.2f ppm'}\n" %values[3])
+f.close()
 
