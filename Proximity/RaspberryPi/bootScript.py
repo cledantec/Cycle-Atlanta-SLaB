@@ -67,7 +67,7 @@ try:
                         dataTime=timeNow.strftime('%m-%d-%Y-%H-%M-%S')
                         if len(arduinoData) !=3:
                                 logFile = open(logFileName,'a')
-                                logFile.write("Could not write data at time " + str(dataTime))
+                                logFile.write("Could not write data at time " + str(dataTime) + " Arduino data: " + ''.join(arduinoData) + "\n")
                                 logFile.close()
                                 continue                        # Incomplete data
                         dataList = [dataTime] + arduinoData + [lidarData]

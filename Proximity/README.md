@@ -1,26 +1,25 @@
-** Raspberry Pi code
+# Raspberry Pi code
 
-*** Python code for collecting data, storing on the drive and sending status,data over the network
+## Python code for collecting data, storing on the drive and sending status,data over the network
 Refer to bootScript.py under RaspberryPi folder.
 Run the script with super user privileges (sudo python bootScript.py)
 
 Note: Include all the other files in the folder (the lidar_lite module) for the script to run successfully.
 
-*** Turning it into a bootable script
-Navigate to /home/pi/config/lxsession/LXDE-pi
-Edit the file autostart and add the following line at the end: @python  /home/pi/bootScript.py
-A reference file can be found in RaspberryPi folder.
+## Turning it into a bootable script
+* Navigate to /home/pi/.config/lxsession/LXDE-pi
+*Edit the file autostart and add the following line at the end: @python  /home/pi/bootScript.py (A reference file can be found in RaspberryPi folder.)
 
-** Arduino code
+## Arduino code
 Refer to sensorAggregate.ino under Arduino folder.
-In Arduinio IDE, open the sketch.
-Connect the Arduino and click on program.
-If the programming fails, make sure you select the correct serial port and run again.
+* In Arduinio IDE, open the sketch.
+* Connect the Arduino and click on program.
+* If the programming fails, make sure you select the correct serial port and run again.
 
 
-** Data Analysis
+## Data Analysis
 
-Run the file giveSummary.py from the directory where the data files are stored. By default, this path is /home/pi/data/
+*Run the file giveSummary.py from the directory where the data files are stored. By default, this path is /home/pi/data/
 
 Typical ouput expected is:
 
