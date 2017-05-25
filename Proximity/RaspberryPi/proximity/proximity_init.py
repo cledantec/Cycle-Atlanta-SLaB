@@ -6,6 +6,7 @@ import RPi.GPIO as GPIO
 from lidar_lite import Lidar_Lite
 import json
 import requests
+import os
 
 # PIN assignments. Change if board connections change.
 SWITCH_PIN = 29
@@ -44,17 +45,27 @@ logFile =  open(logFileName,'a')
 logFile.write('Starting script at '+fileTime+'\n')
 logFile.close()
 
+#Rotate/create data file
+if os.path.isfile('/home/pi/data/proximity_current_trip.json'):
+    file_count = len([name for name in os.listdir('/home/pi/data/proximity_archive/') if os.path.isfile(name)])
+    os.rename("/home/pi/data/proximity_current_trip.json","/home/pi/data/proximity_"+str(file_count+1)+".json")
+#Create a new log file for this trip
+dataFile = open('/home/pi/data/proximity_current_trip.json','a')
+dataFile.write('Start new trip file')
+dataFile.close
+
 status = True
 try:
+        #Todo: remove once all sensors are on Arduino.
         ser=serial.Serial(port='/dev/ttyACM0',baudrate=4800)
         lidar=Lidar_Lite()
         connected=lidar.connect(1)
         if connected<-1:
                 raise valueError('Lidar not connected.')
         while True:
-                GPIO.output(ERROR_PIN,True)                                     # If this is alive, then it means loop is running.
+                GPIO.output(ERROR_PIN,True) # If this is alive, then it means loop is running.
                 switchState = GPIO.input(SWITCH_PIN)
-                if switchState:                                                 # This means you have to record. 
+                if switchState: # This means you have to record. 
                         GPIO.output(STATUS_PIN,status)
                         status = not status
                         ser.flushInput()
@@ -72,12 +83,17 @@ try:
                                 continue                        # Incomplete data
                         dataList = [dataTime] + arduinoData + [lidarData]
                         #print dataList
-                        dataFile = open('/home/pi/data/data_'+fileTime+'.csv','a')
-                        dataWriter = csv.writer(dataFile)
-                        dataWriter.writerow(dataList)
-                        dataFile.close()
+                        #dataFile = open('/home/pi/data/current_trip.csv','a')
+                        #dataWriter = csv.writer(dataFile)
+                        #dataWriter.writerow(dataList)
+                        #dataFile.close()
                         jsonData = json.dumps(dict(zip(jsonDataLabels,dataList)))
-
+ 						#write json data to local file first
+ 					    dataFile = open('/home/pi/data/proximity_current_trip.json','a')
+                        dataFile.write(jsonData)
+                        #dataWriter = csv.writer(dataFile)
+                        #dataWriter.writerow(dataList)
+                        dataFile.close()
                         
                         statusList = [(lidarData>0),(arduinoData[0] != '0'),(arduinoData[1] != '0'),(arduinoData[2] != '0'),(switchState==1)]
                         statusList  = [str(x).lower() for x in statusList]

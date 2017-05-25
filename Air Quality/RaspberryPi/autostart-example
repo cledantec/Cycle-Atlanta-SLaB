@@ -3,4 +3,4 @@
 @xscreensaver -no-splash
 @point-rpi
 
-@python /home/pi/bootScript.py
+@python /home/pi/airquality/aq_init.py

@@ -1,10 +1,30 @@
-# Instructions on setting up the server and Matrix
+# SLaB Server & Data store
+
+This component runs the server on a RasPi that accepts data streams from the rear box (proximity and air quality) and the Matrix mounted on the handle-bars.
+
+Installation 
+============
+
+Copy all files in the RaspberryPi directory to the home directory of the Raspberry Pi. Install dependencies for the Matrix and Flask (see install.sh):
+
+```
+sudo apt-get install python python3 python-pip nodejs
+sudo pip install flask
+curl https://raw.githubusercontent.com/matrix-io/matrix-creator-quickstart/master/install.sh | sh
+```
 
 * We will be using the MALOS abstracted layer on Matrix, here: https://matrix-io.github.io/matrix-documentation/MALOS/overview/ 
 * Python Flask runs as the server, and accepts a JSON payload
 * The server automatically time-stamps POSTed data and appends the sensor name based on what endpoint was contacted.
 
-# Server endpoints
+To run:
+
+```
+sudo python -m <path>/server.python
+```
+
+Server endpoints
+----------------
 | **Endpoint**  | **HTTP Method** | **Data** |
 |---|---|---|
 | /getstatus | GET | Returns LED status |
@@ -17,7 +37,8 @@
 | /gas | POST | Gets gas array data |
 | /gps | POST | Gets GPS data |
 
-# Data store
+Data store
+----------
 Data received by the server is stored in this format:
 ```{
  ‘sensor’: ‘sensor_name’,
@@ -26,8 +47,7 @@ Data received by the server is stored in this format:
  }
  ```
 
-# Future work
+Future work
+-----------
 * Send data to MongoDB instead of plain text file (better size and filtering)
 * Write services to retrieve data based on filters
-* Conditionally write data based on GPIO wire
-* Only write data if it is important (for example, the surface mic or accelerometer exceeds a certain threshold. 
