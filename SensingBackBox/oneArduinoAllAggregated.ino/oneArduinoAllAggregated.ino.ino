@@ -15,10 +15,11 @@ long dLidar01;
 long dLidar02;
 
 //for Sonar init
-const int anPin1 = 0;
-const int anPin2 = 1;
+const int anPin0 = 0;
+const int anPin1 = 1;
+const int anPin2 = 2;
 int triggerPin1 = 13;
-long distance1, distance2;
+long distance0, distance1, distance2;
 
 //for Gases sensor init
 Adafruit_ADS1015 ads;    // Construct an ads1015 at the default address: 0x48
@@ -60,6 +61,7 @@ void read_sensors(){
   Scale factor is (Vcc/512) per inch. A 5V supply yields ~9.8mV/in
   Arduino analog pin goes from 0 to 1024, so the value has to be divided by 2 to get the actual inches
   */
+  distance0 = analogRead(anPin0)/2;
   distance1 = analogRead(anPin1)/2;
   distance2 = analogRead(anPin2)/2;
 }
@@ -95,6 +97,8 @@ void print_lidar(){
 }
 
 void print_sonar(){
+  Serial.print("SONAR 0: ");
+  Serial.println(distance0*2.54);
   Serial.print("SONAR 1:  ");
   Serial.println(distance1*2.54);
   Serial.print("SONAR 2:  ");
