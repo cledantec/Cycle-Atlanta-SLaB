@@ -1,7 +1,7 @@
 import csv
 import serial
 import time
-import datetime
+from datetime import datetime
 #import RPi.GPIO as GPIO
 #from lidar_lite import Lidar_Lite
 import json
@@ -20,7 +20,7 @@ NET_STATUS_PIN = 35
 
 # Other constants
 logFileName = 'proximity.log'
-DELAY = 0.1 # In seconds
+DELAY = 1 # In seconds
 
 # Configure GPIO        
 #GPIO.setmode(GPIO.BOARD);
@@ -32,12 +32,12 @@ DELAY = 0.1 # In seconds
 # GPIO.output(NET_STATUS_PIN,0)
 
 # JSON Labels.
-jsonDataLabels = ['proxTime','UltrasoundLeft','UltrasoundRight','LidarLeft','LidarRight']
-jsonStatusLabels = ['usLeftStatus','usRightStatus','lidarLeftStatus','lidarRightStatus','diskWriteStatus']
-statusList = [0]*5
+jsonDataLabels = ['proxTime','USLeft','USRight','LidarLeft','LidarRight','CO','SO','O3','NO','P25','P10']
+jsonStatusLabels = ['usLeftStatus','usRightStatus','lidarLeftStatus','lidarRightStatus','COstatus','SOstatus','O3status','NOsstatus','P25status','P10status','diskWriteStatus']
+statusList = [0]*11
 
 # Self
-HOST_SERVER = '127.0.0.1'
+HOST_SERVER = '0.0.0.0'
 
 # Network settings
 headers = {'Content-type': 'application/json'}
@@ -45,7 +45,7 @@ DATA_URL = 'http://' + HOST_SERVER + ':5000/proximity'
 STATUS_URL = 'http://' + HOST_SERVER + ':5000/status'
 
 # Open a file with a name appended with current time.
-timeNow=datetime.datetime.now()
+timeNow=datetime.now()
 fileTime=timeNow.strftime('%m-%d-%Y-%H-%M-%S')
 
 logFile =  open(logFileName,'a')
@@ -54,51 +54,78 @@ logFile.close()
 
 #Create a new log file for this trip
 dataFile = open('/home/pi/data/arduino_data.json','a')
-dataFile.write('Start new trip file')
+print ('Start new trip file.\n')
 dataFile.close
 
 # status = True
 try:
-        ser = serial.Serial(port='/dev/ttyACM0',baudrate=4800)
+        ser = serial.Serial(port='/dev/ttyUSB1',baudrate=9600)
 
         while True:
                 ser.flushInput()
                 ser.flush()
                 serialLine=ser.readline()
-                arduinoData=serialLine.split()
+                serialLine = serialLine.split()
 
-                timeNow=datetime.datetime.now()
-                dataTime=timeNow.strftime('%m-%d-%Y-%H-%M-%S')
-                if len(arduinoData) <3:
-                        logFile = open(logFileName,'a')
-                        logFile.write("Could not write data at time " + str(dataTime) + " Arduino data: " + ''.join(arduinoData) + "\n")
-                        logFile.close()
-                        continue                        # Incomplete data
-                dataList = [dataTime] + arduinoData 
+                arduinoData = {}
 
-                jsonData = json.dumps(dict(zip(jsonDataLabels,dataList)))
+                for i in range(1, len(serialLine)):
+                    sensor = serialLine[i-1]
+                    value = serialLine[i]
+
+                    if sensor == "Lidar1":
+                        arduinoData["LidarLeft"] = value
+                    elif sensor == "Lidar2":
+                        arduinoData["LidarRight"] = value
+                    elif sensor == "SONAR1":
+                        arduinoData["USLeft"] = value
+                    elif sensor == "SONAR2":
+                        arduinoData["USRight"] = value
+                    elif sensor == "CO":
+                        arduinoData["CO"] = value
+                    elif sensor == "SO":
+                        arduinoData["SO"] = value
+                    elif sensor == "O3":
+                        arduinoData["O3"] = value
+                    elif sensor == "NO":
+                        arduinoData["NO"] = value
+                    elif sensor == "P25":
+                        arduinoData["P25"] = value
+                    elif sensor == "P10":
+                        arduinoData["P10"] = value
+                    else:
+                        continue
+
+                timeNow=datetime.now()
+                arduinoData.update({"proxTime": timeNow.strftime('%m-%d-%Y-%H-%M-%S')})
+
+                if len(arduinoData) < 10:
+                    print ("Could not write data at time " + str(dataTime) + " Arduino data: " + ''.join(arduinoData) + "\n")                        
+                    continue                        # Incomplete data
+
+                jsonData = json.dumps(arduinoData)
 
                 #write json data to local file first
                 dataFile = open('/home/pi/data/arduino_data.json','a')
                 dataFile.write(jsonData)
                 dataFile.close()
 
-                statusList = [0,(arduinoData[0] != '0'),(arduinoData[1] != '0'),(arduinoData[2] != '0'),0]
-                statusList  = [str(x).lower() for x in statusList]
-                jsonStatus = json.dumps(dict(zip(jsonStatusLabels,statusList)))
+                # statusList = [0,(arduinoData[0] != '0'),(arduinoData[1] != '0'),(arduinoData[2] != '0'),(arduinoData[3] != '0'), 0]
+                # statusList  = [str(x).lower() for x in statusList]
+                # jsonStatus = json.dumps(dict(zip(jsonStatusLabels,statusList)))
 
-                #print jsonStatus
+                print jsonData 
                 try:
                     response = requests.post(DATA_URL, data=jsonData, headers=headers)
-                    response2 = requests.post(STATUS_URL, data=jsonStatus, headers=headers)
-                    print response2.text
+                    # response2 = requests.post(STATUS_URL, data=jsonStatus, headers=headers)
+                    print response.text
                 except requests.exceptions.RequestException:
                     print "ERROR in posting data to URLs..."
                 else:
-                    if (response.status_code != requests.codes.ok) or (response2.status_code != requests.codes.ok):
-                            print "Data and Status posting successful."
-                    else:
+                    if (response.status_code != requests.codes.ok):
                             print "Data and Status posted but no response..."
+                    else:
+                            print "Data and Status posted successfully.."
                 # else:
                 #         statusList = [False]*5
                 #         statusList  = [str(x).lower() for x in statusList]
@@ -115,7 +142,7 @@ try:
                 #                 else:
                 #                         print "Status posted but no response..."
 
-                #time.sleep(DELAY)
+                time.sleep(DELAY)
                 
 except KeyboardInterrupt:
         logFile = open(logFileName,'a')
