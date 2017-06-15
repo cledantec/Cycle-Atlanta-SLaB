@@ -125,4 +125,4 @@ setInterval(function() {
   		dir = 1;
 	}
 	setStatusLoop();
-	}, 20);
+	}, 1000);

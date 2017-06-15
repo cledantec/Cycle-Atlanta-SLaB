@@ -20,7 +20,7 @@ ledfile = open('led.log',mode='w')
 # Red LEDs are dedicated to sensor streams from Air Quality team - from L to R: Gas sensor array, GPS, Surface mounted microphone
 # Other LEDs are static ON, modify to add more
 
-ledStatus = ['W', 'Z', 'Z', 'Z', 'Z', 'Z', 'B', 'B', 'B', 'B', 'B', 'W', 'Z', 'Z', 'Z', 'Z', 'G', 'G', 'G', 'G', 'G', 'G', 'W', 'Z', 'Z', 'Z', 'Z', 'Z', 'Z', 'Z', 'Z', 'Z', 'Z', 'W', 'W']
+ledStatus = ['Z'] * 35
 OFFSET = 0
 
 # DEPRECATED: using /getstatus endpoint now
@@ -39,31 +39,43 @@ def retstatus():
 # update the LED statuses - only Proximity and Surface Quality teams
 @app.route('/status',methods=['POST'])
 def getstat():
-    payload = json.loads(str(request.get_json()).replace("\'","\""))
+    payload = request.get_json()
+    
     # to keep track of which API is getting data
-    if 'lidarLeftStatus' in payload:
-        ledStatus[OFFSET+1:OFFSET+6] = ['Z']*5
-        if payload['lidarLeftStatus'] == 'true':
-            ledStatus[OFFSET+1] = 'B'
-        if payload['lidarRightStatus'] == 'true':
-            ledStatus[OFFSET+2] = 'B'
-        if payload['usLeftStatus'] == 'true':
-            ledStatus[OFFSET+3] = 'B'
-        if payload['usLeftStatus'] == 'true':
-            ledStatus[OFFSET+4] = 'B'
-        if payload['diskWriteStatus'] == 'true':
-            ledStatus[OFFSET+5] = 'B'
-    if 'o3' in payload:
-        if payload['pm'] == 'true':
-            ledStatus[OFFSET+24] = 'R'
-        if payload['gas'] == 'true':
-            ledStatus[OFFSET+25] = 'R'
-    if 'lat' in payload:
-        if payload['gps'] == 'true':
-            ledStatus[OFFSET+26] = 'R'
-    if 'mic' in payload:
-        if payload['mic'] == 'true':
-            ledStatus[OFFSET+27] = 'R'
+    ledStatus[OFFSET:OFFSET+34] = ['Z']*34
+
+    if 'LidarLeft' in payload:
+        ledStatus[OFFSET+31] = 'G'
+    if 'LidarRight' in payload:
+        ledStatus[OFFSET+23] = 'G'
+    if 'USLeft' in payload:
+        ledStatus[OFFSET+29] = 'G'
+    if 'USRight' in payload:
+        ledStatus[OFFSET+25] = 'G'
+    if 'USRear' in payload:
+        ledStatus[OFFSET+27] = 'G'
+    if 'CO' in payload:
+        ledStatus[OFFSET+13] = 'G'
+    if 'SO' in payload:
+        ledStatus[OFFSET+11] = 'G'
+    if 'NO' in payload:
+        ledStatus[OFFSET+15] = 'G'
+    if 'O3' in payload:
+        ledStatus[OFFSET+17] = 'G'
+    if 'P10' in payload:
+        ledStatus[OFFSET+19] = 'G'
+    
+    # if 'o3' in payload:
+    #     if payload['pm'] == 'true':
+    #         ledStatus[OFFSET+24] = 'R'
+    #     if payload['gas'] == 'true':
+    #         ledStatus[OFFSET+25] = 'R'
+    # if 'lat' in payload:
+    #     if payload['gps'] == 'true':
+    #         ledStatus[OFFSET+26] = 'R'
+    # if 'mic' in payload:
+    #     if payload['mic'] == 'true':
+    #         ledStatus[OFFSET+27] = 'R'
     writeLedFile()
     return str(ledStatus) #,str(200)
 

@@ -16,6 +16,7 @@ unsigned char addresses[] = {0x66, 0x68};
 //for Sonar init
 const int anPin1 = 0;
 const int anPin2 = 1;
+const int anPin3 = 2;
 const int triggerPin1 = 13;
 
 //for Gases sensor init
@@ -29,8 +30,8 @@ int error;
 void setup() {
   Wire.begin();       //join i2c bus
   my_sds.begin(10, 11);   //start Nova PM sensor with digital pins 10 and 11
-  Serial.begin(9600); //start serial for output
-  ads.begin();
+  Serial.begin(4800, SERIAL_7E1); //start serial for output
+  ads.begin();  
   ads.setGain(GAIN_ONE);
   myLidarLite.begin();
   myLidarLite.changeAddressMultiPwrEn(2, sensorPins, addresses);
@@ -109,9 +110,10 @@ float *get_sonar_values() {
     Scale factor is (Vcc/512) per inch. A 5V supply yields ~9.8mV/in
     Arduino analog pin goes from 0 to 1024, so the value has to be divided by 2 to get the actual inches
   */
-  static float distance[2];
+  static float distance[3];
   distance[0] = analogRead(anPin1) / 2;
   distance[1] = analogRead(anPin2) / 2;
+  distance[2] = analogRead(anPin3) / 2;
   
   return distance;
 }
@@ -122,6 +124,8 @@ void print_sonar() {
   Serial.print(dists[0] * 2.54);
   Serial.print(" SONAR2 ");
   Serial.print(dists[1] * 2.54);
+  Serial.print(" SONAR3 ");
+  Serial.print(dists[2] * 2.54);
   Serial.print(" ");
 }
 

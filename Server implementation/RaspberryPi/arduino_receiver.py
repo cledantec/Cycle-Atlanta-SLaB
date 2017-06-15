@@ -7,6 +7,7 @@ from datetime import datetime
 import json
 import requests
 import os
+import termios
 
 # This file receives sensor data from Arduino board.
 # Also, collect data from GPS.
@@ -34,7 +35,6 @@ DELAY = 1 # In seconds
 # JSON Labels.
 jsonDataLabels = ['proxTime','USLeft','USRight','LidarLeft','LidarRight','CO','SO','O3','NO','P25','P10']
 jsonStatusLabels = ['usLeftStatus','usRightStatus','lidarLeftStatus','lidarRightStatus','COstatus','SOstatus','O3status','NOsstatus','P25status','P10status','diskWriteStatus']
-statusList = [0]*11
 
 # Self
 HOST_SERVER = '0.0.0.0'
@@ -59,7 +59,20 @@ dataFile.close
 
 # status = True
 try:
-        ser = serial.Serial(port='/dev/ttyUSB1',baudrate=9600)
+	path = '/dev/ttyUSB0'
+	
+	with open(path) as f:
+		attrs = termios.tcgetattr(f)
+		attrs[2] = attrs[2] & ~termios.HUPCL
+		termios.tcsetattr(f, termios.TCSAFLUSH, attrs)
+
+        ser = serial.Serial(
+		port=path,
+		baudrate=4800,
+		parity=serial.PARITY_EVEN,
+		stopbits=serial.STOPBITS_ONE,
+		bytesize=serial.SEVENBITS		
+	)
 
         while True:
                 ser.flushInput()
@@ -68,6 +81,7 @@ try:
                 serialLine = serialLine.split()
 
                 arduinoData = {}
+                status = {}
 
                 for i in range(1, len(serialLine)):
                     sensor = serialLine[i-1]
@@ -75,24 +89,37 @@ try:
 
                     if sensor == "Lidar1":
                         arduinoData["LidarLeft"] = value
+                        status["LidarLeft"] = True
                     elif sensor == "Lidar2":
                         arduinoData["LidarRight"] = value
+                        status["LidarRight"] = True
                     elif sensor == "SONAR1":
                         arduinoData["USLeft"] = value
+                        status["USLeft"] = True
                     elif sensor == "SONAR2":
                         arduinoData["USRight"] = value
+                        status["USRight"] = True
+                    elif sensor == "SONAR3":
+                        arduinoData["USRear"] = value
+                        status["USRear"] = True
                     elif sensor == "CO":
                         arduinoData["CO"] = value
+                        status["CO"] = True
                     elif sensor == "SO":
                         arduinoData["SO"] = value
+                        status["SO"] = True
                     elif sensor == "O3":
                         arduinoData["O3"] = value
+                        status["O3"] = True
                     elif sensor == "NO":
                         arduinoData["NO"] = value
+                        status["NO"] = True
                     elif sensor == "P25":
                         arduinoData["P25"] = value
+                        status["P25"] = True
                     elif sensor == "P10":
                         arduinoData["P10"] = value
+                        status["P10"] = True
                     else:
                         continue
 
@@ -100,7 +127,7 @@ try:
                 arduinoData.update({"proxTime": timeNow.strftime('%m-%d-%Y-%H-%M-%S')})
 
                 if len(arduinoData) < 10:
-                    print ("Could not write data at time " + str(dataTime) + " Arduino data: " + ''.join(arduinoData) + "\n")                        
+                    print ("Could not write data at time " + str(timeNow) + " Arduino data: " + ''.join(arduinoData) + "\n")                        
                     continue                        # Incomplete data
 
                 jsonData = json.dumps(arduinoData)
@@ -112,20 +139,21 @@ try:
 
                 # statusList = [0,(arduinoData[0] != '0'),(arduinoData[1] != '0'),(arduinoData[2] != '0'),(arduinoData[3] != '0'), 0]
                 # statusList  = [str(x).lower() for x in statusList]
-                # jsonStatus = json.dumps(dict(zip(jsonStatusLabels,statusList)))
-
-                print jsonData 
+                jsonStatus = json.dumps(status)
+                print(jsonStatus)
+                
+                # print jsonData 
                 try:
-                    response = requests.post(DATA_URL, data=jsonData, headers=headers)
-                    # response2 = requests.post(STATUS_URL, data=jsonStatus, headers=headers)
-                    print response.text
+                    # response = requests.post(DATA_URL, data=jsonData, headers=headers)
+                    response2 = requests.post(STATUS_URL, data=jsonStatus, headers=headers)
+                    print (response2.text)
                 except requests.exceptions.RequestException:
-                    print "ERROR in posting data to URLs..."
+                    print ("ERROR in posting data to URLs...")
                 else:
-                    if (response.status_code != requests.codes.ok):
-                            print "Data and Status posted but no response..."
+                    if (response2.status_code != requests.codes.ok):
+                            print ("Data and Status posted but no response...")
                     else:
-                            print "Data and Status posted successfully.."
+                            print ("Data and Status posted successfully..")
                 # else:
                 #         statusList = [False]*5
                 #         statusList  = [str(x).lower() for x in statusList]
