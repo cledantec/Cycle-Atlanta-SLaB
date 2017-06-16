@@ -30,7 +30,7 @@ int error;
 void setup() {
   Wire.begin();       //join i2c bus
   my_sds.begin(10, 11);   //start Nova PM sensor with digital pins 10 and 11
-  Serial.begin(4800, SERIAL_7E1); //start serial for output
+  Serial.begin(9600, SERIAL_7E1); //start serial for output
   ads.begin();  
   ads.setGain(GAIN_ONE);
   myLidarLite.begin();
@@ -143,7 +143,6 @@ void print_pm() {
 //MAIN LOOP
 void loop() {
     //lidar_distance();
-    delay(10);
     print_lidar();
     start_sensor();
     //read_sensors();

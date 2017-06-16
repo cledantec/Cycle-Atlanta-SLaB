@@ -8,10 +8,8 @@ import json
 import requests
 import os
 import termios
+from sys import exit
 
-# This file receives sensor data from Arduino board.
-# Also, collect data from GPS.
-# Both of them are coming directly from serial ports.
 
 # PIN assignments. Change if board connections change.
 SWITCH_PIN = 29
@@ -23,18 +21,6 @@ NET_STATUS_PIN = 35
 logFileName = 'proximity.log'
 DELAY = 1 # In seconds
 
-# Configure GPIO        
-#GPIO.setmode(GPIO.BOARD);
-# GPIO.setup(SWITCH_PIN, GPIO.IN)
-# GPIO.setup(ERROR_PIN,GPIO.OUT)
-# GPIO.setup(STATUS_PIN,GPIO.OUT)
-# GPIO.output(ERROR_PIN,True)                                                     # Make it alive only if loop starts running.
-# GPIO.setup(NET_STATUS_PIN,GPIO.OUT)
-# GPIO.output(NET_STATUS_PIN,0)
-
-# JSON Labels.
-jsonDataLabels = ['proxTime','USLeft','USRight','LidarLeft','LidarRight','CO','SO','O3','NO','P25','P10']
-jsonStatusLabels = ['usLeftStatus','usRightStatus','lidarLeftStatus','lidarRightStatus','COstatus','SOstatus','O3status','NOsstatus','P25status','P10status','diskWriteStatus']
 
 # Self
 HOST_SERVER = '0.0.0.0'
@@ -54,12 +40,56 @@ logFile.close()
 
 #Create a new log file for this trip
 dataFile = open('/home/pi/data/arduino_data.json','a')
-print ('Start new trip file.\n')
+print ('Start new sensor file.')
 dataFile.close
+
+gpsFile = open('/home/pi/data/gps_data.json','a')
+print ('Start new gps file.\n')
+gpsFile.close
+
+
+ser_gps = serial.Serial('/dev/ttyUSB0', 9600)
+
+with open('/dev/ttyUSB0') as f:
+	attrs = termios.tcgetattr(f)
+	attrs[2] = attrs[2] & ~termios.HUPCL
+	termios.tcsetattr(f, termios.TCSAFLUSH, attrs)
+
+
+def GPSread():   
+    ser_gps.flushInput()
+    global UTC_time
+    global status 
+    global Latitude 
+    global NS_indicator 
+    global Longitude 
+    global EW_indicator 
+    global speed 
+    global course 
+    global date 
+    while 1:
+        x=ser_gps.readline()
+        if '$GPRMC' in x :
+            break
+    x = x.split(',')
+    UTC_time = x[1]
+    status = x[2]
+    Latitude = x[3]
+    NS_indicator = x[4]
+    Longitude = x[5]
+    EW_indicator = x[6]
+    speed = x[7]
+    course = x[8]
+    day = x[9]
+    #while status == 'V':
+        
+    GPSoutput = {"speed": speed, "lat": Latitude, "long": Longitude, "utc_time": UTC_time, "day": day, "course": course}
+    return GPSoutput
+
 
 # status = True
 try:
-	path = '/dev/ttyUSB0'
+	path = '/dev/ttyUSB1'
 	
 	with open(path) as f:
 		attrs = termios.tcgetattr(f)
@@ -68,7 +98,7 @@ try:
 
         ser = serial.Serial(
 		port=path,
-		baudrate=4800,
+		baudrate=9600,
 		parity=serial.PARITY_EVEN,
 		stopbits=serial.STOPBITS_ONE,
 		bytesize=serial.SEVENBITS		
@@ -79,6 +109,9 @@ try:
                 ser.flush()
                 serialLine=ser.readline()
                 serialLine = serialLine.split()
+                
+                #GPS Data
+                gpsData = GPSread()
 
                 arduinoData = {}
                 status = {}
@@ -119,15 +152,32 @@ try:
                         status["P25"] = True
                     elif sensor == "P10":
                         arduinoData["P10"] = value
-                        status["P10"] = True
-                    else:
-                        continue
-
+                        status["P10"] = True                    
+                
+                print(arduinoData)
+                
+                try:
+                    if str(gpsData['long']) == '':
+	       	        status["GPS"] = True
+	            else:    
+                        status["GPS"] = False
+                        
+                    gpsJsonData = json.dumps(gpsData)
+                    gpsFile = open('/home/pi/data/gps_data.json','a')
+                    gpsFile.write(gpsJsonData)
+                    gpsFile.close()
+		except Exception as e:
+		    print (e)
+		    gpsFile = open('/home/pi/data/gps_data.json','a')
+	            gpsFile.write("GPS not working...\n")
+                    gpsFile.close()	
+                
+                
                 timeNow=datetime.now()
                 arduinoData.update({"proxTime": timeNow.strftime('%m-%d-%Y-%H-%M-%S')})
 
                 if len(arduinoData) < 10:
-                    print ("Could not write data at time " + str(timeNow) + " Arduino data: " + ''.join(arduinoData) + "\n")                        
+                    print ("Could not write data at time " + str(timeNow) + " Arduino data: " + str(arduinoData) + "\n")                        
                     continue                        # Incomplete data
 
                 jsonData = json.dumps(arduinoData)
@@ -136,11 +186,9 @@ try:
                 dataFile = open('/home/pi/data/arduino_data.json','a')
                 dataFile.write(jsonData)
                 dataFile.close()
-
-                # statusList = [0,(arduinoData[0] != '0'),(arduinoData[1] != '0'),(arduinoData[2] != '0'),(arduinoData[3] != '0'), 0]
-                # statusList  = [str(x).lower() for x in statusList]
+                
+                print (status)
                 jsonStatus = json.dumps(status)
-                print(jsonStatus)
                 
                 # print jsonData 
                 try:
@@ -151,9 +199,12 @@ try:
                     print ("ERROR in posting data to URLs...")
                 else:
                     if (response2.status_code != requests.codes.ok):
-                            print ("Data and Status posted but no response...")
+                            print ("Status posted but no response...")
                     else:
-                            print ("Data and Status posted successfully..")
+                            print ("Status posted successfully..")
+                
+                
+	
                 # else:
                 #         statusList = [False]*5
                 #         statusList  = [str(x).lower() for x in statusList]
@@ -176,7 +227,9 @@ except KeyboardInterrupt:
         logFile = open(logFileName,'a')
         logFile.write('Script stopped manually. \n')
         logFile.close()
+        exit()
 except Exception as e:
         logFile = open(logFileName,'a')
         logFile.write('Error: '+str(e) + ' stopping script. \n')
         logFile.close()
+        exit()

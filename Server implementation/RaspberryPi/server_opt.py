@@ -40,30 +40,39 @@ def retstatus():
 @app.route('/status',methods=['POST'])
 def getstat():
     payload = request.get_json()
-    
     # to keep track of which API is getting data
     ledStatus[OFFSET:OFFSET+34] = ['Z']*34
 
     if 'LidarLeft' in payload:
-        ledStatus[OFFSET+31] = 'G'
+        ledStatus[OFFSET+30] = 'G'
     if 'LidarRight' in payload:
-        ledStatus[OFFSET+23] = 'G'
+        ledStatus[OFFSET+22] = 'G'
     if 'USLeft' in payload:
-        ledStatus[OFFSET+29] = 'G'
+        ledStatus[OFFSET+28] = 'G'
     if 'USRight' in payload:
-        ledStatus[OFFSET+25] = 'G'
+        ledStatus[OFFSET+24] = 'G'
     if 'USRear' in payload:
-        ledStatus[OFFSET+27] = 'G'
+        ledStatus[OFFSET+26] = 'G'
     if 'CO' in payload:
-        ledStatus[OFFSET+13] = 'G'
+        ledStatus[OFFSET+12] = 'G'
     if 'SO' in payload:
-        ledStatus[OFFSET+11] = 'G'
+        ledStatus[OFFSET+10] = 'G'
     if 'NO' in payload:
-        ledStatus[OFFSET+15] = 'G'
+        ledStatus[OFFSET+14] = 'G'
     if 'O3' in payload:
-        ledStatus[OFFSET+17] = 'G'
+        ledStatus[OFFSET+16] = 'G'
     if 'P10' in payload:
-        ledStatus[OFFSET+19] = 'G'
+        ledStatus[OFFSET+18] = 'G'
+    if 'GPS' in payload:
+        if payload['GPS'] == True:
+            ledStatus[OFFSET+7] = 'R'
+            ledStatus[OFFSET+8] = 'R'
+        else:
+            ledStatus[OFFSET+7] = 'G'
+            ledStatus[OFFSET+8] = 'G'
+    else:
+        ledStatus[OFFSET+7] = 'Z'
+        ledStatus[OFFSET+8] = 'Z'
     
     # if 'o3' in payload:
     #     if payload['pm'] == 'true':
@@ -191,14 +200,17 @@ def gps():
         time = datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
         data = {'sensor':'gps', 'timestamp':time, 'data':payload}
     except Exception:
-        ledStatus[OFFSET+25] = 'Z'
+        ledStatus[OFFSET+7] = 'R'
+        ledStatus[OFFSET+8] = 'R'
+        writeLedFile()
     else:
-        ledStatus[OFFSET+25] = 'R'
+        ledStatus[OFFSET+7] = 'G'
+        ledStatus[OFFSET+8] = 'G'
         file.write(str(data))
         file.write("\n")
         file.flush()
+        writeLedFile()
         return str(200)
-    writeLedFile()
     return str(500)
 
 @app.route('/mic', methods = ['POST'])
