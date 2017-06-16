@@ -19,7 +19,7 @@ NET_STATUS_PIN = 35
 
 # Other constants
 logFileName = 'proximity.log'
-DELAY = 1 # In seconds
+DELAY = 0.2 # In seconds
 
 
 # Self
@@ -109,7 +109,7 @@ try:
                 ser.flush()
                 serialLine=ser.readline()
                 serialLine = serialLine.split()
-                
+             
                 #GPS Data
                 gpsData = GPSread()
 
@@ -154,7 +154,7 @@ try:
                         arduinoData["P10"] = value
                         status["P10"] = True                    
                 
-                print(arduinoData)
+                #print(arduinoData)
                 
                 try:
                     if str(gpsData['long']) == '':
@@ -176,9 +176,6 @@ try:
                 timeNow=datetime.now()
                 arduinoData.update({"proxTime": timeNow.strftime('%m-%d-%Y-%H-%M-%S')})
 
-                if len(arduinoData) < 10:
-                    print ("Could not write data at time " + str(timeNow) + " Arduino data: " + str(arduinoData) + "\n")                        
-                    continue                        # Incomplete data
 
                 jsonData = json.dumps(arduinoData)
 
@@ -187,7 +184,7 @@ try:
                 dataFile.write(jsonData)
                 dataFile.close()
                 
-                print (status)
+                #print (status)
                 jsonStatus = json.dumps(status)
                 
                 # print jsonData 

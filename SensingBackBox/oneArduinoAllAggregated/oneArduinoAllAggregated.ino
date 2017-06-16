@@ -140,16 +140,19 @@ void print_pm() {
   }
 }
 
+int i = 1;
 //MAIN LOOP
 void loop() {
-    //lidar_distance();
     print_lidar();
     start_sensor();
-    //read_sensors();
     print_sonar();
-    //read_gasarray();
-    print_gas();
-    print_pm();
+
+    if (i%10 == 0){
+      print_gas();
+      print_pm();
+      i=1;
+    }
+    i++;
     Serial.println();
-    delay(1000);
+    delay(200);
 }

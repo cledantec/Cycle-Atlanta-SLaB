@@ -8,10 +8,10 @@ import json
 app = Flask(__name__)
 
 # Open files to write to
-imufile = open('imu.log', mode='a')
-file = open('sense.log', mode='a')
-proxfile = open('proximity.log', mode='a')
-ledfile = open('led.log',mode='w')
+imufile = open('/home/pi/data/imu.log', mode='a')
+file = open('/home/pi/data/sense.log', mode='a')
+# proxfile = open('/home/pi/data/proximity.log', mode='a')
+ledfile = open('/home/pi/data/led.log',mode='w')
 
 # Initial Matrix LED statuses; Z=off, W=White, R=Red, B=Blue, G=Green
 # White LEDs act as separators and breathe when the server is running normally
@@ -41,7 +41,6 @@ def retstatus():
 def getstat():
     payload = request.get_json()
     # to keep track of which API is getting data
-    ledStatus[OFFSET:OFFSET+34] = ['Z']*34
 
     if 'LidarLeft' in payload:
         ledStatus[OFFSET+30] = 'G'
@@ -65,14 +64,14 @@ def getstat():
         ledStatus[OFFSET+18] = 'G'
     if 'GPS' in payload:
         if payload['GPS'] == True:
-            ledStatus[OFFSET+7] = 'R'
-            ledStatus[OFFSET+8] = 'R'
+            ledStatus[OFFSET+7] = 'B'
+            ledStatus[OFFSET+8] = 'B'
         else:
             ledStatus[OFFSET+7] = 'G'
             ledStatus[OFFSET+8] = 'G'
     else:
-        ledStatus[OFFSET+7] = 'Z'
-        ledStatus[OFFSET+8] = 'Z'
+        ledStatus[OFFSET+7] = 'R'
+        ledStatus[OFFSET+8] = 'R'
     
     # if 'o3' in payload:
     #     if payload['pm'] == 'true':
@@ -86,7 +85,7 @@ def getstat():
     #     if payload['mic'] == 'true':
     #         ledStatus[OFFSET+27] = 'R'
     writeLedFile()
-    return str(ledStatus) #,str(200)
+    return str(200)
 
 # proximity sensors receiver
 @app.route('/proximity', methods = ['POST'])
@@ -106,10 +105,20 @@ def inertial():
         payload = json.loads(str(request.get_json()).replace("\'","\""))
         time = datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
         data = {'sensor':'inertial', 'timestamp':time, 'data':payload}
+        
+        if payload['accel_x'] == 0 and payload['accel_y']==0 and payload['accel_z']==0:
+            ledStatus[OFFSET+34] = 'B'
+        else:
+            ledStatus[OFFSET+34] = 'G'
+    		
+        if payload['gyro_x'] == 0 and payload['gyro_y']==0 and payload['gyro_z']==0:
+            ledStatus[OFFSET+32] = 'B'
+        else:
+            ledStatus[OFFSET+32] = 'G'
     except Exception:
-        ledStatus[OFFSET+12] = 'Z'
-    else:
-        ledStatus[OFFSET+12] = 'G'
+        ledStatus[OFFSET+34] = 'R'
+        ledStatus[OFFSET+32] = 'R'
+    else:    
         imufile.write(str(data))
         imufile.write("\n")
         imufile.flush()
@@ -129,9 +138,9 @@ def temphumi():
         time = datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
         data = {'sensor':'humidity', 'timestamp':time, 'data':payload}
     except Exception:
-        ledStatus[OFFSET+13] = 'Z'
+        ledStatus[OFFSET+3] = 'R'
     else:
-        ledStatus[OFFSET+13] = 'G'
+        ledStatus[OFFSET+3] = 'G'
         file.write(str(data))
         file.write("\n")
         file.flush()
@@ -147,9 +156,9 @@ def uvindex():
         time = datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
         data = {'sensor':'ultraviolet', 'timestamp':time, 'data':payload}
     except Exception:
-        ledStatus[OFFSET+14] = 'Z'
+        ledStatus[OFFSET+1] = 'R'
     else:
-        ledStatus[OFFSET+14] = 'G'
+        ledStatus[OFFSET+1] = 'G'
         file.write(str(data))
         file.write("\n")
         file.flush()
@@ -164,10 +173,19 @@ def pressure():
         payload = json.loads(str(request.get_json()).replace("\'","\""))
         time = datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
         data = {'sensor':'pressure_temperature', 'timestamp':time, 'data':payload}
+        if payload['temperature'] == 0:
+            ledStatus[OFFSET+5] = 'B'
+        else:
+            ledStatus[OFFSET+5] = 'G'
+        	
+        if payload['pressure'] == 0:
+            ledStatus[OFFSET+20] = 'B'
+        else:
+            ledStatus[OFFSET+20] = 'G'
     except Exception:
-        ledStatus[OFFSET+15] = 'Z'
-    else:
-        ledStatus[OFFSET+15] = 'G'
+        ledStatus[OFFSET+5] = 'R'
+        ledStatus[OFFSET+20] = 'R'
+    else:        
         file.write(str(data))
         file.write("\n")
         file.flush()
@@ -183,7 +201,7 @@ def gas():
         time = datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
         data = {'sensor':'gasarray', 'timestamp':time, 'data':payload}
     except Exception:
-        ledStatus[OFFSET+24] = 'Z'
+        ledStatus[OFFSET+24] = 'B'
     else:
         ledStatus[OFFSET+24] = 'R'
         file.write(str(data))
@@ -213,22 +231,22 @@ def gps():
         return str(200)
     return str(500)
 
-@app.route('/mic', methods = ['POST'])
-def mic():
-    try:
-        payload = json.loads(str(request.get_json()).replace("\'","\""))
-        time = datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
-        data = {'sensor':'surfacemic', 'timestamp':time, 'data':payload}
-    except Exception:
-        ledStatus[OFFSET+26] = 'Z'
-    else:
-        ledStatus[OFFSET+26] = 'R'
-        micfile.write(str(data))
-        micfile.write("\n")
-        micfile.flush()
-        return str(200)
-    writeLedFile()
-    return str(500)
+#@app.route('/mic', methods = ['POST'])
+#def mic():
+    #try:
+       # payload = json.loads(str(request.get_json()).replace("\'","\""))
+      #  time = datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
+     #   data = {'sensor':'surfacemic', 'timestamp':time, 'data':payload}
+    #except Exception:
+        #ledStatus[OFFSET+26] = 'Z'
+    #else:
+        #ledStatus[OFFSET+26] = 'R'
+     #   micfile.write(str(data))
+      #  micfile.write("\n")
+       # micfile.flush()
+        #return str(200)
+    #writeLedFile()
+    #return str(500)
 
 # run the server
 if __name__ == "__main__":
