@@ -55,9 +55,8 @@ Future work
 
 Command-line Autostart and Auto Triggering of Shell Scripts
 ---------
-cd /etc/systemd/system/autologin@.service
-Change line: ExecStart=-/sbin/agetty --autologin pi --noclear %I $TERM
-
-Auto Triggering Shell Scripts
-- Comment out the line in “LXDE-pi” since it works for GUI mode ```sudo nano ~/.config/lxsession/LXDE/autostart```
-- In “/etc/rc.local”, put the line ```/home/pi/startup.sh @```
+- cd /etc/systemd/system/autologin@.service
+- Change line: ExecStart=-/sbin/agetty --autologin pi --noclear %I $TERM
+- Auto Triggering Shell Scripts
+	- Comment out the line in “LXDE-pi” since it works for GUI mode ```sudo nano ~/.config/lxsession/LXDE/autostart```
+	- In “/etc/rc.local”, put the line ```/home/pi/startup.sh @```
