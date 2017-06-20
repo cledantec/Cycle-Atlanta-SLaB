@@ -51,3 +51,13 @@ Future work
 -----------
 * Send data to MongoDB instead of plain text file (better size and filtering)
 * Write services to retrieve data based on filters
+
+
+Command-line Autostart and Auto Triggering of Shell Scripts
+---------
+cd /etc/systemd/system/autologin@.service
+Change line: ExecStart=-/sbin/agetty --autologin pi --noclear %I $TERM
+
+Auto Triggering Shell Scripts
+- Comment out the line in “LXDE-pi” since it works for GUI mode ```sudo nano ~/.config/lxsession/LXDE/autostart```
+- In “/etc/rc.local”, put the line ```/home/pi/startup.sh @```
