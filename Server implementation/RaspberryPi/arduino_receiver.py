@@ -16,7 +16,7 @@ NET_STATUS_PIN = 35
 
 # Other constants
 logFileName = 'sensors_logs.log'
-DELAY = 0.2 # In seconds
+DELAY = 0.1 # In seconds
 
 # Self
 HOST_SERVER = '0.0.0.0'
