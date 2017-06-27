@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include <LIDARLite.h>
 #include <SDS011.h> //for Nova PM Sensor
+   
 
 LIDARLite myLidarLite;
 SDS011 my_sds;
@@ -26,16 +27,23 @@ Adafruit_ADS1015 ads;    // Construct an ads1015 at the default address: 0x48
 float p10, p25;
 int error;
 
+// Reset Pin
+int resetPin = 12;
 
 void setup() {
+  digitalWrite(resetPin, HIGH);
+  delay(200);
+  pinMode(resetPin, OUTPUT);     
   Wire.begin();       //join i2c bus
   my_sds.begin(10, 11);   //start Nova PM sensor with digital pins 10 and 11
-  Serial.begin(9600, SERIAL_7E1); //start serial for output
+  //Serial.begin(9600, SERIAL_7E1); //start serial for output
+  Serial.begin(9600, SERIAL_8N1);
   ads.begin();  
   ads.setGain(GAIN_ONE);
   myLidarLite.begin();
   myLidarLite.changeAddressMultiPwrEn(2, sensorPins, addresses);
   pinMode(triggerPin1, OUTPUT);
+//  pinMode(resetPin, OUTPUT);     
 }
 
 
@@ -141,18 +149,31 @@ void print_pm() {
 }
 
 int i = 1;
+
 //MAIN LOOP
 void loop() {
-    print_lidar();
-    start_sensor();
-    print_sonar();
+    int response = Serial.read();
 
-    if (i%10 == 0){
-      print_gas();
-      print_pm();
-      i=1;
+    if (response == 102){ // "f" means fail
+      Serial.println("Serial port reset...");
+      digitalWrite(resetPin, LOW);
+      delay(20);
+      digitalWrite(resetPin, HIGH);
+      delay(200);
+    } else if (response == 103) { // "g" means good
+      print_lidar();
+      start_sensor();
+      print_sonar();
+  
+      if (i%10 == 0){
+        print_gas();
+        print_pm();
+        i=1;
+      }
+      i++;
+      Serial.println();
+    } else {
+      delay(1000);
     }
-    i++;
-    Serial.println();
-    delay(200);
+    delay(20);
 }
