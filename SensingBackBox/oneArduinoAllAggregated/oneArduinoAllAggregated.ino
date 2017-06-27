@@ -73,7 +73,8 @@ float *get_gas_values() {
 
   //adjusting sensor values
   for (int i = 0; i < 4; i++) {
-    values[i] = (ads.readADC_SingleEnded(i) - Vx[i]) / (500000 * Ix[i]);
+    //values[i] = (ads.readADC_SingleEnded(i) - Vx[i]) / (500000 * Ix[i]);
+    values[i] = ads.readADC_SingleEnded(i);
     delay(10);
   }
   return values;
@@ -173,7 +174,7 @@ void loop() {
       i++;
       Serial.println();
     } else {
-      delay(1000);
+      delay(200);
     }
     delay(20);
 }
