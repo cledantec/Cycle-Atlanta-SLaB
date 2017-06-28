@@ -1,0 +1,134 @@
+---
+title: "Descriptive Analysis for Cycle Sensor Data"
+author: "Myeong Lee"
+date: "6/27/2017"
+output: html_document
+---
+
+```{r}
+library(jsonlite)
+library(readr)
+library(dplyr)
+library(sp)
+library(ggplot2)
+library(ggmap)
+library(dplyr)
+library(tidyr)
+
+setwd("/Users/myeong/git/Atl_DSSG/Cycle-Atlanta-SLaB/Data/sample_data/")
+
+gps <- fromJSON(txt= "270617_gps_data.json" )
+gps <- as.data.frame(gps["results"])
+colnames(gps) <- c("lon", "course","lat","speed","day","utc_time")
+gps$utc_time <- as.numeric(gps$utc_time)
+gps$utc_time <- gps$utc_time - 40000
+gps$utc_time <- as.character(gps$utc_time)
+
+gps <- gps %>% separate(lon, into = c("dd","mm"), sep=3 )
+gps$lon <- -(as.numeric(gps$dd) + (as.numeric(gps$mm)/60))
+gps <- gps %>% separate(lat, into = c("dd2","mm2"), sep=2 )
+gps$lat <- (as.numeric(gps$dd2) + (as.numeric(gps$mm2)/60))
+gps <- gps[,c("course", "speed", "day", "utc_time", "lon", "lat")]
+
+gps$speed <- as.numeric(gps$speed)
+gps$course <- as.numeric(gps$course)
+
+gps_points <- SpatialPointsDataFrame(coords = gps[,c("lon","lat")], data = gps,
+                               proj4string = CRS("+proj=longlat +datum=WGS84 +ellps=WGS84 +towgs84=0,0,0"))
+
+plot(gps_points)
+
+map <- get_map(c(lon = -84.388, lat = 33.777), zoom = 18, color = "bw")
+mapPoints <- ggmap(map) + geom_point(aes(x = lon, y = lat), data = gps, alpha = .5, color="darkred", size = 1)
+mapPoints
+
+```
+
+# Arduino Data
+```{r}
+setwd("/Users/myeong/git/Atl_DSSG/Cycle-Atlanta-SLaB/Data/sample_data/")
+ard <- fromJSON(txt= "270617_arduino_data.json" )
+ard <- as.data.frame(ard["results"])
+
+colnames(ard) <- c("LidarLeft", "USLeft", "LidarRight", "USRear", "Time", "USRight", "CO", "NO2", "P10", "P25", "SO2", "O3")
+ard <- ard %>% separate(Time, into = c("date","time"), sep=6 )
+ard$time <- as.numeric(ard$time)
+ard$time <- ard$time - 40000
+
+for (i in 1:ncol(ard)){
+  ard[,i] <- as.numeric(ard[,i])  
+}
+ard$seq <- c(1:nrow(ard))
+
+ggplot(ard, aes(x = seq)) +
+  geom_line(aes(y = LidarRight), colour="blue") + 
+  geom_point(aes(y = LidarRight), colour="blue") + 
+  geom_line(aes(y = USRight), colour="red") +
+  geom_point(aes(y = USRight), colour="red") +
+  theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Magnitude") + 
+  xlab("Time (sec)") + xlim(113, 162) + ggtitle("Time-Series Distances for the Right-Side Lidar and Sonar")
+
+summary(lm(LidarLeft ~ USLeft, data=ard))
+summary(lm(LidarRight ~ USRight, data=ard))
+
+ggplot(ard, aes(x = seq)) +
+  geom_line(aes(y = LidarLeft), colour="blue") + 
+  geom_point(aes(y = LidarLeft), colour="blue") + 
+  geom_line(aes(y = USLeft), colour="red") +
+  geom_point(aes(y = USLeft), colour="red") +
+  theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Magnitude") + 
+  xlab("Time (sec)") +  xlim(113, 162) +ggtitle("Time-Series Distances for the Left-Side Lidar and Sonar")
+
+ggplot(ard, aes(x = seq)) +
+  geom_line(aes(y = USRear), colour="red") +
+  geom_point(aes(y = USRear), colour="red") +
+  theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Magnitude") + 
+  xlab("Time (sec)") +  xlim(113, 162) +ggtitle("Time-Series Distance for the Rear Sonar")
+
+gas <- ard[,c("seq","CO","SO2","O3","NO2")]
+gas <- gas[complete.cases(gas),]
+
+ggplot(gas, aes(x = seq)) +
+  geom_line(aes(y = CO), colour="red") +
+  geom_point(aes(y = CO), colour="red") +
+  geom_line(aes(y = NO2), colour="blue") +
+  geom_point(aes(y = NO2), colour="blue") +
+  geom_line(aes(y = SO2), colour="green") +
+  geom_point(aes(y = SO2), colour="green") +
+  geom_line(aes(y = O3), colour="violet") +
+  geom_point(aes(y = O3), colour="violet") +
+  theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Magnitude") + 
+  xlab("Time (sec)") +  xlim(113, 162) +ggtitle("Time-Series Gas Sensor Values")
+
+```
+
+# Inertial
+```{r}
+setwd("/Users/myeong/git/Atl_DSSG/Cycle-Atlanta-SLaB/Data/sample_data/")
+imu <- fromJSON(txt= "270617_imu.json" )
+imu <- as.data.frame(imu["results"])
+times <- imu$results.timestamp
+imu <- as.data.frame(imu$results.data)
+imu$time <- times
+imu$seq <- c(1:nrow(imu))
+
+imu$gyro <- apply(imu[,c("gyro_x","gyro_y","gyro_z")], 1, mean )
+
+ggplot(imu, aes(x = seq)) +
+  geom_line(aes(y = gyro), colour="red") +
+  theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Magnitude") + 
+  xlab("Time (sec)")  +ggtitle("Time-Series Gyroscope Values")
+
+imu$accel_z <- abs(imu$accel_z)
+
+ggplot(imu, aes(x = seq)) +
+#   geom_point(aes(y = gyro), colour="red") +
+  geom_line(aes(y = accel_z), colour="blue") +
+#   geom_point(aes(y = accel_z), colour="blue") +
+  theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Magnitude") + 
+  xlab("Time (sec)")   +ggtitle("Time-Series Accelerometer Values")
+
+
+```
+
+
