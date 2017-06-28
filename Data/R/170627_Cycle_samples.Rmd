@@ -38,7 +38,7 @@ gps_points <- SpatialPointsDataFrame(coords = gps[,c("lon","lat")], data = gps,
 
 plot(gps_points)
 
-map <- get_map(c(lon = -84.388, lat = 33.777), zoom = 18, color = "bw")
+map <- get_map(c(lon = -84.388, lat = 33.777), zoom = 18, source = "stamen", maptype = "toner")
 mapPoints <- ggmap(map) + geom_point(aes(x = lon, y = lat), data = gps, alpha = .5, color="darkred", size = 1)
 mapPoints
 
