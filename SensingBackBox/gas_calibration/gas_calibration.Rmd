@@ -1,0 +1,39 @@
+---
+title: "Gas Sensor Calibration"
+author: "Myeong Lee"
+date: "7/5/2017"
+output: html_document
+---
+
+This code is to determine the gas sensor baselines based on the values collected from the calibration using the Wine Preserver gas. 
+
+```{r}
+library(readr)
+library(dplyr)
+library(ggplot2)
+
+setwd("/Users/myeong/git/Atl_DSSG/Cycle-Atlanta-SLaB/SensingBackBox/gas_calibration/")
+
+data <- read_delim("preserver_gas_raw.csv", delim = ",", col_names = FALSE)
+data$time <- c(1:nrow(data))
+colnames(data) <- c("gas", "val", "gas", "val", "gas", "val", "gas", "val", "time")
+
+serial <- rbind(data[,c(1,2,9)], data[,c(3,4,9)], data[,c(5,6,9)], data[,7:9])
+serial$gas <- as.factor(serial$gas)
+
+ggplot(serial, aes(x = time, y = val, colour=gas)) +
+  geom_line(size=0.5) +
+  theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Raw Values") + 
+  xlab("Time (sec)") + ylim(600,710) + ggtitle("Gas Sensor Values over Time")
+
+#taking the second half of the values
+data <- data[(nrow(data)/2):nrow(data),]
+serial2 <- rbind(data[,c(1,2,9)], data[,c(3,4,9)], data[,c(5,6,9)], data[,7:9])
+serial2$gas <- as.factor(serial2$gas)
+
+CO_base <- mean(serial2[serial2$gas=="CO",]$val)
+SO2_base <- mean(serial2[serial2$gas=="SO",]$val)
+O3_base <- mean(serial2[serial2$gas=="O3",]$val)
+NO2_base <- mean(serial2[serial2$gas=="NO",]$val)
+
+```

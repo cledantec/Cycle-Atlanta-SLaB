@@ -44,29 +44,104 @@ def getstat():
     # to keep track of which API is getting data
 
     if 'LidarLeft' in payload:
-        ledStatus[OFFSET+30] = 'G'
+        if payload['LidarLeft'] == True:
+            ledStatus[OFFSET+30] = 'G'
+        else:
+            ledStatus[OFFSET+30] = 'B'
+    else:
+        ledStatus[OFFSET+30] = 'R'
+
     if 'LidarRight' in payload:
-        ledStatus[OFFSET+22] = 'G'
+        if payload['LidarRight'] == True:
+            ledStatus[OFFSET+22] = 'G'
+        else:
+            ledStatus[OFFSET+22] = 'B'
+    else:
+        ledStatus[OFFSET+22] = 'R'
+
     if 'USLeft' in payload:
-        ledStatus[OFFSET+28] = 'G'
+        if payload['USLeft'] == True:
+            ledStatus[OFFSET+28] = 'G'
+        else:
+            ledStatus[OFFSET+28] = 'B'
+    else:
+        ledStatus[OFFSET+28] = 'R'
+
     if 'USRight' in payload:
-        ledStatus[OFFSET+24] = 'G'
+        if payload['USRight'] == True:
+            ledStatus[OFFSET+24] = 'G'
+        else:
+            ledStatus[OFFSET+24] = 'B'
+    else:
+        ledStatus[OFFSET+24] = 'R'
+
     if 'USRear' in payload:
-        ledStatus[OFFSET+26] = 'G'
+        if payload['USRear'] == True:
+            ledStatus[OFFSET+26] = 'G'
+        else:
+            ledStatus[OFFSET+26] = 'B'
+    else:
+        ledStatus[OFFSET+26] = 'R'
+
     if 'CO' in payload:
-        ledStatus[OFFSET+12] = 'G'
+        if payload['CO'] == True:
+            ledStatus[OFFSET+12] = 'G'
+        else:
+            ledStatus[OFFSET+12] = 'B'
+    else:
+        ledStatus[OFFSET+12] = 'R'
+
     if 'SO' in payload:
-        ledStatus[OFFSET+10] = 'G'
+        if payload['SO'] == True:
+            ledStatus[OFFSET+10] = 'G'
+        else:
+            ledStatus[OFFSET+10] = 'B'
+    else:
+        ledStatus[OFFSET+10] = 'R'
+
     if 'NO' in payload:
-        ledStatus[OFFSET+14] = 'G'
+        if payload['NO'] == True:
+            ledStatus[OFFSET+14] = 'G'
+        else:
+            ledStatus[OFFSET+14] = 'B'
+    else:
+        ledStatus[OFFSET+14] = 'R'
+
     if 'O3' in payload:
-        ledStatus[OFFSET+16] = 'G'
+        if payload['O3'] == True:
+            ledStatus[OFFSET+16] = 'G'
+        else:
+            ledStatus[OFFSET+16] = 'B'
+    else:
+        ledStatus[OFFSET+16] = 'R'
+
     if 'P10' in payload:
-        ledStatus[OFFSET+18] = 'G'
+        if payload['P10'] == True:
+            ledStatus[OFFSET+18] = 'G'
+        else:
+            ledStatus[OFFSET+18] = 'B'
+    else:
+        ledStatus[OFFSET+18] = 'R'
+
+    writeLedFile()
+    return str(200)
+
+# update the LED statuses - only Proximity and Surface Quality teams
+@app.route('/gps_status',methods=['POST'])
+def gps():
+    payload = request.get_json()
+    global time
+    global day
+    day = time[0:6]
+    # to keep track of which API is getting data
+
     if 'GPS' in payload:
         if payload['GPS'] == True:
             ledStatus[OFFSET+7] = 'B'
             ledStatus[OFFSET+8] = 'B'
+        elif payload['GPS'] == "fail":
+            ledStatus[OFFSET+7] = 'R'
+            ledStatus[OFFSET+8] = 'R'
         else:
             ledStatus[OFFSET+7] = 'G'
             ledStatus[OFFSET+8] = 'G'
@@ -75,18 +150,7 @@ def getstat():
         ledStatus[OFFSET+8] = 'R'
     if 'utc_time' in payload:
         time = payload["utc_time"]
-    
-    # if 'o3' in payload:
-    #     if payload['pm'] == 'true':
-    #         ledStatus[OFFSET+24] = 'R'
-    #     if payload['gas'] == 'true':
-    #         ledStatus[OFFSET+25] = 'R'
-    # if 'lat' in payload:
-    #     if payload['gps'] == 'true':
-    #         ledStatus[OFFSET+26] = 'R'
-    # if 'mic' in payload:
-    #     if payload['mic'] == 'true':
-    #         ledStatus[OFFSET+27] = 'R'
+
     writeLedFile()
     return str(200)
 
@@ -98,7 +162,7 @@ def proximity():
     global day
     data = {'sensor':'proximity', 'timestamp':time, 'data':payload}
     if day != "none": 
-        proxfile = open("/home/pi/data/" + day + "_proximity.log")
+        proxfile = open("/home/pi/data/" + day + "_proximity.json", 'a')
         proxfile.write(str(data))
         proxfile.write("\n")
         proxfile.flush()
