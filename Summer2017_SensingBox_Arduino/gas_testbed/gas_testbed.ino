@@ -5,13 +5,14 @@
 //for Gases sensor init
 Adafruit_ADS1015 ads;    // Construct an ads1015 at the default address: 0x48
 Adafruit_ADS1015 ads2(0x49);
-
+Adafruit_ADS1015 ads3(0x4A);
 
 void setup() {
   Wire.begin();       //join i2c bus
   Serial.begin(9600, SERIAL_8N1);
   ads.begin(); 
   ads2.begin();  
+  ads3.begin();
   //ads.setGain(GAIN_ONE);
 }
 
@@ -63,6 +64,30 @@ int16_t *get_gas_values2() {
   return values2;
 }
 
+int16_t *get_gas_values3() {
+  static int16_t values3[6];
+  int Vx[4];
+  float Ix[4];
+  
+  //initialising base voltage and current values for each gas
+  Vx[0] = 818; //12bit
+  Vx[1] = 823;
+  Vx[2] = 812;
+  Vx[3] = 810;
+  Ix[0] = 0.00000000475;
+  Ix[1] = 0.000000025;
+  Ix[2] = 0.000000032;
+  Ix[3] = 0.0000000040;
+  
+  //adjusting sensor values
+  for (int i = 0; i < 6; i++) {
+    values3[i] = ads3.readADC_SingleEnded(i);
+    delay(10);
+  }
+  return values3;
+}
+
+
 void print_gas() {
   String gas[6];
   gas[0] = "CO";
@@ -74,16 +99,22 @@ void print_gas() {
 
   int16_t *v = get_gas_values();
   int16_t *v2 = get_gas_values2();
+  int16_t *v3 = get_gas_values3();
   
   
   for (int i = 0; i < 5; i++) {
-    Serial.print(gas[i] + " ");
+    Serial.print(gas[i] + "_1 ");
     Serial.print(v[i]);
     Serial.print(" ");
   }
   for (int i = 0; i < 5; i++) {
-    Serial.print(gas[i] + "2 ");
+    Serial.print(gas[i] + "_2 ");
     Serial.print(v2[i]);
+    Serial.print(" ");
+  }
+  for (int i = 0; i < 5; i++) {
+    Serial.print(gas[i] + "_3 ");
+    Serial.print(v3[i]);
     Serial.print(" ");
   }
 }
@@ -92,5 +123,5 @@ void loop() {
   
   print_gas();
   Serial.println();
-  delay(1000);
+  delay(500);
 }
