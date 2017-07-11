@@ -1,0 +1,125 @@
+---
+title: "Gas Sensor Calibration"
+author: "Myeong Lee"
+date: "7/5/2017"
+output: html_document
+---
+
+This code is to determine the gas sensor baselines based on the values collected from the calibration using the Wine Preserver gas. 
+
+```{r}
+library(readr)
+library(dplyr)
+library(ggplot2)
+
+setwd("/Users/myeong/git/Atl_DSSG/Cycle-Atlanta-SLaB/Summer2017_SensingBox_Arduino/gas_calibration/")
+
+data <- read_delim("preserver_gas_2_boards.csv", delim = ",", col_names = FALSE)
+data$time <- c(1:nrow(data))
+colnames(data) <- c("gas", "val", "gas", "val", "gas", "val", "gas", "val", "gas2", "val2", "gas2", "val2", "gas2", "val2", "gas2", "val2","time")
+
+# Board 1
+serial <- rbind(data[,c(1,2,17)], data[,c(3,4,17)], data[,c(5,6,17)], data[,c(7,8,17)])
+serial$gas <- as.factor(serial$gas)
+
+ggplot(serial, aes(x = time, y = val, colour=gas)) +
+  geom_line(size=0.5) +
+  theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Raw Values") + 
+  xlab("Time (sec)") + ylim(700,1000) + ggtitle("Gas Sensor Values over Time (Board 1)")
+
+base_CO_board1 <- mean(serial[serial$time >= 400 & serial$gas == "CO",]$val)
+base_SO_board1 <- mean(serial[serial$time >= 400 & serial$gas == "SO",]$val)
+base_O3_board1 <- mean(serial[serial$time >= 400 & serial$gas == "O3",]$val)
+base_NO_board1 <- mean(serial[serial$time >= 400 & serial$gas == "NO",]$val)
+
+
+
+# Board 2
+serial2 <- rbind(data[,c(9,10,17)], data[,c(11,12,17)], data[,c(13,14,17)], data[,c(15,16,17)])
+serial2$gas2 <- as.factor(serial2$gas2)
+colnames(serial2) <- c("gas", "value","time")
+
+ggplot(serial2, aes(x = time, y = value, colour=gas)) +
+  geom_line(size=0.5) +
+  theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Raw Values") + 
+  xlab("Time (sec)") + ylim(700,1000) +  ggtitle("Gas Sensor Values over Time (Board 2)")
+
+base_CO_board2 <- mean(serial2[serial2$time >= 400 & serial2$gas == "CO2",]$value)
+base_NO_board2 <- mean(serial2[serial2$time >= 400 & serial2$gas == "NO2",]$value)
+
+```
+
+
+# Calculating the baseline values
+```{r}
+
+#taking the second half of the values
+data <- data[(nrow(data)/2):nrow(data),]
+serial2 <- rbind(data[,c(1,2,9)], data[,c(3,4,9)], data[,c(5,6,9)], data[,7:9])
+serial2$gas <- as.factor(serial2$gas)
+
+CO_base <- mean(serial2[serial2$gas=="CO",]$val)
+SO2_base <- mean(serial2[serial2$gas=="SO",]$val)
+O3_base <- mean(serial2[serial2$gas=="O3",]$val)
+NO2_base <- mean(serial2[serial2$gas=="NO",]$val)
+
+```
+
+# Board 4,5,7
+```{r}
+
+setwd("/Users/myeong/git/Atl_DSSG/Cycle-Atlanta-SLaB/Summer2017_SensingBox_Arduino/gas_calibration/")
+
+data <- read_delim("board_457.csv", delim = ",", col_names = FALSE)
+data$time <- c(1:nrow(data))
+colnames(data) <- c("gas", "val", "gas", "val", "gas", "val", "gas", "val", "gas2", "val2", "gas2", "val2", "gas2", "val2", "gas2", "val2", "gas3", "val3", "gas3", "val3", "gas3", "val3", "gas3", "val3", "time")
+
+# Board 1
+serial <- rbind(data[,c(1,2,25)], data[,c(3,4,25)], data[,c(5,6,25)], data[,c(7,8,25)])
+serial$gas <- as.factor(serial$gas)
+
+ggplot(serial, aes(x = time, y = val, colour=gas)) +
+  geom_line(size=0.5) +
+  theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Raw Values") + 
+  xlab("Time (sec)") + ylim(700,1000) + ggtitle("Gas Sensor Values over Time (Board 5)")
+
+base_CO_board1 <- mean(serial[serial$time >= 600 & serial$gas == "CO_1",]$val)
+base_SO_board1 <- mean(serial[serial$time >= 600 & serial$gas == "SO_1",]$val)
+base_O3_board1 <- mean(serial[serial$time >= 600 & serial$gas == "O3_1",]$val)
+base_NO_board1 <- mean(serial[serial$time >= 600 & serial$gas == "NO_1",]$val)
+
+
+
+# Board 2
+serial2 <- rbind(data[,c(9,10,25)], data[,c(11,12,25)], data[,c(13,14,25)], data[,c(15,16,25)])
+serial2$gas2 <- as.factor(serial2$gas2)
+colnames(serial2) <- c("gas", "val","time")
+
+ggplot(serial2, aes(x = time, y = val, colour=gas)) +
+  geom_line(size=0.5) +
+  theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Raw Values") + 
+  xlab("Time (sec)") + ylim(700,1000) +  ggtitle("Gas Sensor Values over Time (Board 7)")
+
+base_CO_board2 <- mean(serial2[serial2$time >= 600 & serial2$gas == "CO_2",]$val)
+base_SO_board2 <- mean(serial2[serial2$time >= 600 & serial2$gas == "SO_2",]$val)
+base_O3_board2 <- mean(serial2[serial2$time >= 600 & serial2$gas == "O3_2",]$val)
+base_NO_board2 <- mean(serial2[serial2$time >= 600 & serial2$gas == "NO_2",]$val)
+
+
+# Board 3
+serial3 <- rbind(data[,c(17,18,25)], data[,c(19,20,25)], data[,c(21,22,25)], data[,c(23,24,25)])
+serial3$gas3 <- as.factor(serial3$gas3)
+colnames(serial3) <- c("gas", "val","time")
+
+ggplot(serial3, aes(x = time, y = val, colour=gas)) +
+  geom_line(size=0.5) +
+  theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Raw Values") + 
+  xlab("Time (sec)") + ylim(700,1000) +  ggtitle("Gas Sensor Values over Time (Board 4)")
+
+base_CO_board3 <- mean(serial3[serial3$time >= 600 & serial3$gas == "CO_3",]$val)
+base_SO_board3 <- mean(serial3[serial3$time >= 600 & serial3$gas == "SO_3",]$val)
+base_O3_board3 <- mean(serial3[serial3$time >= 600 & serial3$gas == "O3_3",]$val)
+base_NO_board3 <- mean(serial3[serial3$time >= 600 & serial3$gas == "NO_3",]$val)
+
+```
+
