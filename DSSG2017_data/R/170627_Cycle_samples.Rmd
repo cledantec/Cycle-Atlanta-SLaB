@@ -15,14 +15,15 @@ library(ggmap)
 library(dplyr)
 library(tidyr)
 
-setwd("/Users/myeong/git/Atl_DSSG/Cycle-Atlanta-SLaB/Data/sample_data/")
+setwd("/Users/myeong/git/Atl_DSSG/Cycle-Atlanta-SLaB/DSSG2017_data/sample_data/")
 
-gps <- fromJSON(txt= "270617_gps_data.json" )
+gps <- fromJSON(txt= "Jeremy/140717_gps_data.json" )
 gps <- as.data.frame(gps["results"])
 colnames(gps) <- c("lon", "course","lat","speed","day","utc_time")
 gps$utc_time <- as.numeric(gps$utc_time)
 gps$utc_time <- gps$utc_time - 40000
 gps$utc_time <- as.character(gps$utc_time)
+
 
 gps <- gps %>% separate(lon, into = c("dd","mm"), sep=3 )
 gps$lon <- -(as.numeric(gps$dd) + (as.numeric(gps$mm)/60))
@@ -33,14 +34,34 @@ gps <- gps[,c("course", "speed", "day", "utc_time", "lon", "lat")]
 gps$speed <- as.numeric(gps$speed)
 gps$course <- as.numeric(gps$course)
 
+gps$seq <- c(1:nrow(gps))
+gps[is.na(gps$lon),]$lon <- 0
+gps[is.na(gps$lat),]$lat <- 0
+
 gps_points <- SpatialPointsDataFrame(coords = gps[,c("lon","lat")], data = gps,
                                proj4string = CRS("+proj=longlat +datum=WGS84 +ellps=WGS84 +towgs84=0,0,0"))
 
 plot(gps_points)
 
-map <- get_map(c(lon = -84.388, lat = 33.777), zoom = 18, source = "stamen", maptype = "toner")
+map <- get_map(c(lon = -84.397, lat = 33.780), zoom = 15, source = "stamen", maptype = "toner")
 mapPoints <- ggmap(map) + geom_point(aes(x = lon, y = lat), data = gps, alpha = .5, color="darkred", size = 1)
 mapPoints
+
+gps$speed <- gps$speed * 1.15078 # changing Knots to Miles/h
+gps$way <- "On the way school"
+gps[1:500,]$way <- "On the way home"
+gps$way <- as.factor(gps$way)
+
+#Speed
+
+ggplot(gps, aes(x = seq, y = speed, colour=(way), group = 1)) +
+  geom_line() +
+  geom_point(size = 1) +
+  theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="MPH") + 
+  xlab("Time (sec)")  + ggtitle("Time-Series of Jeremy's Commuting Speed (July 14, 2017)")
+
+
+
 
 ```
 
