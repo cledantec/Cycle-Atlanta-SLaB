@@ -14,6 +14,7 @@ library(ggplot2)
 library(ggmap)
 library(dplyr)
 library(tidyr)
+library(geosphere)
 
 setwd("/Users/myeong/git/Atl_DSSG/Cycle-Atlanta-SLaB/DSSG2017_data/sample_data/")
 
@@ -61,9 +62,54 @@ ggplot(gps, aes(x = seq, y = speed, colour=(way), group = 1)) +
   xlab("Time (sec)")  + ggtitle("Time-Series of Jeremy's Commuting Speed (July 14, 2017)")
 
 
+# saving only coordinates as a right format
+coord <- gps[,c("lat","lon")]
+write.table(coord,file = "coord.csv", row.names=F, col.names=T, sep=",")
+
+# Combining elevation data
+elevation <- fromJSON(txt= "Jeremy/elevation.json" )
+elevation$lat <- elevation$location$lat
+elevation$lon <- elevation$location$lng
+elevation <- elevation[,c("ID", "elevation")]
+
+gps$ID <- c(1:nrow(gps))
+elevation$ID <- elevation$ID + 1
+gps <- gps %>% left_join(elevation, by=c("ID"))
+gps[is.na(gps$elevation),]$elevation <- mean(gps$elevation, na.rm = T)
+gps$slope <- 0
+
+i=1
+
+for (i in c(1:nrow(gps))){
+  if (i ==1 ) {
+    next
+  }
+  dist <- distm (c(gps[i-1,]$lon, gps[i-1,]$lat), c(gps[i,]$lon, gps[i,]$lat), fun = distHaversine)
+  if (gps[i,]$elevation > gps[i-1,]$elevation) {
+    gps[i,]$slope <- sqrt((gps[i,]$elevation - gps[i-1,]$elevation)^2 + dist^2)
+  } else {
+    gps[i,]$slope <- -sqrt((gps[i,]$elevation - gps[i-1,]$elevation)^2 + dist^2)
+  }
+  
+}
+
+gps[abs(gps$slope) > 10,]$slope <- 0
+gps$Legend <- gps$way
+
+ggplot(gps, aes(x = seq, y = speed, colour=Legend)) +
+#   geom_line() +
+#   geom_point(size = 1) +
+  geom_smooth(method = "loess",span = 0.1) +
+  geom_line(aes(y=scale(elevation), color="Elevation (relative)")) +
+  theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="MPH") + 
+  xlab("Dummy Time (sec)")  + ggtitle("Time-Series Speed of Jeremy's Commuting (July 14, 2017)")
+
 
 
 ```
+
+
+
 
 # Arduino Data
 ```{r}
