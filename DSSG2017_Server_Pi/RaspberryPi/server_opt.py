@@ -31,15 +31,18 @@ def writeLedFile():
     ledfile.flush()
 
 def isGasStable():
+    global gasCount
     if gasCount < 10:
         return True
     else:
         return False
 
 def plusGasCount():
+    global gasCount
     gasCount += 1
 
 def resetGasCount():
+    global gasCount
     gasCount = 0
 
 # return what the LED status at current time is
@@ -53,6 +56,7 @@ def getstat():
     payload = request.get_json()
     global time
     global day
+    global gasCount
     day = time[0:6]
     # to keep track of which API is getting data
 
@@ -182,14 +186,14 @@ def gps():
 
     if 'GPS' in payload:
         if payload['GPS'] == True:
-            ledStatus[OFFSET+7] = 'B'
-            ledStatus[OFFSET+8] = 'B'
+            ledStatus[OFFSET+7] = 'G'
+            ledStatus[OFFSET+8] = 'G'
         elif payload['GPS'] == "fail":
             ledStatus[OFFSET+7] = 'R'
             ledStatus[OFFSET+8] = 'R'
         else:
-            ledStatus[OFFSET+7] = 'G'
-            ledStatus[OFFSET+8] = 'G'
+            ledStatus[OFFSET+7] = 'B'
+            ledStatus[OFFSET+8] = 'B'
     else:
         ledStatus[OFFSET+7] = 'R'
         ledStatus[OFFSET+8] = 'R'
@@ -202,10 +206,14 @@ def gps():
 # proximity sensors receiver
 @app.route('/proximity', methods = ['POST'])
 def proximity():
-    payload = json.loads(str(request.get_json()).replace("\'","\""))
-    global time
-    global day
-    data = {'sensor':'proximity', 'timestamp':time, 'data':payload}
+    try: 
+        payload = json.loads(str(request.get_json()).replace("\'","\""))
+        global time
+        global day
+        data = {'sensor':'proximity', 'timestamp':time, 'data':payload}
+    except Exception:
+        return str(500) 
+
     if day != "none": 
         proxfile = open("/home/pi/data/" + day + "_proximity.json", 'a')
         proxfile.write(str(data))

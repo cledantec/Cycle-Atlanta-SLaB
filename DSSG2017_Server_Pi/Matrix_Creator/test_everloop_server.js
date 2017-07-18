@@ -104,7 +104,7 @@ function setStatusLoop() {
 		
     }
     configSocket.send(config.encode().toBuffer());
-    // console.log(values);
+     //console.log(values);
     } else {
 			console.log(error);
 		}
@@ -126,3 +126,8 @@ setInterval(function() {
 	}
 	setStatusLoop();
 	}, 1000);
+process.on('SIGINT', function(){
+	console.log("Caught interrupt signal..");
+	
+	process.exit();
+});
