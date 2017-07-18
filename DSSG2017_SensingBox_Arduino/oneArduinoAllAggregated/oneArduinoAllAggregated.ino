@@ -21,7 +21,8 @@ const int anPin3 = 2;
 const int triggerPin1 = 13;
 
 //for Gases sensor init
-Adafruit_ADS1015 ads(0x49);    // Construct an ads1015 at the default address: 0x48
+// ADS address needs to be set appropriately based on the gas sensor number (among 0x48, 0x49, 0x4A, 0x4B)
+Adafruit_ADS1015 ads;    
 
 // PM
 float p10, p25;
