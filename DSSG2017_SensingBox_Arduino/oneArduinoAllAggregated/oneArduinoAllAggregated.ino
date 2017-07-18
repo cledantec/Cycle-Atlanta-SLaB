@@ -21,7 +21,7 @@ const int anPin3 = 2;
 const int triggerPin1 = 13;
 
 //for Gases sensor init
-Adafruit_ADS1015 ads;    // Construct an ads1015 at the default address: 0x48
+Adafruit_ADS1015 ads(0x49);    // Construct an ads1015 at the default address: 0x48
 
 // PM
 float p10, p25;
@@ -31,6 +31,7 @@ int error;
 int resetPin = 12;
 
 void setup() {
+  
   digitalWrite(resetPin, HIGH);
   delay(200);
   pinMode(resetPin, OUTPUT);     
@@ -39,11 +40,10 @@ void setup() {
   //Serial.begin(9600, SERIAL_7E1); //start serial for output
   Serial.begin(9600, SERIAL_8N1);
   ads.begin();  
-  ads.setGain(GAIN_ONE);
+//  ads.setGain(GAIN_ONE);
   myLidarLite.begin();
   myLidarLite.changeAddressMultiPwrEn(2, sensorPins, addresses);
-  pinMode(triggerPin1, OUTPUT);
-//  pinMode(resetPin, OUTPUT);     
+  pinMode(triggerPin1, OUTPUT); 
 }
 
 
@@ -166,7 +166,7 @@ void loop() {
       start_sensor();
       print_sonar();
   
-      if (i%10 == 0){
+      if (i%5 == 0){
         print_gas();
         print_pm();
         i=1;

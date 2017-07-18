@@ -6,13 +6,10 @@ import requests
 import os
 import termios
 from sys import exit
+import signal
 
-
-# PIN assignments. Change if board connections change.
-SWITCH_PIN = 29
-ERROR_PIN = 31
-STATUS_PIN = 33
-NET_STATUS_PIN = 35
+# Timeout (sec): for how long will Pi wait for Arduino?
+TIME_OUT = 5
 
 # Other constants
 logFileName = '/home/pi/arduino_logs.log'
@@ -44,8 +41,20 @@ ser = serial.Serial(
         baudrate=9600,
         parity=serial.PARITY_NONE,
         stopbits=serial.STOPBITS_ONE,
-        bytesize=serial.EIGHTBITS        
+        bytesize=serial.EIGHTBITS
     )
+
+# Setting timeout and timeout handler to prevent communication hiccups
+# TimeourError is raised once Arduino does not respond, but the loop continues.
+class TimeoutError(RuntimeError):
+    pass
+
+def handler(signum, frame):
+    ser.write("f")
+    time.sleep(1)
+    raise TimeoutError()
+
+signal.signal(signal.SIGALRM, handler)
 
 try:
     # "f" is a signal indicating "fail" to reset Arduino
@@ -56,11 +65,35 @@ try:
 
     while True:
         ser.write("g")
-        serialLine=ser.readline()
+
+        try:
+            # Setting timeout when reading the serial port
+            signal.alarm(TIME_OUT)
+            serialLine = ser.readline()
+        except TimeoutError as ex:
+            status = {}
+            status["LidarLeft"] = False
+            status["LidarRight"] = False
+            status["USLeft"] = False
+            status["USRight"] = False
+            status["USRear"] = False
+            status["CO"] = False
+            status["SO"] = False
+            status["O3"] = False
+            status["NO"] = False
+            status["P25"] = False
+            status["P10"] = False
+            jsonStatus = json.dumps(status)
+            time.sleep(1)
+            requests.post(STATUS_URL, data=jsonStatus, headers=headers)
+            logFile = open(logFileName, 'a')
+            logFile.write('Timeout Error... Resetting... \n')
+            logFile.close()
+            continue
 
         if "WIN" in serialLine:
             time.sleep(0.5)
-            continue 
+            continue
         elif "nack" in serialLine or "NACK" in serialLine:
             ser.write("f")
             status = {}
@@ -139,21 +172,7 @@ try:
             response2 = requests.post(STATUS_URL, data=jsonStatus, headers=headers)
         except requests.exceptions.RequestException:
             print ("ERROR in posting data to URLs...")
-            status = {}
-            status["LidarLeft"] = False
-            status["LidarRight"] = False
-            status["USLeft"] = False
-            status["USRight"] = False
-            status["USRear"] = False
-            status["CO"] = False
-            status["SO"] = False
-            status["O3"] = False
-            status["NO"] = False
-            status["P25"] = False
-            status["P10"] = False
-            jsonStatus = json.dumps(status)
             time.sleep(5)
-            requests.post(STATUS_URL, data=jsonStatus, headers=headers)
             ser.flushInput()
             ser.flush()
             continue
@@ -179,7 +198,7 @@ try:
                 print ("Data posted successfully..")
 
         time.sleep(DELAY)
-                
+
 except KeyboardInterrupt:
     logFile = open(logFileName,'a')
     logFile.write('Script stopped manually. \n')

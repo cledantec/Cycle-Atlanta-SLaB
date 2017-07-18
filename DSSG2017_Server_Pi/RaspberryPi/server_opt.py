@@ -20,6 +20,7 @@ ledStatus = ['Z'] * 35
 OFFSET = 0
 time = '0'
 day = "none"
+gasCount = 0
 
 # DEPRECATED: using /getstatus endpoint now
 # use LED file for keeping track of status
@@ -28,6 +29,18 @@ def writeLedFile():
     ledfile.truncate()
     ledfile.write(str(ledStatus).replace("\'", "\""))
     ledfile.flush()
+
+def isGasStable():
+    if gasCount < 10:
+        return True
+    else:
+        return False
+
+def plusGasCount():
+    gasCount += 1
+
+def resetGasCount():
+    gasCount = 0
 
 # return what the LED status at current time is
 @app.route('/getstatus', methods=['GET'])
@@ -85,43 +98,75 @@ def getstat():
 
     if 'CO' in payload:
         if payload['CO'] == True:
+            if payload['CO'] == 4095 or payload['CO'] == 0:
+                ledStatus[OFFSET+12] = 'B' 
+            else:
+                ledStatus[OFFSET+12] = 'G'
+            resetGasCount()
+        else:
+            ledStatus[OFFSET+12] = 'R'
+    else:
+        if isGasStable():
             ledStatus[OFFSET+12] = 'G'
         else:
-            ledStatus[OFFSET+12] = 'B'
-    else:
-        ledStatus[OFFSET+12] = 'R'
+            ledStatus[OFFSET+12] = 'R'
+        plusGasCount()
 
     if 'SO' in payload:
         if payload['SO'] == True:
+            if payload['SO'] == 4095 or payload['SO'] == 0:
+                ledStatus[OFFSET+10] = 'B' 
+            else:
+                ledStatus[OFFSET+10] = 'G'
+        else:
+            ledStatus[OFFSET+10] = 'R'
+    else:
+        if isGasStable():
             ledStatus[OFFSET+10] = 'G'
         else:
-            ledStatus[OFFSET+10] = 'B'
-    else:
-        ledStatus[OFFSET+10] = 'R'
+            ledStatus[OFFSET+10] = 'R'
 
     if 'NO' in payload:
         if payload['NO'] == True:
+            if payload['NO'] == 4095 or payload['NO'] == 0:
+                ledStatus[OFFSET+14] = 'B' 
+            else:
+                ledStatus[OFFSET+14] = 'G'
+        else:
+            ledStatus[OFFSET+14] = 'R'
+    else:
+        if isGasStable():
             ledStatus[OFFSET+14] = 'G'
         else:
-            ledStatus[OFFSET+14] = 'B'
-    else:
-        ledStatus[OFFSET+14] = 'R'
+            ledStatus[OFFSET+14] = 'R'
 
     if 'O3' in payload:
         if payload['O3'] == True:
+            if payload['O3'] == 4095 or payload['O3'] == 0:
+                ledStatus[OFFSET+16] = 'B' 
+            else:
+                ledStatus[OFFSET+16] = 'G'
+        else:
+            ledStatus[OFFSET+16] = 'R'
+    else:
+        if isGasStable():
             ledStatus[OFFSET+16] = 'G'
         else:
-            ledStatus[OFFSET+16] = 'B'
-    else:
-        ledStatus[OFFSET+16] = 'R'
+            ledStatus[OFFSET+16] = 'R'
 
     if 'P10' in payload:
         if payload['P10'] == True:
+            if payload['P10'] == 0:
+                ledStatus[OFFSET+18] = 'B' 
+            else:
+                ledStatus[OFFSET+18] = 'G'
+        else:
+            ledStatus[OFFSET+18] = 'R'
+    else:
+        if isGasStable():
             ledStatus[OFFSET+18] = 'G'
         else:
-            ledStatus[OFFSET+18] = 'B'
-    else:
-        ledStatus[OFFSET+18] = 'R'
+            ledStatus[OFFSET+18] = 'R'
 
     writeLedFile()
     return str(200)

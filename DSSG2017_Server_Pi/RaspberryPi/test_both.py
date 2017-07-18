@@ -3,6 +3,10 @@ from datetime import datetime
 import time
 import termios
 import os
+import signal
+
+# Timeout (sec): for how long will Pi wait for Arduino?
+TIME_OUT = 3
 
 #GPS
 path = '/dev/cycle_gps'
@@ -73,19 +77,33 @@ time.sleep(0.5)
 ser.write("g")
 time.sleep(0.5)
 
-while 1:
-	#ser.flushInput()
-        ser.write("g")      
-	x=ser.readline()
-	print (x)
-        if ("WIN" in x):
-            time.sleep(0.5)
-            continue 
-        elif ("nack" in x):
-            ser.write("f") 
-            print("reset...")
-            time.sleep(1)
-            continue
-	print(GPSread())
-	time.sleep(0.5)
+# Setting timeout and timeout handler to prevent communication hiccups
+class TimeoutError(RuntimeError):
+    pass
 
+def handler(signum, frame):
+    ser.write("f")
+    time.sleep(1)
+    raise TimeoutError()
+
+signal.signal(signal.SIGALRM, handler)
+
+while 1:
+    #ser.flushInput()
+    ser.write("g") 
+    try:
+        signal.alarm(TIME_OUT)
+        x = ser.readline()
+        print (x)
+    except TimeoutError as ex:
+        print ("timeout... resetting...")
+    if ("WIN" in x):
+        time.sleep(0.5)
+        continue 
+    elif ("nack" in x):
+        ser.write("f")
+        print("reset...")
+        time.sleep(1)
+        continue
+    print(GPSread())
+    time.sleep(0.5)
