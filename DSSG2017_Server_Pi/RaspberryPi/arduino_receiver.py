@@ -13,7 +13,7 @@ TIME_OUT = 5
 
 # Other constants
 logFileName = '/home/pi/arduino_logs.log'
-DELAY = 1 # In seconds
+DELAY = 0.2 # In seconds
 
 # Self
 HOST_SERVER = '0.0.0.0'
@@ -83,7 +83,7 @@ try:
             status["P25"] = False
             status["P10"] = False
             jsonStatus = json.dumps(status)
-            time.sleep(5)
+            time.sleep(1)
             requests.post(STATUS_URL, data=jsonStatus, headers=headers)
             logFile = open(logFileName, 'a')
             logFile.write('Timeout Error... Resetting... \n')
@@ -108,7 +108,6 @@ try:
             status["P25"] = False
             status["P10"] = False
             jsonStatus = json.dumps(status)
-            print(serialLine)
             print("reset Arduino...")
             try:
                 signal.alarm(7)
