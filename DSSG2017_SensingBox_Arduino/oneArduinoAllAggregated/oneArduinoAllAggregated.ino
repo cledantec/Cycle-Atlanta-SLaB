@@ -6,7 +6,6 @@
 #include <LIDARLite.h>
 #include <SDS011.h> //for Nova PM Sensor
    
-
 LIDARLite myLidarLite;
 SDS011 my_sds;
 
