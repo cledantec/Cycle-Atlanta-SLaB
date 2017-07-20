@@ -172,6 +172,8 @@ write.table(gps, "signatures/go_as_fast_as_possible/prox_gps_join.csv", row.name
 
 # Signatures
 ```{r}
+gps <- read_delim("signatures/go_as_fast_as_possible/prox_gps_join.csv", delim = ",", col_names = T)
+
 library(lubridate)
 gps$video_hour <- hour(ymd_hms(gps$video_time))
 gps$video_minute <- minute(ymd_hms(gps$video_time))
