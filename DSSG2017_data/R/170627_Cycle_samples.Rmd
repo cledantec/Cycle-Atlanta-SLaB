@@ -162,9 +162,9 @@ prox <- read_delim("signatures/go_as_fast_as_possible/proximity_190717.csv", del
 prox$TimeN <- prox$TimeN - 40000
 prox$TimeN <- as.character(prox$TimeN)
 prox["time"] <- as.POSIXct(prox$TimeN, origin="1970-01-01", format = "%H%M%S")
-prox <- prox %>% dplyr::group_by(time) %>% summarise(USRight=mean(USRight),USLeft=mean(USLeft),USRear=mean(USRear),LidarRight=mean(LidarRight),LidarLeft=mean(LidarLeft) )
+prox_sum <- prox %>% dplyr::group_by(time) %>% summarise(USRight=mean(USRight),USLeft=mean(USLeft),USRear=mean(USRear),LidarRight=mean(LidarRight),LidarLeft=mean(LidarLeft) )
 
-gps <- gps %>% left_join(prox, by=c("utc_time" = "time"))
+gps <- gps %>% left_join(prox_sum, by=c("utc_time" = "time"))
 write.table(gps, "signatures/go_as_fast_as_possible/prox_gps_join.csv", row.names=F, col.names=T, sep=",")
 
 ```
@@ -173,44 +173,70 @@ write.table(gps, "signatures/go_as_fast_as_possible/prox_gps_join.csv", row.name
 # Signatures
 ```{r}
 gps <- read_delim("signatures/go_as_fast_as_possible/prox_gps_join.csv", delim = ",", col_names = T)
+prox <- read_delim("signatures/go_as_fast_as_possible/proximity_190717.csv", delim = ",", col_names = T)
+prox$TimeN <- prox$TimeN - 40000
+prox$TimeN <- as.character(prox$TimeN)
+prox["time"] <- as.POSIXct(prox$TimeN, origin="1970-01-01", format = "%H%M%S", tz = "UTC")
+
 
 library(lubridate)
+gps <- gps[,c("utc_time", "lon", "lat", "video_time", "course", "speed")]
 gps$video_hour <- hour(ymd_hms(gps$video_time))
 gps$video_minute <- minute(ymd_hms(gps$video_time))
 gps$video_sec <- second(ymd_hms(gps$video_time))
 
-street_parking <- gps[gps$video_hour == 0 & ((gps$video_minute == 10 & gps$video_sec >= 57) | (gps$video_minute == 11 & gps$video_sec <= 3)),]
+prox <- prox[,c("time", "USRight", "USLeft", "USRear", "LidarRight", "LidarLeft", "sequenceTime")]
+prox_join <- prox %>% left_join(gps, by=c("time"="utc_time"))
 
-ggplot(street_parking, aes(x = utc_time)) +
-  geom_line(aes(y = scale(USRight), color="USRight")) +
-  geom_point(aes(y = scale(USRight), color="USRight"), size = 1) +
-  geom_line(aes(y = scale(USLeft), color="USLeft")) +
-  geom_point(aes(y = scale(USLeft), color="USLeft"), size = 1) +
-  geom_line(aes(y = scale(LidarRight), color="LidarRight")) +
-  geom_point(aes(y = scale(LidarRight), color="LidarRight"), size = 1) +
-  geom_line(aes(y = scale(LidarLeft), color="LidarLeft")) +
-  geom_point(aes(y = scale(LidarLeft), color="LidarLeft"), size = 1) +
+street_parking <- prox_join[prox_join$video_hour == 0 & ((prox_join$video_minute == 10 & prox_join$video_sec >= 57) | (prox_join$video_minute == 11 & prox_join$video_sec <= 3)),]
+street_parking$sequenceTime <- c(1:nrow(street_parking))
+
+street_parking_sig <- as.data.frame(matrix(ncol = 3, nrow = 0))
+colnames(street_parking_sig) <- c("sequenceTime", "sensor", "value")
+
+for (col in c("LidarRight", "LidarLeft")){
+  tmp <- cbind(street_parking[,c("sequenceTime")], col, street_parking[,col])
+  colnames(tmp) <- c("sequenceTime", "sensor", "value")
+  street_parking_sig <- rbind(street_parking_sig, tmp)
+}
+
+street_parking_sig$sensor <- as.factor(street_parking_sig$sensor)
+street_parking_sig$seq <- c(1:nrow(street_parking_sig))
+
+library(dtt)
+freq <- dtt(street_parking_sig$value, type = c("dct"))
+freq <- as.data.frame(freq)
+freq$index <- c(1:nrow(freq))
+plot(freq)
+
+ggplot(freq, aes(x = index, y = freq)) +
+  geom_line() +
+  geom_point(size = 1) +  
+  theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Amplitude") + 
+  xlab("Frequency")  + ggtitle("Discrete Cosine Transform for the Street Parking Signature") 
+
+ggplot(street_parking_sig, aes(x = seq, y = scale(value), colour = sensor)) +
+  geom_line() +
+  geom_point(size = 1) +  
   theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Normalized Distance") + 
-  xlab("Time")  + ggtitle("Street Parking Signature") + labs(colour="Types of Signatures") 
+  xlab("Time")  + ggtitle("Street Parking Temporal Signature") + labs(colour="Sensors") 
   
 
 
 
-passing_vehicle <- gps[gps$video_hour == 0 & ((gps$video_minute == 8 & gps$video_sec >= 51) & (gps$video_minute == 8 & gps$video_sec <= 56)),]
+passing_vehicle <- prox_join[prox_join$video_hour == 0 & ((prox_join$video_minute == 8 & prox_join$video_sec >= 45) & (prox_join$video_minute == 8 & prox_join$video_sec <= 58)),]
 
-ggplot(passing_vehicle, aes(x = utc_time)) +
-#   geom_line(aes(y = scale(USRight), color="USRight")) +
-#   geom_point(aes(y = scale(USRight), color="USRight"), size = 1) +
-  geom_line(aes(y = scale(USLeft), color="USLeft")) +
-  geom_point(aes(y = scale(USLeft), color="USLeft"), size = 1) +
-#   geom_line(aes(y = scale(LidarRight), color="LidarRight")) +
-#   geom_point(aes(y = scale(LidarRight), color="LidarRight"), size = 1) +
-  geom_line(aes(y = scale(LidarLeft), color="LidarLeft")) +
-  geom_point(aes(y = scale(LidarLeft), color="LidarLeft"), size = 1) +
+ggplot(freq, aes(x = index, y = freq)) +
+  geom_line() +
+  geom_point(size = 1) +  
+  theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Amplitude") + 
+  xlab("Frequency")  + ggtitle("Discrete Cosine Transform for the Street Parking Signature") 
+
+ggplot(street_parking_sig, aes(x = seq, y = scale(value), colour = sensor)) +
+  geom_line() +
+  geom_point(size = 1) +  
   theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Normalized Distance") + 
-  xlab("Time")  + ggtitle("Signature of Passing Vehicle on the Left") + labs(colour="Types of Signatures") 
-  
-
+  xlab("Time")  + ggtitle("Street Parking Temporal Signature") + labs(colour="Sensors") 
 
 
 ```
