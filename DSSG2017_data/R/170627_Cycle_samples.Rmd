@@ -142,7 +142,7 @@ gps[c(1:1468),]$way <- "go"
 gps$way <- as.factor(gps$way)
 
 map <- get_map(c(lon = -84.397, lat = 33.760), zoom = 14, source = "stamen", maptype = "toner")
-mapPoints <- ggmap(map) + geom_point(aes(x = lon, y = lat, colour=way, size = (speed^2)), data = gps, alpha = 0.10)
+mapPoints <- ggmap(map) + geom_point(aes(x = lon, y = lat, colour=way, size = (speed^2)/100), data = gps, alpha = 0.10) + labs(colour="Way", size="Speed")
 mapPoints
 
 
@@ -164,8 +164,52 @@ prox$TimeN <- as.character(prox$TimeN)
 prox["time"] <- as.POSIXct(prox$TimeN, origin="1970-01-01", format = "%H%M%S")
 prox <- prox %>% dplyr::group_by(time) %>% summarise(USRight=mean(USRight),USLeft=mean(USLeft),USRear=mean(USRear),LidarRight=mean(LidarRight),LidarLeft=mean(LidarLeft) )
 
-
 gps <- gps %>% left_join(prox, by=c("utc_time" = "time"))
+write.table(gps, "signatures/go_as_fast_as_possible/prox_gps_join.csv", row.names=F, col.names=T, sep=",")
+
+```
+
+
+# Signatures
+```{r}
+library(lubridate)
+gps$video_hour <- hour(ymd_hms(gps$video_time))
+gps$video_minute <- minute(ymd_hms(gps$video_time))
+gps$video_sec <- second(ymd_hms(gps$video_time))
+
+street_parking <- gps[gps$video_hour == 0 & ((gps$video_minute == 10 & gps$video_sec >= 57) | (gps$video_minute == 11 & gps$video_sec <= 3)),]
+
+ggplot(street_parking, aes(x = utc_time)) +
+  geom_line(aes(y = scale(USRight), color="USRight")) +
+  geom_point(aes(y = scale(USRight), color="USRight"), size = 1) +
+  geom_line(aes(y = scale(USLeft), color="USLeft")) +
+  geom_point(aes(y = scale(USLeft), color="USLeft"), size = 1) +
+  geom_line(aes(y = scale(LidarRight), color="LidarRight")) +
+  geom_point(aes(y = scale(LidarRight), color="LidarRight"), size = 1) +
+  geom_line(aes(y = scale(LidarLeft), color="LidarLeft")) +
+  geom_point(aes(y = scale(LidarLeft), color="LidarLeft"), size = 1) +
+  theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Normalized Distance") + 
+  xlab("Time")  + ggtitle("Street Parking Signature") + labs(colour="Types of Signatures") 
+  
+
+
+
+passing_vehicle <- gps[gps$video_hour == 0 & ((gps$video_minute == 8 & gps$video_sec >= 51) & (gps$video_minute == 8 & gps$video_sec <= 56)),]
+
+ggplot(passing_vehicle, aes(x = utc_time)) +
+#   geom_line(aes(y = scale(USRight), color="USRight")) +
+#   geom_point(aes(y = scale(USRight), color="USRight"), size = 1) +
+  geom_line(aes(y = scale(USLeft), color="USLeft")) +
+  geom_point(aes(y = scale(USLeft), color="USLeft"), size = 1) +
+#   geom_line(aes(y = scale(LidarRight), color="LidarRight")) +
+#   geom_point(aes(y = scale(LidarRight), color="LidarRight"), size = 1) +
+  geom_line(aes(y = scale(LidarLeft), color="LidarLeft")) +
+  geom_point(aes(y = scale(LidarLeft), color="LidarLeft"), size = 1) +
+  theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Normalized Distance") + 
+  xlab("Time")  + ggtitle("Signature of Passing Vehicle on the Left") + labs(colour="Types of Signatures") 
+  
+
+
 
 ```
 
