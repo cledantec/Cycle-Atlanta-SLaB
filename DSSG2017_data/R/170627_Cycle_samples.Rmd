@@ -109,6 +109,66 @@ ggplot(gps, aes(x = seq, y = speed, colour=Legend)) +
 ```
 
 
+# 7/19/2017 Javier's
+```{r}
+gps <- read_delim("signatures/go_as_fast_as_possible/fast_as_possilbe_GPS.csv", delim = ",", col_names = T)
+
+colnames(gps) <- c("ID", "lon", "course","lat","speed","day","utc_time")
+gps$utc_time <- as.integer(gps$utc_time)
+gps$utc_time <- gps$utc_time - 40000
+gps$utc_time <- as.character(gps$utc_time)
+gps["utc_time"] <- as.POSIXct(gps$utc_time, origin="1970-01-01", format = "%H%M%S")
+
+gps <- gps %>% separate(lon, into = c("dd","mm"), sep=2 )
+gps$lon <- -(as.numeric(gps$dd) + (as.numeric(gps$mm)/60))
+gps <- gps %>% separate(lat, into = c("dd2","mm2"), sep=2 )
+gps$lat <- (as.numeric(gps$dd2) + (as.numeric(gps$mm2)/60))
+gps <- gps[,c("course", "speed", "day", "utc_time", "lon", "lat")]
+
+gps$speed <- as.numeric(gps$speed)
+gps$course <- as.numeric(gps$course)
+
+gps$seq <- c(1:nrow(gps))
+gps[is.na(gps$lon),]$lon <- 0
+gps[is.na(gps$lat),]$lat <- 0
+
+gps_points <- SpatialPointsDataFrame(coords = gps[,c("lon","lat")], data = gps,
+                               proj4string = CRS("+proj=longlat +datum=WGS84 +ellps=WGS84 +towgs84=0,0,0"))
+
+plot(gps_points)
+
+gps$way <- "come"
+gps[c(1:1468),]$way <- "go"
+gps$way <- as.factor(gps$way)
+
+map <- get_map(c(lon = -84.397, lat = 33.760), zoom = 14, source = "stamen", maptype = "toner")
+mapPoints <- ggmap(map) + geom_point(aes(x = lon, y = lat, colour=way, size = (speed^2)), data = gps, alpha = 0.10)
+mapPoints
+
+
+map <- get_map(c(lon = -84.392, lat = 33.763), zoom = 17, source = "stamen", maptype = "toner")
+mapPoints <- ggmap(map) +geom_point(aes(x = lon, y = lat, colour=way), data = gps[654:654,], alpha = 0.8, size = 0.5)
+mapPoints
+
+# 654 is the reference point to sync between GoPro video and the GPS data
+gps$video_time <- as.POSIXct("00:07:20", origin="1970-01-01", format = "%H:%M:%S")
+
+for (i in c(1:nrow(gps))){
+  gps[i,]$video_time <- gps[654,]$video_time - 654 + i
+}
+
+# joining proximiyt values
+prox <- read_delim("signatures/go_as_fast_as_possible/proximity_190717.csv", delim = ",", col_names = T)
+prox$TimeN <- prox$TimeN - 40000
+prox$TimeN <- as.character(prox$TimeN)
+prox["time"] <- as.POSIXct(prox$TimeN, origin="1970-01-01", format = "%H%M%S")
+prox <- prox %>% dplyr::group_by(time) %>% summarise(USRight=mean(USRight),USLeft=mean(USLeft),USRear=mean(USRear),LidarRight=mean(LidarRight),LidarLeft=mean(LidarLeft) )
+
+
+gps <- gps %>% left_join(prox, by=c("utc_time" = "time"))
+
+```
+
 
 
 # Arduino Data
