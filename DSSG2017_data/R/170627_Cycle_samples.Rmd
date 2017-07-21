@@ -132,10 +132,10 @@ gps$seq <- c(1:nrow(gps))
 gps[is.na(gps$lon),]$lon <- 0
 gps[is.na(gps$lat),]$lat <- 0
 
-gps_points <- SpatialPointsDataFrame(coords = gps[,c("lon","lat")], data = gps,
-                               proj4string = CRS("+proj=longlat +datum=WGS84 +ellps=WGS84 +towgs84=0,0,0"))
-
-plot(gps_points)
+# gps_points <- SpatialPointsDataFrame(coords = gps[,c("lon","lat")], data = gps,
+#                                proj4string = CRS("+proj=longlat +datum=WGS84 +ellps=WGS84 +towgs84=0,0,0"))
+# 
+# plot(gps_points)
 
 gps$way <- "come"
 gps[c(1:1468),]$way <- "go"
@@ -162,7 +162,7 @@ prox <- read_delim("signatures/go_as_fast_as_possible/proximity_190717.csv", del
 prox$TimeN <- prox$TimeN - 40000
 prox$TimeN <- as.character(prox$TimeN)
 prox["time"] <- as.POSIXct(prox$TimeN, origin="1970-01-01", format = "%H%M%S")
-prox_sum <- prox %>% dplyr::group_by(time) %>% summarise(USRight=mean(USRight),USLeft=mean(USLeft),USRear=mean(USRear),LidarRight=mean(LidarRight),LidarLeft=mean(LidarLeft) )
+prox_sum <- prox %>% dplyr::group_by(time) %>% summarise(USRight=mean(USRight),USLeft=mean(USLeft),USRear=mean(USRear),LidarRight=mean(LidarRight),LidarLeft=mean(LidarLeft),CO=mean(CO, na.rm=T),SO=mean(SO, na.rm=T),O3=mean(O3, na.rm=T),NO=mean(NO, na.rm=T),P10=mean(P10, na.rm=T),P25=mean(P25, na.rm=T))
 
 gps <- gps %>% left_join(prox_sum, by=c("utc_time" = "time"))
 write.table(gps, "signatures/go_as_fast_as_possible/prox_gps_join.csv", row.names=F, col.names=T, sep=",")
@@ -309,6 +309,62 @@ for (i in c(487:nrow(gps))){
 }
 
 # joining proximiyt values
+prox <- read_delim("signatures/Noel/170720_proximity_noel.csv", delim = ",", col_names = T)
+prox$Time <- prox$Time -  (3600 * 4)
+prox_sum <- prox %>% dplyr::group_by(Time) %>% summarise(USRight=mean(USRight),USLeft=mean(USLeft),USRear=mean(USRear),LidarRight=mean(LidarRight),LidarLeft=mean(LidarLeft), CO=mean(CO, na.rm=T), SO=mean(SO, na.rm=T), O3=mean(O3, na.rm=T), NO=mean(NO, na.rm=T), P10=mean(P10, na.rm=T), P25=mean(P25, na.rm=T) )
+
+gps <- gps %>% left_join(prox_sum, by=c("Time"))
+write.table(gps, "signatures/Noel/prox_gps_join.csv", row.names=F, col.names=T, sep=",")
+
+```
+
+
+# 7/21/2017 Jeremy's
+```{r}
+gps <- fromJSON(txt= "Jeremy/210717_gps_data.json" )
+gps <- as.data.frame(gps["results"])
+
+colnames(gps) <- c("lon", "course","lat","speed","day","utc_time")
+gps$utc_time <- as.character(gps$utc_time)
+gps["time"] <- as.POSIXct(gps$utc_time, origin="1970-01-01", format = "%H%M%S")
+gps$time <- gps$time - (3600 * 4)
+
+gps <- gps %>% separate(lon, into = c("dd","mm"), sep=3 )
+gps$lon <- -(as.numeric(gps$dd) + (as.numeric(gps$mm)/60))
+gps <- gps %>% separate(lat, into = c("dd2","mm2"), sep=2 )
+gps$lat <- (as.numeric(gps$dd2) + (as.numeric(gps$mm2)/60))
+gps <- gps[,c("course", "speed", "day", "time", "lon", "lat")]
+
+gps$speed <- as.numeric(gps$speed)
+gps$course <- as.numeric(gps$course)
+
+gps$seq <- c(1:nrow(gps))
+gps[is.na(gps$lon),]$lon <- 0
+gps[is.na(gps$lat),]$lat <- 0
+
+gps$way <- "come"
+gps[c(1:416),]$way <- "go"
+gps$way <- as.factor(gps$way)
+
+write.table(gps, "Jeremy/210717_gps.csv", row.names=F, col.names=T, sep=",")
+
+map <- get_map(c(lon = -84.397, lat = 33.780), zoom = 16, source = "stamen", maptype = "toner")
+mapPoints <- ggmap(map) + geom_point(aes(x = lon, y = lat, colour=way), data = gps, alpha = 0.9, size = 0.5) + labs(colour="Way", size="Speed") + ggtitle("Jeremy, 0721")
+mapPoints
+
+map <- get_map(c(lon = -84.400, lat = 33.782), zoom = 17, source = "stamen", maptype = "toner")
+mapPoints <- ggmap(map) +geom_point(aes(x = lon, y = lat, colour=way), data = gps[312:314,], alpha = 0.8, size = 0.5)
+mapPoints
+
+# 312 is the reference point to sync between GoPro video and the GPS data
+gps$video_time <- as.POSIXct("00:03:01", origin="1970-01-01", format = "%H:%M:%S")
+
+for (i in c(1:nrow(gps))){
+  gps[i,]$video_time <- gps[312,]$video_time - 312 + i
+}
+
+
+# joining proximiy values
 prox <- read_delim("signatures/Noel/170720_proximity_noel.csv", delim = ",", col_names = T)
 prox$Time <- prox$Time -  (3600 * 4)
 prox_sum <- prox %>% dplyr::group_by(Time) %>% summarise(USRight=mean(USRight),USLeft=mean(USLeft),USRear=mean(USRear),LidarRight=mean(LidarRight),LidarLeft=mean(LidarLeft), CO=mean(CO, na.rm=T), SO=mean(SO, na.rm=T), O3=mean(O3, na.rm=T), NO=mean(NO, na.rm=T), P10=mean(P10, na.rm=T), P25=mean(P25, na.rm=T) )

@@ -1,336 +1,340 @@
-{'sensor': 'proximity', 'timestamp': '210717010430.092', 'data': {'USLeft': '40.64', 'LidarLeft': '1.00', 'USRight': '106.68', 'LidarRight': '485.00', 'USRear': '259.08'}}
-{'sensor': 'proximity', 'timestamp': '210717010431.092', 'data': {'USLeft': '40.64', 'LidarLeft': '1.00', 'USRight': '93.98', 'LidarRight': '488.00', 'USRear': '259.08'}}
-{'sensor': 'proximity', 'timestamp': '210717010431.092', 'data': {'O3': '777.00', 'SO': '748.00', 'LidarRight': '484.00', 'USRight': '93.98', 'CO': '783.00', 'NO': '822.00', 'P10': '23.70', 'LidarLeft': '1.00', 'USRear': '259.08', 'USLeft': '40.64', 'P25': '21.10'}}
-{'sensor': 'proximity', 'timestamp': '210717010431.092', 'data': {'USLeft': '40.64', 'LidarLeft': '1.00', 'USRight': '109.22', 'LidarRight': '486.00', 'USRear': '259.08'}}
-{'sensor': 'proximity', 'timestamp': '210717010431.092', 'data': {'USLeft': '40.64', 'LidarLeft': '1.00', 'USRight': '109.22', 'LidarRight': '487.00', 'USRear': '256.54'}}
-{'sensor': 'proximity', 'timestamp': '210717010432.092', 'data': {'USLeft': '40.64', 'LidarLeft': '1.00', 'USRight': '99.06', 'LidarRight': '485.00', 'USRear': '256.54'}}
-{'sensor': 'proximity', 'timestamp': '210717010432.092', 'data': {'O3': '776.00', 'SO': '412.00', 'LidarRight': '482.00', 'USRight': '99.06', 'CO': '785.00', 'NO': '950.00', 'P10': '23.90', 'LidarLeft': '1.00', 'USRear': '259.08', 'USLeft': '40.64', 'P25': '21.30'}}
-{'sensor': 'proximity', 'timestamp': '210717010432.092', 'data': {'USLeft': '40.64', 'LidarLeft': '1.00', 'USRight': '88.90', 'LidarRight': '483.00', 'USRear': '259.08'}}
-{'sensor': 'proximity', 'timestamp': '210717010433.092', 'data': {'USLeft': '40.64', 'LidarLeft': '1.00', 'USRight': '93.98', 'LidarRight': '481.00', 'USRear': '259.08'}}
-{'sensor': 'proximity', 'timestamp': '210717010433.092', 'data': {'USLeft': '40.64', 'LidarLeft': '1.00', 'USRight': '93.98', 'LidarRight': '493.00', 'USRear': '259.08'}}
-{'sensor': 'proximity', 'timestamp': '210717010433.092', 'data': {'O3': '778.00', 'SO': '882.00', 'LidarRight': '496.00', 'USRight': '101.60', 'CO': '784.00', 'NO': '758.00', 'P10': '24.20', 'LidarLeft': '1.00', 'USRear': '261.62', 'USLeft': '40.64', 'P25': '21.60'}}
-{'sensor': 'proximity', 'timestamp': '210717010434.092', 'data': {'USLeft': '40.64', 'LidarLeft': '22.00', 'USRight': '99.06', 'LidarRight': '484.00', 'USRear': '261.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010434.092', 'data': {'USLeft': '40.64', 'LidarLeft': '1.00', 'USRight': '96.52', 'LidarRight': '483.00', 'USRear': '264.16'}}
-{'sensor': 'proximity', 'timestamp': '210717010434.092', 'data': {'USLeft': '40.64', 'LidarLeft': '19.00', 'USRight': '119.38', 'LidarRight': '488.00', 'USRear': '261.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010434.092', 'data': {'O3': '777.00', 'SO': '801.00', 'LidarRight': '490.00', 'USRight': '93.98', 'CO': '783.00', 'NO': '816.00', 'P10': '24.60', 'LidarLeft': '12.00', 'USRear': '261.62', 'USLeft': '40.64', 'P25': '21.90'}}
-{'sensor': 'proximity', 'timestamp': '210717010435.092', 'data': {'USLeft': '40.64', 'LidarLeft': '1.00', 'USRight': '93.98', 'LidarRight': '491.00', 'USRear': '259.08'}}
-{'sensor': 'proximity', 'timestamp': '210717010435.092', 'data': {'USLeft': '40.64', 'LidarLeft': '7.00', 'USRight': '109.22', 'LidarRight': '482.00', 'USRear': '259.08'}}
-{'sensor': 'proximity', 'timestamp': '210717010435.092', 'data': {'USLeft': '40.64', 'LidarLeft': '5.00', 'USRight': '96.52', 'LidarRight': '489.00', 'USRear': '259.08'}}
-{'sensor': 'proximity', 'timestamp': '210717010436.092', 'data': {'O3': '775.00', 'SO': '513.00', 'LidarRight': '490.00', 'USRight': '96.52', 'CO': '793.00', 'NO': '921.00', 'P10': '24.90', 'LidarLeft': '1.00', 'USRear': '259.08', 'USLeft': '40.64', 'P25': '22.20'}}
-{'sensor': 'proximity', 'timestamp': '210717010436.092', 'data': {'USLeft': '40.64', 'LidarLeft': '1.00', 'USRight': '93.98', 'LidarRight': '486.00', 'USRear': '259.08'}}
-{'sensor': 'proximity', 'timestamp': '210717010436.092', 'data': {'USLeft': '40.64', 'LidarLeft': '1.00', 'USRight': '91.44', 'LidarRight': '484.00', 'USRear': '261.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010436.092', 'data': {'USLeft': '40.64', 'LidarLeft': '1.00', 'USRight': '96.52', 'LidarRight': '486.00', 'USRear': '261.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010437.092', 'data': {'O3': '778.00', 'SO': '826.00', 'LidarRight': '485.00', 'USRight': '93.98', 'CO': '785.00', 'NO': '822.00', 'P10': '25.20', 'LidarLeft': '15.00', 'USRear': '261.62', 'USLeft': '43.18', 'P25': '22.50'}}
-{'sensor': 'proximity', 'timestamp': '210717010437.092', 'data': {'USLeft': '43.18', 'LidarLeft': '5.00', 'USRight': '109.22', 'LidarRight': '489.00', 'USRear': '261.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010437.092', 'data': {'USLeft': '40.64', 'LidarLeft': '10.00', 'USRight': '116.84', 'LidarRight': '490.00', 'USRear': '261.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010438.092', 'data': {'USLeft': '43.18', 'LidarLeft': '8.00', 'USRight': '106.68', 'LidarRight': '490.00', 'USRear': '261.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010438.092', 'data': {'O3': '777.00', 'SO': '377.00', 'LidarRight': '489.00', 'USRight': '104.14', 'CO': '792.00', 'NO': '1064.00', 'P10': '26.00', 'LidarLeft': '4.00', 'USRear': '261.62', 'USLeft': '43.18', 'P25': '23.20'}}
-{'sensor': 'proximity', 'timestamp': '210717010438.092', 'data': {'USLeft': '43.18', 'LidarLeft': '13.00', 'USRight': '119.38', 'LidarRight': '486.00', 'USRear': '261.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010439.092', 'data': {'USLeft': '43.18', 'LidarLeft': '18.00', 'USRight': '93.98', 'LidarRight': '490.00', 'USRear': '261.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010439.092', 'data': {'USLeft': '43.18', 'LidarLeft': '1.00', 'USRight': '129.54', 'LidarRight': '486.00', 'USRear': '261.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010439.092', 'data': {'O3': '778.00', 'SO': '934.00', 'LidarRight': '483.00', 'USRight': '99.06', 'CO': '785.00', 'NO': '722.00', 'P10': '26.00', 'LidarLeft': '25.00', 'USRear': '261.62', 'USLeft': '43.18', 'P25': '23.20'}}
-{'sensor': 'proximity', 'timestamp': '210717010439.092', 'data': {'USLeft': '43.18', 'LidarLeft': '1.00', 'USRight': '99.06', 'LidarRight': '485.00', 'USRear': '261.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010440.092', 'data': {'USLeft': '43.18', 'LidarLeft': '5.00', 'USRight': '111.76', 'LidarRight': '482.00', 'USRear': '261.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010440.092', 'data': {'USLeft': '43.18', 'LidarLeft': '4.00', 'USRight': '99.06', 'LidarRight': '483.00', 'USRear': '259.08'}}
-{'sensor': 'proximity', 'timestamp': '210717010440.092', 'data': {'O3': '777.00', 'SO': '848.00', 'LidarRight': '481.00', 'USRight': '142.24', 'CO': '786.00', 'NO': '763.00', 'P10': '26.10', 'LidarLeft': '4.00', 'USRear': '264.16', 'USLeft': '43.18', 'P25': '23.30'}}
-{'sensor': 'proximity', 'timestamp': '210717010441.092', 'data': {'USLeft': '43.18', 'LidarLeft': '14.00', 'USRight': '96.52', 'LidarRight': '481.00', 'USRear': '205.74'}}
-{'sensor': 'proximity', 'timestamp': '210717010441.092', 'data': {'USLeft': '43.18', 'LidarLeft': '14.00', 'USRight': '99.06', 'LidarRight': '485.00', 'USRear': '172.72'}}
-{'sensor': 'proximity', 'timestamp': '210717010441.092', 'data': {'USLeft': '43.18', 'LidarLeft': '9.00', 'USRight': '96.52', 'LidarRight': '484.00', 'USRear': '152.40'}}
-{'sensor': 'proximity', 'timestamp': '210717010442.085', 'data': {'O3': '776.00', 'SO': '581.00', 'LidarRight': '484.00', 'USRight': '99.06', 'CO': '799.00', 'NO': '870.00', 'P10': '26.10', 'LidarLeft': '10.00', 'USRear': '259.08', 'USLeft': '43.18', 'P25': '23.30'}}
-{'sensor': 'proximity', 'timestamp': '210717010442.085', 'data': {'USLeft': '43.18', 'LidarLeft': '4.00', 'USRight': '96.52', 'LidarRight': '484.00', 'USRear': '259.08'}}
-{'sensor': 'proximity', 'timestamp': '210717010442.085', 'data': {'USLeft': '43.18', 'LidarLeft': '45.00', 'USRight': '93.98', 'LidarRight': '494.00', 'USRear': '259.08'}}
-{'sensor': 'proximity', 'timestamp': '210717010442.085', 'data': {'USLeft': '43.18', 'LidarLeft': '76.00', 'USRight': '106.68', 'LidarRight': '333.00', 'USRear': '256.54'}}
-{'sensor': 'proximity', 'timestamp': '210717010443.304', 'data': {'O3': '777.00', 'SO': '770.00', 'LidarRight': '447.00', 'USRight': '86.36', 'CO': '800.00', 'NO': '876.00', 'P10': '26.00', 'LidarLeft': '1.00', 'USRear': '607.06', 'USLeft': '43.18', 'P25': '23.30'}}
-{'sensor': 'proximity', 'timestamp': '210717010443.304', 'data': {'USLeft': '43.18', 'LidarLeft': '1.00', 'USRight': '73.66', 'LidarRight': '341.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010443.304', 'data': {'USLeft': '43.18', 'LidarLeft': '1.00', 'USRight': '83.82', 'LidarRight': '314.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010444.304', 'data': {'USLeft': '43.18', 'LidarLeft': '1.00', 'USRight': '86.36', 'LidarRight': '331.00', 'USRear': '640.08'}}
-{'sensor': 'proximity', 'timestamp': '210717010444.304', 'data': {'O3': '775.00', 'SO': '342.00', 'LidarRight': '351.00', 'USRight': '83.82', 'CO': '806.00', 'NO': '1040.00', 'P10': '26.10', 'LidarLeft': '1.00', 'USRear': '642.62', 'USLeft': '43.18', 'P25': '23.40'}}
-{'sensor': 'proximity', 'timestamp': '210717010444.304', 'data': {'USLeft': '43.18', 'LidarLeft': '1.00', 'USRight': '88.90', 'LidarRight': '400.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010444.304', 'data': {'USLeft': '43.18', 'LidarLeft': '1.00', 'USRight': '134.62', 'LidarRight': '431.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010445.304', 'data': {'USLeft': '43.18', 'LidarLeft': '1.00', 'USRight': '91.44', 'LidarRight': '412.00', 'USRear': '640.08'}}
-{'sensor': 'proximity', 'timestamp': '210717010445.304', 'data': {'O3': '778.00', 'SO': '892.00', 'LidarRight': '430.00', 'USRight': '91.44', 'CO': '797.00', 'NO': '796.00', 'P10': '26.00', 'LidarLeft': '1.00', 'USRear': '642.62', 'USLeft': '43.18', 'P25': '23.30'}}
-{'sensor': 'proximity', 'timestamp': '210717010445.304', 'data': {'USLeft': '43.18', 'LidarLeft': '1.00', 'USRight': '99.06', 'LidarRight': '433.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010446.304', 'data': {'USLeft': '43.18', 'LidarLeft': '2007.00', 'USRight': '99.06', 'LidarRight': '294.00', 'USRear': '640.08'}}
-{'sensor': 'proximity', 'timestamp': '210717010446.304', 'data': {'USLeft': '43.18', 'LidarLeft': '1996.00', 'USRight': '99.06', 'LidarRight': '404.00', 'USRear': '645.16'}}
-{'sensor': 'proximity', 'timestamp': '210717010446.304', 'data': {'O3': '777.00', 'SO': '698.00', 'LidarRight': '460.00', 'USRight': '99.06', 'CO': '793.00', 'NO': '795.00', 'P10': '26.00', 'LidarLeft': '1.00', 'USRear': '642.62', 'USLeft': '45.72', 'P25': '23.30'}}
-{'sensor': 'proximity', 'timestamp': '210717010447.304', 'data': {'USLeft': '45.72', 'LidarLeft': '1.00', 'USRight': '99.06', 'LidarRight': '486.00', 'USRear': '462.28'}}
-{'sensor': 'proximity', 'timestamp': '210717010447.304', 'data': {'USLeft': '45.72', 'LidarLeft': '1.00', 'USRight': '114.30', 'LidarRight': '492.00', 'USRear': '632.46'}}
-{'sensor': 'proximity', 'timestamp': '210717010447.304', 'data': {'USLeft': '45.72', 'LidarLeft': '1.00', 'USRight': '154.94', 'LidarRight': '481.00', 'USRear': '574.04'}}
-{'sensor': 'proximity', 'timestamp': '210717010448.085', 'data': {'O3': '778.00', 'SO': '971.00', 'LidarRight': '488.00', 'USRight': '83.82', 'CO': '789.00', 'NO': '536.00', 'P10': '25.90', 'LidarLeft': '1.00', 'USRear': '261.62', 'USLeft': '45.72', 'P25': '23.20'}}
-{'sensor': 'proximity', 'timestamp': '210717010448.085', 'data': {'USLeft': '45.72', 'LidarLeft': '1.00', 'USRight': '142.24', 'LidarRight': '484.00', 'USRear': '259.08'}}
-{'sensor': 'proximity', 'timestamp': '210717010448.085', 'data': {'USLeft': '45.72', 'LidarLeft': '1.00', 'USRight': '101.60', 'LidarRight': '489.00', 'USRear': '256.54'}}
-{'sensor': 'proximity', 'timestamp': '210717010448.085', 'data': {'USLeft': '45.72', 'LidarLeft': '1.00', 'USRight': '99.06', 'LidarRight': '494.00', 'USRear': '340.36'}}
-{'sensor': 'proximity', 'timestamp': '210717010449.304', 'data': {'O3': '777.00', 'SO': '703.00', 'LidarRight': '491.00', 'USRight': '81.28', 'CO': '791.00', 'NO': '874.00', 'P10': '25.80', 'LidarLeft': '1.00', 'USRear': '254.00', 'USLeft': '45.72', 'P25': '23.10'}}
-{'sensor': 'proximity', 'timestamp': '210717010449.304', 'data': {'USLeft': '45.72', 'LidarLeft': '1.00', 'USRight': '86.36', 'LidarRight': '488.00', 'USRear': '254.00'}}
-{'sensor': 'proximity', 'timestamp': '210717010449.304', 'data': {'USLeft': '45.72', 'LidarLeft': '1.00', 'USRight': '93.98', 'LidarRight': '489.00', 'USRear': '254.00'}}
-{'sensor': 'proximity', 'timestamp': '210717010450.304', 'data': {'USLeft': '45.72', 'LidarLeft': '1.00', 'USRight': '99.06', 'LidarRight': '481.00', 'USRear': '256.54'}}
-{'sensor': 'proximity', 'timestamp': '210717010450.304', 'data': {'O3': '776.00', 'SO': '420.00', 'LidarRight': '480.00', 'USRight': '106.68', 'CO': '794.00', 'NO': '936.00', 'P10': '25.80', 'LidarLeft': '1.00', 'USRear': '256.54', 'USLeft': '45.72', 'P25': '23.10'}}
-{'sensor': 'proximity', 'timestamp': '210717010450.304', 'data': {'USLeft': '45.72', 'LidarLeft': '1.00', 'USRight': '101.60', 'LidarRight': '485.00', 'USRear': '259.08'}}
-{'sensor': 'proximity', 'timestamp': '210717010450.304', 'data': {'USLeft': '45.72', 'LidarLeft': '1.00', 'USRight': '106.68', 'LidarRight': '488.00', 'USRear': '259.08'}}
-{'sensor': 'proximity', 'timestamp': '210717010451.304', 'data': {'USLeft': '45.72', 'LidarLeft': '1.00', 'USRight': '93.98', 'LidarRight': '489.00', 'USRear': '259.08'}}
-{'sensor': 'proximity', 'timestamp': '210717010451.304', 'data': {'O3': '777.00', 'SO': '889.00', 'LidarRight': '485.00', 'USRight': '96.52', 'CO': '783.00', 'NO': '764.00', 'P10': '25.80', 'LidarLeft': '1.00', 'USRear': '259.08', 'USLeft': '45.72', 'P25': '23.10'}}
-{'sensor': 'proximity', 'timestamp': '210717010451.304', 'data': {'USLeft': '45.72', 'LidarLeft': '27.00', 'USRight': '106.68', 'LidarRight': '485.00', 'USRear': '256.54'}}
-{'sensor': 'proximity', 'timestamp': '210717010452.304', 'data': {'USLeft': '45.72', 'LidarLeft': '1.00', 'USRight': '99.06', 'LidarRight': '485.00', 'USRear': '256.54'}}
-{'sensor': 'proximity', 'timestamp': '210717010452.304', 'data': {'USLeft': '45.72', 'LidarLeft': '1.00', 'USRight': '109.22', 'LidarRight': '487.00', 'USRear': '256.54'}}
-{'sensor': 'proximity', 'timestamp': '210717010452.304', 'data': {'O3': '777.00', 'SO': '797.00', 'LidarRight': '485.00', 'USRight': '99.06', 'CO': '784.00', 'NO': '750.00', 'P10': '25.70', 'LidarLeft': '1.00', 'USRear': '261.62', 'USLeft': '45.72', 'P25': '23.00'}}
-{'sensor': 'proximity', 'timestamp': '210717010453.304', 'data': {'USLeft': '45.72', 'LidarLeft': '1.00', 'USRight': '91.44', 'LidarRight': '485.00', 'USRear': '259.08'}}
-{'sensor': 'proximity', 'timestamp': '210717010453.304', 'data': {'USLeft': '45.72', 'LidarLeft': '1.00', 'USRight': '106.68', 'LidarRight': '488.00', 'USRear': '256.54'}}
-{'sensor': 'proximity', 'timestamp': '210717010453.304', 'data': {'USLeft': '45.72', 'LidarLeft': '1.00', 'USRight': '111.76', 'LidarRight': '489.00', 'USRear': '403.86'}}
-{'sensor': 'proximity', 'timestamp': '210717010454.085', 'data': {'O3': '775.00', 'SO': '530.00', 'LidarRight': '489.00', 'USRight': '111.76', 'CO': '789.00', 'NO': '775.00', 'P10': '25.70', 'LidarLeft': '1.00', 'USRear': '256.54', 'USLeft': '45.72', 'P25': '23.00'}}
-{'sensor': 'proximity', 'timestamp': '210717010454.085', 'data': {'USLeft': '45.72', 'LidarLeft': '1.00', 'USRight': '114.30', 'LidarRight': '491.00', 'USRear': '256.54'}}
-{'sensor': 'proximity', 'timestamp': '210717010454.085', 'data': {'USLeft': '45.72', 'LidarLeft': '1.00', 'USRight': '114.30', 'LidarRight': '483.00', 'USRear': '256.54'}}
-{'sensor': 'proximity', 'timestamp': '210717010454.085', 'data': {'USLeft': '45.72', 'LidarLeft': '1.00', 'USRight': '132.08', 'LidarRight': '483.00', 'USRear': '259.08'}}
-{'sensor': 'proximity', 'timestamp': '210717010455.304', 'data': {'O3': '777.00', 'SO': '759.00', 'LidarRight': '486.00', 'USRight': '106.68', 'CO': '788.00', 'NO': '797.00', 'P10': '25.60', 'LidarLeft': '1.00', 'USRear': '416.56', 'USLeft': '45.72', 'P25': '22.90'}}
-{'sensor': 'proximity', 'timestamp': '210717010455.304', 'data': {'USLeft': '45.72', 'LidarLeft': '1.00', 'USRight': '129.54', 'LidarRight': '483.00', 'USRear': '599.44'}}
-{'sensor': 'proximity', 'timestamp': '210717010455.304', 'data': {'USLeft': '45.72', 'LidarLeft': '1.00', 'USRight': '132.08', 'LidarRight': '486.00', 'USRear': '444.50'}}
-{'sensor': 'proximity', 'timestamp': '210717010456.304', 'data': {'USLeft': '45.72', 'LidarLeft': '1.00', 'USRight': '109.22', 'LidarRight': '488.00', 'USRear': '637.54'}}
-{'sensor': 'proximity', 'timestamp': '210717010456.304', 'data': {'O3': '775.00', 'SO': '334.00', 'LidarRight': '487.00', 'USRight': '109.22', 'CO': '798.00', 'NO': '1047.00', 'P10': '25.60', 'LidarLeft': '1.00', 'USRear': '607.06', 'USLeft': '45.72', 'P25': '22.90'}}
-{'sensor': 'proximity', 'timestamp': '210717010456.304', 'data': {'USLeft': '45.72', 'LidarLeft': '1.00', 'USRight': '109.22', 'LidarRight': '484.00', 'USRear': '541.02'}}
-{'sensor': 'proximity', 'timestamp': '210717010457.304', 'data': {'USLeft': '45.72', 'LidarLeft': '1.00', 'USRight': '109.22', 'LidarRight': '482.00', 'USRear': '424.18'}}
-{'sensor': 'proximity', 'timestamp': '210717010457.304', 'data': {'USLeft': '45.72', 'LidarLeft': '1.00', 'USRight': '129.54', 'LidarRight': '483.00', 'USRear': '513.08'}}
-{'sensor': 'proximity', 'timestamp': '210717010457.304', 'data': {'O3': '778.00', 'SO': '948.00', 'LidarRight': '486.00', 'USRight': '111.76', 'CO': '794.00', 'NO': '734.00', 'P10': '25.40', 'LidarLeft': '1.00', 'USRear': '256.54', 'USLeft': '45.72', 'P25': '22.80'}}
-{'sensor': 'proximity', 'timestamp': '210717010458.304', 'data': {'USLeft': '45.72', 'LidarLeft': '1.00', 'USRight': '111.76', 'LidarRight': '482.00', 'USRear': '256.54'}}
-{'sensor': 'proximity', 'timestamp': '210717010458.304', 'data': {'USLeft': '45.72', 'LidarLeft': '1.00', 'USRight': '114.30', 'LidarRight': '484.00', 'USRear': '256.54'}}
-{'sensor': 'proximity', 'timestamp': '210717010458.304', 'data': {'USLeft': '48.26', 'LidarLeft': '1.00', 'USRight': '106.68', 'LidarRight': '486.00', 'USRear': '370.84'}}
-{'sensor': 'proximity', 'timestamp': '210717010458.304', 'data': {'O3': '776.00', 'SO': '690.00', 'LidarRight': '484.00', 'USRight': '109.22', 'CO': '789.00', 'NO': '862.00', 'P10': '25.40', 'LidarLeft': '1.00', 'USRear': '637.54', 'USLeft': '48.26', 'P25': '22.80'}}
-{'sensor': 'proximity', 'timestamp': '210717010459.304', 'data': {'USLeft': '48.26', 'LidarLeft': '1.00', 'USRight': '109.22', 'LidarRight': '484.00', 'USRear': '528.32'}}
-{'sensor': 'proximity', 'timestamp': '210717010459.304', 'data': {'USLeft': '48.26', 'LidarLeft': '1.00', 'USRight': '99.06', 'LidarRight': '484.00', 'USRear': '299.72'}}
-{'sensor': 'proximity', 'timestamp': '210717010459.304', 'data': {'USLeft': '48.26', 'LidarLeft': '1.00', 'USRight': '114.30', 'LidarRight': '487.00', 'USRear': '416.56'}}
-{'sensor': 'proximity', 'timestamp': '210717010500.081', 'data': {'O3': '777.00', 'SO': '974.00', 'LidarRight': '487.00', 'USRight': '124.46', 'CO': '784.00', 'NO': '531.00', 'P10': '25.50', 'LidarLeft': '1.00', 'USRear': '256.54', 'USLeft': '48.26', 'P25': '22.90'}}
-{'sensor': 'proximity', 'timestamp': '210717010500.081', 'data': {'USLeft': '48.26', 'LidarLeft': '1.00', 'USRight': '96.52', 'LidarRight': '487.00', 'USRear': '256.54'}}
-{'sensor': 'proximity', 'timestamp': '210717010500.081', 'data': {'USLeft': '48.26', 'LidarLeft': '1.00', 'USRight': '96.52', 'LidarRight': '482.00', 'USRear': '256.54'}}
-{'sensor': 'proximity', 'timestamp': '210717010501.086', 'data': {'USLeft': '48.26', 'LidarLeft': '1.00', 'USRight': '106.68', 'LidarRight': '483.00', 'USRear': '579.12'}}
-{'sensor': 'proximity', 'timestamp': '210717010501.086', 'data': {'O3': '776.00', 'SO': '727.00', 'LidarRight': '482.00', 'USRight': '121.92', 'CO': '783.00', 'NO': '834.00', 'P10': '25.50', 'LidarLeft': '1.00', 'USRear': '596.90', 'USLeft': '48.26', 'P25': '22.90'}}
-{'sensor': 'proximity', 'timestamp': '210717010501.086', 'data': {'USLeft': '48.26', 'LidarLeft': '1.00', 'USRight': '86.36', 'LidarRight': '477.00', 'USRear': '266.70'}}
-{'sensor': 'proximity', 'timestamp': '210717010502.087', 'data': {'USLeft': '48.26', 'LidarLeft': '1.00', 'USRight': '101.60', 'LidarRight': '483.00', 'USRear': '254.00'}}
-{'sensor': 'proximity', 'timestamp': '210717010502.087', 'data': {'USLeft': '48.26', 'LidarLeft': '1.00', 'USRight': '99.06', 'LidarRight': '483.00', 'USRear': '254.00'}}
-{'sensor': 'proximity', 'timestamp': '210717010502.087', 'data': {'O3': '775.00', 'SO': '418.00', 'LidarRight': '484.00', 'USRight': '109.22', 'CO': '784.00', 'NO': '942.00', 'P10': '25.50', 'LidarLeft': '2255.00', 'USRear': '254.00', 'USLeft': '48.26', 'P25': '22.90'}}
-{'sensor': 'proximity', 'timestamp': '210717010502.087', 'data': {'USLeft': '48.26', 'LidarLeft': '1.00', 'USRight': '114.30', 'LidarRight': '496.00', 'USRear': '251.46'}}
-{'sensor': 'proximity', 'timestamp': '210717010503.087', 'data': {'USLeft': '48.26', 'LidarLeft': '2200.00', 'USRight': '93.98', 'LidarRight': '490.00', 'USRear': '251.46'}}
-{'sensor': 'proximity', 'timestamp': '210717010503.087', 'data': {'USLeft': '48.26', 'LidarLeft': '2231.00', 'USRight': '81.28', 'LidarRight': '497.00', 'USRear': '314.96'}}
-{'sensor': 'proximity', 'timestamp': '210717010503.087', 'data': {'O3': '776.00', 'SO': '866.00', 'LidarRight': '487.00', 'USRight': '83.82', 'CO': '779.00', 'NO': '722.00', 'P10': '25.40', 'LidarLeft': '1.00', 'USRear': '642.62', 'USLeft': '48.26', 'P25': '22.80'}}
-{'sensor': 'proximity', 'timestamp': '210717010504.087', 'data': {'USLeft': '48.26', 'LidarLeft': '1.00', 'USRight': '93.98', 'LidarRight': '481.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010504.087', 'data': {'USLeft': '48.26', 'LidarLeft': '1.00', 'USRight': '96.52', 'LidarRight': '484.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010504.087', 'data': {'USLeft': '48.26', 'LidarLeft': '1.00', 'USRight': '99.06', 'LidarRight': '481.00', 'USRear': '594.36'}}
-{'sensor': 'proximity', 'timestamp': '210717010504.087', 'data': {'O3': '776.00', 'SO': '691.00', 'LidarRight': '412.00', 'USRight': '88.90', 'CO': '779.00', 'NO': '869.00', 'P10': '25.30', 'LidarLeft': '1.00', 'USRear': '642.62', 'USLeft': '48.26', 'P25': '22.80'}}
-{'sensor': 'proximity', 'timestamp': '210717010505.087', 'data': {'USLeft': '48.26', 'LidarLeft': '1.00', 'USRight': '111.76', 'LidarRight': '262.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010505.087', 'data': {'USLeft': '48.26', 'LidarLeft': '1.00', 'USRight': '78.74', 'LidarRight': '339.00', 'USRear': '640.08'}}
-{'sensor': 'proximity', 'timestamp': '210717010505.087', 'data': {'USLeft': '48.26', 'LidarLeft': '1.00', 'USRight': '83.82', 'LidarRight': '446.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010506.087', 'data': {'O3': '776.00', 'SO': '665.00', 'LidarRight': '475.00', 'USRight': '81.28', 'CO': '782.00', 'NO': '626.00', 'P10': '25.20', 'LidarLeft': '1.00', 'USRear': '642.62', 'USLeft': '48.26', 'P25': '22.70'}}
-{'sensor': 'proximity', 'timestamp': '210717010506.087', 'data': {'USLeft': '48.26', 'LidarLeft': '1.00', 'USRight': '134.62', 'LidarRight': '486.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010506.087', 'data': {'USLeft': '48.26', 'LidarLeft': '1.00', 'USRight': '91.44', 'LidarRight': '484.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010507.087', 'data': {'USLeft': '48.26', 'LidarLeft': '1.00', 'USRight': '81.28', 'LidarRight': '486.00', 'USRear': '241.30'}}
-{'sensor': 'proximity', 'timestamp': '210717010507.087', 'data': {'O3': '777.00', 'SO': '795.00', 'LidarRight': '489.00', 'USRight': '81.28', 'CO': '777.00', 'NO': '838.00', 'P10': '25.20', 'LidarLeft': '1.00', 'USRear': '246.38', 'USLeft': '48.26', 'P25': '22.70'}}
-{'sensor': 'proximity', 'timestamp': '210717010507.087', 'data': {'USLeft': '48.26', 'LidarLeft': '2215.00', 'USRight': '86.36', 'LidarRight': '504.00', 'USRear': '254.00'}}
-{'sensor': 'proximity', 'timestamp': '210717010508.087', 'data': {'USLeft': '48.26', 'LidarLeft': '1.00', 'USRight': '109.22', 'LidarRight': '735.00', 'USRear': '563.88'}}
-{'sensor': 'proximity', 'timestamp': '210717010508.087', 'data': {'USLeft': '48.26', 'LidarLeft': '1.00', 'USRight': '76.20', 'LidarRight': '658.00', 'USRear': '607.06'}}
-{'sensor': 'proximity', 'timestamp': '210717010508.087', 'data': {'O3': '774.00', 'SO': '288.00', 'LidarRight': '162.00', 'USRight': '76.20', 'CO': '783.00', 'NO': '1030.00', 'P10': '25.20', 'LidarLeft': '1998.00', 'USRear': '617.22', 'USLeft': '48.26', 'P25': '22.70'}}
-{'sensor': 'proximity', 'timestamp': '210717010508.087', 'data': {'USLeft': '48.26', 'LidarLeft': '1.00', 'USRight': '157.48', 'LidarRight': '501.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010509.087', 'data': {'USLeft': '48.26', 'LidarLeft': '1222.00', 'USRight': '238.76', 'LidarRight': '271.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010509.087', 'data': {'USLeft': '48.26', 'LidarLeft': '1.00', 'USRight': '114.30', 'LidarRight': '272.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010509.087', 'data': {'O3': '776.00', 'SO': '912.00', 'LidarRight': '276.00', 'USRight': '175.26', 'CO': '776.00', 'NO': '787.00', 'P10': '25.10', 'LidarLeft': '1.00', 'USRear': '640.08', 'USLeft': '48.26', 'P25': '22.60'}}
-{'sensor': 'proximity', 'timestamp': '210717010510.087', 'data': {'USLeft': '48.26', 'LidarLeft': '1.00', 'USRight': '157.48', 'LidarRight': '538.00', 'USRear': '640.08'}}
-{'sensor': 'proximity', 'timestamp': '210717010510.087', 'data': {'USLeft': '48.26', 'LidarLeft': '2618.00', 'USRight': '177.80', 'LidarRight': '548.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010510.087', 'data': {'USLeft': '48.26', 'LidarLeft': '1.00', 'USRight': '195.58', 'LidarRight': '576.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010511.087', 'data': {'O3': '777.00', 'SO': '689.00', 'LidarRight': '466.00', 'USRight': '210.82', 'CO': '779.00', 'NO': '877.00', 'P10': '25.00', 'LidarLeft': '1.00', 'USRear': '642.62', 'USLeft': '48.26', 'P25': '22.60'}}
-{'sensor': 'proximity', 'timestamp': '210717010511.087', 'data': {'USLeft': '48.26', 'LidarLeft': '2462.00', 'USRight': '220.98', 'LidarRight': '423.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010511.087', 'data': {'USLeft': '50.80', 'LidarLeft': '1129.00', 'USRight': '231.14', 'LidarRight': '425.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010511.087', 'data': {'USLeft': '48.26', 'LidarLeft': '2452.00', 'USRight': '271.78', 'LidarRight': '439.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010512.087', 'data': {'O3': '774.00', 'SO': '532.00', 'LidarRight': '433.00', 'USRight': '246.38', 'CO': '784.00', 'NO': '928.00', 'P10': '24.90', 'LidarLeft': '1607.00', 'USRear': '642.62', 'USLeft': '50.80', 'P25': '22.50'}}
-{'sensor': 'proximity', 'timestamp': '210717010512.087', 'data': {'USLeft': '50.80', 'LidarLeft': '2432.00', 'USRight': '241.30', 'LidarRight': '650.00', 'USRear': '614.68'}}
-{'sensor': 'proximity', 'timestamp': '210717010512.087', 'data': {'USLeft': '50.80', 'LidarLeft': '2461.00', 'USRight': '226.06', 'LidarRight': '612.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010513.087', 'data': {'USLeft': '50.80', 'LidarLeft': '2434.00', 'USRight': '233.68', 'LidarRight': '2360.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010513.087', 'data': {'O3': '776.00', 'SO': '701.00', 'LidarRight': '1.00', 'USRight': '645.16', 'CO': '781.00', 'NO': '833.00', 'P10': '25.00', 'LidarLeft': '1186.00', 'USRear': '640.08', 'USLeft': '50.80', 'P25': '22.60'}}
-{'sensor': 'proximity', 'timestamp': '210717010513.087', 'data': {'USLeft': '50.80', 'LidarLeft': '1275.00', 'USRight': '266.70', 'LidarRight': '1.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010514.087', 'data': {'USLeft': '50.80', 'LidarLeft': '1.00', 'USRight': '292.10', 'LidarRight': '2114.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010514.087', 'data': {'USLeft': '50.80', 'LidarLeft': '1.00', 'USRight': '322.58', 'LidarRight': '1.00', 'USRear': '640.08'}}
-{'sensor': 'proximity', 'timestamp': '210717010514.087', 'data': {'O3': '774.00', 'SO': '364.00', 'LidarRight': '498.00', 'USRight': '375.92', 'CO': '784.00', 'NO': '1060.00', 'P10': '25.00', 'LidarLeft': '1.00', 'USRear': '612.14', 'USLeft': '50.80', 'P25': '22.60'}}
-{'sensor': 'proximity', 'timestamp': '210717010514.087', 'data': {'USLeft': '50.80', 'LidarLeft': '1.00', 'USRight': '591.82', 'LidarRight': '1.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010515.087', 'data': {'USLeft': '50.80', 'LidarLeft': '1.00', 'USRight': '325.12', 'LidarRight': '669.00', 'USRear': '645.16'}}
-{'sensor': 'proximity', 'timestamp': '210717010515.087', 'data': {'USLeft': '50.80', 'LidarLeft': '1.00', 'USRight': '464.82', 'LidarRight': '469.00', 'USRear': '60.96'}}
-{'sensor': 'proximity', 'timestamp': '210717010515.087', 'data': {'O3': '777.00', 'SO': '1002.00', 'LidarRight': '350.00', 'USRight': '645.16', 'CO': '781.00', 'NO': '670.00', 'P10': '24.90', 'LidarLeft': '868.00', 'USRear': '607.06', 'USLeft': '50.80', 'P25': '22.50'}}
-{'sensor': 'proximity', 'timestamp': '210717010516.087', 'data': {'USLeft': '50.80', 'LidarLeft': '1.00', 'USRight': '645.16', 'LidarRight': '341.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010516.087', 'data': {'USLeft': '50.80', 'LidarLeft': '1233.00', 'USRight': '642.62', 'LidarRight': '308.00', 'USRear': '640.08'}}
-{'sensor': 'proximity', 'timestamp': '210717010516.087', 'data': {'USLeft': '50.80', 'LidarLeft': '1471.00', 'USRight': '129.54', 'LidarRight': '246.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010517.087', 'data': {'O3': '777.00', 'SO': '831.00', 'LidarRight': '226.00', 'USRight': '99.06', 'CO': '782.00', 'NO': '825.00', 'P10': '24.80', 'LidarLeft': '839.00', 'USRear': '642.62', 'USLeft': '50.80', 'P25': '22.50'}}
-{'sensor': 'proximity', 'timestamp': '210717010517.087', 'data': {'USLeft': '50.80', 'LidarLeft': '1831.00', 'USRight': '132.08', 'LidarRight': '255.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010517.087', 'data': {'USLeft': '50.80', 'LidarLeft': '1472.00', 'USRight': '322.58', 'LidarRight': '365.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010518.087', 'data': {'USLeft': '50.80', 'LidarLeft': '1.00', 'USRight': '396.24', 'LidarRight': '520.00', 'USRear': '228.60'}}
-{'sensor': 'proximity', 'timestamp': '210717010518.087', 'data': {'O3': '776.00', 'SO': '867.00', 'LidarRight': '539.00', 'USRight': '325.12', 'CO': '786.00', 'NO': '530.00', 'P10': '24.70', 'LidarLeft': '1.00', 'USRear': '629.92', 'USLeft': '50.80', 'P25': '22.40'}}
-{'sensor': 'proximity', 'timestamp': '210717010518.087', 'data': {'USLeft': '50.80', 'LidarLeft': '1.00', 'USRight': '441.96', 'LidarRight': '302.00', 'USRear': '607.06'}}
-{'sensor': 'proximity', 'timestamp': '210717010518.087', 'data': {'USLeft': '50.80', 'LidarLeft': '1.00', 'USRight': '325.12', 'LidarRight': '265.00', 'USRear': '632.46'}}
-{'sensor': 'proximity', 'timestamp': '210717010519.087', 'data': {'USLeft': '50.80', 'LidarLeft': '1.00', 'USRight': '121.92', 'LidarRight': '216.00', 'USRear': '627.38'}}
-{'sensor': 'proximity', 'timestamp': '210717010519.087', 'data': {'O3': '777.00', 'SO': '750.00', 'LidarRight': '176.00', 'USRight': '83.82', 'CO': '784.00', 'NO': '850.00', 'P10': '24.70', 'LidarLeft': '3031.00', 'USRear': '642.62', 'USLeft': '50.80', 'P25': '22.40'}}
-{'sensor': 'proximity', 'timestamp': '210717010519.087', 'data': {'USLeft': '50.80', 'LidarLeft': '1.00', 'USRight': '111.76', 'LidarRight': '1119.00', 'USRear': '645.16'}}
-{'sensor': 'proximity', 'timestamp': '210717010520.087', 'data': {'USLeft': '50.80', 'LidarLeft': '2947.00', 'USRight': '134.62', 'LidarRight': '665.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010520.087', 'data': {'USLeft': '50.80', 'LidarLeft': '1.00', 'USRight': '132.08', 'LidarRight': '267.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010520.087', 'data': {'O3': '775.00', 'SO': '413.00', 'LidarRight': '204.00', 'USRight': '132.08', 'CO': '788.00', 'NO': '939.00', 'P10': '24.70', 'LidarLeft': '1.00', 'USRear': '642.62', 'USLeft': '50.80', 'P25': '22.40'}}
-{'sensor': 'proximity', 'timestamp': '210717010520.087', 'data': {'USLeft': '50.80', 'LidarLeft': '1.00', 'USRight': '147.32', 'LidarRight': '186.00', 'USRear': '640.08'}}
-{'sensor': 'proximity', 'timestamp': '210717010521.087', 'data': {'USLeft': '50.80', 'LidarLeft': '1.00', 'USRight': '152.40', 'LidarRight': '189.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010521.087', 'data': {'USLeft': '50.80', 'LidarLeft': '1.00', 'USRight': '144.78', 'LidarRight': '187.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010521.087', 'data': {'O3': '776.00', 'SO': '915.00', 'LidarRight': '647.00', 'USRight': '157.48', 'CO': '782.00', 'NO': '746.00', 'P10': '24.60', 'LidarLeft': '1.00', 'USRear': '642.62', 'USLeft': '50.80', 'P25': '22.30'}}
-{'sensor': 'proximity', 'timestamp': '210717010522.087', 'data': {'USLeft': '50.80', 'LidarLeft': '3539.00', 'USRight': '147.32', 'LidarRight': '1.00', 'USRear': '640.08'}}
-{'sensor': 'proximity', 'timestamp': '210717010522.087', 'data': {'USLeft': '50.80', 'LidarLeft': '1.00', 'USRight': '149.86', 'LidarRight': '310.00', 'USRear': '220.98'}}
-{'sensor': 'proximity', 'timestamp': '210717010522.087', 'data': {'USLeft': '50.80', 'LidarLeft': '2940.00', 'USRight': '160.02', 'LidarRight': '196.00', 'USRear': '632.46'}}
-{'sensor': 'proximity', 'timestamp': '210717010523.087', 'data': {'O3': '777.00', 'SO': '727.00', 'LidarRight': '204.00', 'USRight': '157.48', 'CO': '784.00', 'NO': '829.00', 'P10': '24.50', 'LidarLeft': '2895.00', 'USRear': '642.62', 'USLeft': '50.80', 'P25': '22.20'}}
-{'sensor': 'proximity', 'timestamp': '210717010523.087', 'data': {'USLeft': '50.80', 'LidarLeft': '1.00', 'USRight': '213.36', 'LidarRight': '232.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010523.087', 'data': {'USLeft': '50.80', 'LidarLeft': '675.00', 'USRight': '205.74', 'LidarRight': '1165.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010524.087', 'data': {'USLeft': '50.80', 'LidarLeft': '255.00', 'USRight': '411.48', 'LidarRight': '1156.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010524.087', 'data': {'O3': '777.00', 'SO': '882.00', 'LidarRight': '540.00', 'USRight': '642.62', 'CO': '785.00', 'NO': '622.00', 'P10': '24.30', 'LidarLeft': '2897.00', 'USRear': '637.54', 'USLeft': '50.80', 'P25': '22.00'}}
-{'sensor': 'proximity', 'timestamp': '210717010524.087', 'data': {'USLeft': '50.80', 'LidarLeft': '2160.00', 'USRight': '642.62', 'LidarRight': '494.00', 'USRear': '645.16'}}
-{'sensor': 'proximity', 'timestamp': '210717010524.087', 'data': {'USLeft': '50.80', 'LidarLeft': '1.00', 'USRight': '645.16', 'LidarRight': '353.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010525.087', 'data': {'USLeft': '50.80', 'LidarLeft': '2831.00', 'USRight': '91.44', 'LidarRight': '226.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010525.087', 'data': {'O3': '777.00', 'SO': '755.00', 'LidarRight': '195.00', 'USRight': '220.98', 'CO': '787.00', 'NO': '762.00', 'P10': '24.30', 'LidarLeft': '1.00', 'USRear': '642.62', 'USLeft': '50.80', 'P25': '22.00'}}
-{'sensor': 'proximity', 'timestamp': '210717010525.087', 'data': {'USLeft': '50.80', 'LidarLeft': '1.00', 'USRight': '254.00', 'LidarRight': '280.00', 'USRear': '619.76'}}
-{'sensor': 'proximity', 'timestamp': '210717010526.087', 'data': {'USLeft': '50.80', 'LidarLeft': '1.00', 'USRight': '248.92', 'LidarRight': '1.00', 'USRear': '490.22'}}
-{'sensor': 'proximity', 'timestamp': '210717010526.087', 'data': {'USLeft': '50.80', 'LidarLeft': '711.00', 'USRight': '160.02', 'LidarRight': '251.00', 'USRear': '624.84'}}
-{'sensor': 'proximity', 'timestamp': '210717010526.087', 'data': {'O3': '775.00', 'SO': '445.00', 'LidarRight': '259.00', 'USRight': '223.52', 'CO': '790.00', 'NO': '922.00', 'P10': '24.20', 'LidarLeft': '2940.00', 'USRear': '640.08', 'USLeft': '50.80', 'P25': '21.90'}}
-{'sensor': 'proximity', 'timestamp': '210717010527.087', 'data': {'USLeft': '50.80', 'LidarLeft': '1.00', 'USRight': '208.28', 'LidarRight': '257.00', 'USRear': '561.34'}}
-{'sensor': 'proximity', 'timestamp': '210717010527.087', 'data': {'USLeft': '50.80', 'LidarLeft': '2738.00', 'USRight': '208.28', 'LidarRight': '2360.00', 'USRear': '568.96'}}
-{'sensor': 'proximity', 'timestamp': '210717010527.087', 'data': {'USLeft': '50.80', 'LidarLeft': '1.00', 'USRight': '162.56', 'LidarRight': '231.00', 'USRear': '640.08'}}
-{'sensor': 'proximity', 'timestamp': '210717010527.087', 'data': {'O3': '776.00', 'SO': '842.00', 'LidarRight': '231.00', 'USRight': '93.98', 'CO': '783.00', 'NO': '800.00', 'P10': '24.10', 'LidarLeft': '1.00', 'USRear': '642.62', 'USLeft': '50.80', 'P25': '21.80'}}
-{'sensor': 'proximity', 'timestamp': '210717010528.087', 'data': {'USLeft': '50.80', 'LidarLeft': '2055.00', 'USRight': '238.76', 'LidarRight': '141.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010528.087', 'data': {'USLeft': '50.80', 'LidarLeft': '2871.00', 'USRight': '99.06', 'LidarRight': '268.00', 'USRear': '640.08'}}
-{'sensor': 'proximity', 'timestamp': '210717010528.087', 'data': {'USLeft': '50.80', 'LidarLeft': '1.00', 'USRight': '223.52', 'LidarRight': '243.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010529.087', 'data': {'O3': '777.00', 'SO': '746.00', 'LidarRight': '248.00', 'USRight': '223.52', 'CO': '783.00', 'NO': '830.00', 'P10': '23.90', 'LidarLeft': '1.00', 'USRear': '599.44', 'USLeft': '50.80', 'P25': '21.70'}}
-{'sensor': 'proximity', 'timestamp': '210717010529.087', 'data': {'USLeft': '53.34', 'LidarLeft': '1.00', 'USRight': '88.90', 'LidarRight': '171.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010529.087', 'data': {'USLeft': '53.34', 'LidarLeft': '184.00', 'USRight': '165.10', 'LidarRight': '108.00', 'USRear': '640.08'}}
-{'sensor': 'proximity', 'timestamp': '210717010529.087', 'data': {'USLeft': '53.34', 'LidarLeft': '2170.00', 'USRight': '187.96', 'LidarRight': '204.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010530.087', 'data': {'O3': '776.00', 'SO': '1019.00', 'LidarRight': '180.00', 'USRight': '68.58', 'CO': '783.00', 'NO': '578.00', 'P10': '23.80', 'LidarLeft': '143.00', 'USRear': '640.08', 'USLeft': '53.34', 'P25': '21.60'}}
-{'sensor': 'proximity', 'timestamp': '210717010530.087', 'data': {'USLeft': '50.80', 'LidarLeft': '1.00', 'USRight': '337.82', 'LidarRight': '369.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010530.087', 'data': {'USLeft': '53.34', 'LidarLeft': '2922.00', 'USRight': '337.82', 'LidarRight': '363.00', 'USRear': '444.50'}}
-{'sensor': 'proximity', 'timestamp': '210717010531.087', 'data': {'USLeft': '50.80', 'LidarLeft': '499.00', 'USRight': '172.72', 'LidarRight': '356.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010531.087', 'data': {'O3': '777.00', 'SO': '684.00', 'LidarRight': '360.00', 'USRight': '175.26', 'CO': '784.00', 'NO': '830.00', 'P10': '23.70', 'LidarLeft': '1.00', 'USRear': '640.08', 'USLeft': '53.34', 'P25': '21.50'}}
-{'sensor': 'proximity', 'timestamp': '210717010531.087', 'data': {'USLeft': '53.34', 'LidarLeft': '110.00', 'USRight': '233.68', 'LidarRight': '370.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010532.087', 'data': {'USLeft': '50.80', 'LidarLeft': '574.00', 'USRight': '345.44', 'LidarRight': '399.00', 'USRear': '236.22'}}
-{'sensor': 'proximity', 'timestamp': '210717010532.087', 'data': {'USLeft': '53.34', 'LidarLeft': '282.00', 'USRight': '71.12', 'LidarRight': '236.00', 'USRear': '632.46'}}
-{'sensor': 'proximity', 'timestamp': '210717010532.087', 'data': {'O3': '775.00', 'SO': '518.00', 'LidarRight': '634.00', 'USRight': '335.28', 'CO': '786.00', 'NO': '866.00', 'P10': '23.70', 'LidarLeft': '1.00', 'USRear': '642.62', 'USLeft': '53.34', 'P25': '21.50'}}
-{'sensor': 'proximity', 'timestamp': '210717010533.087', 'data': {'USLeft': '53.34', 'LidarLeft': '104.00', 'USRight': '325.12', 'LidarRight': '741.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010533.087', 'data': {'USLeft': '53.34', 'LidarLeft': '3051.00', 'USRight': '642.62', 'LidarRight': '941.00', 'USRear': '591.82'}}
-{'sensor': 'proximity', 'timestamp': '210717010533.087', 'data': {'USLeft': '50.80', 'LidarLeft': '1.00', 'USRight': '226.06', 'LidarRight': '437.00', 'USRear': '76.20'}}
-{'sensor': 'proximity', 'timestamp': '210717010534.087', 'data': {'O3': '778.00', 'SO': '823.00', 'LidarRight': '317.00', 'USRight': '170.18', 'CO': '784.00', 'NO': '836.00', 'P10': '23.60', 'LidarLeft': '1.00', 'USRear': '604.52', 'USLeft': '53.34', 'P25': '21.40'}}
-{'sensor': 'proximity', 'timestamp': '210717010534.087', 'data': {'USLeft': '53.34', 'LidarLeft': '1.00', 'USRight': '190.50', 'LidarRight': '567.00', 'USRear': '617.22'}}
-{'sensor': 'proximity', 'timestamp': '210717010534.087', 'data': {'USLeft': '53.34', 'LidarLeft': '1.00', 'USRight': '220.98', 'LidarRight': '1466.00', 'USRear': '624.84'}}
-{'sensor': 'proximity', 'timestamp': '210717010534.087', 'data': {'USLeft': '53.34', 'LidarLeft': '1.00', 'USRight': '294.64', 'LidarRight': '757.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010535.087', 'data': {'O3': '774.00', 'SO': '279.00', 'LidarRight': '669.00', 'USRight': '193.04', 'CO': '788.00', 'NO': '1104.00', 'P10': '23.60', 'LidarLeft': '1.00', 'USRear': '624.84', 'USLeft': '53.34', 'P25': '21.40'}}
-{'sensor': 'proximity', 'timestamp': '210717010535.087', 'data': {'USLeft': '53.34', 'LidarLeft': '1.00', 'USRight': '391.16', 'LidarRight': '1.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010535.087', 'data': {'USLeft': '53.34', 'LidarLeft': '2409.00', 'USRight': '246.38', 'LidarRight': '1.00', 'USRear': '284.48'}}
-{'sensor': 'proximity', 'timestamp': '210717010536.087', 'data': {'USLeft': '53.34', 'LidarLeft': '1.00', 'USRight': '325.12', 'LidarRight': '1228.00', 'USRear': '637.54'}}
-{'sensor': 'proximity', 'timestamp': '210717010536.087', 'data': {'O3': '777.00', 'SO': '941.00', 'LidarRight': '873.00', 'USRight': '645.16', 'CO': '784.00', 'NO': '655.00', 'P10': '23.40', 'LidarLeft': '1.00', 'USRear': '642.62', 'USLeft': '53.34', 'P25': '21.20'}}
-{'sensor': 'proximity', 'timestamp': '210717010536.087', 'data': {'USLeft': '53.34', 'LidarLeft': '2999.00', 'USRight': '645.16', 'LidarRight': '622.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010537.087', 'data': {'USLeft': '53.34', 'LidarLeft': '2031.00', 'USRight': '137.16', 'LidarRight': '804.00', 'USRear': '640.08'}}
-{'sensor': 'proximity', 'timestamp': '210717010537.087', 'data': {'USLeft': '53.34', 'LidarLeft': '2014.00', 'USRight': '325.12', 'LidarRight': '923.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010537.087', 'data': {'O3': '777.00', 'CO': '785.00', 'SO': '724.00', 'LidarRight': '2434.00', 'P10': '23.20', 'NO': '851.00', 'USRear': '640.08', 'LidarLeft': '1.00', 'P25': '21.00'}}
-{'sensor': 'proximity', 'timestamp': '210717010538.087', 'data': {'USLeft': '53.34', 'LidarLeft': '1.00', 'USRight': '325.12', 'LidarRight': '2576.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010538.087', 'data': {'USLeft': '53.34', 'LidarLeft': '2331.00', 'USRight': '337.82', 'LidarRight': '777.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010538.087', 'data': {'USLeft': '53.34', 'LidarLeft': '2265.00', 'USRight': '325.12', 'LidarRight': '777.00', 'USRear': '640.08'}}
-{'sensor': 'proximity', 'timestamp': '210717010607.086', 'data': {}}
-{'sensor': 'proximity', 'timestamp': '210717010607.086', 'data': {'USLeft': '53.34', 'LidarLeft': '2282.00', 'USRight': '342.90', 'LidarRight': '1007.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010608.086', 'data': {'USLeft': '53.34', 'LidarLeft': '2294.00', 'USRight': '177.80', 'LidarRight': '741.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010608.086', 'data': {'USLeft': '53.34', 'LidarLeft': '1381.00', 'USRight': '172.72', 'LidarRight': '1210.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010609.086', 'data': {'O3': '776.00', 'SO': '987.00', 'LidarRight': '1.00', 'USRight': '180.34', 'CO': '782.00', 'NO': '600.00', 'P10': '25.20', 'LidarLeft': '1.00', 'USRear': '640.08', 'USLeft': '53.34', 'P25': '20.80'}}
-{'sensor': 'proximity', 'timestamp': '210717010609.086', 'data': {'USLeft': '53.34', 'LidarLeft': '1990.00', 'USRight': '175.26', 'LidarRight': '1422.00', 'USRear': '640.08'}}
-{'sensor': 'proximity', 'timestamp': '210717010610.086', 'data': {'USLeft': '53.34', 'LidarLeft': '1957.00', 'USRight': '175.26', 'LidarRight': '1306.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010610.086', 'data': {'USLeft': '53.34', 'LidarLeft': '1.00', 'USRight': '182.88', 'LidarRight': '663.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010611.086', 'data': {'O3': '774.00', 'SO': '446.00', 'LidarRight': '683.00', 'USRight': '175.26', 'CO': '785.00', 'NO': '1090.00', 'P10': '25.20', 'LidarLeft': '1073.00', 'USRear': '642.62', 'USLeft': '55.88', 'P25': '20.60'}}
-{'sensor': 'proximity', 'timestamp': '210717010611.086', 'data': {'USLeft': '53.34', 'LidarLeft': '1.00', 'USRight': '322.58', 'LidarRight': '1.00', 'USRear': '645.16'}}
-{'sensor': 'proximity', 'timestamp': '210717010612.082', 'data': {'USLeft': '53.34', 'LidarLeft': '1.00', 'USRight': '642.62', 'LidarRight': '1.00', 'USRear': '627.38'}}
-{'sensor': 'proximity', 'timestamp': '210717010612.082', 'data': {'USLeft': '53.34', 'LidarLeft': '1.00', 'USRight': '642.62', 'LidarRight': '1.00', 'USRear': '640.08'}}
-{'sensor': 'proximity', 'timestamp': '210717010613.082', 'data': {'O3': '777.00', 'SO': '827.00', 'LidarRight': '690.00', 'USRight': '228.60', 'CO': '779.00', 'NO': '756.00', 'P10': '25.70', 'LidarLeft': '1.00', 'USRear': '642.62', 'USLeft': '53.34', 'P25': '20.30'}}
-{'sensor': 'proximity', 'timestamp': '210717010613.082', 'data': {'USLeft': '53.34', 'LidarLeft': '2264.00', 'USRight': '248.92', 'LidarRight': '1208.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010614.082', 'data': {'USLeft': '55.88', 'LidarLeft': '1961.00', 'USRight': '645.16', 'LidarRight': '1175.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010614.082', 'data': {'USLeft': '53.34', 'LidarLeft': '1984.00', 'USRight': '645.16', 'LidarRight': '879.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010615.082', 'data': {'O3': '776.00', 'SO': '917.00', 'LidarRight': '1.00', 'USRight': '642.62', 'CO': '784.00', 'NO': '563.00', 'P10': '26.20', 'LidarLeft': '2021.00', 'USRear': '642.62', 'USLeft': '53.34', 'P25': '20.10'}}
-{'sensor': 'proximity', 'timestamp': '210717010615.082', 'data': {'USLeft': '53.34', 'LidarLeft': '2007.00', 'USRight': '637.54', 'LidarRight': '843.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010616.082', 'data': {'USLeft': '53.34', 'LidarLeft': '1700.00', 'USRight': '642.62', 'LidarRight': '1.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010616.082', 'data': {'USLeft': '53.34', 'LidarLeft': '2490.00', 'USRight': '642.62', 'LidarRight': '1.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010617.082', 'data': {'O3': '775.00', 'SO': '517.00', 'LidarRight': '1.00', 'USRight': '17.78', 'CO': '781.00', 'NO': '1100.00', 'P10': '26.50', 'LidarLeft': '2457.00', 'USRear': '645.16', 'USLeft': '53.34', 'P25': '20.00'}}
-{'sensor': 'proximity', 'timestamp': '210717010617.082', 'data': {'USLeft': '55.88', 'LidarLeft': '2349.00', 'USRight': '330.20', 'LidarRight': '1.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010618.082', 'data': {'USLeft': '53.34', 'LidarLeft': '1.00', 'USRight': '152.40', 'LidarRight': '647.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010618.082', 'data': {'USLeft': '53.34', 'LidarLeft': '2091.00', 'USRight': '144.78', 'LidarRight': '783.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010619.082', 'data': {'O3': '777.00', 'SO': '782.00', 'LidarRight': '675.00', 'USRight': '193.04', 'CO': '782.00', 'NO': '818.00', 'P10': '26.70', 'LidarLeft': '1.00', 'USRear': '640.08', 'USLeft': '53.34', 'P25': '19.90'}}
-{'sensor': 'proximity', 'timestamp': '210717010619.082', 'data': {'USLeft': '53.34', 'LidarLeft': '1.00', 'USRight': '15.24', 'LidarRight': '780.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010620.082', 'data': {'USLeft': '53.34', 'LidarLeft': '2649.00', 'USRight': '127.00', 'LidarRight': '1256.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010620.082', 'data': {'USLeft': '55.88', 'LidarLeft': '1141.00', 'USRight': '368.30', 'LidarRight': '1213.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010621.082', 'data': {'O3': '776.00', 'SO': '995.00', 'LidarRight': '693.00', 'USRight': '134.62', 'CO': '786.00', 'NO': '506.00', 'P10': '26.80', 'LidarLeft': '1949.00', 'USRear': '642.62', 'USLeft': '53.34', 'P25': '19.80'}}
-{'sensor': 'proximity', 'timestamp': '210717010621.082', 'data': {'USLeft': '53.34', 'LidarLeft': '1861.00', 'USRight': '129.54', 'LidarRight': '1215.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010622.082', 'data': {'USLeft': '53.34', 'LidarLeft': '2062.00', 'USRight': '15.24', 'LidarRight': '1177.00', 'USRear': '640.08'}}
-{'sensor': 'proximity', 'timestamp': '210717010622.082', 'data': {'USLeft': '53.34', 'LidarLeft': '1945.00', 'USRight': '15.24', 'LidarRight': '613.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010623.082', 'data': {'O3': '777.00', 'SO': '784.00', 'LidarRight': '1162.00', 'USRight': '152.40', 'CO': '789.00', 'NO': '786.00', 'P10': '26.70', 'LidarLeft': '1958.00', 'USRear': '642.62', 'USLeft': '53.34', 'P25': '19.80'}}
-{'sensor': 'proximity', 'timestamp': '210717010623.082', 'data': {'USLeft': '55.88', 'LidarLeft': '1956.00', 'USRight': '325.12', 'LidarRight': '656.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010624.082', 'data': {'USLeft': '55.88', 'LidarLeft': '1.00', 'USRight': '132.08', 'LidarRight': '1.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010624.082', 'data': {'USLeft': '53.34', 'LidarLeft': '1103.00', 'USRight': '15.24', 'LidarRight': '546.00', 'USRear': '622.30'}}
-{'sensor': 'proximity', 'timestamp': '210717010625.082', 'data': {'O3': '776.00', 'SO': '778.00', 'LidarRight': '142.00', 'USRight': '15.24', 'CO': '789.00', 'NO': '850.00', 'P10': '26.50', 'LidarLeft': '1622.00', 'USRear': '642.62', 'USLeft': '55.88', 'P25': '19.80'}}
-{'sensor': 'proximity', 'timestamp': '210717010625.082', 'data': {'USLeft': '55.88', 'LidarLeft': '2615.00', 'USRight': '99.06', 'LidarRight': '288.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010626.082', 'data': {'USLeft': '55.88', 'LidarLeft': '2445.00', 'USRight': '124.46', 'LidarRight': '313.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010626.082', 'data': {'USLeft': '55.88', 'LidarLeft': '1.00', 'USRight': '127.00', 'LidarRight': '247.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010627.082', 'data': {'O3': '776.00', 'SO': '752.00', 'LidarRight': '345.00', 'USRight': '99.06', 'CO': '795.00', 'NO': '603.00', 'P10': '26.90', 'LidarLeft': '2136.00', 'USRear': '640.08', 'USLeft': '53.34', 'P25': '19.70'}}
-{'sensor': 'proximity', 'timestamp': '210717010627.082', 'data': {'USLeft': '55.88', 'LidarLeft': '2517.00', 'USRight': '20.32', 'LidarRight': '162.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010628.082', 'data': {'USLeft': '63.50', 'LidarLeft': '1.00', 'USRight': '116.84', 'LidarRight': '323.00', 'USRear': '640.08'}}
-{'sensor': 'proximity', 'timestamp': '210717010628.082', 'data': {'USLeft': '55.88', 'LidarLeft': '1.00', 'USRight': '116.84', 'LidarRight': '371.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010629.082', 'data': {'O3': '776.00', 'SO': '742.00', 'LidarRight': '342.00', 'USRight': '124.46', 'CO': '790.00', 'NO': '844.00', 'P10': '27.80', 'LidarLeft': '1.00', 'USRear': '642.62', 'USLeft': '55.88', 'P25': '19.80'}}
-{'sensor': 'proximity', 'timestamp': '210717010629.082', 'data': {'USLeft': '55.88', 'LidarLeft': '1525.00', 'USRight': '127.00', 'LidarRight': '536.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010630.082', 'data': {'USLeft': '55.88', 'LidarLeft': '1.00', 'USRight': '132.08', 'LidarRight': '1085.00', 'USRear': '584.20'}}
-{'sensor': 'proximity', 'timestamp': '210717010630.082', 'data': {'USLeft': '55.88', 'LidarLeft': '1913.00', 'USRight': '121.92', 'LidarRight': '1025.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010631.082', 'data': {'O3': '776.00', 'SO': '814.00', 'LidarRight': '1045.00', 'USRight': '127.00', 'CO': '790.00', 'NO': '826.00', 'P10': '28.00', 'LidarLeft': '1635.00', 'USRear': '642.62', 'USLeft': '55.88', 'P25': '19.80'}}
-{'sensor': 'proximity', 'timestamp': '210717010631.082', 'data': {'USLeft': '55.88', 'LidarLeft': '1488.00', 'USRight': '15.24', 'LidarRight': '767.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010632.082', 'data': {'USLeft': '55.88', 'LidarLeft': '1.00', 'USRight': '15.24', 'LidarRight': '982.00', 'USRear': '642.62'}}
-{'sensor': 'proximity', 'timestamp': '210717010632.082', 'data': {'USLeft': '55.88', 'LidarLeft': '2057.00', 'USRight': '439.42', 'LidarRight': '922.00', 'USRear': '640.08'}}
-{'sensor': 'proximity', 'timestamp': '210717010633.082', 'data': {'O3': '774.00', 'SO': '571.00', 'LidarRight': '882.00', 'USRight': '292.10', 'CO': '794.00', 'NO': '887.00', 'P10': '28.30', 'LidarLeft': '1918.00', 'USRear': '642.62', 'USLeft': '55.88', 'P25': '19.80'}}
-{'sensor': 'proximity', 'timestamp': '210717010633.082', 'data': {'USLeft': '55.88', 'LidarLeft': '1670.00', 'USRight': '289.56', 'LidarRight': '844.00', 'USRear': '642.62'}}
-{'data': {'USRear': '241.30', 'USRight': '160.02', 'LidarRight': '308.00', 'LidarLeft': '296.00', 'USLeft': '259.08'}, 'timestamp': '210717140734.303', 'sensor': 'proximity'}
-{'data': {'USRear': '241.30', 'USRight': '238.76', 'LidarRight': '310.00', 'LidarLeft': '296.00', 'USLeft': '259.08'}, 'timestamp': '210717140735.303', 'sensor': 'proximity'}
-{'data': {'USRear': '299.72', 'USRight': '243.84', 'LidarRight': '311.00', 'LidarLeft': '299.00', 'USLeft': '259.08'}, 'timestamp': '210717140735.303', 'sensor': 'proximity'}
-{'data': {'O3': '718.00', 'SO': '1025.00', 'CO': '0.00', 'USLeft': '259.08', 'LidarRight': '312.00', 'USRight': '157.48', 'P25': '36.70', 'USRear': '299.72', 'P10': '43.70', 'NO': '544.00', 'LidarLeft': '297.00'}, 'timestamp': '210717140735.303', 'sensor': 'proximity'}
-{'data': {'USRear': '299.72', 'USRight': '157.48', 'LidarRight': '311.00', 'LidarLeft': '298.00', 'USLeft': '259.08'}, 'timestamp': '210717140736.082', 'sensor': 'proximity'}
-{'data': {'USRear': '241.30', 'USRight': '157.48', 'LidarRight': '311.00', 'LidarLeft': '298.00', 'USLeft': '259.08'}, 'timestamp': '210717140736.082', 'sensor': 'proximity'}
-{'data': {'USRear': '241.30', 'USRight': '238.76', 'LidarRight': '313.00', 'LidarLeft': '293.00', 'USLeft': '259.08'}, 'timestamp': '210717140736.082', 'sensor': 'proximity'}
-{'data': {'O3': '0.00', 'SO': '1135.00', 'CO': '0.00', 'USLeft': '259.08', 'LidarRight': '307.00', 'USRight': '238.76', 'P25': '37.30', 'USRear': '241.30', 'P10': '44.40', 'NO': '708.00', 'LidarLeft': '297.00'}, 'timestamp': '210717140736.082', 'sensor': 'proximity'}
-{'data': {'USRear': '299.72', 'USRight': '236.22', 'LidarRight': '308.00', 'LidarLeft': '300.00', 'USLeft': '264.16'}, 'timestamp': '210717140737.303', 'sensor': 'proximity'}
-{'data': {'USRear': '243.84', 'USRight': '236.22', 'LidarRight': '309.00', 'LidarLeft': '296.00', 'USLeft': '259.08'}, 'timestamp': '210717140737.303', 'sensor': 'proximity'}
-{'data': {'USRear': '307.34', 'USRight': '236.22', 'LidarRight': '308.00', 'LidarLeft': '293.00', 'USLeft': '256.54'}, 'timestamp': '210717140737.303', 'sensor': 'proximity'}
-{'data': {'O3': '0.00', 'SO': '179.00', 'CO': '0.00', 'USLeft': '256.54', 'LidarRight': '310.00', 'USRight': '236.22', 'P25': '37.90', 'USRear': '307.34', 'P10': '45.00', 'NO': '895.00', 'LidarLeft': '270.00'}, 'timestamp': '210717140738.303', 'sensor': 'proximity'}
-{'data': {'USRear': '307.34', 'USRight': '238.76', 'LidarRight': '311.00', 'LidarLeft': '255.00', 'USLeft': '256.54'}, 'timestamp': '210717140738.303', 'sensor': 'proximity'}
-{'data': {'USRear': '170.18', 'USRight': '241.30', 'LidarRight': '310.00', 'LidarLeft': '268.00', 'USLeft': '254.00'}, 'timestamp': '210717140738.303', 'sensor': 'proximity'}
-{'data': {'USRear': '304.80', 'USRight': '238.76', 'LidarRight': '310.00', 'LidarLeft': '294.00', 'USLeft': '254.00'}, 'timestamp': '210717140738.303', 'sensor': 'proximity'}
-{'data': {'O3': '0.00', 'SO': '748.00', 'CO': '0.00', 'USLeft': '256.54', 'LidarRight': '309.00', 'USRight': '238.76', 'P25': '38.50', 'USRear': '165.10', 'P10': '45.60', 'NO': '823.00', 'LidarLeft': '283.00'}, 'timestamp': '210717140739.303', 'sensor': 'proximity'}
-{'data': {'USRear': '373.38', 'USRight': '238.76', 'LidarRight': '312.00', 'LidarLeft': '290.00', 'USLeft': '259.08'}, 'timestamp': '210717140739.303', 'sensor': 'proximity'}
-{'data': {'USRear': '243.84', 'USRight': '238.76', 'LidarRight': '310.00', 'LidarLeft': '296.00', 'USLeft': '256.54'}, 'timestamp': '210717140739.303', 'sensor': 'proximity'}
-{'data': {'USRear': '299.72', 'USRight': '241.30', 'LidarRight': '309.00', 'LidarLeft': '298.00', 'USLeft': '256.54'}, 'timestamp': '210717140740.303', 'sensor': 'proximity'}
-{'data': {'O3': '0.00', 'SO': '1414.00', 'CO': '0.00', 'USLeft': '256.54', 'LidarRight': '312.00', 'USRight': '254.00', 'P25': '39.10', 'USRear': '299.72', 'P10': '46.20', 'NO': '859.00', 'LidarLeft': '293.00'}, 'timestamp': '210717140740.303', 'sensor': 'proximity'}
-{'data': {'USRear': '165.10', 'USRight': '152.40', 'LidarRight': '314.00', 'LidarLeft': '290.00', 'USLeft': '256.54'}, 'timestamp': '210717140740.303', 'sensor': 'proximity'}
-{'data': {'USRear': '238.76', 'USRight': '238.76', 'LidarRight': '311.00', 'LidarLeft': '294.00', 'USLeft': '256.54'}, 'timestamp': '210717140740.303', 'sensor': 'proximity'}
-{'data': {'USRear': '238.76', 'USRight': '238.76', 'LidarRight': '311.00', 'LidarLeft': '295.00', 'USLeft': '259.08'}, 'timestamp': '210717140741.303', 'sensor': 'proximity'}
-{'data': {'O3': '0.00', 'SO': '1289.00', 'CO': '0.00', 'USLeft': '259.08', 'LidarRight': '311.00', 'USRight': '238.76', 'P25': '40.30', 'USRear': '243.84', 'P10': '47.60', 'NO': '523.00', 'LidarLeft': '299.00'}, 'timestamp': '210717140741.303', 'sensor': 'proximity'}
-{'data': {'USRear': '246.38', 'USRight': '238.76', 'LidarRight': '311.00', 'LidarLeft': '289.00', 'USLeft': '259.08'}, 'timestamp': '210717140742.082', 'sensor': 'proximity'}
-{'data': {'USRear': '302.26', 'USRight': '238.76', 'LidarRight': '311.00', 'LidarLeft': '294.00', 'USLeft': '259.08'}, 'timestamp': '210717140742.082', 'sensor': 'proximity'}
-{'data': {'USRear': '243.84', 'USRight': '238.76', 'LidarRight': '310.00', 'LidarLeft': '296.00', 'USLeft': '256.54'}, 'timestamp': '210717140742.082', 'sensor': 'proximity'}
-{'data': {'O3': '0.00', 'SO': '837.00', 'CO': '0.00', 'USLeft': '256.54', 'LidarRight': '311.00', 'USRight': '154.94', 'P25': '41.10', 'USRear': '243.84', 'P10': '48.40', 'NO': '803.00', 'LidarLeft': '287.00'}, 'timestamp': '210717140742.082', 'sensor': 'proximity'}
-{'data': {'USRear': '304.80', 'USRight': '238.76', 'LidarRight': '310.00', 'LidarLeft': '288.00', 'USLeft': '256.54'}, 'timestamp': '210717140743.303', 'sensor': 'proximity'}
-{'data': {'USRight': '322.58', 'USRear': '640.08'}, 'timestamp': '210717140916.306', 'sensor': 'proximity'}
-{'data': {'USRear': '640.08', 'USRight': '322.58', 'LidarRight': '1.00', 'LidarLeft': '774.00', 'USLeft': '640.08'}, 'timestamp': '210717140916.306', 'sensor': 'proximity'}
-{'data': {'USRear': '640.08', 'USRight': '322.58', 'LidarRight': '1874.00', 'LidarLeft': '1917.00', 'USLeft': '640.08'}, 'timestamp': '210717140917.306', 'sensor': 'proximity'}
-{'data': {'USRear': '640.08', 'USRight': '454.66', 'LidarRight': '599.00', 'LidarLeft': '1082.00', 'USLeft': '637.54'}, 'timestamp': '210717140917.306', 'sensor': 'proximity'}
-{'data': {'O3': '893.00', 'SO': '383.00', 'CO': '0.00', 'USLeft': '93.98', 'LidarRight': '708.00', 'USRight': '640.08', 'P25': '44.30', 'USRear': '640.08', 'P10': '53.10', 'NO': '779.00', 'LidarLeft': '1084.00'}, 'timestamp': '210717140918.093', 'sensor': 'proximity'}
-{'data': {'USRear': '640.08', 'USRight': '228.60', 'LidarRight': '1.00', 'LidarLeft': '1.00', 'USLeft': '492.76'}, 'timestamp': '210717140918.093', 'sensor': 'proximity'}
-{'data': {'USRear': '640.08', 'USRight': '243.84', 'LidarRight': '510.00', 'LidarLeft': '1176.00', 'USLeft': '637.54'}, 'timestamp': '210717140919.093', 'sensor': 'proximity'}
-{'data': {'USRear': '640.08', 'USRight': '254.00', 'LidarRight': '2019.00', 'LidarLeft': '1872.00', 'USLeft': '640.08'}, 'timestamp': '210717140919.093', 'sensor': 'proximity'}
-{'data': {'USRight': '106.68', 'USRear': '640.08'}, 'timestamp': '210717141016.000', 'sensor': 'proximity'}
-{'data': {'LidarRight': '287.00', 'LidarLeft': '2777.00'}, 'timestamp': '210717141017.000', 'sensor': 'proximity'}
-{'data': {'USRear': '640.08', 'USRight': '91.44', 'LidarRight': '205.00', 'LidarLeft': '1775.00', 'USLeft': '347.98'}, 'timestamp': '210717141017.000', 'sensor': 'proximity'}
-{'data': {'USRear': '640.08', 'USRight': '86.36', 'LidarRight': '383.00', 'LidarLeft': '1.00', 'USLeft': '200.66'}, 'timestamp': '210717141017.000', 'sensor': 'proximity'}
-{'data': {'O3': '956.00', 'SO': '1144.00', 'CO': '1558.00', 'USLeft': '340.36', 'LidarRight': '1.00', 'USRight': '322.58', 'P25': '35.50', 'USRear': '640.08', 'P10': '43.50', 'NO': '795.00', 'LidarLeft': '305.00'}, 'timestamp': '210717141018.000', 'sensor': 'proximity'}
-{'data': {'USRear': '640.08', 'USRight': '322.58', 'LidarRight': '687.00', 'LidarLeft': '1710.00', 'USLeft': '279.40'}, 'timestamp': '210717141018.000', 'sensor': 'proximity'}
-{'data': {'USRear': '640.08', 'USRight': '322.58', 'LidarRight': '172.00', 'LidarLeft': '1.00', 'USLeft': '33.02'}, 'timestamp': '210717141018.000', 'sensor': 'proximity'}
-{'data': {'USRear': '640.08', 'USRight': '640.08', 'LidarRight': '305.00', 'LidarLeft': '1672.00', 'USLeft': '325.12'}, 'timestamp': '210717141020.000', 'sensor': 'proximity'}
-{'data': {'O3': '530.00', 'SO': '1236.00', 'CO': '1557.00', 'USLeft': '320.04', 'LidarRight': '398.00', 'USRight': '640.08', 'P25': '35.40', 'USRear': '640.08', 'P10': '43.50', 'NO': '580.00', 'LidarLeft': '1988.00'}, 'timestamp': '210717141020.000', 'sensor': 'proximity'}
-{'data': {'USRear': '637.54', 'USRight': '640.08', 'LidarRight': '597.00', 'LidarLeft': '2868.00', 'USLeft': '325.12'}, 'timestamp': '210717141021.000', 'sensor': 'proximity'}
-{'data': {'USRight': '642.62', 'USRear': '640.08', 'LidarLeft': '1.00'}, 'timestamp': '210717141021.000', 'sensor': 'proximity'}
-{'data': {'USRear': '640.08', 'USRight': '640.08', 'LidarRight': '443.00', 'LidarLeft': '2149.00', 'USLeft': '25.40'}, 'timestamp': '210717141022.000', 'sensor': 'proximity'}
-{'data': {'O3': '246.00', 'SO': '578.00', 'CO': '1558.00', 'USLeft': '30.48', 'USRear': '640.08', 'USRight': '83.82', 'LidarRight': '103.00', 'P10': '43.70', 'NO': '774.00', 'P25': '35.30'}, 'timestamp': '210717141022.000', 'sensor': 'proximity'}
-{'data': {'USRear': '640.08', 'USRight': '91.44', 'LidarRight': '115.00', 'LidarLeft': '1895.00', 'USLeft': '320.04'}, 'timestamp': '210717141022.000', 'sensor': 'proximity'}
-{'data': {'USRight': '104.14'}, 'timestamp': '210717141023.000', 'sensor': 'proximity'}
-{'data': {'USRear': '640.08', 'USRight': '322.58', 'LidarRight': '1.00', 'LidarLeft': '1.00', 'USLeft': '322.58'}, 'timestamp': '210717141024.000', 'sensor': 'proximity'}
-{'data': {'O3': '705.00', 'SO': '1192.00', 'CO': '1557.00', 'USLeft': '355.60', 'LidarRight': '128.00', 'USRight': '104.14', 'P25': '35.00', 'USRear': '579.12', 'P10': '45.70', 'NO': '749.00', 'LidarLeft': '1759.00'}, 'timestamp': '210717141024.000', 'sensor': 'proximity'}
-{'data': {'USRear': '398.78', 'USRight': '114.30', 'LidarRight': '127.00', 'LidarLeft': '3053.00', 'USLeft': '627.38'}, 'timestamp': '210717141024.000', 'sensor': 'proximity'}
-{'data': {'USRear': '640.08', 'USRight': '111.76', 'LidarRight': '125.00', 'LidarLeft': '2771.00', 'USLeft': '589.28'}, 'timestamp': '210717141024.000', 'sensor': 'proximity'}
+{
+	"results":[
+		{"sensor": "proximity", "timestamp": "210717010430.092", "data": {"USLeft": "40.64", "LidarLeft": "1.00", "USRight": "106.68", "LidarRight": "485.00", "USRear": "259.08"}},
+		{"sensor": "proximity", "timestamp": "210717010431.092", "data": {"USLeft": "40.64", "LidarLeft": "1.00", "USRight": "93.98", "LidarRight": "488.00", "USRear": "259.08"}},
+		{"sensor": "proximity", "timestamp": "210717010431.092", "data": {"O3": "777.00", "SO": "748.00", "LidarRight": "484.00", "USRight": "93.98", "CO": "783.00", "NO": "822.00", "P10": "23.70", "LidarLeft": "1.00", "USRear": "259.08", "USLeft": "40.64", "P25": "21.10"}},
+		{"sensor": "proximity", "timestamp": "210717010431.092", "data": {"USLeft": "40.64", "LidarLeft": "1.00", "USRight": "109.22", "LidarRight": "486.00", "USRear": "259.08"}},
+		{"sensor": "proximity", "timestamp": "210717010431.092", "data": {"USLeft": "40.64", "LidarLeft": "1.00", "USRight": "109.22", "LidarRight": "487.00", "USRear": "256.54"}},
+		{"sensor": "proximity", "timestamp": "210717010432.092", "data": {"USLeft": "40.64", "LidarLeft": "1.00", "USRight": "99.06", "LidarRight": "485.00", "USRear": "256.54"}},
+		{"sensor": "proximity", "timestamp": "210717010432.092", "data": {"O3": "776.00", "SO": "412.00", "LidarRight": "482.00", "USRight": "99.06", "CO": "785.00", "NO": "950.00", "P10": "23.90", "LidarLeft": "1.00", "USRear": "259.08", "USLeft": "40.64", "P25": "21.30"}},
+		{"sensor": "proximity", "timestamp": "210717010432.092", "data": {"USLeft": "40.64", "LidarLeft": "1.00", "USRight": "88.90", "LidarRight": "483.00", "USRear": "259.08"}},
+		{"sensor": "proximity", "timestamp": "210717010433.092", "data": {"USLeft": "40.64", "LidarLeft": "1.00", "USRight": "93.98", "LidarRight": "481.00", "USRear": "259.08"}},
+		{"sensor": "proximity", "timestamp": "210717010433.092", "data": {"USLeft": "40.64", "LidarLeft": "1.00", "USRight": "93.98", "LidarRight": "493.00", "USRear": "259.08"}},
+		{"sensor": "proximity", "timestamp": "210717010433.092", "data": {"O3": "778.00", "SO": "882.00", "LidarRight": "496.00", "USRight": "101.60", "CO": "784.00", "NO": "758.00", "P10": "24.20", "LidarLeft": "1.00", "USRear": "261.62", "USLeft": "40.64", "P25": "21.60"}},
+		{"sensor": "proximity", "timestamp": "210717010434.092", "data": {"USLeft": "40.64", "LidarLeft": "22.00", "USRight": "99.06", "LidarRight": "484.00", "USRear": "261.62"}},
+		{"sensor": "proximity", "timestamp": "210717010434.092", "data": {"USLeft": "40.64", "LidarLeft": "1.00", "USRight": "96.52", "LidarRight": "483.00", "USRear": "264.16"}},
+		{"sensor": "proximity", "timestamp": "210717010434.092", "data": {"USLeft": "40.64", "LidarLeft": "19.00", "USRight": "119.38", "LidarRight": "488.00", "USRear": "261.62"}},
+		{"sensor": "proximity", "timestamp": "210717010434.092", "data": {"O3": "777.00", "SO": "801.00", "LidarRight": "490.00", "USRight": "93.98", "CO": "783.00", "NO": "816.00", "P10": "24.60", "LidarLeft": "12.00", "USRear": "261.62", "USLeft": "40.64", "P25": "21.90"}},
+		{"sensor": "proximity", "timestamp": "210717010435.092", "data": {"USLeft": "40.64", "LidarLeft": "1.00", "USRight": "93.98", "LidarRight": "491.00", "USRear": "259.08"}},
+		{"sensor": "proximity", "timestamp": "210717010435.092", "data": {"USLeft": "40.64", "LidarLeft": "7.00", "USRight": "109.22", "LidarRight": "482.00", "USRear": "259.08"}},
+		{"sensor": "proximity", "timestamp": "210717010435.092", "data": {"USLeft": "40.64", "LidarLeft": "5.00", "USRight": "96.52", "LidarRight": "489.00", "USRear": "259.08"}},
+		{"sensor": "proximity", "timestamp": "210717010436.092", "data": {"O3": "775.00", "SO": "513.00", "LidarRight": "490.00", "USRight": "96.52", "CO": "793.00", "NO": "921.00", "P10": "24.90", "LidarLeft": "1.00", "USRear": "259.08", "USLeft": "40.64", "P25": "22.20"}},
+		{"sensor": "proximity", "timestamp": "210717010436.092", "data": {"USLeft": "40.64", "LidarLeft": "1.00", "USRight": "93.98", "LidarRight": "486.00", "USRear": "259.08"}},
+		{"sensor": "proximity", "timestamp": "210717010436.092", "data": {"USLeft": "40.64", "LidarLeft": "1.00", "USRight": "91.44", "LidarRight": "484.00", "USRear": "261.62"}},
+		{"sensor": "proximity", "timestamp": "210717010436.092", "data": {"USLeft": "40.64", "LidarLeft": "1.00", "USRight": "96.52", "LidarRight": "486.00", "USRear": "261.62"}},
+		{"sensor": "proximity", "timestamp": "210717010437.092", "data": {"O3": "778.00", "SO": "826.00", "LidarRight": "485.00", "USRight": "93.98", "CO": "785.00", "NO": "822.00", "P10": "25.20", "LidarLeft": "15.00", "USRear": "261.62", "USLeft": "43.18", "P25": "22.50"}},
+		{"sensor": "proximity", "timestamp": "210717010437.092", "data": {"USLeft": "43.18", "LidarLeft": "5.00", "USRight": "109.22", "LidarRight": "489.00", "USRear": "261.62"}},
+		{"sensor": "proximity", "timestamp": "210717010437.092", "data": {"USLeft": "40.64", "LidarLeft": "10.00", "USRight": "116.84", "LidarRight": "490.00", "USRear": "261.62"}},
+		{"sensor": "proximity", "timestamp": "210717010438.092", "data": {"USLeft": "43.18", "LidarLeft": "8.00", "USRight": "106.68", "LidarRight": "490.00", "USRear": "261.62"}},
+		{"sensor": "proximity", "timestamp": "210717010438.092", "data": {"O3": "777.00", "SO": "377.00", "LidarRight": "489.00", "USRight": "104.14", "CO": "792.00", "NO": "1064.00", "P10": "26.00", "LidarLeft": "4.00", "USRear": "261.62", "USLeft": "43.18", "P25": "23.20"}},
+		{"sensor": "proximity", "timestamp": "210717010438.092", "data": {"USLeft": "43.18", "LidarLeft": "13.00", "USRight": "119.38", "LidarRight": "486.00", "USRear": "261.62"}},
+		{"sensor": "proximity", "timestamp": "210717010439.092", "data": {"USLeft": "43.18", "LidarLeft": "18.00", "USRight": "93.98", "LidarRight": "490.00", "USRear": "261.62"}},
+		{"sensor": "proximity", "timestamp": "210717010439.092", "data": {"USLeft": "43.18", "LidarLeft": "1.00", "USRight": "129.54", "LidarRight": "486.00", "USRear": "261.62"}},
+		{"sensor": "proximity", "timestamp": "210717010439.092", "data": {"O3": "778.00", "SO": "934.00", "LidarRight": "483.00", "USRight": "99.06", "CO": "785.00", "NO": "722.00", "P10": "26.00", "LidarLeft": "25.00", "USRear": "261.62", "USLeft": "43.18", "P25": "23.20"}},
+		{"sensor": "proximity", "timestamp": "210717010439.092", "data": {"USLeft": "43.18", "LidarLeft": "1.00", "USRight": "99.06", "LidarRight": "485.00", "USRear": "261.62"}},
+		{"sensor": "proximity", "timestamp": "210717010440.092", "data": {"USLeft": "43.18", "LidarLeft": "5.00", "USRight": "111.76", "LidarRight": "482.00", "USRear": "261.62"}},
+		{"sensor": "proximity", "timestamp": "210717010440.092", "data": {"USLeft": "43.18", "LidarLeft": "4.00", "USRight": "99.06", "LidarRight": "483.00", "USRear": "259.08"}},
+		{"sensor": "proximity", "timestamp": "210717010440.092", "data": {"O3": "777.00", "SO": "848.00", "LidarRight": "481.00", "USRight": "142.24", "CO": "786.00", "NO": "763.00", "P10": "26.10", "LidarLeft": "4.00", "USRear": "264.16", "USLeft": "43.18", "P25": "23.30"}},
+		{"sensor": "proximity", "timestamp": "210717010441.092", "data": {"USLeft": "43.18", "LidarLeft": "14.00", "USRight": "96.52", "LidarRight": "481.00", "USRear": "205.74"}},
+		{"sensor": "proximity", "timestamp": "210717010441.092", "data": {"USLeft": "43.18", "LidarLeft": "14.00", "USRight": "99.06", "LidarRight": "485.00", "USRear": "172.72"}},
+		{"sensor": "proximity", "timestamp": "210717010441.092", "data": {"USLeft": "43.18", "LidarLeft": "9.00", "USRight": "96.52", "LidarRight": "484.00", "USRear": "152.40"}},
+		{"sensor": "proximity", "timestamp": "210717010442.085", "data": {"O3": "776.00", "SO": "581.00", "LidarRight": "484.00", "USRight": "99.06", "CO": "799.00", "NO": "870.00", "P10": "26.10", "LidarLeft": "10.00", "USRear": "259.08", "USLeft": "43.18", "P25": "23.30"}},
+		{"sensor": "proximity", "timestamp": "210717010442.085", "data": {"USLeft": "43.18", "LidarLeft": "4.00", "USRight": "96.52", "LidarRight": "484.00", "USRear": "259.08"}},
+		{"sensor": "proximity", "timestamp": "210717010442.085", "data": {"USLeft": "43.18", "LidarLeft": "45.00", "USRight": "93.98", "LidarRight": "494.00", "USRear": "259.08"}},
+		{"sensor": "proximity", "timestamp": "210717010442.085", "data": {"USLeft": "43.18", "LidarLeft": "76.00", "USRight": "106.68", "LidarRight": "333.00", "USRear": "256.54"}},
+		{"sensor": "proximity", "timestamp": "210717010443.304", "data": {"O3": "777.00", "SO": "770.00", "LidarRight": "447.00", "USRight": "86.36", "CO": "800.00", "NO": "876.00", "P10": "26.00", "LidarLeft": "1.00", "USRear": "607.06", "USLeft": "43.18", "P25": "23.30"}},
+		{"sensor": "proximity", "timestamp": "210717010443.304", "data": {"USLeft": "43.18", "LidarLeft": "1.00", "USRight": "73.66", "LidarRight": "341.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010443.304", "data": {"USLeft": "43.18", "LidarLeft": "1.00", "USRight": "83.82", "LidarRight": "314.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010444.304", "data": {"USLeft": "43.18", "LidarLeft": "1.00", "USRight": "86.36", "LidarRight": "331.00", "USRear": "640.08"}},
+		{"sensor": "proximity", "timestamp": "210717010444.304", "data": {"O3": "775.00", "SO": "342.00", "LidarRight": "351.00", "USRight": "83.82", "CO": "806.00", "NO": "1040.00", "P10": "26.10", "LidarLeft": "1.00", "USRear": "642.62", "USLeft": "43.18", "P25": "23.40"}},
+		{"sensor": "proximity", "timestamp": "210717010444.304", "data": {"USLeft": "43.18", "LidarLeft": "1.00", "USRight": "88.90", "LidarRight": "400.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010444.304", "data": {"USLeft": "43.18", "LidarLeft": "1.00", "USRight": "134.62", "LidarRight": "431.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010445.304", "data": {"USLeft": "43.18", "LidarLeft": "1.00", "USRight": "91.44", "LidarRight": "412.00", "USRear": "640.08"}},
+		{"sensor": "proximity", "timestamp": "210717010445.304", "data": {"O3": "778.00", "SO": "892.00", "LidarRight": "430.00", "USRight": "91.44", "CO": "797.00", "NO": "796.00", "P10": "26.00", "LidarLeft": "1.00", "USRear": "642.62", "USLeft": "43.18", "P25": "23.30"}},
+		{"sensor": "proximity", "timestamp": "210717010445.304", "data": {"USLeft": "43.18", "LidarLeft": "1.00", "USRight": "99.06", "LidarRight": "433.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010446.304", "data": {"USLeft": "43.18", "LidarLeft": "2007.00", "USRight": "99.06", "LidarRight": "294.00", "USRear": "640.08"}},
+		{"sensor": "proximity", "timestamp": "210717010446.304", "data": {"USLeft": "43.18", "LidarLeft": "1996.00", "USRight": "99.06", "LidarRight": "404.00", "USRear": "645.16"}},
+		{"sensor": "proximity", "timestamp": "210717010446.304", "data": {"O3": "777.00", "SO": "698.00", "LidarRight": "460.00", "USRight": "99.06", "CO": "793.00", "NO": "795.00", "P10": "26.00", "LidarLeft": "1.00", "USRear": "642.62", "USLeft": "45.72", "P25": "23.30"}},
+		{"sensor": "proximity", "timestamp": "210717010447.304", "data": {"USLeft": "45.72", "LidarLeft": "1.00", "USRight": "99.06", "LidarRight": "486.00", "USRear": "462.28"}},
+		{"sensor": "proximity", "timestamp": "210717010447.304", "data": {"USLeft": "45.72", "LidarLeft": "1.00", "USRight": "114.30", "LidarRight": "492.00", "USRear": "632.46"}},
+		{"sensor": "proximity", "timestamp": "210717010447.304", "data": {"USLeft": "45.72", "LidarLeft": "1.00", "USRight": "154.94", "LidarRight": "481.00", "USRear": "574.04"}},
+		{"sensor": "proximity", "timestamp": "210717010448.085", "data": {"O3": "778.00", "SO": "971.00", "LidarRight": "488.00", "USRight": "83.82", "CO": "789.00", "NO": "536.00", "P10": "25.90", "LidarLeft": "1.00", "USRear": "261.62", "USLeft": "45.72", "P25": "23.20"}},
+		{"sensor": "proximity", "timestamp": "210717010448.085", "data": {"USLeft": "45.72", "LidarLeft": "1.00", "USRight": "142.24", "LidarRight": "484.00", "USRear": "259.08"}},
+		{"sensor": "proximity", "timestamp": "210717010448.085", "data": {"USLeft": "45.72", "LidarLeft": "1.00", "USRight": "101.60", "LidarRight": "489.00", "USRear": "256.54"}},
+		{"sensor": "proximity", "timestamp": "210717010448.085", "data": {"USLeft": "45.72", "LidarLeft": "1.00", "USRight": "99.06", "LidarRight": "494.00", "USRear": "340.36"}},
+		{"sensor": "proximity", "timestamp": "210717010449.304", "data": {"O3": "777.00", "SO": "703.00", "LidarRight": "491.00", "USRight": "81.28", "CO": "791.00", "NO": "874.00", "P10": "25.80", "LidarLeft": "1.00", "USRear": "254.00", "USLeft": "45.72", "P25": "23.10"}},
+		{"sensor": "proximity", "timestamp": "210717010449.304", "data": {"USLeft": "45.72", "LidarLeft": "1.00", "USRight": "86.36", "LidarRight": "488.00", "USRear": "254.00"}},
+		{"sensor": "proximity", "timestamp": "210717010449.304", "data": {"USLeft": "45.72", "LidarLeft": "1.00", "USRight": "93.98", "LidarRight": "489.00", "USRear": "254.00"}},
+		{"sensor": "proximity", "timestamp": "210717010450.304", "data": {"USLeft": "45.72", "LidarLeft": "1.00", "USRight": "99.06", "LidarRight": "481.00", "USRear": "256.54"}},
+		{"sensor": "proximity", "timestamp": "210717010450.304", "data": {"O3": "776.00", "SO": "420.00", "LidarRight": "480.00", "USRight": "106.68", "CO": "794.00", "NO": "936.00", "P10": "25.80", "LidarLeft": "1.00", "USRear": "256.54", "USLeft": "45.72", "P25": "23.10"}},
+		{"sensor": "proximity", "timestamp": "210717010450.304", "data": {"USLeft": "45.72", "LidarLeft": "1.00", "USRight": "101.60", "LidarRight": "485.00", "USRear": "259.08"}},
+		{"sensor": "proximity", "timestamp": "210717010450.304", "data": {"USLeft": "45.72", "LidarLeft": "1.00", "USRight": "106.68", "LidarRight": "488.00", "USRear": "259.08"}},
+		{"sensor": "proximity", "timestamp": "210717010451.304", "data": {"USLeft": "45.72", "LidarLeft": "1.00", "USRight": "93.98", "LidarRight": "489.00", "USRear": "259.08"}},
+		{"sensor": "proximity", "timestamp": "210717010451.304", "data": {"O3": "777.00", "SO": "889.00", "LidarRight": "485.00", "USRight": "96.52", "CO": "783.00", "NO": "764.00", "P10": "25.80", "LidarLeft": "1.00", "USRear": "259.08", "USLeft": "45.72", "P25": "23.10"}},
+		{"sensor": "proximity", "timestamp": "210717010451.304", "data": {"USLeft": "45.72", "LidarLeft": "27.00", "USRight": "106.68", "LidarRight": "485.00", "USRear": "256.54"}},
+		{"sensor": "proximity", "timestamp": "210717010452.304", "data": {"USLeft": "45.72", "LidarLeft": "1.00", "USRight": "99.06", "LidarRight": "485.00", "USRear": "256.54"}},
+		{"sensor": "proximity", "timestamp": "210717010452.304", "data": {"USLeft": "45.72", "LidarLeft": "1.00", "USRight": "109.22", "LidarRight": "487.00", "USRear": "256.54"}},
+		{"sensor": "proximity", "timestamp": "210717010452.304", "data": {"O3": "777.00", "SO": "797.00", "LidarRight": "485.00", "USRight": "99.06", "CO": "784.00", "NO": "750.00", "P10": "25.70", "LidarLeft": "1.00", "USRear": "261.62", "USLeft": "45.72", "P25": "23.00"}},
+		{"sensor": "proximity", "timestamp": "210717010453.304", "data": {"USLeft": "45.72", "LidarLeft": "1.00", "USRight": "91.44", "LidarRight": "485.00", "USRear": "259.08"}},
+		{"sensor": "proximity", "timestamp": "210717010453.304", "data": {"USLeft": "45.72", "LidarLeft": "1.00", "USRight": "106.68", "LidarRight": "488.00", "USRear": "256.54"}},
+		{"sensor": "proximity", "timestamp": "210717010453.304", "data": {"USLeft": "45.72", "LidarLeft": "1.00", "USRight": "111.76", "LidarRight": "489.00", "USRear": "403.86"}},
+		{"sensor": "proximity", "timestamp": "210717010454.085", "data": {"O3": "775.00", "SO": "530.00", "LidarRight": "489.00", "USRight": "111.76", "CO": "789.00", "NO": "775.00", "P10": "25.70", "LidarLeft": "1.00", "USRear": "256.54", "USLeft": "45.72", "P25": "23.00"}},
+		{"sensor": "proximity", "timestamp": "210717010454.085", "data": {"USLeft": "45.72", "LidarLeft": "1.00", "USRight": "114.30", "LidarRight": "491.00", "USRear": "256.54"}},
+		{"sensor": "proximity", "timestamp": "210717010454.085", "data": {"USLeft": "45.72", "LidarLeft": "1.00", "USRight": "114.30", "LidarRight": "483.00", "USRear": "256.54"}},
+		{"sensor": "proximity", "timestamp": "210717010454.085", "data": {"USLeft": "45.72", "LidarLeft": "1.00", "USRight": "132.08", "LidarRight": "483.00", "USRear": "259.08"}},
+		{"sensor": "proximity", "timestamp": "210717010455.304", "data": {"O3": "777.00", "SO": "759.00", "LidarRight": "486.00", "USRight": "106.68", "CO": "788.00", "NO": "797.00", "P10": "25.60", "LidarLeft": "1.00", "USRear": "416.56", "USLeft": "45.72", "P25": "22.90"}},
+		{"sensor": "proximity", "timestamp": "210717010455.304", "data": {"USLeft": "45.72", "LidarLeft": "1.00", "USRight": "129.54", "LidarRight": "483.00", "USRear": "599.44"}},
+		{"sensor": "proximity", "timestamp": "210717010455.304", "data": {"USLeft": "45.72", "LidarLeft": "1.00", "USRight": "132.08", "LidarRight": "486.00", "USRear": "444.50"}},
+		{"sensor": "proximity", "timestamp": "210717010456.304", "data": {"USLeft": "45.72", "LidarLeft": "1.00", "USRight": "109.22", "LidarRight": "488.00", "USRear": "637.54"}},
+		{"sensor": "proximity", "timestamp": "210717010456.304", "data": {"O3": "775.00", "SO": "334.00", "LidarRight": "487.00", "USRight": "109.22", "CO": "798.00", "NO": "1047.00", "P10": "25.60", "LidarLeft": "1.00", "USRear": "607.06", "USLeft": "45.72", "P25": "22.90"}},
+		{"sensor": "proximity", "timestamp": "210717010456.304", "data": {"USLeft": "45.72", "LidarLeft": "1.00", "USRight": "109.22", "LidarRight": "484.00", "USRear": "541.02"}},
+		{"sensor": "proximity", "timestamp": "210717010457.304", "data": {"USLeft": "45.72", "LidarLeft": "1.00", "USRight": "109.22", "LidarRight": "482.00", "USRear": "424.18"}},
+		{"sensor": "proximity", "timestamp": "210717010457.304", "data": {"USLeft": "45.72", "LidarLeft": "1.00", "USRight": "129.54", "LidarRight": "483.00", "USRear": "513.08"}},
+		{"sensor": "proximity", "timestamp": "210717010457.304", "data": {"O3": "778.00", "SO": "948.00", "LidarRight": "486.00", "USRight": "111.76", "CO": "794.00", "NO": "734.00", "P10": "25.40", "LidarLeft": "1.00", "USRear": "256.54", "USLeft": "45.72", "P25": "22.80"}},
+		{"sensor": "proximity", "timestamp": "210717010458.304", "data": {"USLeft": "45.72", "LidarLeft": "1.00", "USRight": "111.76", "LidarRight": "482.00", "USRear": "256.54"}},
+		{"sensor": "proximity", "timestamp": "210717010458.304", "data": {"USLeft": "45.72", "LidarLeft": "1.00", "USRight": "114.30", "LidarRight": "484.00", "USRear": "256.54"}},
+		{"sensor": "proximity", "timestamp": "210717010458.304", "data": {"USLeft": "48.26", "LidarLeft": "1.00", "USRight": "106.68", "LidarRight": "486.00", "USRear": "370.84"}},
+		{"sensor": "proximity", "timestamp": "210717010458.304", "data": {"O3": "776.00", "SO": "690.00", "LidarRight": "484.00", "USRight": "109.22", "CO": "789.00", "NO": "862.00", "P10": "25.40", "LidarLeft": "1.00", "USRear": "637.54", "USLeft": "48.26", "P25": "22.80"}},
+		{"sensor": "proximity", "timestamp": "210717010459.304", "data": {"USLeft": "48.26", "LidarLeft": "1.00", "USRight": "109.22", "LidarRight": "484.00", "USRear": "528.32"}},
+		{"sensor": "proximity", "timestamp": "210717010459.304", "data": {"USLeft": "48.26", "LidarLeft": "1.00", "USRight": "99.06", "LidarRight": "484.00", "USRear": "299.72"}},
+		{"sensor": "proximity", "timestamp": "210717010459.304", "data": {"USLeft": "48.26", "LidarLeft": "1.00", "USRight": "114.30", "LidarRight": "487.00", "USRear": "416.56"}},
+		{"sensor": "proximity", "timestamp": "210717010500.081", "data": {"O3": "777.00", "SO": "974.00", "LidarRight": "487.00", "USRight": "124.46", "CO": "784.00", "NO": "531.00", "P10": "25.50", "LidarLeft": "1.00", "USRear": "256.54", "USLeft": "48.26", "P25": "22.90"}},
+		{"sensor": "proximity", "timestamp": "210717010500.081", "data": {"USLeft": "48.26", "LidarLeft": "1.00", "USRight": "96.52", "LidarRight": "487.00", "USRear": "256.54"}},
+		{"sensor": "proximity", "timestamp": "210717010500.081", "data": {"USLeft": "48.26", "LidarLeft": "1.00", "USRight": "96.52", "LidarRight": "482.00", "USRear": "256.54"}},
+		{"sensor": "proximity", "timestamp": "210717010501.086", "data": {"USLeft": "48.26", "LidarLeft": "1.00", "USRight": "106.68", "LidarRight": "483.00", "USRear": "579.12"}},
+		{"sensor": "proximity", "timestamp": "210717010501.086", "data": {"O3": "776.00", "SO": "727.00", "LidarRight": "482.00", "USRight": "121.92", "CO": "783.00", "NO": "834.00", "P10": "25.50", "LidarLeft": "1.00", "USRear": "596.90", "USLeft": "48.26", "P25": "22.90"}},
+		{"sensor": "proximity", "timestamp": "210717010501.086", "data": {"USLeft": "48.26", "LidarLeft": "1.00", "USRight": "86.36", "LidarRight": "477.00", "USRear": "266.70"}},
+		{"sensor": "proximity", "timestamp": "210717010502.087", "data": {"USLeft": "48.26", "LidarLeft": "1.00", "USRight": "101.60", "LidarRight": "483.00", "USRear": "254.00"}},
+		{"sensor": "proximity", "timestamp": "210717010502.087", "data": {"USLeft": "48.26", "LidarLeft": "1.00", "USRight": "99.06", "LidarRight": "483.00", "USRear": "254.00"}},
+		{"sensor": "proximity", "timestamp": "210717010502.087", "data": {"O3": "775.00", "SO": "418.00", "LidarRight": "484.00", "USRight": "109.22", "CO": "784.00", "NO": "942.00", "P10": "25.50", "LidarLeft": "2255.00", "USRear": "254.00", "USLeft": "48.26", "P25": "22.90"}},
+		{"sensor": "proximity", "timestamp": "210717010502.087", "data": {"USLeft": "48.26", "LidarLeft": "1.00", "USRight": "114.30", "LidarRight": "496.00", "USRear": "251.46"}},
+		{"sensor": "proximity", "timestamp": "210717010503.087", "data": {"USLeft": "48.26", "LidarLeft": "2200.00", "USRight": "93.98", "LidarRight": "490.00", "USRear": "251.46"}},
+		{"sensor": "proximity", "timestamp": "210717010503.087", "data": {"USLeft": "48.26", "LidarLeft": "2231.00", "USRight": "81.28", "LidarRight": "497.00", "USRear": "314.96"}},
+		{"sensor": "proximity", "timestamp": "210717010503.087", "data": {"O3": "776.00", "SO": "866.00", "LidarRight": "487.00", "USRight": "83.82", "CO": "779.00", "NO": "722.00", "P10": "25.40", "LidarLeft": "1.00", "USRear": "642.62", "USLeft": "48.26", "P25": "22.80"}},
+		{"sensor": "proximity", "timestamp": "210717010504.087", "data": {"USLeft": "48.26", "LidarLeft": "1.00", "USRight": "93.98", "LidarRight": "481.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010504.087", "data": {"USLeft": "48.26", "LidarLeft": "1.00", "USRight": "96.52", "LidarRight": "484.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010504.087", "data": {"USLeft": "48.26", "LidarLeft": "1.00", "USRight": "99.06", "LidarRight": "481.00", "USRear": "594.36"}},
+		{"sensor": "proximity", "timestamp": "210717010504.087", "data": {"O3": "776.00", "SO": "691.00", "LidarRight": "412.00", "USRight": "88.90", "CO": "779.00", "NO": "869.00", "P10": "25.30", "LidarLeft": "1.00", "USRear": "642.62", "USLeft": "48.26", "P25": "22.80"}},
+		{"sensor": "proximity", "timestamp": "210717010505.087", "data": {"USLeft": "48.26", "LidarLeft": "1.00", "USRight": "111.76", "LidarRight": "262.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010505.087", "data": {"USLeft": "48.26", "LidarLeft": "1.00", "USRight": "78.74", "LidarRight": "339.00", "USRear": "640.08"}},
+		{"sensor": "proximity", "timestamp": "210717010505.087", "data": {"USLeft": "48.26", "LidarLeft": "1.00", "USRight": "83.82", "LidarRight": "446.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010506.087", "data": {"O3": "776.00", "SO": "665.00", "LidarRight": "475.00", "USRight": "81.28", "CO": "782.00", "NO": "626.00", "P10": "25.20", "LidarLeft": "1.00", "USRear": "642.62", "USLeft": "48.26", "P25": "22.70"}},
+		{"sensor": "proximity", "timestamp": "210717010506.087", "data": {"USLeft": "48.26", "LidarLeft": "1.00", "USRight": "134.62", "LidarRight": "486.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010506.087", "data": {"USLeft": "48.26", "LidarLeft": "1.00", "USRight": "91.44", "LidarRight": "484.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010507.087", "data": {"USLeft": "48.26", "LidarLeft": "1.00", "USRight": "81.28", "LidarRight": "486.00", "USRear": "241.30"}},
+		{"sensor": "proximity", "timestamp": "210717010507.087", "data": {"O3": "777.00", "SO": "795.00", "LidarRight": "489.00", "USRight": "81.28", "CO": "777.00", "NO": "838.00", "P10": "25.20", "LidarLeft": "1.00", "USRear": "246.38", "USLeft": "48.26", "P25": "22.70"}},
+		{"sensor": "proximity", "timestamp": "210717010507.087", "data": {"USLeft": "48.26", "LidarLeft": "2215.00", "USRight": "86.36", "LidarRight": "504.00", "USRear": "254.00"}},
+		{"sensor": "proximity", "timestamp": "210717010508.087", "data": {"USLeft": "48.26", "LidarLeft": "1.00", "USRight": "109.22", "LidarRight": "735.00", "USRear": "563.88"}},
+		{"sensor": "proximity", "timestamp": "210717010508.087", "data": {"USLeft": "48.26", "LidarLeft": "1.00", "USRight": "76.20", "LidarRight": "658.00", "USRear": "607.06"}},
+		{"sensor": "proximity", "timestamp": "210717010508.087", "data": {"O3": "774.00", "SO": "288.00", "LidarRight": "162.00", "USRight": "76.20", "CO": "783.00", "NO": "1030.00", "P10": "25.20", "LidarLeft": "1998.00", "USRear": "617.22", "USLeft": "48.26", "P25": "22.70"}},
+		{"sensor": "proximity", "timestamp": "210717010508.087", "data": {"USLeft": "48.26", "LidarLeft": "1.00", "USRight": "157.48", "LidarRight": "501.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010509.087", "data": {"USLeft": "48.26", "LidarLeft": "1222.00", "USRight": "238.76", "LidarRight": "271.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010509.087", "data": {"USLeft": "48.26", "LidarLeft": "1.00", "USRight": "114.30", "LidarRight": "272.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010509.087", "data": {"O3": "776.00", "SO": "912.00", "LidarRight": "276.00", "USRight": "175.26", "CO": "776.00", "NO": "787.00", "P10": "25.10", "LidarLeft": "1.00", "USRear": "640.08", "USLeft": "48.26", "P25": "22.60"}},
+		{"sensor": "proximity", "timestamp": "210717010510.087", "data": {"USLeft": "48.26", "LidarLeft": "1.00", "USRight": "157.48", "LidarRight": "538.00", "USRear": "640.08"}},
+		{"sensor": "proximity", "timestamp": "210717010510.087", "data": {"USLeft": "48.26", "LidarLeft": "2618.00", "USRight": "177.80", "LidarRight": "548.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010510.087", "data": {"USLeft": "48.26", "LidarLeft": "1.00", "USRight": "195.58", "LidarRight": "576.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010511.087", "data": {"O3": "777.00", "SO": "689.00", "LidarRight": "466.00", "USRight": "210.82", "CO": "779.00", "NO": "877.00", "P10": "25.00", "LidarLeft": "1.00", "USRear": "642.62", "USLeft": "48.26", "P25": "22.60"}},
+		{"sensor": "proximity", "timestamp": "210717010511.087", "data": {"USLeft": "48.26", "LidarLeft": "2462.00", "USRight": "220.98", "LidarRight": "423.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010511.087", "data": {"USLeft": "50.80", "LidarLeft": "1129.00", "USRight": "231.14", "LidarRight": "425.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010511.087", "data": {"USLeft": "48.26", "LidarLeft": "2452.00", "USRight": "271.78", "LidarRight": "439.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010512.087", "data": {"O3": "774.00", "SO": "532.00", "LidarRight": "433.00", "USRight": "246.38", "CO": "784.00", "NO": "928.00", "P10": "24.90", "LidarLeft": "1607.00", "USRear": "642.62", "USLeft": "50.80", "P25": "22.50"}},
+		{"sensor": "proximity", "timestamp": "210717010512.087", "data": {"USLeft": "50.80", "LidarLeft": "2432.00", "USRight": "241.30", "LidarRight": "650.00", "USRear": "614.68"}},
+		{"sensor": "proximity", "timestamp": "210717010512.087", "data": {"USLeft": "50.80", "LidarLeft": "2461.00", "USRight": "226.06", "LidarRight": "612.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010513.087", "data": {"USLeft": "50.80", "LidarLeft": "2434.00", "USRight": "233.68", "LidarRight": "2360.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010513.087", "data": {"O3": "776.00", "SO": "701.00", "LidarRight": "1.00", "USRight": "645.16", "CO": "781.00", "NO": "833.00", "P10": "25.00", "LidarLeft": "1186.00", "USRear": "640.08", "USLeft": "50.80", "P25": "22.60"}},
+		{"sensor": "proximity", "timestamp": "210717010513.087", "data": {"USLeft": "50.80", "LidarLeft": "1275.00", "USRight": "266.70", "LidarRight": "1.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010514.087", "data": {"USLeft": "50.80", "LidarLeft": "1.00", "USRight": "292.10", "LidarRight": "2114.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010514.087", "data": {"USLeft": "50.80", "LidarLeft": "1.00", "USRight": "322.58", "LidarRight": "1.00", "USRear": "640.08"}},
+		{"sensor": "proximity", "timestamp": "210717010514.087", "data": {"O3": "774.00", "SO": "364.00", "LidarRight": "498.00", "USRight": "375.92", "CO": "784.00", "NO": "1060.00", "P10": "25.00", "LidarLeft": "1.00", "USRear": "612.14", "USLeft": "50.80", "P25": "22.60"}},
+		{"sensor": "proximity", "timestamp": "210717010514.087", "data": {"USLeft": "50.80", "LidarLeft": "1.00", "USRight": "591.82", "LidarRight": "1.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010515.087", "data": {"USLeft": "50.80", "LidarLeft": "1.00", "USRight": "325.12", "LidarRight": "669.00", "USRear": "645.16"}},
+		{"sensor": "proximity", "timestamp": "210717010515.087", "data": {"USLeft": "50.80", "LidarLeft": "1.00", "USRight": "464.82", "LidarRight": "469.00", "USRear": "60.96"}},
+		{"sensor": "proximity", "timestamp": "210717010515.087", "data": {"O3": "777.00", "SO": "1002.00", "LidarRight": "350.00", "USRight": "645.16", "CO": "781.00", "NO": "670.00", "P10": "24.90", "LidarLeft": "868.00", "USRear": "607.06", "USLeft": "50.80", "P25": "22.50"}},
+		{"sensor": "proximity", "timestamp": "210717010516.087", "data": {"USLeft": "50.80", "LidarLeft": "1.00", "USRight": "645.16", "LidarRight": "341.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010516.087", "data": {"USLeft": "50.80", "LidarLeft": "1233.00", "USRight": "642.62", "LidarRight": "308.00", "USRear": "640.08"}},
+		{"sensor": "proximity", "timestamp": "210717010516.087", "data": {"USLeft": "50.80", "LidarLeft": "1471.00", "USRight": "129.54", "LidarRight": "246.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010517.087", "data": {"O3": "777.00", "SO": "831.00", "LidarRight": "226.00", "USRight": "99.06", "CO": "782.00", "NO": "825.00", "P10": "24.80", "LidarLeft": "839.00", "USRear": "642.62", "USLeft": "50.80", "P25": "22.50"}},
+		{"sensor": "proximity", "timestamp": "210717010517.087", "data": {"USLeft": "50.80", "LidarLeft": "1831.00", "USRight": "132.08", "LidarRight": "255.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010517.087", "data": {"USLeft": "50.80", "LidarLeft": "1472.00", "USRight": "322.58", "LidarRight": "365.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010518.087", "data": {"USLeft": "50.80", "LidarLeft": "1.00", "USRight": "396.24", "LidarRight": "520.00", "USRear": "228.60"}},
+		{"sensor": "proximity", "timestamp": "210717010518.087", "data": {"O3": "776.00", "SO": "867.00", "LidarRight": "539.00", "USRight": "325.12", "CO": "786.00", "NO": "530.00", "P10": "24.70", "LidarLeft": "1.00", "USRear": "629.92", "USLeft": "50.80", "P25": "22.40"}},
+		{"sensor": "proximity", "timestamp": "210717010518.087", "data": {"USLeft": "50.80", "LidarLeft": "1.00", "USRight": "441.96", "LidarRight": "302.00", "USRear": "607.06"}},
+		{"sensor": "proximity", "timestamp": "210717010518.087", "data": {"USLeft": "50.80", "LidarLeft": "1.00", "USRight": "325.12", "LidarRight": "265.00", "USRear": "632.46"}},
+		{"sensor": "proximity", "timestamp": "210717010519.087", "data": {"USLeft": "50.80", "LidarLeft": "1.00", "USRight": "121.92", "LidarRight": "216.00", "USRear": "627.38"}},
+		{"sensor": "proximity", "timestamp": "210717010519.087", "data": {"O3": "777.00", "SO": "750.00", "LidarRight": "176.00", "USRight": "83.82", "CO": "784.00", "NO": "850.00", "P10": "24.70", "LidarLeft": "3031.00", "USRear": "642.62", "USLeft": "50.80", "P25": "22.40"}},
+		{"sensor": "proximity", "timestamp": "210717010519.087", "data": {"USLeft": "50.80", "LidarLeft": "1.00", "USRight": "111.76", "LidarRight": "1119.00", "USRear": "645.16"}},
+		{"sensor": "proximity", "timestamp": "210717010520.087", "data": {"USLeft": "50.80", "LidarLeft": "2947.00", "USRight": "134.62", "LidarRight": "665.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010520.087", "data": {"USLeft": "50.80", "LidarLeft": "1.00", "USRight": "132.08", "LidarRight": "267.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010520.087", "data": {"O3": "775.00", "SO": "413.00", "LidarRight": "204.00", "USRight": "132.08", "CO": "788.00", "NO": "939.00", "P10": "24.70", "LidarLeft": "1.00", "USRear": "642.62", "USLeft": "50.80", "P25": "22.40"}},
+		{"sensor": "proximity", "timestamp": "210717010520.087", "data": {"USLeft": "50.80", "LidarLeft": "1.00", "USRight": "147.32", "LidarRight": "186.00", "USRear": "640.08"}},
+		{"sensor": "proximity", "timestamp": "210717010521.087", "data": {"USLeft": "50.80", "LidarLeft": "1.00", "USRight": "152.40", "LidarRight": "189.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010521.087", "data": {"USLeft": "50.80", "LidarLeft": "1.00", "USRight": "144.78", "LidarRight": "187.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010521.087", "data": {"O3": "776.00", "SO": "915.00", "LidarRight": "647.00", "USRight": "157.48", "CO": "782.00", "NO": "746.00", "P10": "24.60", "LidarLeft": "1.00", "USRear": "642.62", "USLeft": "50.80", "P25": "22.30"}},
+		{"sensor": "proximity", "timestamp": "210717010522.087", "data": {"USLeft": "50.80", "LidarLeft": "3539.00", "USRight": "147.32", "LidarRight": "1.00", "USRear": "640.08"}},
+		{"sensor": "proximity", "timestamp": "210717010522.087", "data": {"USLeft": "50.80", "LidarLeft": "1.00", "USRight": "149.86", "LidarRight": "310.00", "USRear": "220.98"}},
+		{"sensor": "proximity", "timestamp": "210717010522.087", "data": {"USLeft": "50.80", "LidarLeft": "2940.00", "USRight": "160.02", "LidarRight": "196.00", "USRear": "632.46"}},
+		{"sensor": "proximity", "timestamp": "210717010523.087", "data": {"O3": "777.00", "SO": "727.00", "LidarRight": "204.00", "USRight": "157.48", "CO": "784.00", "NO": "829.00", "P10": "24.50", "LidarLeft": "2895.00", "USRear": "642.62", "USLeft": "50.80", "P25": "22.20"}},
+		{"sensor": "proximity", "timestamp": "210717010523.087", "data": {"USLeft": "50.80", "LidarLeft": "1.00", "USRight": "213.36", "LidarRight": "232.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010523.087", "data": {"USLeft": "50.80", "LidarLeft": "675.00", "USRight": "205.74", "LidarRight": "1165.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010524.087", "data": {"USLeft": "50.80", "LidarLeft": "255.00", "USRight": "411.48", "LidarRight": "1156.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010524.087", "data": {"O3": "777.00", "SO": "882.00", "LidarRight": "540.00", "USRight": "642.62", "CO": "785.00", "NO": "622.00", "P10": "24.30", "LidarLeft": "2897.00", "USRear": "637.54", "USLeft": "50.80", "P25": "22.00"}},
+		{"sensor": "proximity", "timestamp": "210717010524.087", "data": {"USLeft": "50.80", "LidarLeft": "2160.00", "USRight": "642.62", "LidarRight": "494.00", "USRear": "645.16"}},
+		{"sensor": "proximity", "timestamp": "210717010524.087", "data": {"USLeft": "50.80", "LidarLeft": "1.00", "USRight": "645.16", "LidarRight": "353.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010525.087", "data": {"USLeft": "50.80", "LidarLeft": "2831.00", "USRight": "91.44", "LidarRight": "226.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010525.087", "data": {"O3": "777.00", "SO": "755.00", "LidarRight": "195.00", "USRight": "220.98", "CO": "787.00", "NO": "762.00", "P10": "24.30", "LidarLeft": "1.00", "USRear": "642.62", "USLeft": "50.80", "P25": "22.00"}},
+		{"sensor": "proximity", "timestamp": "210717010525.087", "data": {"USLeft": "50.80", "LidarLeft": "1.00", "USRight": "254.00", "LidarRight": "280.00", "USRear": "619.76"}},
+		{"sensor": "proximity", "timestamp": "210717010526.087", "data": {"USLeft": "50.80", "LidarLeft": "1.00", "USRight": "248.92", "LidarRight": "1.00", "USRear": "490.22"}},
+		{"sensor": "proximity", "timestamp": "210717010526.087", "data": {"USLeft": "50.80", "LidarLeft": "711.00", "USRight": "160.02", "LidarRight": "251.00", "USRear": "624.84"}},
+		{"sensor": "proximity", "timestamp": "210717010526.087", "data": {"O3": "775.00", "SO": "445.00", "LidarRight": "259.00", "USRight": "223.52", "CO": "790.00", "NO": "922.00", "P10": "24.20", "LidarLeft": "2940.00", "USRear": "640.08", "USLeft": "50.80", "P25": "21.90"}},
+		{"sensor": "proximity", "timestamp": "210717010527.087", "data": {"USLeft": "50.80", "LidarLeft": "1.00", "USRight": "208.28", "LidarRight": "257.00", "USRear": "561.34"}},
+		{"sensor": "proximity", "timestamp": "210717010527.087", "data": {"USLeft": "50.80", "LidarLeft": "2738.00", "USRight": "208.28", "LidarRight": "2360.00", "USRear": "568.96"}},
+		{"sensor": "proximity", "timestamp": "210717010527.087", "data": {"USLeft": "50.80", "LidarLeft": "1.00", "USRight": "162.56", "LidarRight": "231.00", "USRear": "640.08"}},
+		{"sensor": "proximity", "timestamp": "210717010527.087", "data": {"O3": "776.00", "SO": "842.00", "LidarRight": "231.00", "USRight": "93.98", "CO": "783.00", "NO": "800.00", "P10": "24.10", "LidarLeft": "1.00", "USRear": "642.62", "USLeft": "50.80", "P25": "21.80"}},
+		{"sensor": "proximity", "timestamp": "210717010528.087", "data": {"USLeft": "50.80", "LidarLeft": "2055.00", "USRight": "238.76", "LidarRight": "141.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010528.087", "data": {"USLeft": "50.80", "LidarLeft": "2871.00", "USRight": "99.06", "LidarRight": "268.00", "USRear": "640.08"}},
+		{"sensor": "proximity", "timestamp": "210717010528.087", "data": {"USLeft": "50.80", "LidarLeft": "1.00", "USRight": "223.52", "LidarRight": "243.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010529.087", "data": {"O3": "777.00", "SO": "746.00", "LidarRight": "248.00", "USRight": "223.52", "CO": "783.00", "NO": "830.00", "P10": "23.90", "LidarLeft": "1.00", "USRear": "599.44", "USLeft": "50.80", "P25": "21.70"}},
+		{"sensor": "proximity", "timestamp": "210717010529.087", "data": {"USLeft": "53.34", "LidarLeft": "1.00", "USRight": "88.90", "LidarRight": "171.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010529.087", "data": {"USLeft": "53.34", "LidarLeft": "184.00", "USRight": "165.10", "LidarRight": "108.00", "USRear": "640.08"}},
+		{"sensor": "proximity", "timestamp": "210717010529.087", "data": {"USLeft": "53.34", "LidarLeft": "2170.00", "USRight": "187.96", "LidarRight": "204.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010530.087", "data": {"O3": "776.00", "SO": "1019.00", "LidarRight": "180.00", "USRight": "68.58", "CO": "783.00", "NO": "578.00", "P10": "23.80", "LidarLeft": "143.00", "USRear": "640.08", "USLeft": "53.34", "P25": "21.60"}},
+		{"sensor": "proximity", "timestamp": "210717010530.087", "data": {"USLeft": "50.80", "LidarLeft": "1.00", "USRight": "337.82", "LidarRight": "369.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010530.087", "data": {"USLeft": "53.34", "LidarLeft": "2922.00", "USRight": "337.82", "LidarRight": "363.00", "USRear": "444.50"}},
+		{"sensor": "proximity", "timestamp": "210717010531.087", "data": {"USLeft": "50.80", "LidarLeft": "499.00", "USRight": "172.72", "LidarRight": "356.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010531.087", "data": {"O3": "777.00", "SO": "684.00", "LidarRight": "360.00", "USRight": "175.26", "CO": "784.00", "NO": "830.00", "P10": "23.70", "LidarLeft": "1.00", "USRear": "640.08", "USLeft": "53.34", "P25": "21.50"}},
+		{"sensor": "proximity", "timestamp": "210717010531.087", "data": {"USLeft": "53.34", "LidarLeft": "110.00", "USRight": "233.68", "LidarRight": "370.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010532.087", "data": {"USLeft": "50.80", "LidarLeft": "574.00", "USRight": "345.44", "LidarRight": "399.00", "USRear": "236.22"}},
+		{"sensor": "proximity", "timestamp": "210717010532.087", "data": {"USLeft": "53.34", "LidarLeft": "282.00", "USRight": "71.12", "LidarRight": "236.00", "USRear": "632.46"}},
+		{"sensor": "proximity", "timestamp": "210717010532.087", "data": {"O3": "775.00", "SO": "518.00", "LidarRight": "634.00", "USRight": "335.28", "CO": "786.00", "NO": "866.00", "P10": "23.70", "LidarLeft": "1.00", "USRear": "642.62", "USLeft": "53.34", "P25": "21.50"}},
+		{"sensor": "proximity", "timestamp": "210717010533.087", "data": {"USLeft": "53.34", "LidarLeft": "104.00", "USRight": "325.12", "LidarRight": "741.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010533.087", "data": {"USLeft": "53.34", "LidarLeft": "3051.00", "USRight": "642.62", "LidarRight": "941.00", "USRear": "591.82"}},
+		{"sensor": "proximity", "timestamp": "210717010533.087", "data": {"USLeft": "50.80", "LidarLeft": "1.00", "USRight": "226.06", "LidarRight": "437.00", "USRear": "76.20"}},
+		{"sensor": "proximity", "timestamp": "210717010534.087", "data": {"O3": "778.00", "SO": "823.00", "LidarRight": "317.00", "USRight": "170.18", "CO": "784.00", "NO": "836.00", "P10": "23.60", "LidarLeft": "1.00", "USRear": "604.52", "USLeft": "53.34", "P25": "21.40"}},
+		{"sensor": "proximity", "timestamp": "210717010534.087", "data": {"USLeft": "53.34", "LidarLeft": "1.00", "USRight": "190.50", "LidarRight": "567.00", "USRear": "617.22"}},
+		{"sensor": "proximity", "timestamp": "210717010534.087", "data": {"USLeft": "53.34", "LidarLeft": "1.00", "USRight": "220.98", "LidarRight": "1466.00", "USRear": "624.84"}},
+		{"sensor": "proximity", "timestamp": "210717010534.087", "data": {"USLeft": "53.34", "LidarLeft": "1.00", "USRight": "294.64", "LidarRight": "757.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010535.087", "data": {"O3": "774.00", "SO": "279.00", "LidarRight": "669.00", "USRight": "193.04", "CO": "788.00", "NO": "1104.00", "P10": "23.60", "LidarLeft": "1.00", "USRear": "624.84", "USLeft": "53.34", "P25": "21.40"}},
+		{"sensor": "proximity", "timestamp": "210717010535.087", "data": {"USLeft": "53.34", "LidarLeft": "1.00", "USRight": "391.16", "LidarRight": "1.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010535.087", "data": {"USLeft": "53.34", "LidarLeft": "2409.00", "USRight": "246.38", "LidarRight": "1.00", "USRear": "284.48"}},
+		{"sensor": "proximity", "timestamp": "210717010536.087", "data": {"USLeft": "53.34", "LidarLeft": "1.00", "USRight": "325.12", "LidarRight": "1228.00", "USRear": "637.54"}},
+		{"sensor": "proximity", "timestamp": "210717010536.087", "data": {"O3": "777.00", "SO": "941.00", "LidarRight": "873.00", "USRight": "645.16", "CO": "784.00", "NO": "655.00", "P10": "23.40", "LidarLeft": "1.00", "USRear": "642.62", "USLeft": "53.34", "P25": "21.20"}},
+		{"sensor": "proximity", "timestamp": "210717010536.087", "data": {"USLeft": "53.34", "LidarLeft": "2999.00", "USRight": "645.16", "LidarRight": "622.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010537.087", "data": {"USLeft": "53.34", "LidarLeft": "2031.00", "USRight": "137.16", "LidarRight": "804.00", "USRear": "640.08"}},
+		{"sensor": "proximity", "timestamp": "210717010537.087", "data": {"USLeft": "53.34", "LidarLeft": "2014.00", "USRight": "325.12", "LidarRight": "923.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010537.087", "data": {"O3": "777.00", "CO": "785.00", "SO": "724.00", "LidarRight": "2434.00", "P10": "23.20", "NO": "851.00", "USRear": "640.08", "LidarLeft": "1.00", "P25": "21.00"}},
+		{"sensor": "proximity", "timestamp": "210717010538.087", "data": {"USLeft": "53.34", "LidarLeft": "1.00", "USRight": "325.12", "LidarRight": "2576.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010538.087", "data": {"USLeft": "53.34", "LidarLeft": "2331.00", "USRight": "337.82", "LidarRight": "777.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010538.087", "data": {"USLeft": "53.34", "LidarLeft": "2265.00", "USRight": "325.12", "LidarRight": "777.00", "USRear": "640.08"}},
+		{"sensor": "proximity", "timestamp": "210717010607.086", "data": {}},
+		{"sensor": "proximity", "timestamp": "210717010607.086", "data": {"USLeft": "53.34", "LidarLeft": "2282.00", "USRight": "342.90", "LidarRight": "1007.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010608.086", "data": {"USLeft": "53.34", "LidarLeft": "2294.00", "USRight": "177.80", "LidarRight": "741.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010608.086", "data": {"USLeft": "53.34", "LidarLeft": "1381.00", "USRight": "172.72", "LidarRight": "1210.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010609.086", "data": {"O3": "776.00", "SO": "987.00", "LidarRight": "1.00", "USRight": "180.34", "CO": "782.00", "NO": "600.00", "P10": "25.20", "LidarLeft": "1.00", "USRear": "640.08", "USLeft": "53.34", "P25": "20.80"}},
+		{"sensor": "proximity", "timestamp": "210717010609.086", "data": {"USLeft": "53.34", "LidarLeft": "1990.00", "USRight": "175.26", "LidarRight": "1422.00", "USRear": "640.08"}},
+		{"sensor": "proximity", "timestamp": "210717010610.086", "data": {"USLeft": "53.34", "LidarLeft": "1957.00", "USRight": "175.26", "LidarRight": "1306.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010610.086", "data": {"USLeft": "53.34", "LidarLeft": "1.00", "USRight": "182.88", "LidarRight": "663.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010611.086", "data": {"O3": "774.00", "SO": "446.00", "LidarRight": "683.00", "USRight": "175.26", "CO": "785.00", "NO": "1090.00", "P10": "25.20", "LidarLeft": "1073.00", "USRear": "642.62", "USLeft": "55.88", "P25": "20.60"}},
+		{"sensor": "proximity", "timestamp": "210717010611.086", "data": {"USLeft": "53.34", "LidarLeft": "1.00", "USRight": "322.58", "LidarRight": "1.00", "USRear": "645.16"}},
+		{"sensor": "proximity", "timestamp": "210717010612.082", "data": {"USLeft": "53.34", "LidarLeft": "1.00", "USRight": "642.62", "LidarRight": "1.00", "USRear": "627.38"}},
+		{"sensor": "proximity", "timestamp": "210717010612.082", "data": {"USLeft": "53.34", "LidarLeft": "1.00", "USRight": "642.62", "LidarRight": "1.00", "USRear": "640.08"}},
+		{"sensor": "proximity", "timestamp": "210717010613.082", "data": {"O3": "777.00", "SO": "827.00", "LidarRight": "690.00", "USRight": "228.60", "CO": "779.00", "NO": "756.00", "P10": "25.70", "LidarLeft": "1.00", "USRear": "642.62", "USLeft": "53.34", "P25": "20.30"}},
+		{"sensor": "proximity", "timestamp": "210717010613.082", "data": {"USLeft": "53.34", "LidarLeft": "2264.00", "USRight": "248.92", "LidarRight": "1208.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010614.082", "data": {"USLeft": "55.88", "LidarLeft": "1961.00", "USRight": "645.16", "LidarRight": "1175.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010614.082", "data": {"USLeft": "53.34", "LidarLeft": "1984.00", "USRight": "645.16", "LidarRight": "879.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010615.082", "data": {"O3": "776.00", "SO": "917.00", "LidarRight": "1.00", "USRight": "642.62", "CO": "784.00", "NO": "563.00", "P10": "26.20", "LidarLeft": "2021.00", "USRear": "642.62", "USLeft": "53.34", "P25": "20.10"}},
+		{"sensor": "proximity", "timestamp": "210717010615.082", "data": {"USLeft": "53.34", "LidarLeft": "2007.00", "USRight": "637.54", "LidarRight": "843.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010616.082", "data": {"USLeft": "53.34", "LidarLeft": "1700.00", "USRight": "642.62", "LidarRight": "1.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010616.082", "data": {"USLeft": "53.34", "LidarLeft": "2490.00", "USRight": "642.62", "LidarRight": "1.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010617.082", "data": {"O3": "775.00", "SO": "517.00", "LidarRight": "1.00", "USRight": "17.78", "CO": "781.00", "NO": "1100.00", "P10": "26.50", "LidarLeft": "2457.00", "USRear": "645.16", "USLeft": "53.34", "P25": "20.00"}},
+		{"sensor": "proximity", "timestamp": "210717010617.082", "data": {"USLeft": "55.88", "LidarLeft": "2349.00", "USRight": "330.20", "LidarRight": "1.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010618.082", "data": {"USLeft": "53.34", "LidarLeft": "1.00", "USRight": "152.40", "LidarRight": "647.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010618.082", "data": {"USLeft": "53.34", "LidarLeft": "2091.00", "USRight": "144.78", "LidarRight": "783.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010619.082", "data": {"O3": "777.00", "SO": "782.00", "LidarRight": "675.00", "USRight": "193.04", "CO": "782.00", "NO": "818.00", "P10": "26.70", "LidarLeft": "1.00", "USRear": "640.08", "USLeft": "53.34", "P25": "19.90"}},
+		{"sensor": "proximity", "timestamp": "210717010619.082", "data": {"USLeft": "53.34", "LidarLeft": "1.00", "USRight": "15.24", "LidarRight": "780.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010620.082", "data": {"USLeft": "53.34", "LidarLeft": "2649.00", "USRight": "127.00", "LidarRight": "1256.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010620.082", "data": {"USLeft": "55.88", "LidarLeft": "1141.00", "USRight": "368.30", "LidarRight": "1213.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010621.082", "data": {"O3": "776.00", "SO": "995.00", "LidarRight": "693.00", "USRight": "134.62", "CO": "786.00", "NO": "506.00", "P10": "26.80", "LidarLeft": "1949.00", "USRear": "642.62", "USLeft": "53.34", "P25": "19.80"}},
+		{"sensor": "proximity", "timestamp": "210717010621.082", "data": {"USLeft": "53.34", "LidarLeft": "1861.00", "USRight": "129.54", "LidarRight": "1215.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010622.082", "data": {"USLeft": "53.34", "LidarLeft": "2062.00", "USRight": "15.24", "LidarRight": "1177.00", "USRear": "640.08"}},
+		{"sensor": "proximity", "timestamp": "210717010622.082", "data": {"USLeft": "53.34", "LidarLeft": "1945.00", "USRight": "15.24", "LidarRight": "613.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010623.082", "data": {"O3": "777.00", "SO": "784.00", "LidarRight": "1162.00", "USRight": "152.40", "CO": "789.00", "NO": "786.00", "P10": "26.70", "LidarLeft": "1958.00", "USRear": "642.62", "USLeft": "53.34", "P25": "19.80"}},
+		{"sensor": "proximity", "timestamp": "210717010623.082", "data": {"USLeft": "55.88", "LidarLeft": "1956.00", "USRight": "325.12", "LidarRight": "656.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010624.082", "data": {"USLeft": "55.88", "LidarLeft": "1.00", "USRight": "132.08", "LidarRight": "1.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010624.082", "data": {"USLeft": "53.34", "LidarLeft": "1103.00", "USRight": "15.24", "LidarRight": "546.00", "USRear": "622.30"}},
+		{"sensor": "proximity", "timestamp": "210717010625.082", "data": {"O3": "776.00", "SO": "778.00", "LidarRight": "142.00", "USRight": "15.24", "CO": "789.00", "NO": "850.00", "P10": "26.50", "LidarLeft": "1622.00", "USRear": "642.62", "USLeft": "55.88", "P25": "19.80"}},
+		{"sensor": "proximity", "timestamp": "210717010625.082", "data": {"USLeft": "55.88", "LidarLeft": "2615.00", "USRight": "99.06", "LidarRight": "288.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010626.082", "data": {"USLeft": "55.88", "LidarLeft": "2445.00", "USRight": "124.46", "LidarRight": "313.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010626.082", "data": {"USLeft": "55.88", "LidarLeft": "1.00", "USRight": "127.00", "LidarRight": "247.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010627.082", "data": {"O3": "776.00", "SO": "752.00", "LidarRight": "345.00", "USRight": "99.06", "CO": "795.00", "NO": "603.00", "P10": "26.90", "LidarLeft": "2136.00", "USRear": "640.08", "USLeft": "53.34", "P25": "19.70"}},
+		{"sensor": "proximity", "timestamp": "210717010627.082", "data": {"USLeft": "55.88", "LidarLeft": "2517.00", "USRight": "20.32", "LidarRight": "162.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010628.082", "data": {"USLeft": "63.50", "LidarLeft": "1.00", "USRight": "116.84", "LidarRight": "323.00", "USRear": "640.08"}},
+		{"sensor": "proximity", "timestamp": "210717010628.082", "data": {"USLeft": "55.88", "LidarLeft": "1.00", "USRight": "116.84", "LidarRight": "371.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010629.082", "data": {"O3": "776.00", "SO": "742.00", "LidarRight": "342.00", "USRight": "124.46", "CO": "790.00", "NO": "844.00", "P10": "27.80", "LidarLeft": "1.00", "USRear": "642.62", "USLeft": "55.88", "P25": "19.80"}},
+		{"sensor": "proximity", "timestamp": "210717010629.082", "data": {"USLeft": "55.88", "LidarLeft": "1525.00", "USRight": "127.00", "LidarRight": "536.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010630.082", "data": {"USLeft": "55.88", "LidarLeft": "1.00", "USRight": "132.08", "LidarRight": "1085.00", "USRear": "584.20"}},
+		{"sensor": "proximity", "timestamp": "210717010630.082", "data": {"USLeft": "55.88", "LidarLeft": "1913.00", "USRight": "121.92", "LidarRight": "1025.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010631.082", "data": {"O3": "776.00", "SO": "814.00", "LidarRight": "1045.00", "USRight": "127.00", "CO": "790.00", "NO": "826.00", "P10": "28.00", "LidarLeft": "1635.00", "USRear": "642.62", "USLeft": "55.88", "P25": "19.80"}},
+		{"sensor": "proximity", "timestamp": "210717010631.082", "data": {"USLeft": "55.88", "LidarLeft": "1488.00", "USRight": "15.24", "LidarRight": "767.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010632.082", "data": {"USLeft": "55.88", "LidarLeft": "1.00", "USRight": "15.24", "LidarRight": "982.00", "USRear": "642.62"}},
+		{"sensor": "proximity", "timestamp": "210717010632.082", "data": {"USLeft": "55.88", "LidarLeft": "2057.00", "USRight": "439.42", "LidarRight": "922.00", "USRear": "640.08"}},
+		{"sensor": "proximity", "timestamp": "210717010633.082", "data": {"O3": "774.00", "SO": "571.00", "LidarRight": "882.00", "USRight": "292.10", "CO": "794.00", "NO": "887.00", "P10": "28.30", "LidarLeft": "1918.00", "USRear": "642.62", "USLeft": "55.88", "P25": "19.80"}},
+		{"sensor": "proximity", "timestamp": "210717010633.082", "data": {"USLeft": "55.88", "LidarLeft": "1670.00", "USRight": "289.56", "LidarRight": "844.00", "USRear": "642.62"}},
+		{"data": {"USRear": "241.30", "USRight": "160.02", "LidarRight": "308.00", "LidarLeft": "296.00", "USLeft": "259.08"}, "timestamp": "210717140734.303", "sensor": "proximity"},
+		{"data": {"USRear": "241.30", "USRight": "238.76", "LidarRight": "310.00", "LidarLeft": "296.00", "USLeft": "259.08"}, "timestamp": "210717140735.303", "sensor": "proximity"},
+		{"data": {"USRear": "299.72", "USRight": "243.84", "LidarRight": "311.00", "LidarLeft": "299.00", "USLeft": "259.08"}, "timestamp": "210717140735.303", "sensor": "proximity"},
+		{"data": {"O3": "718.00", "SO": "1025.00", "CO": "0.00", "USLeft": "259.08", "LidarRight": "312.00", "USRight": "157.48", "P25": "36.70", "USRear": "299.72", "P10": "43.70", "NO": "544.00", "LidarLeft": "297.00"}, "timestamp": "210717140735.303", "sensor": "proximity"},
+		{"data": {"USRear": "299.72", "USRight": "157.48", "LidarRight": "311.00", "LidarLeft": "298.00", "USLeft": "259.08"}, "timestamp": "210717140736.082", "sensor": "proximity"},
+		{"data": {"USRear": "241.30", "USRight": "157.48", "LidarRight": "311.00", "LidarLeft": "298.00", "USLeft": "259.08"}, "timestamp": "210717140736.082", "sensor": "proximity"},
+		{"data": {"USRear": "241.30", "USRight": "238.76", "LidarRight": "313.00", "LidarLeft": "293.00", "USLeft": "259.08"}, "timestamp": "210717140736.082", "sensor": "proximity"},
+		{"data": {"O3": "0.00", "SO": "1135.00", "CO": "0.00", "USLeft": "259.08", "LidarRight": "307.00", "USRight": "238.76", "P25": "37.30", "USRear": "241.30", "P10": "44.40", "NO": "708.00", "LidarLeft": "297.00"}, "timestamp": "210717140736.082", "sensor": "proximity"},
+		{"data": {"USRear": "299.72", "USRight": "236.22", "LidarRight": "308.00", "LidarLeft": "300.00", "USLeft": "264.16"}, "timestamp": "210717140737.303", "sensor": "proximity"},
+		{"data": {"USRear": "243.84", "USRight": "236.22", "LidarRight": "309.00", "LidarLeft": "296.00", "USLeft": "259.08"}, "timestamp": "210717140737.303", "sensor": "proximity"},
+		{"data": {"USRear": "307.34", "USRight": "236.22", "LidarRight": "308.00", "LidarLeft": "293.00", "USLeft": "256.54"}, "timestamp": "210717140737.303", "sensor": "proximity"},
+		{"data": {"O3": "0.00", "SO": "179.00", "CO": "0.00", "USLeft": "256.54", "LidarRight": "310.00", "USRight": "236.22", "P25": "37.90", "USRear": "307.34", "P10": "45.00", "NO": "895.00", "LidarLeft": "270.00"}, "timestamp": "210717140738.303", "sensor": "proximity"},
+		{"data": {"USRear": "307.34", "USRight": "238.76", "LidarRight": "311.00", "LidarLeft": "255.00", "USLeft": "256.54"}, "timestamp": "210717140738.303", "sensor": "proximity"},
+		{"data": {"USRear": "170.18", "USRight": "241.30", "LidarRight": "310.00", "LidarLeft": "268.00", "USLeft": "254.00"}, "timestamp": "210717140738.303", "sensor": "proximity"},
+		{"data": {"USRear": "304.80", "USRight": "238.76", "LidarRight": "310.00", "LidarLeft": "294.00", "USLeft": "254.00"}, "timestamp": "210717140738.303", "sensor": "proximity"},
+		{"data": {"O3": "0.00", "SO": "748.00", "CO": "0.00", "USLeft": "256.54", "LidarRight": "309.00", "USRight": "238.76", "P25": "38.50", "USRear": "165.10", "P10": "45.60", "NO": "823.00", "LidarLeft": "283.00"}, "timestamp": "210717140739.303", "sensor": "proximity"},
+		{"data": {"USRear": "373.38", "USRight": "238.76", "LidarRight": "312.00", "LidarLeft": "290.00", "USLeft": "259.08"}, "timestamp": "210717140739.303", "sensor": "proximity"},
+		{"data": {"USRear": "243.84", "USRight": "238.76", "LidarRight": "310.00", "LidarLeft": "296.00", "USLeft": "256.54"}, "timestamp": "210717140739.303", "sensor": "proximity"},
+		{"data": {"USRear": "299.72", "USRight": "241.30", "LidarRight": "309.00", "LidarLeft": "298.00", "USLeft": "256.54"}, "timestamp": "210717140740.303", "sensor": "proximity"},
+		{"data": {"O3": "0.00", "SO": "1414.00", "CO": "0.00", "USLeft": "256.54", "LidarRight": "312.00", "USRight": "254.00", "P25": "39.10", "USRear": "299.72", "P10": "46.20", "NO": "859.00", "LidarLeft": "293.00"}, "timestamp": "210717140740.303", "sensor": "proximity"},
+		{"data": {"USRear": "165.10", "USRight": "152.40", "LidarRight": "314.00", "LidarLeft": "290.00", "USLeft": "256.54"}, "timestamp": "210717140740.303", "sensor": "proximity"},
+		{"data": {"USRear": "238.76", "USRight": "238.76", "LidarRight": "311.00", "LidarLeft": "294.00", "USLeft": "256.54"}, "timestamp": "210717140740.303", "sensor": "proximity"},
+		{"data": {"USRear": "238.76", "USRight": "238.76", "LidarRight": "311.00", "LidarLeft": "295.00", "USLeft": "259.08"}, "timestamp": "210717140741.303", "sensor": "proximity"},
+		{"data": {"O3": "0.00", "SO": "1289.00", "CO": "0.00", "USLeft": "259.08", "LidarRight": "311.00", "USRight": "238.76", "P25": "40.30", "USRear": "243.84", "P10": "47.60", "NO": "523.00", "LidarLeft": "299.00"}, "timestamp": "210717140741.303", "sensor": "proximity"},
+		{"data": {"USRear": "246.38", "USRight": "238.76", "LidarRight": "311.00", "LidarLeft": "289.00", "USLeft": "259.08"}, "timestamp": "210717140742.082", "sensor": "proximity"},
+		{"data": {"USRear": "302.26", "USRight": "238.76", "LidarRight": "311.00", "LidarLeft": "294.00", "USLeft": "259.08"}, "timestamp": "210717140742.082", "sensor": "proximity"},
+		{"data": {"USRear": "243.84", "USRight": "238.76", "LidarRight": "310.00", "LidarLeft": "296.00", "USLeft": "256.54"}, "timestamp": "210717140742.082", "sensor": "proximity"},
+		{"data": {"O3": "0.00", "SO": "837.00", "CO": "0.00", "USLeft": "256.54", "LidarRight": "311.00", "USRight": "154.94", "P25": "41.10", "USRear": "243.84", "P10": "48.40", "NO": "803.00", "LidarLeft": "287.00"}, "timestamp": "210717140742.082", "sensor": "proximity"},
+		{"data": {"USRear": "304.80", "USRight": "238.76", "LidarRight": "310.00", "LidarLeft": "288.00", "USLeft": "256.54"}, "timestamp": "210717140743.303", "sensor": "proximity"},
+		{"data": {"USRight": "322.58", "USRear": "640.08"}, "timestamp": "210717140916.306", "sensor": "proximity"},
+		{"data": {"USRear": "640.08", "USRight": "322.58", "LidarRight": "1.00", "LidarLeft": "774.00", "USLeft": "640.08"}, "timestamp": "210717140916.306", "sensor": "proximity"},
+		{"data": {"USRear": "640.08", "USRight": "322.58", "LidarRight": "1874.00", "LidarLeft": "1917.00", "USLeft": "640.08"}, "timestamp": "210717140917.306", "sensor": "proximity"},
+		{"data": {"USRear": "640.08", "USRight": "454.66", "LidarRight": "599.00", "LidarLeft": "1082.00", "USLeft": "637.54"}, "timestamp": "210717140917.306", "sensor": "proximity"},
+		{"data": {"O3": "893.00", "SO": "383.00", "CO": "0.00", "USLeft": "93.98", "LidarRight": "708.00", "USRight": "640.08", "P25": "44.30", "USRear": "640.08", "P10": "53.10", "NO": "779.00", "LidarLeft": "1084.00"}, "timestamp": "210717140918.093", "sensor": "proximity"},
+		{"data": {"USRear": "640.08", "USRight": "228.60", "LidarRight": "1.00", "LidarLeft": "1.00", "USLeft": "492.76"}, "timestamp": "210717140918.093", "sensor": "proximity"},
+		{"data": {"USRear": "640.08", "USRight": "243.84", "LidarRight": "510.00", "LidarLeft": "1176.00", "USLeft": "637.54"}, "timestamp": "210717140919.093", "sensor": "proximity"},
+		{"data": {"USRear": "640.08", "USRight": "254.00", "LidarRight": "2019.00", "LidarLeft": "1872.00", "USLeft": "640.08"}, "timestamp": "210717140919.093", "sensor": "proximity"},
+		{"data": {"USRight": "106.68", "USRear": "640.08"}, "timestamp": "210717141016.000", "sensor": "proximity"},
+		{"data": {"LidarRight": "287.00", "LidarLeft": "2777.00"}, "timestamp": "210717141017.000", "sensor": "proximity"},
+		{"data": {"USRear": "640.08", "USRight": "91.44", "LidarRight": "205.00", "LidarLeft": "1775.00", "USLeft": "347.98"}, "timestamp": "210717141017.000", "sensor": "proximity"},
+		{"data": {"USRear": "640.08", "USRight": "86.36", "LidarRight": "383.00", "LidarLeft": "1.00", "USLeft": "200.66"}, "timestamp": "210717141017.000", "sensor": "proximity"},
+		{"data": {"O3": "956.00", "SO": "1144.00", "CO": "1558.00", "USLeft": "340.36", "LidarRight": "1.00", "USRight": "322.58", "P25": "35.50", "USRear": "640.08", "P10": "43.50", "NO": "795.00", "LidarLeft": "305.00"}, "timestamp": "210717141018.000", "sensor": "proximity"},
+		{"data": {"USRear": "640.08", "USRight": "322.58", "LidarRight": "687.00", "LidarLeft": "1710.00", "USLeft": "279.40"}, "timestamp": "210717141018.000", "sensor": "proximity"},
+		{"data": {"USRear": "640.08", "USRight": "322.58", "LidarRight": "172.00", "LidarLeft": "1.00", "USLeft": "33.02"}, "timestamp": "210717141018.000", "sensor": "proximity"},
+		{"data": {"USRear": "640.08", "USRight": "640.08", "LidarRight": "305.00", "LidarLeft": "1672.00", "USLeft": "325.12"}, "timestamp": "210717141020.000", "sensor": "proximity"},
+		{"data": {"O3": "530.00", "SO": "1236.00", "CO": "1557.00", "USLeft": "320.04", "LidarRight": "398.00", "USRight": "640.08", "P25": "35.40", "USRear": "640.08", "P10": "43.50", "NO": "580.00", "LidarLeft": "1988.00"}, "timestamp": "210717141020.000", "sensor": "proximity"},
+		{"data": {"USRear": "637.54", "USRight": "640.08", "LidarRight": "597.00", "LidarLeft": "2868.00", "USLeft": "325.12"}, "timestamp": "210717141021.000", "sensor": "proximity"},
+		{"data": {"USRight": "642.62", "USRear": "640.08", "LidarLeft": "1.00"}, "timestamp": "210717141021.000", "sensor": "proximity"},
+		{"data": {"USRear": "640.08", "USRight": "640.08", "LidarRight": "443.00", "LidarLeft": "2149.00", "USLeft": "25.40"}, "timestamp": "210717141022.000", "sensor": "proximity"},
+		{"data": {"O3": "246.00", "SO": "578.00", "CO": "1558.00", "USLeft": "30.48", "USRear": "640.08", "USRight": "83.82", "LidarRight": "103.00", "P10": "43.70", "NO": "774.00", "P25": "35.30"}, "timestamp": "210717141022.000", "sensor": "proximity"},
+		{"data": {"USRear": "640.08", "USRight": "91.44", "LidarRight": "115.00", "LidarLeft": "1895.00", "USLeft": "320.04"}, "timestamp": "210717141022.000", "sensor": "proximity"},
+		{"data": {"USRight": "104.14"}, "timestamp": "210717141023.000", "sensor": "proximity"},
+		{"data": {"USRear": "640.08", "USRight": "322.58", "LidarRight": "1.00", "LidarLeft": "1.00", "USLeft": "322.58"}, "timestamp": "210717141024.000", "sensor": "proximity"},
+		{"data": {"O3": "705.00", "SO": "1192.00", "CO": "1557.00", "USLeft": "355.60", "LidarRight": "128.00", "USRight": "104.14", "P25": "35.00", "USRear": "579.12", "P10": "45.70", "NO": "749.00", "LidarLeft": "1759.00"}, "timestamp": "210717141024.000", "sensor": "proximity"},
+		{"data": {"USRear": "398.78", "USRight": "114.30", "LidarRight": "127.00", "LidarLeft": "3053.00", "USLeft": "627.38"}, "timestamp": "210717141024.000", "sensor": "proximity"},
+		{"data": {"USRear": "640.08", "USRight": "111.76", "LidarRight": "125.00", "LidarLeft": "2771.00", "USLeft": "589.28"}, "timestamp": "210717141024.000", "sensor": "proximity"}
+	]
+}
