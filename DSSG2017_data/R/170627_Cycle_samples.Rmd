@@ -310,13 +310,11 @@ for (i in c(487:nrow(gps))){
 
 # joining proximiyt values
 prox <- read_delim("signatures/Noel/170720_proximity_noel.csv", delim = ",", col_names = T)
-prox$TimeN <- prox$TimeN - 40000
-prox$TimeN <- as.character(prox$TimeN)
-prox["time"] <- as.POSIXct(prox$TimeN, origin="1970-01-01", format = "%H%M%S")
-prox_sum <- prox %>% dplyr::group_by(time) %>% summarise(USRight=mean(USRight),USLeft=mean(USLeft),USRear=mean(USRear),LidarRight=mean(LidarRight),LidarLeft=mean(LidarLeft) )
+prox$Time <- prox$Time -  (3600 * 4)
+prox_sum <- prox %>% dplyr::group_by(Time) %>% summarise(USRight=mean(USRight),USLeft=mean(USLeft),USRear=mean(USRear),LidarRight=mean(LidarRight),LidarLeft=mean(LidarLeft), CO=mean(CO, na.rm=T), SO=mean(SO, na.rm=T), O3=mean(O3, na.rm=T), NO=mean(NO, na.rm=T), P10=mean(P10, na.rm=T), P25=mean(P25, na.rm=T) )
 
-gps <- gps %>% left_join(prox_sum, by=c("utc_time" = "time"))
-write.table(gps, "signatures/go_as_fast_as_possible/prox_gps_join.csv", row.names=F, col.names=T, sep=",")
+gps <- gps %>% left_join(prox_sum, by=c("Time"))
+write.table(gps, "signatures/Noel/prox_gps_join.csv", row.names=F, col.names=T, sep=",")
 
 ```
 
