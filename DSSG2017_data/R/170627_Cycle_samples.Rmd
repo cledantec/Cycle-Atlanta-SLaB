@@ -204,43 +204,121 @@ street_parking_sig$sensor <- as.factor(street_parking_sig$sensor)
 street_parking_sig$seq <- c(1:nrow(street_parking_sig))
 
 library(dtt)
-freq <- dtt(street_parking_sig$value, type = c("dct"))
+freq <- dtt(street_parking_sig[c(26:50),]$value, type = c("dct"))
 freq <- as.data.frame(freq)
 freq$index <- c(1:nrow(freq))
-plot(freq)
 
-ggplot(freq, aes(x = index, y = freq)) +
+ggplot(freq, aes(x = index, y = abs(freq))) +
   geom_line() +
-  geom_point(size = 1) +  
+  geom_point(size = 1) +  ylim(c(0, 15000)) +
   theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Amplitude") + 
   xlab("Frequency")  + ggtitle("Discrete Cosine Transform for the Street Parking Signature") 
 
 ggplot(street_parking_sig, aes(x = seq, y = scale(value), colour = sensor)) +
   geom_line() +
-  geom_point(size = 1) +  
+  geom_point(size = 1) + 
   theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Normalized Distance") + 
   xlab("Time")  + ggtitle("Street Parking Temporal Signature") + labs(colour="Sensors") 
   
 
 
+# Passing vehicle signature
+passing_vehicle <- prox_join[prox_join$video_hour == 0 & ((prox_join$video_minute == 8 & prox_join$video_sec >= 49) & (prox_join$video_minute == 8 & prox_join$video_sec <= 55)),]
+passing_vehicle$sequenceTime <- c(1:nrow(passing_vehicle))
 
-passing_vehicle <- prox_join[prox_join$video_hour == 0 & ((prox_join$video_minute == 8 & prox_join$video_sec >= 45) & (prox_join$video_minute == 8 & prox_join$video_sec <= 58)),]
+passing_vehicle_sig <- as.data.frame(matrix(ncol = 3, nrow = 0))
+colnames(passing_vehicle_sig) <- c("sequenceTime", "sensor", "value")
 
-ggplot(freq, aes(x = index, y = freq)) +
+for (col in c("LidarRight", "LidarLeft")){
+  tmp <- cbind(passing_vehicle[,c("sequenceTime")], col, passing_vehicle[,col])
+  colnames(tmp) <- c("sequenceTime", "sensor", "value")
+  passing_vehicle_sig <- rbind(passing_vehicle_sig, tmp)
+}
+
+passing_vehicle_sig$sensor <- as.factor(passing_vehicle_sig$sensor)
+passing_vehicle_sig$seq <- c(1:nrow(passing_vehicle_sig))
+
+freq <- dtt(passing_vehicle_sig[c(26:50),]$value, type = c("dct"))
+freq <- as.data.frame(freq)
+freq$index <- c(1:nrow(freq))
+
+
+ggplot(freq, aes(x = index, y = abs(freq))) +
   geom_line() +
-  geom_point(size = 1) +  
+  geom_point(size = 1) +   ylim(c(0, 15000)) +
   theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Amplitude") + 
-  xlab("Frequency")  + ggtitle("Discrete Cosine Transform for the Street Parking Signature") 
+  xlab("Frequency")  + ggtitle("Discrete Cosine Transform for the Passing Vehicle Signature") 
 
-ggplot(street_parking_sig, aes(x = seq, y = scale(value), colour = sensor)) +
+ggplot(passing_vehicle_sig, aes(x = seq, y = scale(value), colour = sensor)) +
   geom_line() +
   geom_point(size = 1) +  
   theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Normalized Distance") + 
-  xlab("Time")  + ggtitle("Street Parking Temporal Signature") + labs(colour="Sensors") 
+  xlab("Time")  + ggtitle("Passing Vehicle Temporal Signature") + labs(colour="Sensors") 
 
 
 ```
 
+
+# 7/20/2017 Noel's
+```{r}
+gps <- read_delim("signatures/Noel/170720_gps_noel.csv", delim = ",", col_names = T)
+
+colnames(gps) <- c("lon", "course","lat","speed","day","utc_time", "Time")
+gps$Time <- gps$Time - (3600 * 4)
+
+gps <- gps %>% separate(lon, into = c("dd","mm"), sep=2 )
+gps$lon <- -(as.numeric(gps$dd) + (as.numeric(gps$mm)/60))
+gps <- gps %>% separate(lat, into = c("dd2","mm2"), sep=2 )
+gps$lat <- (as.numeric(gps$dd2) + (as.numeric(gps$mm2)/60))
+gps <- gps[,c("course", "speed", "day", "Time", "lon", "lat")]
+
+gps$speed <- as.numeric(gps$speed)
+gps$course <- as.numeric(gps$course)
+
+gps$seq <- c(1:nrow(gps))
+gps[is.na(gps$lon),]$lon <- 0
+gps[is.na(gps$lat),]$lat <- 0
+
+gps$way <- "come"
+gps[c(1:520),]$way <- "go"
+gps$way <- as.factor(gps$way)
+
+map <- get_map(c(lon = -84.384, lat = 33.776), zoom = 16, source = "stamen", maptype = "toner")
+mapPoints <- ggmap(map) + geom_point(aes(x = lon, y = lat, colour=way, size = scale(speed)), data = gps, alpha = 0.40) + labs(colour="Way", size="Speed")
+mapPoints
+
+map <- get_map(c(lon = -84.387, lat = 33.777), zoom = 18, source = "stamen", maptype = "toner")
+mapPoints <- ggmap(map) +geom_point(aes(x = lon, y = lat, colour=way), data = gps[257:257,], alpha = 0.8, size = 0.5)
+mapPoints
+
+# 257 is the reference point to sync between GoPro video and the GPS data
+gps$video_time <- as.POSIXct("00:01:16", origin="1970-01-01", format = "%H:%M:%S")
+
+for (i in c(1:nrow(gps))){
+  gps[i,]$video_time <- gps[257,]$video_time - 257 + i
+}
+
+map <- get_map(c(lon = -84.380, lat = 33.777), zoom = 17, source = "stamen", maptype = "toner")
+mapPoints <- ggmap(map) +geom_point(aes(x = lon, y = lat, colour=way), data = gps[555:560,], alpha = 0.8, size = 0.5)
+mapPoints
+
+gps[c(487:nrow(gps)),]$video_time <- as.POSIXct("00:00:02", origin="1970-01-01", format = "%H:%M:%S")
+
+for (i in c(487:nrow(gps))){
+  gps[i,]$video_time <- gps[555,]$video_time - 555 + i
+}
+
+# joining proximiyt values
+prox <- read_delim("signatures/Noel/170720_proximity_noel.csv", delim = ",", col_names = T)
+prox$TimeN <- prox$TimeN - 40000
+prox$TimeN <- as.character(prox$TimeN)
+prox["time"] <- as.POSIXct(prox$TimeN, origin="1970-01-01", format = "%H%M%S")
+prox_sum <- prox %>% dplyr::group_by(time) %>% summarise(USRight=mean(USRight),USLeft=mean(USLeft),USRear=mean(USRear),LidarRight=mean(LidarRight),LidarLeft=mean(LidarLeft) )
+
+gps <- gps %>% left_join(prox_sum, by=c("utc_time" = "time"))
+write.table(gps, "signatures/go_as_fast_as_possible/prox_gps_join.csv", row.names=F, col.names=T, sep=",")
+
+```
 
 
 # Arduino Data
