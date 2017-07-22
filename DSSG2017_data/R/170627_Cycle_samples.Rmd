@@ -405,6 +405,57 @@ write.table(gps, "Jeremy/prox_gps_join.csv", row.names=F, col.names=T, sep=",")
 ```
 
 
+# 7/20/2017 Mariam's
+```{r}
+gps <- read_delim("Mariam/200717_gps_data.csv", delim = ",", col_names = T)
+
+gps$utc_time <- as.character(gps$utc_time)
+gps$time <- str_pad(gps$utc_time, width=6, side="left", pad="0")
+gps["time"] <- as.POSIXct(gps$time, origin="1970-01-01", format = "%H%M%S")
+gps$time <- gps$time - (3600 * 4)
+
+gps <- gps %>% separate(long, into = c("dd","mm"), sep=3 )
+gps$lon <- -(as.numeric(gps$dd) + (as.numeric(gps$mm)/60))
+gps <- gps %>% separate(lat, into = c("dd2","mm2"), sep=2 )
+gps$lat <- (as.numeric(gps$dd2) + (as.numeric(gps$mm2)/60))
+gps <- gps[,c("course", "speed", "day", "time", "lon", "lat")]
+
+gps$speed <- as.numeric(gps$speed)
+gps$course <- as.numeric(gps$course)
+
+gps$seq <- c(1:nrow(gps))
+gps[is.na(gps$lon),]$lon <- 0
+gps[is.na(gps$lat),]$lat <- 0
+
+gps$way <- "second_ride"
+gps[c(1:1301),]$way <- "first_ride"
+gps$way <- as.factor(gps$way)
+
+map <- get_map(c(lon = -84.397, lat = 33.760), zoom = 12, source = "stamen", maptype = "toner")
+mapPoints <- ggmap(map) + geom_point(aes(x = lon, y = lat, colour=way), data = gps, alpha = 0.9, size = 0.5) + labs(colour="Way", size="Speed") + ggtitle("Mariam, 0720")
+mapPoints
+
+#first ride
+map <- get_map(c(lon = -84.390, lat = 33.764), zoom = 14, source = "stamen", maptype = "toner")
+mapPoints <- ggmap(map) + geom_point(aes(x = lon, y = lat, colour=way), data = gps, alpha = 0.9, size = 0.5) + labs(colour="Way", size="Speed") + ggtitle("Mariam, 0720, First Ride")
+mapPoints
+
+#second ride
+map <- get_map(c(lon = -84.305, lat = 33.783), zoom = 15, source = "stamen", maptype = "toner")
+mapPoints <- ggmap(map) + geom_point(aes(x = lon, y = lat, colour=way), data = gps, alpha = 0.9, size = 0.5) + labs(colour="Way", size="Speed") + ggtitle("Mariam, 0720, Second Riding")
+mapPoints
+
+
+# joining proximiy values
+prox <- read_delim("Mariam/200717_proximity.csv", delim = ",", col_names = T)
+attr(prox$time, "tzone") <- "EST5EDT"
+
+prox_sum <- prox %>% dplyr::group_by(time) %>% summarise(USRight=mean(USRight, na.rm=T),USLeft=mean(USLeft, na.rm=T),USRear=mean(USRear, na.rm=T),LidarRight=mean(LidarRight, na.rm=T),LidarLeft=mean(LidarLeft, na.rm=T), CO=mean(CO, na.rm=T), SO=mean(SO, na.rm=T), O3=mean(O3, na.rm=T), NO=mean(NO, na.rm=T), P10=mean(P10, na.rm=T), P25=mean(P25, na.rm=T) )
+
+gps <- gps %>% left_join(prox_sum, by=c("time"))
+write.table(gps, "Jeremy/prox_gps_join.csv", row.names=F, col.names=T, sep=",")
+
+```
 
 
 
