@@ -453,7 +453,7 @@ attr(prox$time, "tzone") <- "EST5EDT"
 prox_sum <- prox %>% dplyr::group_by(time) %>% summarise(USRight=mean(USRight, na.rm=T),USLeft=mean(USLeft, na.rm=T),USRear=mean(USRear, na.rm=T),LidarRight=mean(LidarRight, na.rm=T),LidarLeft=mean(LidarLeft, na.rm=T), CO=mean(CO, na.rm=T), SO=mean(SO, na.rm=T), O3=mean(O3, na.rm=T), NO=mean(NO, na.rm=T), P10=mean(P10, na.rm=T), P25=mean(P25, na.rm=T) )
 
 gps <- gps %>% left_join(prox_sum, by=c("time"))
-write.table(gps, "Jeremy/prox_gps_join.csv", row.names=F, col.names=T, sep=",")
+write.table(gps, "Mariam/200717_prox_gps_join.csv", row.names=F, col.names=T, sep=",")
 
 ```
 
