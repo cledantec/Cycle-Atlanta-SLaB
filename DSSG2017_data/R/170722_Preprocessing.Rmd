@@ -1,0 +1,124 @@
+---
+title: "Cycle Data Preprocessing"
+author: "Myeong Lee"
+date: "7/22/2017"
+output: html_document
+---
+
+This script preprocess the cycle sensors data so that they can be used as features and classifiers.
+
+```{r}
+library(jsonlite)
+library(readr)
+library(dplyr)
+library(sp)
+library(ggplot2)
+library(ggmap)
+library(dplyr)
+library(tidyr)
+library(geosphere)
+library(scales)
+
+setwd("/Users/myeong/git/Atl_DSSG/Cycle-Atlanta-SLaB/DSSG2017_data/sample_data/Javier/")
+
+multiplot <- function(..., plotlist=NULL, file, cols=1, layout=NULL) {
+  library(grid)
+
+  # Make a list from the ... arguments and plotlist
+  plots <- c(list(...), plotlist)
+
+  numPlots = length(plots)
+
+  # If layout is NULL, then use 'cols' to determine layout
+  if (is.null(layout)) {
+    # Make the panel
+    # ncol: Number of columns of plots
+    # nrow: Number of rows needed, calculated from # of cols
+    layout <- matrix(seq(1, cols * ceiling(numPlots/cols)),
+                    ncol = cols, nrow = ceiling(numPlots/cols))
+  }
+
+ if (numPlots==1) {
+    print(plots[[1]])
+
+  } else {
+    # Set up the page
+    grid.newpage()
+    pushViewport(viewport(layout = grid.layout(nrow(layout), ncol(layout))))
+
+    # Make each plot, in the correct location
+    for (i in 1:numPlots) {
+      # Get the i,j matrix positions of the regions that contain this subplot
+      matchidx <- as.data.frame(which(layout == i, arr.ind = TRUE))
+
+      print(plots[[i]], vp = viewport(layout.pos.row = matchidx$row,
+                                      layout.pos.col = matchidx$col))
+    }
+  }
+}
+
+gps <- read_delim("0722_prox_gps_join.csv", delim = ",", col_names = T)
+prox <- read_delim("220717_prox.csv", delim = ",", col_names = T)
+gps$id <- c(1:nrow(gps))
+prox$id <- c(1:nrow(prox))
+
+first <- gps[c(1:468),c("time", "lon", "lat", "video_time", "way", "speed", "LidarRight", "LidarLeft")]
+
+LR <- ggplot(first, aes(x = video_time, y = LidarRight)) +
+      geom_line() +
+      geom_point(size = 0.5, color="red")  + 
+      ylim(c(0,4000)) + scale_x_datetime(breaks=date_breaks("30 sec"), labels=date_format("%H:%M:%S")) +
+      theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Distance (cm)") + 
+      xlab("Video Time")  + ggtitle("Lidar Right (Video_time)") 
+
+LL <- ggplot(first, aes(x = video_time, y = LidarLeft)) +
+      geom_line() +
+      geom_point( size = 0.5, color="red")  +
+      ylim(c(0,4000))  + scale_x_datetime(breaks=date_breaks("30 sec"), labels=date_format("%H:%M:%S")) +
+      theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Distance (cm)") + 
+      xlab("Video Time")  + ggtitle("Lidar Left (Video_time)")
+
+multiplot(LR, LL, cols=1)
+
+
+
+# Actual riding begins at 0:02:00 in the video.
+# Until 2017-07-22 03:54:38
+first <- gps[c(139:468),c("time", "lon", "lat", "video_time", "way", "speed")]
+second <- gps[c(474:nrow(gps)),c("time", "lon", "lat", "video_time", "way", "speed")]
+
+prox_first <- prox[c(723:1825),]
+prox_second <- prox[c(1826:nrow(prox)),]
+
+first_join <- prox_first %>% left_join(first, by=c("time"))
+
+time <- as.vector(c(""))
+k = 0
+index = 1
+for(i in 1:length(first_join$video_time)){
+  if (k%%100 == 0 ){
+    time[index] <- as.character(first_join$video_time[i])
+    index <- index+1
+    k = 0
+  }  
+  k <- k+1
+}
+
+LR <- ggplot(first_join, aes(x = id, y = LidarRight)) +
+      geom_line() +
+      geom_point(size = 0.5, color="red")  + 
+      ylim(c(0,9000)) +      
+      scale_x_continuous(breaks=1:4, labels=c) +
+      theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Distance (cm)") + 
+      xlab("Dummy Time (x200ms)")  + ggtitle("Lidar Right (Raw Data)") 
+
+LL <- ggplot(first_join, aes(x = id, y = LidarLeft)) +
+      geom_line() +
+      geom_point(size = 0.5, color="red")  + 
+      ylim(c(0,9000)) +
+      theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Distance (cm)") + 
+      xlab("Dummy Time (x200ms)")  + ggtitle("Lidar Left (Raw Data)")
+
+multiplot(LR, LL, cols=1)
+
+```

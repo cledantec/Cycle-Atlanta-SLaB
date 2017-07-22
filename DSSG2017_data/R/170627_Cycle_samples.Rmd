@@ -562,64 +562,6 @@ write.table(gps, "Javier/0722_prox_gps_join.csv", row.names=F, col.names=T, sep=
 
 
 
-# Arduino Data
-```{r}
-setwd("/Users/myeong/git/Atl_DSSG/Cycle-Atlanta-SLaB/Data/sample_data/")
-ard <- fromJSON(txt= "270617_arduino_data.json" )
-ard <- as.data.frame(ard["results"])
-
-colnames(ard) <- c("LidarLeft", "USLeft", "LidarRight", "USRear", "Time", "USRight", "CO", "NO2", "P10", "P25", "SO2", "O3")
-ard <- ard %>% separate(Time, into = c("date","time"), sep=6 )
-ard$time <- as.numeric(ard$time)
-ard$time <- ard$time - 40000
-
-for (i in 1:ncol(ard)){
-  ard[,i] <- as.numeric(ard[,i])  
-}
-ard$seq <- c(1:nrow(ard))
-
-ggplot(ard, aes(x = seq)) +
-  geom_line(aes(y = LidarRight), colour="blue") + 
-  geom_point(aes(y = LidarRight), colour="blue") + 
-  geom_line(aes(y = USRight), colour="red") +
-  geom_point(aes(y = USRight), colour="red") +
-  theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Magnitude") + 
-  xlab("Time (sec)") + xlim(113, 162) + ggtitle("Time-Series Distances for the Right-Side Lidar and Sonar")
-
-summary(lm(LidarLeft ~ USLeft, data=ard))
-summary(lm(LidarRight ~ USRight, data=ard))
-
-ggplot(ard, aes(x = seq)) +
-  geom_line(aes(y = LidarLeft), colour="blue") + 
-  geom_point(aes(y = LidarLeft), colour="blue") + 
-  geom_line(aes(y = USLeft), colour="red") +
-  geom_point(aes(y = USLeft), colour="red") +
-  theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Magnitude") + 
-  xlab("Time (sec)") +  xlim(113, 162) +ggtitle("Time-Series Distances for the Left-Side Lidar and Sonar")
-
-ggplot(ard, aes(x = seq)) +
-  geom_line(aes(y = USRear), colour="red") +
-  geom_point(aes(y = USRear), colour="red") +
-  theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Magnitude") + 
-  xlab("Time (sec)") +  xlim(113, 162) +ggtitle("Time-Series Distance for the Rear Sonar")
-
-gas <- ard[,c("seq","CO","SO2","O3","NO2")]
-gas <- gas[complete.cases(gas),]
-
-ggplot(gas, aes(x = seq)) +
-  geom_line(aes(y = CO), colour="red") +
-  geom_point(aes(y = CO), colour="red") +
-  geom_line(aes(y = NO2), colour="blue") +
-  geom_point(aes(y = NO2), colour="blue") +
-  geom_line(aes(y = SO2), colour="green") +
-  geom_point(aes(y = SO2), colour="green") +
-  geom_line(aes(y = O3), colour="violet") +
-  geom_point(aes(y = O3), colour="violet") +
-  theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Magnitude") + 
-  xlab("Time (sec)") +  xlim(113, 162) +ggtitle("Time-Series Gas Sensor Values")
-
-```
-
 # Inertial
 ```{r}
 setwd("/Users/myeong/git/Atl_DSSG/Cycle-Atlanta-SLaB/Data/sample_data/")
