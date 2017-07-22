@@ -365,14 +365,52 @@ for (i in c(1:nrow(gps))){
 
 
 # joining proximiy values
-prox <- read_delim("signatures/Noel/170720_proximity_noel.csv", delim = ",", col_names = T)
-prox$Time <- prox$Time -  (3600 * 4)
-prox_sum <- prox %>% dplyr::group_by(Time) %>% summarise(USRight=mean(USRight),USLeft=mean(USLeft),USRear=mean(USRear),LidarRight=mean(LidarRight),LidarLeft=mean(LidarLeft), CO=mean(CO, na.rm=T), SO=mean(SO, na.rm=T), O3=mean(O3, na.rm=T), NO=mean(NO, na.rm=T), P10=mean(P10, na.rm=T), P25=mean(P25, na.rm=T) )
+prox <- fromJSON(txt= "Jeremy/210717_proximity.json" )
+prox <- as.data.frame(prox["results"])
+prox$USLeft <- prox$results.data$USLeft
+prox$USRight <- prox$results.data$USRight
+prox$USRear <- prox$results.data$USRear
+prox$LidarLeft <- prox$results.data$LidarLeft
+prox$LidarRight<- prox$results.data$LidarRight
+prox$O3 <- prox$results.data$O3
+prox$SO <- prox$results.data$SO
+prox$NO <- prox$results.data$NO
+prox$CO <- prox$results.data$CO
+prox$P10 <- prox$results.data$P10
+prox$P25 <- prox$results.data$P25
+prox <- prox[,-3] # removing the nexted "data" column
 
-gps <- gps %>% left_join(prox_sum, by=c("Time"))
-write.table(gps, "signatures/Noel/prox_gps_join.csv", row.names=F, col.names=T, sep=",")
+prox <- prox %>% separate(results.timestamp, into = c("date","time"), sep=6 )
+prox["time"] <- as.POSIXct(prox$time, origin="1970-01-01", format = "%H%M%S")
+prox$time <- prox$time -  (3600 * 4)
+
+prox$USLeft <- as.numeric(prox$USLeft)
+prox$USRight <- as.numeric(prox$USRight)
+prox$USRear <- as.numeric(prox$USRear)
+prox$LidarLeft <- as.numeric(prox$LidarLeft)
+prox$LidarRight <- as.numeric(prox$LidarRight)
+prox$P10 <- as.numeric(prox$P10)
+prox$P25 <- as.numeric(prox$P25)
+prox$O3 <- as.numeric(prox$O3)
+prox$CO <- as.numeric(prox$CO)
+prox$SO <- as.numeric(prox$SO)
+prox$NO <- as.numeric(prox$NO)
+
+
+prox_sum <- prox %>% dplyr::group_by(time) %>% summarise(USRight=mean(USRight),USLeft=mean(USLeft),USRear=mean(USRear),LidarRight=mean(LidarRight),LidarLeft=mean(LidarLeft), CO=mean(CO, na.rm=T), SO=mean(SO, na.rm=T), O3=mean(O3, na.rm=T), NO=mean(NO, na.rm=T), P10=mean(P10, na.rm=T), P25=mean(P25, na.rm=T) )
+
+gps <- gps %>% left_join(prox_sum, by=c("time"))
+write.table(gps, "Jeremy/prox_gps_join.csv", row.names=F, col.names=T, sep=",")
 
 ```
+
+
+
+
+
+
+
+
 
 
 # Arduino Data

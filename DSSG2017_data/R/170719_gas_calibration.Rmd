@@ -17,18 +17,145 @@ library(ggmap)
 library(dplyr)
 library(tidyr)
 library(geosphere)
+library(stringr)
+library(lubridate)
 
 setwd("/Users/myeong/git/Atl_DSSG/Cycle-Atlanta-SLaB/DSSG2017_data/gas_station_data/")
 
 
-gas <- fromJSON(txt= "agg_testbed.json" )
+gas <- fromJSON(txt= "original_testbed/05-04-2017_testbed.json" )
 gas <- as.data.frame(gas["results"])
 colnames(gas) <- c("SO_3", "SO_2","SO_1","NO_1","NO_2","NO_3", "CO_3", "CO_2", "CO_1", "time", "O3_3", "O3_2", "O3_1")
 gas["time2"] <- as.POSIXct(gas$time, origin="1970-01-01", format = "%H-%M-%S")
 gas$time2 <- gas$time2 - (3600*3)
 gas$time2 <- gas$time2 + (600)
+gas$time2 <- gas$time2 - (3600*24*9)
+
+for (i in c(1:13)){
+  gas[,i] <- as.numeric(gas[,i])  
+}
+
+gas2 <- fromJSON(txt= "original_testbed/05-05-2017_testbed.json" )
+gas2 <- as.data.frame(gas2["results"])
+colnames(gas2) <- c("SO_3", "SO_2","SO_1","NO_1","NO_2","NO_3", "CO_3", "CO_2", "CO_1", "time", "O3_3", "O3_2", "O3_1")
+gas2["time2"] <- as.POSIXct(gas2$time, origin="1970-01-01", format = "%H-%M-%S")
+gas2$time2 <- gas2$time2 - (3600*3)
+gas2$time2 <- gas2$time2 + (600)
+gas2$time2 <- gas2$time2 - (3600*24*8)
+
+for (i in c(1:13)){
+  gas2[,i] <- as.numeric(gas2[,i])  
+}
+
+gas3 <- fromJSON(txt= "original_testbed/05-06-2017_testbed.json" )
+gas3 <- as.data.frame(gas3["results"])
+colnames(gas3) <- c("SO_3", "SO_2","SO_1","NO_1","NO_2","NO_3", "CO_3", "CO_2", "CO_1", "time", "O3_3", "O3_2", "O3_1")
+gas3["time2"] <- as.POSIXct(gas3$time, origin="1970-01-01", format = "%H-%M-%S")
+gas3$time2 <- gas3$time2 - (3600*3)
+gas3$time2 <- gas3$time2 + (600)
+gas3$time2 <- gas3$time2 - (3600*24*7)
+
+for (i in c(1:13)){
+  gas3[,i] <- as.numeric(gas3[,i])  
+}
+
+gas_all <- rbind(gas, gas2, gas3)
+
+#Sensor #1
+gas_agg <- gas_all[,c("time2", "CO_1", "SO_1", "O3_1", "NO_1")]
+gas_agg$day <- day(ymd_hms(gas_agg$time2))
+gas_agg$hour <- hour(ymd_hms(gas_agg$time2))
+gas_agg$minute <- minute(ymd_hms(gas_agg$time2))
+gas_agg$second <- second(ymd_hms(gas_agg$time2))
+gas_agg <- gas_agg %>% group_by(day, hour, minute) %>% summarise(CO=mean(CO_1), SO=mean(SO_1), O3=mean(O3_1), NO=mean(NO_1))
+gas_agg$time <- paste(str_pad(gas_agg$day, width=2, side="left", pad="0"), str_pad(gas_agg$hour, width=2, side="left", pad="0"), str_pad(gas_agg$minute, width=2, side="left", pad="0"), sep="")
+gas_agg$time <- as.POSIXct(gas_agg$time, origin="1970-01-01", format = "%d%H%M")
 
 
+dot_size = 0.5
 
+ggplot(gas_agg, aes(x = time)) +
+  geom_line(aes(y = CO), colour="red", size=dot_size) +
+  geom_point(aes(y = CO), colour="red", size=dot_size) +
+  geom_line(aes(y = NO), colour="blue", size=dot_size) +
+  geom_point(aes(y = NO), colour="blue", size=dot_size) +
+  geom_line(aes(y = SO), colour="green", size=dot_size) +
+  geom_point(aes(y = SO), colour="green", size=dot_size) +
+  geom_line(aes(y = O3), colour="violet", size=dot_size) +
+  geom_point(aes(y = O3), colour="violet", size=dot_size) +
+  theme_bw() + theme(legend.text=element_text(size=15)) + ylim(c(700,1100)) + ylab(label="12-bit Voltage Reading") + 
+  xlab("Time")  +ggtitle("Time-Series Gas Sensor Values #1")
+
+
+#Sensor #7
+gas_agg <- gas_all[,c("time2", "CO_2", "SO_2", "O3_2", "NO_2")]
+gas_agg$day <- day(ymd_hms(gas_agg$time2))
+gas_agg$hour <- hour(ymd_hms(gas_agg$time2))
+gas_agg$minute <- minute(ymd_hms(gas_agg$time2))
+gas_agg$second <- second(ymd_hms(gas_agg$time2))
+gas_agg <- gas_agg %>% group_by(day, hour, minute) %>% summarise(CO=mean(CO_2), SO=mean(SO_2), O3=mean(O3_2), NO=mean(NO_2))
+gas_agg$time <- paste(str_pad(gas_agg$day, width=2, side="left", pad="0"), str_pad(gas_agg$hour, width=2, side="left", pad="0"), str_pad(gas_agg$minute, width=2, side="left", pad="0"), sep="")
+gas_agg$time <- as.POSIXct(gas_agg$time, origin="1970-01-01", format = "%d%H%M")
+
+ggplot(gas_agg, aes(x = time)) +
+  geom_line(aes(y = CO), colour="red", size=dot_size) +
+  geom_point(aes(y = CO), colour="red", size=dot_size) +
+  geom_line(aes(y = NO), colour="blue", size=dot_size) +
+  geom_point(aes(y = NO), colour="blue", size=dot_size) +
+  geom_line(aes(y = SO), colour="green", size=dot_size) +
+  geom_point(aes(y = SO), colour="green", size=dot_size) +
+  geom_line(aes(y = O3), colour="violet", size=dot_size) +
+  geom_point(aes(y = O3), colour="violet", size=dot_size) +
+  theme_bw() + theme(legend.text=element_text(size=15)) + ylim(c(650,1000)) + ylab(label="12-bit Voltage Reading") + 
+  xlab("Time")  +ggtitle("Time-Series Gas Sensor Values #7")
+
+
+#Sensor #4
+gas_agg <- gas_all[,c("time2", "CO_3", "SO_3", "O3_3", "NO_3")]
+gas_agg$day <- day(ymd_hms(gas_agg$time2))
+gas_agg$hour <- hour(ymd_hms(gas_agg$time2))
+gas_agg$minute <- minute(ymd_hms(gas_agg$time2))
+gas_agg$second <- second(ymd_hms(gas_agg$time2))
+gas_agg <- gas_agg %>% group_by(day, hour, minute) %>% summarise(CO=mean(CO_3), SO=mean(SO_3), O3=mean(O3_3), NO=mean(NO_3))
+gas_agg$time <- paste(str_pad(gas_agg$day, width=2, side="left", pad="0"), str_pad(gas_agg$hour, width=2, side="left", pad="0"), str_pad(gas_agg$minute, width=2, side="left", pad="0"), sep="")
+gas_agg$time <- as.POSIXct(gas_agg$time, origin="1970-01-01", format = "%d%H%M")
+
+ggplot(gas_agg, aes(x = time)) +
+  geom_line(aes(y = CO), colour="red", size=dot_size) +
+  geom_point(aes(y = CO), colour="red", size=dot_size) +
+  geom_line(aes(y = NO), colour="blue", size=dot_size) +
+  geom_point(aes(y = NO), colour="blue", size=dot_size) +
+  geom_line(aes(y = SO), colour="green", size=dot_size) +
+  geom_point(aes(y = SO), colour="green", size=dot_size) +
+  geom_line(aes(y = O3), colour="violet", size=dot_size) +
+  geom_point(aes(y = O3), colour="violet", size=dot_size) +
+  theme_bw() + theme(legend.text=element_text(size=15)) + ylim(c(650,1000)) + ylab(label="12-bit Voltage Reading") + 
+  xlab("Time")  +ggtitle("Time-Series Gas Sensor Values #4")
+
+
+write.table(gas_all, "gas_testbed_aggregated.csv", row.names=F, col.names=T, sep=",")
 
 ```
+
+
+# Official Values
+```{r}
+official <- read_delim("official_agg.csv", delim = ",")
+official$Time <- as.character(official$Time)
+official$time <- paste0(official$Date, "-", official$Time)
+official$date <- as.POSIXct(official$time, origin="1970-01-01", format = "%m/%d/%y-%H")
+official$time <- official$date
+
+ggplot(official[c(1:58),], aes(x = time)) +
+  geom_line(aes(y = CO), colour="red", size=dot_size) +
+  geom_point(aes(y = CO), colour="red", size=dot_size) +
+  geom_line(aes(y = NO2), colour="blue", size=dot_size) +
+  geom_point(aes(y = NO2), colour="blue", size=dot_size) +
+  geom_line(aes(y = SO2), colour="green", size=dot_size) +
+  geom_point(aes(y = SO2), colour="green", size=dot_size) +
+  geom_line(aes(y = O3), colour="violet", size=dot_size) +
+  geom_point(aes(y = O3), colour="violet", size=dot_size) +
+  theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="ppb") + 
+  xlab("Time")  +ggtitle("Time-Series Official Gas Sensor Values")
+```
+
