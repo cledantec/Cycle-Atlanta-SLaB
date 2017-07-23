@@ -140,7 +140,7 @@ multiplot(LR, LL, cols=1)
 ```
 
 
-# Time domain to Distance domain
+# Time domain to Distance domain (Value-lagging)
 ```{r}
 first_join$dist <- 0
 time_interval <- 0.2994975 #seconds
@@ -154,6 +154,10 @@ for (i in c(1:nrow(first_join))){
   first_join[i+1,]$dist <- first_join[i,]$dist + (sp * time_interval)
   dists[i] <- (sp * time_interval)
 }
+
+d <- density(dists)
+plot(d, main="Kernel Density of Distances per Lidar Reading")
+polygon(d, col="violet")
 
 #Distance-based plot
 LR <- ggplot(first_join, aes(x = dist)) +
@@ -195,16 +199,165 @@ LL <- ggplot(first_join[c(600:650),], aes(x = dist)) +
 multiplot(LR, LL, cols=1)
 
 # Saving the first_join
-write.table(first_join, "first_part_distance_based.csv", row.names=F, col.names=T, sep=",")
-
-# Adjusting data points into regular ones
-
-
+write.table(first_join, "220717_first_part_distance_based.csv", row.names=F, col.names=T, sep=",")
 
 ```
 
 
+# Naive Interpolation
+```{r}
+
+gps <- read_delim("220717_first_part_distance_based.csv", delim = ",", col_names = T)
+first_join$way <- as.factor(first_join$way)
+
+prevL <- 0
+prevR <- 0
+
+first_join$adjustedLidarLeft <- 0
+first_join$adjustedLidarRight <- 0
+
+for (i in c(1:nrow(first_join))){
+  if (i==1){
+    prevL <- first_join[i,]$LidarLeft
+    prevR <- first_join[i,]$LidarRight
+    first_join[i,]$adjustedLidarLeft <- prevL
+    first_join[i,]$adjustedLidarRight <- prevR
+    next
+  }
+  
+  if (first_join[i,]$LidarLeft <= 1) {
+    first_join[i,]$adjustedLidarLeft <- prevL    
+  } else {    
+    prevL <- first_join[i,]$LidarLeft
+    first_join[i,]$adjustedLidarLeft <- prevL
+  }
+  
+  if (first_join[i,]$LidarRight <= 1){
+    first_join[i,]$adjustedLidarRight <- prevR
+  } else {
+    prevR <- first_join[i,]$LidarRight
+    first_join[i,]$adjustedLidarRight <- prevR
+  }
+  
+}
 
 
+#Distance-based plot
+LR <- ggplot(first_join, aes(x = dist)) +
+      geom_line(aes(y = LidarRight), color="black") +
+      geom_point(aes(y = LidarRight),size = 0.5, color="red")  +      
+      geom_line(aes(y = adjustedLidarRight), color="blue") +
+      geom_point(aes(y = adjustedLidarRight), size = 0.5, color="blue")  +   
+      ylim(c(0,9000))  +       
+      scale_x_continuous(breaks =seq(0, 1550, 50)) + 
+      theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Lidar Distance (cm)") + 
+      xlab("Distance Traveled (m)")  + ggtitle("Lidar Right (Distance-based)") 
+
+LL <- ggplot(first_join, aes(x = dist)) +
+      geom_line(aes(y = LidarLeft), color="black") +
+      geom_point(aes(y = LidarLeft),size = 0.5, color="red")  +    
+      geom_line(aes(y = adjustedLidarLeft), color="blue") +
+      geom_point(aes(y = adjustedLidarLeft), size = 0.5, color="blue")  +  
+      ylim(c(0,9000))  +       
+      scale_x_continuous(breaks = seq(0, 1550, 50)) + 
+      theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Lidar Distance (cm)") + 
+      xlab("Distance Traveled (m)")  + ggtitle("Lidar Left (Distance-based)")
+
+multiplot(LR, LL, cols=1)
+
+
+# Close-up (car passing-by)
+LR <- ggplot(first_join[c(370:410),], aes(x = dist)) +
+      geom_line(aes(y = LidarRight), color="black") +
+      geom_point(aes(y = LidarRight),size = 2, color="red")  +  
+      geom_line(aes(y = adjustedLidarRight), color="blue") +
+      geom_point(aes(y = adjustedLidarRight), size = 1, color="blue")  +   
+      ylim(c(0,3200))  +       
+      scale_x_continuous(breaks =seq(360, 510, 5)) + 
+      theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Lidar Distance (cm)") + 
+      xlab("Distance Traveled (m)")  + ggtitle("Lidar Right (Distance-based), Close-up") 
+
+LL <- ggplot(first_join[c(370:410),], aes(x = dist)) +
+      geom_line(aes(y = LidarLeft), color="black") +
+      geom_point(aes(y = LidarLeft),size = 2, color="red")  +   
+      geom_line(aes(y = adjustedLidarLeft), color="blue") +
+      geom_point(aes(y = adjustedLidarLeft), size = 1, color="blue")  +  
+      ylim(c(0,3200))  +       
+      scale_x_continuous(breaks = seq(360, 510, 5)) + 
+      theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Lidar Distance (cm)") + 
+      xlab("Distance Traveled (m)")  + ggtitle("Lidar Left (Distance-based), Close-up")
+
+multiplot(LR, LL, cols=1)
+
+write.table(first_join, "220717_first_part_interpolated_lidars.csv", row.names=F, col.names=T, sep=",")
+```
+
+
+# Adjusting data points into the regular grid (1m)
+```{r}
+# Given the median value of distances per lidar reading (=1.29 m), we set 1m as a unit to generate a regular-grid distance-based data
+first_regular_dist <- as.data.frame(matrix(ncol=4, nrow = 1560))
+colnames(first_regular_dist) <- c("dist", "LidarLeft", "LidarRight", "time")
+first_regular_dist$time <- as.POSIXct(first_regular_dist$time)
+attr(first_regular_dist$time, "tzone") <- "UTC"
+
+for (i in c(1:nrow(first_regular_dist))){    
+  
+  first_regular_dist[i,]$dist <- i - 1  
+  index <- which.min(abs(first_join$dist - i + 1))
+  
+  if (first_join[index,]$dist <= i-1) {
+    lidar_left <- (((i - 1 - first_join[index,]$dist)*(first_join[index+1,]$adjustedLidarLeft - first_join[index,]$adjustedLidarLeft)) / (first_join[index+1,]$dist - first_join[index,]$dist)) + first_join[index,]$adjustedLidarLeft
+    lidar_right <- (((i - 1 - first_join[index,]$dist)*(first_join[index+1,]$adjustedLidarRight - first_join[index,]$adjustedLidarRight)) / (first_join[index+1,]$dist - first_join[index,]$dist)) + first_join[index,]$adjustedLidarRight    
+  } else {
+    lidar_left <- (((i - 1 - first_join[index-1,]$dist)*(first_join[index,]$adjustedLidarLeft - first_join[index-1,]$adjustedLidarLeft)) / (first_join[index,]$dist - first_join[index-1,]$dist)) + first_join[index-1,]$adjustedLidarLeft
+    lidar_right <- (((i - 1 - first_join[index-1,]$dist)*(first_join[index,]$adjustedLidarRight - first_join[index-1,]$adjustedLidarRight)) / (first_join[index,]$dist - first_join[index-1,]$dist)) + first_join[index-1,]$adjustedLidarRight
+  }
+  
+  first_regular_dist[i,]$LidarLeft <- lidar_left
+  first_regular_dist[i,]$LidarRight <- lidar_right    
+  first_regular_dist[i,]$time <- first_join[index,]$time  
+}
+
+
+# Close-up (random segment)
+LR <- ggplot(first_join[c(50:100),], aes(x = dist)) +      
+      geom_line(aes(y = adjustedLidarRight), color="black") +
+      geom_point(aes(y = adjustedLidarRight), size = 1, color="red")  +         
+      ylim(c(0,2600))  +       
+      scale_x_continuous(breaks =seq(0, 60, 1)) + 
+      theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Lidar Distance (cm)") + 
+      xlab("Distance Traveled (m)")  + ggtitle("Lidar Right (Distance-based), Close-up") 
+
+LL <- ggplot(first_regular_dist[c(7:58),], aes(x = dist)) +      
+      geom_line(aes(y = LidarRight), color="black") +
+      geom_point(aes(y = LidarRight), size = 1, color="red")  +        
+      ylim(c(0,2600))  +       
+      scale_x_continuous(breaks = seq(0, 60, 1)) + 
+      theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Lidar Distance (cm)") + 
+      xlab("Distance Traveled (m)")  + ggtitle("Lidar Right (Re-sampled), Close-up")
+
+multiplot(LR, LL, cols=1)
+
+# Close-up (car passing-by)
+LR <- ggplot(first_join[c(370:410),], aes(x = dist)) +      
+      geom_line(aes(y = adjustedLidarLeft), color="black") +
+      geom_point(aes(y = adjustedLidarLeft), size = 1, color="red")  +         
+      ylim(c(0,3300))  +       
+      scale_x_continuous(breaks =seq(360, 500, 5)) + 
+      theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Lidar Distance (cm)") + 
+      xlab("Distance Traveled (m)")  + ggtitle("Lidar Left (Distance-based), Close-up") 
+
+LL <- ggplot(first_regular_dist[c(364:491),], aes(x = dist)) +      
+      geom_line(aes(y = LidarLeft), color="black") +
+      geom_point(aes(y = LidarLeft), size = 1, color="red")  +        
+      ylim(c(0,3300))  +       
+      scale_x_continuous(breaks = seq(360, 500, 5)) + 
+      theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Lidar Distance (cm)") + 
+      xlab("Distance Traveled (m)")  + ggtitle("Lidar Left (Re-sampling), Close-up")
+
+multiplot(LR, LL, cols=1)
+
+```
 
 
