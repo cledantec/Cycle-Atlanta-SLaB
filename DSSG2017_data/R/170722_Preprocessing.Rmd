@@ -194,6 +194,8 @@ LL <- ggplot(first_join[c(600:650),], aes(x = dist)) +
 
 multiplot(LR, LL, cols=1)
 
+# Saving the first_join
+write.table(first_join, "first_part_distance_based.csv", row.names=F, col.names=T, sep=",")
 
 # Adjusting data points into regular ones
 

@@ -557,6 +557,102 @@ write.table(gps, "Javier/0722_prox_gps_join.csv", row.names=F, col.names=T, sep=
 
 
 
+# 7/23/2017 Same Routes (Myeong and Javier)
+```{r}
+gps <- fromJSON(txt= "signatures/same_route_javier/230717_gps_data.json" )
+gps <- as.data.frame(gps["results"])
+
+colnames(gps) <- c("lon", "course","lat","speed","day","utc_time")
+gps$utc_time <- as.character(gps$utc_time)
+gps["time"] <- as.POSIXct(gps$utc_time, origin="1970-01-01", format = "%H%M%S")
+gps$time <- gps$time - (3600 * 4)
+
+gps <- gps %>% separate(lon, into = c("dd","mm"), sep=3 )
+gps$lon <- -(as.numeric(gps$dd) + (as.numeric(gps$mm)/60))
+gps <- gps %>% separate(lat, into = c("dd2","mm2"), sep=2 )
+gps$lat <- (as.numeric(gps$dd2) + (as.numeric(gps$mm2)/60))
+gps <- gps[,c("course", "speed", "day", "time", "lon", "lat")]
+
+gps$speed <- as.numeric(gps$speed)
+gps$course <- as.numeric(gps$course)
+
+gps$seq <- c(1:nrow(gps))
+gps[is.na(gps$lon),]$lon <- 0
+gps[is.na(gps$lat),]$lat <- 0
+
+write.table(gps, "signatures/same_route_javier/230717_gps_data.csv", row.names=F, col.names=T, sep=",")
+
+map <- get_map(c(lon = -84.380, lat = 33.780), zoom = 15, source = "stamen", maptype = "toner")
+mapPoints <- ggmap(map) + geom_point(aes(x = lon, y = lat, color=seq), data = gps, alpha = 0.9, size = 1) + 
+  scale_colour_gradient(low = "#FFCCCC", high = "#FF0033") +
+  labs(color="Time Sequence") + ggtitle("Same Route - Javier, 0722")
+mapPoints
+
+map <- get_map(c(lon = -84.388, lat = 33.777), zoom = 18, source = "stamen", maptype = "toner")
+mapPoints <- ggmap(map) +geom_point(aes(x = lon, y = lat, color="red"), data = gps[200:300,], alpha = 0.8, size = 0.5)
+mapPoints
+
+# 341 is the reference point to sync between GoPro video and the GPS data
+gps$video_time <- as.POSIXct("00:05:22", origin="1970-01-01", format = "%H:%M:%S")
+
+for (i in c(1:nrow(gps))){
+  gps[i,]$video_time <- gps[341,]$video_time - 341 + i
+}
+
+
+map <- get_map(c(lon = -84.399, lat = 33.778), zoom = 17, source = "stamen", maptype = "toner")
+mapPoints <- ggmap(map) +geom_point(aes(x = lon, y = lat, colour=way), data = gps[730:735,], alpha = 0.8, size = 0.5)
+mapPoints
+
+gps[c(474:nrow(gps)),]$video_time <- as.POSIXct("00:03:47", origin="1970-01-01", format = "%H:%M:%S")
+
+for (i in c(474:nrow(gps))){
+  gps[i,]$video_time <- gps[732,]$video_time - 732 + i
+}
+
+
+
+# joining proximiy values
+prox <- fromJSON(txt= "Javier/220717_proximity.json" )
+prox <- as.data.frame(prox["results"])
+prox$USLeft <- prox$results.data$USLeft
+prox$USRight <- prox$results.data$USRight
+prox$USRear <- prox$results.data$USRear
+prox$LidarLeft <- prox$results.data$LidarLeft
+prox$LidarRight<- prox$results.data$LidarRight
+prox$O3 <- prox$results.data$O3
+prox$SO <- prox$results.data$SO
+prox$NO <- prox$results.data$NO
+prox$CO <- prox$results.data$CO
+prox$P10 <- prox$results.data$P10
+prox$P25 <- prox$results.data$P25
+prox <- prox[,-1] # removing the nexted "data" column
+
+prox <- prox %>% separate(results.timestamp, into = c("date","time"), sep=6 )
+prox["time"] <- as.POSIXct(prox$time, origin="1970-01-01", format = "%H%M%S")
+prox$time <- prox$time -  (3600 * 4)
+
+prox$USLeft <- as.numeric(prox$USLeft)
+prox$USRight <- as.numeric(prox$USRight)
+prox$USRear <- as.numeric(prox$USRear)
+prox$LidarLeft <- as.numeric(prox$LidarLeft)
+prox$LidarRight <- as.numeric(prox$LidarRight)
+prox$P10 <- as.numeric(prox$P10)
+prox$P25 <- as.numeric(prox$P25)
+prox$O3 <- as.numeric(prox$O3)
+prox$CO <- as.numeric(prox$CO)
+prox$SO <- as.numeric(prox$SO)
+prox$NO <- as.numeric(prox$NO)
+
+
+prox_sum <- prox %>% dplyr::group_by(time) %>% summarise(USRight=mean(USRight, na.rm=T),USLeft=mean(USLeft, na.rm=T),USRear=mean(USRear, na.rm=T),LidarRight=mean(LidarRight, na.rm=T),LidarLeft=mean(LidarLeft, na.rm=T), CO=mean(CO, na.rm=T), SO=mean(SO, na.rm=T), O3=mean(O3, na.rm=T), NO=mean(NO, na.rm=T), P10=mean(P10, na.rm=T), P25=mean(P25, na.rm=T) )
+
+gps <- gps %>% left_join(prox_sum, by=c("time"))
+write.table(gps, "Javier/0722_prox_gps_join.csv", row.names=F, col.names=T, sep=",")
+
+```
+
+
 
 
 
