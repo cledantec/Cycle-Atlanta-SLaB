@@ -179,7 +179,7 @@ multiplot(LR, LL, cols=1)
 LR <- ggplot(first_join[c(600:650),], aes(x = dist)) +
       geom_line(aes(y = LidarRight), color="black") +
       geom_point(aes(y = LidarRight),size = 1, color="red")  +      
-      ylim(c(0,2600))  +       
+      ylim(c(0,2900))  +       
       scale_x_continuous(breaks =seq(775, 835, 5)) + 
       theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Lidar Distance (cm)") + 
       xlab("Distance Traveled (m)")  + ggtitle("Lidar Right (Distance-based), Close-up") 
@@ -187,7 +187,7 @@ LR <- ggplot(first_join[c(600:650),], aes(x = dist)) +
 LL <- ggplot(first_join[c(600:650),], aes(x = dist)) +
       geom_line(aes(y = LidarLeft), color="black") +
       geom_point(aes(y = LidarLeft),size = 1, color="red")  +       
-      ylim(c(0,2600))  +       
+      ylim(c(0,2900))  +       
       scale_x_continuous(breaks = seq(775, 835, 5)) + 
       theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Lidar Distance (cm)") + 
       xlab("Distance Traveled (m)")  + ggtitle("Lidar Left (Distance-based), Close-up")
