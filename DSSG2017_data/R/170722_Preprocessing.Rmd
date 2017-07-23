@@ -176,23 +176,26 @@ multiplot(LR, LL, cols=1)
 
 
 # Close-up
-LR <- ggplot(first_join, aes(x = dist)) +
+LR <- ggplot(first_join[c(600:650),], aes(x = dist)) +
       geom_line(aes(y = LidarRight), color="black") +
-      geom_point(aes(y = LidarRight),size = 0.5, color="red")  +      
-      ylim(c(0,9000))  +       
-      scale_x_continuous(breaks =seq(0, 1550, 50)) + 
+      geom_point(aes(y = LidarRight),size = 1, color="red")  +      
+      ylim(c(0,2600))  +       
+      scale_x_continuous(breaks =seq(775, 835, 5)) + 
       theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Lidar Distance (cm)") + 
       xlab("Distance Traveled (m)")  + ggtitle("Lidar Right (Distance-based), Close-up") 
 
-LL <- ggplot(first_join, aes(x = dist)) +
+LL <- ggplot(first_join[c(600:650),], aes(x = dist)) +
       geom_line(aes(y = LidarLeft), color="black") +
-      geom_point(aes(y = LidarLeft),size = 0.5, color="red")  +       
-      ylim(c(0,9000))  +       
-      scale_x_continuous(breaks = seq(0, 1550, 50)) + 
+      geom_point(aes(y = LidarLeft),size = 1, color="red")  +       
+      ylim(c(0,2600))  +       
+      scale_x_continuous(breaks = seq(775, 835, 5)) + 
       theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Lidar Distance (cm)") + 
       xlab("Distance Traveled (m)")  + ggtitle("Lidar Left (Distance-based), Close-up")
 
 multiplot(LR, LL, cols=1)
+
+
+# Adjusting data points into regular ones
 
 
 
