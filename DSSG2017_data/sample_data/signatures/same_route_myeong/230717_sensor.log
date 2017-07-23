@@ -1,0 +1,1504 @@
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717010831.306'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0026773761492222548, 'oms_risk': 'Low'}, 'timestamp': '230717010833.306'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98098.25, 'altitude': 271.875, 'temperature': 26.375}, 'timestamp': '230717010834.306'}
+{'sensor': 'humidity', 'data': {'humidity': 65.48081970214844}, 'timestamp': '230717010834.306'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0026773761492222548, 'oms_risk': 'Low'}, 'timestamp': '230717010835.306'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0026773761492222548, 'oms_risk': 'Low'}, 'timestamp': '230717010837.091'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98097.5, 'altitude': 272.25, 'temperature': 26.5625}, 'timestamp': '230717010839.091'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0026773761492222548, 'oms_risk': 'Low'}, 'timestamp': '230717010839.091'}
+{'sensor': 'humidity', 'data': {'humidity': 65.39987182617188}, 'timestamp': '230717010839.091'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717010841.091'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717010843.091'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98100.25, 'altitude': 271.875, 'temperature': 26.6875}, 'timestamp': '230717010844.091'}
+{'sensor': 'humidity', 'data': {'humidity': 65.37055969238281}, 'timestamp': '230717010844.091'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0053547522984445095, 'oms_risk': 'Low'}, 'timestamp': '230717010845.091'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0026773761492222548, 'oms_risk': 'Low'}, 'timestamp': '230717010847.091'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98107.5, 'altitude': 271.4375, 'temperature': 26.875}, 'timestamp': '230717010849.091'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.00401606410741806, 'oms_risk': 'Low'}, 'timestamp': '230717010849.091'}
+{'sensor': 'humidity', 'data': {'humidity': 65.38102722167969}, 'timestamp': '230717010849.091'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.00401606410741806, 'oms_risk': 'Low'}, 'timestamp': '230717010851.091'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.00401606410741806, 'oms_risk': 'Low'}, 'timestamp': '230717010853.091'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98113.75, 'altitude': 271, 'temperature': 27.0625}, 'timestamp': '230717010854.091'}
+{'sensor': 'humidity', 'data': {'humidity': 65.41522216796875}, 'timestamp': '230717010854.091'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717010855.091'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0026773761492222548, 'oms_risk': 'Low'}, 'timestamp': '230717010857.091'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98106.25, 'altitude': 271.25, 'temperature': 27.1875}, 'timestamp': '230717010859.091'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717010859.091'}
+{'sensor': 'humidity', 'data': {'humidity': 65.42918395996094}, 'timestamp': '230717010859.091'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717010901.091'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717010903.091'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98106, 'altitude': 271.25, 'temperature': 27.375}, 'timestamp': '230717010904.091'}
+{'sensor': 'humidity', 'data': {'humidity': 65.38521575927734}, 'timestamp': '230717010904.091'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717010905.091'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717010907.088'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98103.75, 'altitude': 271.6875, 'temperature': 27.5}, 'timestamp': '230717010909.088'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717010909.088'}
+{'sensor': 'humidity', 'data': {'humidity': 65.37126159667969}, 'timestamp': '230717010909.088'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717010911.088'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717010913.309'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98102.5, 'altitude': 272.125, 'temperature': 27.6875}, 'timestamp': '230717010914.309'}
+{'sensor': 'humidity', 'data': {'humidity': 65.36637878417969}, 'timestamp': '230717010914.309'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717010915.309'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717010917.309'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98100.75, 'altitude': 272.0625, 'temperature': 27.8125}, 'timestamp': '230717010919.088'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717010919.088'}
+{'sensor': 'humidity', 'data': {'humidity': 65.39219665527344}, 'timestamp': '230717010919.088'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717010921.088'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717010923.088'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98092.5, 'altitude': 272.375, 'temperature': 27.9375}, 'timestamp': '230717010924.088'}
+{'sensor': 'humidity', 'data': {'humidity': 65.23239135742188}, 'timestamp': '230717010924.088'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717010925.293'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717010927.293'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98092.25, 'altitude': 272.8125, 'temperature': 28.125}, 'timestamp': '230717010929.293'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717010929.293'}
+{'sensor': 'humidity', 'data': {'humidity': 65.19401550292969}, 'timestamp': '230717010929.293'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717010931.307'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717010933.307'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98086, 'altitude': 273.25, 'temperature': 28.3125}, 'timestamp': '230717010934.307'}
+{'sensor': 'humidity', 'data': {'humidity': 65.31194305419922}, 'timestamp': '230717010934.307'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717010935.307'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717010937.307'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98082.25, 'altitude': 273.6875, 'temperature': 28.4375}, 'timestamp': '230717010939.307'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717010939.307'}
+{'sensor': 'humidity', 'data': {'humidity': 65.34194946289062}, 'timestamp': '230717010939.307'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717010941.307'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717010943.307'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98083, 'altitude': 273.3125, 'temperature': 28.625}, 'timestamp': '230717010944.307'}
+{'sensor': 'humidity', 'data': {'humidity': 65.14376831054688}, 'timestamp': '230717010944.307'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717010945.307'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717010947.307'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98090, 'altitude': 273.1875, 'temperature': 28.75}, 'timestamp': '230717010949.100'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717010949.100'}
+{'sensor': 'humidity', 'data': {'humidity': 64.98745727539062}, 'timestamp': '230717010949.100'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717010951.100'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717010953.100'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98093.75, 'altitude': 272.6875, 'temperature': 28.875}, 'timestamp': '230717010954.100'}
+{'sensor': 'humidity', 'data': {'humidity': 64.90721130371094}, 'timestamp': '230717010954.100'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717010955.100'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717010957.100'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98091.5, 'altitude': 272.625, 'temperature': 29.0625}, 'timestamp': '230717010959.100'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717010959.100'}
+{'sensor': 'humidity', 'data': {'humidity': 64.88208770751953}, 'timestamp': '230717010959.100'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011001.100'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011003.100'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98085.25, 'altitude': 273, 'temperature': 29.1875}, 'timestamp': '230717011004.100'}
+{'sensor': 'humidity', 'data': {'humidity': 64.90581512451172}, 'timestamp': '230717011004.100'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011005.100'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011007.100'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98088.25, 'altitude': 273.1875, 'temperature': 29.3125}, 'timestamp': '230717011009.100'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011009.100'}
+{'sensor': 'humidity', 'data': {'humidity': 64.88208770751953}, 'timestamp': '230717011009.100'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011011.100'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011013.100'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98085.5, 'altitude': 273, 'temperature': 29.4375}, 'timestamp': '230717011014.100'}
+{'sensor': 'humidity', 'data': {'humidity': 64.80812072753906}, 'timestamp': '230717011014.100'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011015.100'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011017.100'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98085.5, 'altitude': 273, 'temperature': 29.625}, 'timestamp': '230717011019.100'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011019.100'}
+{'sensor': 'humidity', 'data': {'humidity': 64.79346466064453}, 'timestamp': '230717011019.100'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011021.100'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011023.100'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98086.5, 'altitude': 273.0625, 'temperature': 29.75}, 'timestamp': '230717011024.100'}
+{'sensor': 'humidity', 'data': {'humidity': 64.872314453125}, 'timestamp': '230717011024.100'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011025.100'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011027.100'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98089.25, 'altitude': 273.0625, 'temperature': 29.875}, 'timestamp': '230717011029.100'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011029.100'}
+{'sensor': 'humidity', 'data': {'humidity': 64.82347106933594}, 'timestamp': '230717011029.100'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011031.307'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011033.307'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98094.5, 'altitude': 272.4375, 'temperature': 30.0625}, 'timestamp': '230717011034.307'}
+{'sensor': 'humidity', 'data': {'humidity': 65.04537963867188}, 'timestamp': '230717011034.307'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011035.307'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011037.103'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98097.75, 'altitude': 272.25, 'temperature': 30.1875}, 'timestamp': '230717011039.103'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011039.103'}
+{'sensor': 'humidity', 'data': {'humidity': 65.08585357666016}, 'timestamp': '230717011039.103'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011041.103'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011043.103'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98098.25, 'altitude': 272.25, 'temperature': 30.3125}, 'timestamp': '230717011044.103'}
+{'sensor': 'humidity', 'data': {'humidity': 65.0816650390625}, 'timestamp': '230717011044.103'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011045.103'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011047.103'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98093.5, 'altitude': 272.125, 'temperature': 30.4375}, 'timestamp': '230717011049.103'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011049.103'}
+{'sensor': 'humidity', 'data': {'humidity': 65.15283966064453}, 'timestamp': '230717011049.103'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011051.103'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011053.103'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98091.5, 'altitude': 272.6875, 'temperature': 30.5625}, 'timestamp': '230717011054.090'}
+{'sensor': 'humidity', 'data': {'humidity': 65.23309326171875}, 'timestamp': '230717011054.090'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011055.310'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011057.310'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98077.25, 'altitude': 273.9375, 'temperature': 30.6875}, 'timestamp': '230717011059.310'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011059.310'}
+{'sensor': 'humidity', 'data': {'humidity': 65.3405532836914}, 'timestamp': '230717011059.310'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011101.310'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011103.310'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98062.75, 'altitude': 275.0625, 'temperature': 30.75}, 'timestamp': '230717011104.310'}
+{'sensor': 'humidity', 'data': {'humidity': 65.35311889648438}, 'timestamp': '230717011104.310'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011105.310'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011107.305'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98061.5, 'altitude': 275.125, 'temperature': 30.875}, 'timestamp': '230717011109.305'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011109.305'}
+{'sensor': 'humidity', 'data': {'humidity': 65.30217742919922}, 'timestamp': '230717011109.305'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011111.305'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011113.100'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98062, 'altitude': 275.3125, 'temperature': 31.0625}, 'timestamp': '230717011114.100'}
+{'sensor': 'humidity', 'data': {'humidity': 65.39707946777344}, 'timestamp': '230717011114.100'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011115.100'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011117.100'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98059.5, 'altitude': 275.5, 'temperature': 31.125}, 'timestamp': '230717011119.100'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011119.100'}
+{'sensor': 'humidity', 'data': {'humidity': 65.39289093017578}, 'timestamp': '230717011119.100'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011121.100'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011123.100'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98065.25, 'altitude': 275.125, 'temperature': 31.25}, 'timestamp': '230717011124.100'}
+{'sensor': 'humidity', 'data': {'humidity': 65.4431381225586}, 'timestamp': '230717011124.100'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011125.100'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011127.100'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98067, 'altitude': 275, 'temperature': 31.375}, 'timestamp': '230717011129.100'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0026773761492222548, 'oms_risk': 'Low'}, 'timestamp': '230717011129.100'}
+{'sensor': 'humidity', 'data': {'humidity': 65.48919677734375}, 'timestamp': '230717011129.100'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0026773761492222548, 'oms_risk': 'Low'}, 'timestamp': '230717011130.081'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0026773761492222548, 'oms_risk': 'Low'}, 'timestamp': '230717011133.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98062.75, 'altitude': 274.6875, 'temperature': 31.5}, 'timestamp': '230717011134.000'}
+{'sensor': 'humidity', 'data': {'humidity': 65.58549499511719}, 'timestamp': '230717011134.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011135.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011136.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98069.75, 'altitude': 274.8125, 'temperature': 31.625}, 'timestamp': '230717011139.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011139.000'}
+{'sensor': 'humidity', 'data': {'humidity': 65.59246826171875}, 'timestamp': '230717011139.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011141.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011142.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98069.5, 'altitude': 274.4375, 'temperature': 31.6875}, 'timestamp': '230717011144.000'}
+{'sensor': 'humidity', 'data': {'humidity': 65.51431274414062}, 'timestamp': '230717011144.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011145.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011147.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98074, 'altitude': 274.0625, 'temperature': 31.8125}, 'timestamp': '230717011148.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011148.000'}
+{'sensor': 'humidity', 'data': {'humidity': 65.58130645751953}, 'timestamp': '230717011148.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011151.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011153.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98078.75, 'altitude': 273.6875, 'temperature': 31.9375}, 'timestamp': '230717011154.000'}
+{'sensor': 'humidity', 'data': {'humidity': 65.55130004882812}, 'timestamp': '230717011154.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011154.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011157.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98082.25, 'altitude': 273.25, 'temperature': 32.0625}, 'timestamp': '230717011159.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011159.000'}
+{'sensor': 'humidity', 'data': {'humidity': 65.57292938232422}, 'timestamp': '230717011159.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011200.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011203.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98087, 'altitude': 273.4375, 'temperature': 32.1875}, 'timestamp': '230717011204.000'}
+{'sensor': 'humidity', 'data': {'humidity': 65.72645568847656}, 'timestamp': '230717011204.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011205.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011207.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98078, 'altitude': 273.875, 'temperature': 32.3125}, 'timestamp': '230717011209.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011209.000'}
+{'sensor': 'humidity', 'data': {'humidity': 65.72435760498047}, 'timestamp': '230717011209.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011211.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011213.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98072.25, 'altitude': 274.5625, 'temperature': 32.375}, 'timestamp': '230717011214.000'}
+{'sensor': 'humidity', 'data': {'humidity': 65.76134490966797}, 'timestamp': '230717011214.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011215.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011217.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98067.5, 'altitude': 274.8125, 'temperature': 32.5}, 'timestamp': '230717011219.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011219.000'}
+{'sensor': 'humidity', 'data': {'humidity': 65.88555908203125}, 'timestamp': '230717011219.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011221.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011223.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98063.5, 'altitude': 275.1875, 'temperature': 32.5625}, 'timestamp': '230717011224.000'}
+{'sensor': 'humidity', 'data': {'humidity': 65.86811065673828}, 'timestamp': '230717011224.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011225.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011227.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98064.75, 'altitude': 275.0625, 'temperature': 32.6875}, 'timestamp': '230717011229.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011229.000'}
+{'sensor': 'humidity', 'data': {'humidity': 65.8743896484375}, 'timestamp': '230717011229.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011231.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011233.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98058.75, 'altitude': 275.375, 'temperature': 32.8125}, 'timestamp': '230717011234.000'}
+{'sensor': 'humidity', 'data': {'humidity': 65.911376953125}, 'timestamp': '230717011234.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011235.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011237.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98055.25, 'altitude': 275.75, 'temperature': 32.875}, 'timestamp': '230717011239.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011239.000'}
+{'sensor': 'humidity', 'data': {'humidity': 65.93998718261719}, 'timestamp': '230717011239.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011241.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011243.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98055.5, 'altitude': 276.125, 'temperature': 33}, 'timestamp': '230717011244.000'}
+{'sensor': 'humidity', 'data': {'humidity': 65.88485717773438}, 'timestamp': '230717011244.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011245.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011247.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98050.75, 'altitude': 276.3125, 'temperature': 33.125}, 'timestamp': '230717011249.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011249.000'}
+{'sensor': 'humidity', 'data': {'humidity': 65.99162292480469}, 'timestamp': '230717011249.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011251.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011253.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98045.25, 'altitude': 276.375, 'temperature': 33.1875}, 'timestamp': '230717011254.000'}
+{'sensor': 'humidity', 'data': {'humidity': 65.94905853271484}, 'timestamp': '230717011254.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011255.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011257.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98039.75, 'altitude': 276.9375, 'temperature': 33.3125}, 'timestamp': '230717011259.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011259.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.05023956298828}, 'timestamp': '230717011259.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011301.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011303.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98037.5, 'altitude': 277.0625, 'temperature': 33.375}, 'timestamp': '230717011304.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.10816192626953}, 'timestamp': '230717011304.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011305.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011307.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98039.75, 'altitude': 277.25, 'temperature': 33.5}, 'timestamp': '230717011309.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011309.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.15351867675781}, 'timestamp': '230717011309.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011311.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011313.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98043.5, 'altitude': 276.75, 'temperature': 33.5625}, 'timestamp': '230717011314.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.1521224975586}, 'timestamp': '230717011314.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011315.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011317.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98042, 'altitude': 276.5, 'temperature': 33.6875}, 'timestamp': '230717011319.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011319.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.16957092285156}, 'timestamp': '230717011319.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011321.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011323.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98047, 'altitude': 276.5625, 'temperature': 33.8125}, 'timestamp': '230717011324.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.25051879882812}, 'timestamp': '230717011324.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011325.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011327.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98041.25, 'altitude': 277, 'temperature': 33.875}, 'timestamp': '230717011329.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011329.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.265869140625}, 'timestamp': '230717011329.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011331.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011333.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98038.25, 'altitude': 277.3125, 'temperature': 33.9375}, 'timestamp': '230717011334.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.3796157836914}, 'timestamp': '230717011334.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011335.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011337.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98034.25, 'altitude': 277.6875, 'temperature': 34.0625}, 'timestamp': '230717011339.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011339.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.37612915039062}, 'timestamp': '230717011339.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011341.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011343.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98026.5, 'altitude': 278.5625, 'temperature': 34.125}, 'timestamp': '230717011344.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.48358917236328}, 'timestamp': '230717011344.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011345.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011347.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98014.75, 'altitude': 279.4375, 'temperature': 34.25}, 'timestamp': '230717011349.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011349.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.49475860595703}, 'timestamp': '230717011349.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011351.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011353.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98003.75, 'altitude': 280.125, 'temperature': 34.3125}, 'timestamp': '230717011354.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.54918670654297}, 'timestamp': '230717011354.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011355.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0026773761492222548, 'oms_risk': 'Low'}, 'timestamp': '230717011357.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 97997, 'altitude': 280.625, 'temperature': 34.375}, 'timestamp': '230717011359.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011359.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.57919311523438}, 'timestamp': '230717011359.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011401.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011403.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 97992.75, 'altitude': 281.25, 'temperature': 34.5}, 'timestamp': '230717011404.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.60012817382812}, 'timestamp': '230717011404.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011405.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011407.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 97985, 'altitude': 281.75, 'temperature': 34.5625}, 'timestamp': '230717011409.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011409.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.5687255859375}, 'timestamp': '230717011409.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011411.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0026773761492222548, 'oms_risk': 'Low'}, 'timestamp': '230717011413.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 97979.75, 'altitude': 282.25, 'temperature': 34.625}, 'timestamp': '230717011414.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.6594467163086}, 'timestamp': '230717011414.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0026773761492222548, 'oms_risk': 'Low'}, 'timestamp': '230717011415.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011417.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 97976.5, 'altitude': 282.5, 'temperature': 34.75}, 'timestamp': '230717011419.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0026773761492222548, 'oms_risk': 'Low'}, 'timestamp': '230717011419.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.69293975830078}, 'timestamp': '230717011419.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011421.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011423.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 97973.75, 'altitude': 282.6875, 'temperature': 34.8125}, 'timestamp': '230717011424.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.73201751708984}, 'timestamp': '230717011424.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011425.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011427.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 97979.5, 'altitude': 282.25, 'temperature': 34.875}, 'timestamp': '230717011429.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011429.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.77877044677734}, 'timestamp': '230717011429.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011431.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011433.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 97995.5, 'altitude': 280.8125, 'temperature': 34.9375}, 'timestamp': '230717011434.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.7508544921875}, 'timestamp': '230717011434.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011435.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011437.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98018.5, 'altitude': 278.9375, 'temperature': 35.0625}, 'timestamp': '230717011439.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011439.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.72713470458984}, 'timestamp': '230717011439.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011441.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011443.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98030.75, 'altitude': 278.3125, 'temperature': 35.125}, 'timestamp': '230717011444.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.71247863769531}, 'timestamp': '230717011444.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011445.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011447.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98030.75, 'altitude': 277.875, 'temperature': 35.1875}, 'timestamp': '230717011449.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011449.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.77458190917969}, 'timestamp': '230717011449.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011451.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011453.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98028.5, 'altitude': 278.3125, 'temperature': 35.25}, 'timestamp': '230717011454.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.782958984375}, 'timestamp': '230717011454.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011455.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011457.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98027, 'altitude': 278.3125, 'temperature': 35.3125}, 'timestamp': '230717011459.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011459.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.88553619384766}, 'timestamp': '230717011459.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011501.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011503.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98033.75, 'altitude': 277.875, 'temperature': 35.4375}, 'timestamp': '230717011504.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.83738708496094}, 'timestamp': '230717011504.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011505.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011507.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98037.5, 'altitude': 277.4375, 'temperature': 35.5}, 'timestamp': '230717011509.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011509.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.88553619384766}, 'timestamp': '230717011509.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011511.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011513.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98043.75, 'altitude': 276.875, 'temperature': 35.5625}, 'timestamp': '230717011514.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.88972473144531}, 'timestamp': '230717011514.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011515.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011517.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98039.25, 'altitude': 277.3125, 'temperature': 35.625}, 'timestamp': '230717011519.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011519.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.8080825805664}, 'timestamp': '230717011519.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011521.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011523.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98047.75, 'altitude': 276.75, 'temperature': 35.6875}, 'timestamp': '230717011524.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.83041381835938}, 'timestamp': '230717011524.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011525.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011527.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98055, 'altitude': 275.8125, 'temperature': 35.75}, 'timestamp': '230717011529.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011529.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.85064697265625}, 'timestamp': '230717011529.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011531.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011533.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98068.25, 'altitude': 274.6875, 'temperature': 35.875}, 'timestamp': '230717011534.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.86949157714844}, 'timestamp': '230717011534.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011535.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011537.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98073, 'altitude': 274.25, 'temperature': 35.9375}, 'timestamp': '230717011539.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011539.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.02859497070312}, 'timestamp': '230717011539.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011541.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011543.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98080.75, 'altitude': 273.75, 'temperature': 36}, 'timestamp': '230717011544.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.97136688232422}, 'timestamp': '230717011544.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011545.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011547.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98092.25, 'altitude': 272.875, 'temperature': 36.0625}, 'timestamp': '230717011549.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011549.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.94066619873047}, 'timestamp': '230717011549.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011551.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011553.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98106.5, 'altitude': 271.5, 'temperature': 36.125}, 'timestamp': '230717011554.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.89810180664062}, 'timestamp': '230717011554.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011555.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011557.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98119.25, 'altitude': 270.625, 'temperature': 36.1875}, 'timestamp': '230717011559.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011559.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.89879608154297}, 'timestamp': '230717011559.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011601.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011603.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98142.75, 'altitude': 268.5, 'temperature': 36.1875}, 'timestamp': '230717011604.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.87018585205078}, 'timestamp': '230717011604.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011605.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011607.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98184.75, 'altitude': 264.8125, 'temperature': 36.25}, 'timestamp': '230717011609.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011609.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.93717956542969}, 'timestamp': '230717011609.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011611.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011613.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98211.25, 'altitude': 262.625, 'temperature': 36.3125}, 'timestamp': '230717011614.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.91973114013672}, 'timestamp': '230717011614.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011615.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011617.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98219.25, 'altitude': 261.9375, 'temperature': 36.375}, 'timestamp': '230717011619.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011619.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.89460754394531}, 'timestamp': '230717011619.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011621.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011623.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98227.25, 'altitude': 260.9375, 'temperature': 36.375}, 'timestamp': '230717011624.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.97067260742188}, 'timestamp': '230717011624.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011625.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011627.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98224.25, 'altitude': 261.1875, 'temperature': 36.4375}, 'timestamp': '230717011629.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011629.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.90577697753906}, 'timestamp': '230717011629.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011631.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011633.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98214, 'altitude': 262.25, 'temperature': 36.5}, 'timestamp': '230717011634.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.98114013671875}, 'timestamp': '230717011634.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011635.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011637.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98203, 'altitude': 263.25, 'temperature': 36.5625}, 'timestamp': '230717011639.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011639.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.9804458618164}, 'timestamp': '230717011639.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011641.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011643.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98194.75, 'altitude': 263.9375, 'temperature': 36.625}, 'timestamp': '230717011644.000'}
+{'sensor': 'humidity', 'data': {'humidity': 66.87577056884766}, 'timestamp': '230717011644.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011645.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011647.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98183.5, 'altitude': 264.5625, 'temperature': 36.6875}, 'timestamp': '230717011649.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011649.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.04813385009766}, 'timestamp': '230717011649.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011651.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011653.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98176.25, 'altitude': 265.375, 'temperature': 36.75}, 'timestamp': '230717011654.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.01533508300781}, 'timestamp': '230717011654.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011655.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011657.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98172.75, 'altitude': 266.1875, 'temperature': 36.8125}, 'timestamp': '230717011659.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011659.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.11721801757812}, 'timestamp': '230717011659.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011701.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011703.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98157.5, 'altitude': 266.75, 'temperature': 36.8125}, 'timestamp': '230717011704.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.0558090209961}, 'timestamp': '230717011704.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011705.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011707.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98148.25, 'altitude': 267.75, 'temperature': 36.875}, 'timestamp': '230717011709.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011709.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.07464599609375}, 'timestamp': '230717011709.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011711.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011713.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98138.5, 'altitude': 268.625, 'temperature': 36.9375}, 'timestamp': '230717011714.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.15629577636719}, 'timestamp': '230717011714.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011715.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011717.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98128.75, 'altitude': 269.4375, 'temperature': 37}, 'timestamp': '230717011719.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011719.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.05022430419922}, 'timestamp': '230717011719.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011721.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011723.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98119, 'altitude': 270.0625, 'temperature': 37.0625}, 'timestamp': '230717011724.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.01812744140625}, 'timestamp': '230717011724.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011725.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011727.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98111, 'altitude': 270.75, 'temperature': 37.0625}, 'timestamp': '230717011729.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011729.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.05929565429688}, 'timestamp': '230717011729.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011731.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011733.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98104.25, 'altitude': 271.6875, 'temperature': 37.125}, 'timestamp': '230717011734.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.11861419677734}, 'timestamp': '230717011734.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011735.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011737.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98092, 'altitude': 272.75, 'temperature': 37.1875}, 'timestamp': '230717011739.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011739.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.13186645507812}, 'timestamp': '230717011739.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011741.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011743.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98087, 'altitude': 272.875, 'temperature': 37.1875}, 'timestamp': '230717011744.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.17304229736328}, 'timestamp': '230717011744.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011745.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011747.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98091, 'altitude': 272.875, 'temperature': 37.25}, 'timestamp': '230717011749.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011749.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.26725006103516}, 'timestamp': '230717011749.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011751.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011753.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98107.5, 'altitude': 271.75, 'temperature': 37.3125}, 'timestamp': '230717011754.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.30143737792969}, 'timestamp': '230717011754.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011755.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011757.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98122, 'altitude': 270.5625, 'temperature': 37.3125}, 'timestamp': '230717011759.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011759.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.29446411132812}, 'timestamp': '230717011759.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011801.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011803.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98149.5, 'altitude': 268.0625, 'temperature': 37.375}, 'timestamp': '230717011804.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.31888580322266}, 'timestamp': '230717011804.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011805.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011807.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98166.5, 'altitude': 266.5625, 'temperature': 37.375}, 'timestamp': '230717011809.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011809.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.45077514648438}, 'timestamp': '230717011809.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011811.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011813.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98186, 'altitude': 265, 'temperature': 37.4375}, 'timestamp': '230717011814.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.27073669433594}, 'timestamp': '230717011814.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011815.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011817.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98202.25, 'altitude': 263.5, 'temperature': 37.4375}, 'timestamp': '230717011819.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011819.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.31051635742188}, 'timestamp': '230717011819.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011821.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011823.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98221.5, 'altitude': 261.9375, 'temperature': 37.5}, 'timestamp': '230717011824.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.30772399902344}, 'timestamp': '230717011824.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011825.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011827.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98252.5, 'altitude': 259.1875, 'temperature': 37.5}, 'timestamp': '230717011829.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011829.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.28539276123047}, 'timestamp': '230717011829.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011831.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011833.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98298.25, 'altitude': 255.25, 'temperature': 37.5625}, 'timestamp': '230717011834.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.16606140136719}, 'timestamp': '230717011834.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011835.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011837.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98324.5, 'altitude': 252.875, 'temperature': 37.5625}, 'timestamp': '230717011839.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011839.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.21770477294922}, 'timestamp': '230717011839.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011841.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011843.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98350.25, 'altitude': 250.875, 'temperature': 37.5625}, 'timestamp': '230717011844.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.20304870605469}, 'timestamp': '230717011844.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011845.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011847.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98372.75, 'altitude': 248.625, 'temperature': 37.5625}, 'timestamp': '230717011849.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011849.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.08162689208984}, 'timestamp': '230717011849.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011851.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011853.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98388.5, 'altitude': 247.25, 'temperature': 37.625}, 'timestamp': '230717011854.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.0858154296875}, 'timestamp': '230717011854.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011855.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011857.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98381.25, 'altitude': 247.625, 'temperature': 37.625}, 'timestamp': '230717011859.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011859.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.11861419677734}, 'timestamp': '230717011859.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011901.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011903.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98375.75, 'altitude': 248.3125, 'temperature': 37.6875}, 'timestamp': '230717011904.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.0955810546875}, 'timestamp': '230717011904.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011905.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011907.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98375.75, 'altitude': 248.25, 'temperature': 37.6875}, 'timestamp': '230717011909.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011909.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.11861419677734}, 'timestamp': '230717011909.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011911.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011913.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98368.25, 'altitude': 248.9375, 'temperature': 37.75}, 'timestamp': '230717011914.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.13815307617188}, 'timestamp': '230717011914.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011915.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011917.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98364.5, 'altitude': 249.3125, 'temperature': 37.75}, 'timestamp': '230717011919.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011919.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.12837982177734}, 'timestamp': '230717011919.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011921.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011923.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98364, 'altitude': 249.375, 'temperature': 37.75}, 'timestamp': '230717011924.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.0858154296875}, 'timestamp': '230717011924.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011925.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011927.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98359.25, 'altitude': 249.5625, 'temperature': 37.75}, 'timestamp': '230717011929.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011929.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.14024353027344}, 'timestamp': '230717011929.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011931.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011933.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98358.75, 'altitude': 249.8125, 'temperature': 37.8125}, 'timestamp': '230717011934.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.14163970947266}, 'timestamp': '230717011934.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011935.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011937.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98355.5, 'altitude': 249.75, 'temperature': 37.8125}, 'timestamp': '230717011939.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011939.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.20653533935547}, 'timestamp': '230717011939.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011941.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011943.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98356.25, 'altitude': 250.25, 'temperature': 37.875}, 'timestamp': '230717011944.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.17862701416016}, 'timestamp': '230717011944.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011945.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011947.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98350, 'altitude': 250.75, 'temperature': 37.875}, 'timestamp': '230717011949.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011949.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.23095703125}, 'timestamp': '230717011949.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011951.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011953.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98351.5, 'altitude': 250.5, 'temperature': 37.875}, 'timestamp': '230717011954.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.2463150024414}, 'timestamp': '230717011954.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011955.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011957.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98355.75, 'altitude': 250.0625, 'temperature': 37.875}, 'timestamp': '230717011959.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717011959.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.29934692382812}, 'timestamp': '230717011959.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012001.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012003.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98373.25, 'altitude': 248.8125, 'temperature': 37.9375}, 'timestamp': '230717012004.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.26166534423828}, 'timestamp': '230717012004.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012005.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012007.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98385.5, 'altitude': 247.5, 'temperature': 37.9375}, 'timestamp': '230717012009.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012009.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.30562591552734}, 'timestamp': '230717012009.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012011.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012013.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98393.75, 'altitude': 247.125, 'temperature': 38}, 'timestamp': '230717012014.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.32795715332031}, 'timestamp': '230717012014.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012015.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012017.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98401, 'altitude': 246.5, 'temperature': 38}, 'timestamp': '230717012019.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012019.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.3447036743164}, 'timestamp': '230717012019.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012021.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012023.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98401.5, 'altitude': 246.0625, 'temperature': 38}, 'timestamp': '230717012024.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.31051635742188}, 'timestamp': '230717012024.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012025.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012027.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98406, 'altitude': 246.0625, 'temperature': 38}, 'timestamp': '230717012029.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012029.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.39774322509766}, 'timestamp': '230717012029.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012031.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012033.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98406, 'altitude': 245.9375, 'temperature': 38.0625}, 'timestamp': '230717012034.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.38936614990234}, 'timestamp': '230717012034.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012035.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012037.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98402.5, 'altitude': 245.9375, 'temperature': 38.0625}, 'timestamp': '230717012039.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012039.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.43682098388672}, 'timestamp': '230717012039.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012041.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012043.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98408.5, 'altitude': 245.875, 'temperature': 38.0625}, 'timestamp': '230717012044.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.39495086669922}, 'timestamp': '230717012044.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012045.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012047.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98402.75, 'altitude': 246.1875, 'temperature': 38.125}, 'timestamp': '230717012049.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012049.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.42774963378906}, 'timestamp': '230717012049.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012051.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012053.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98402.5, 'altitude': 246, 'temperature': 38.125}, 'timestamp': '230717012054.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.47380065917969}, 'timestamp': '230717012054.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012055.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012057.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98395.75, 'altitude': 246.5625, 'temperature': 38.125}, 'timestamp': '230717012059.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012059.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.38448333740234}, 'timestamp': '230717012059.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012101.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012103.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98391.25, 'altitude': 247, 'temperature': 38.125}, 'timestamp': '230717012104.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.32586669921875}, 'timestamp': '230717012104.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012105.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012107.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98388.25, 'altitude': 247.5, 'temperature': 38.1875}, 'timestamp': '230717012109.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012109.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.3684310913086}, 'timestamp': '230717012109.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012111.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012113.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98385.75, 'altitude': 247.75, 'temperature': 38.1875}, 'timestamp': '230717012114.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.34889221191406}, 'timestamp': '230717012114.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012115.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012117.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98383.5, 'altitude': 247.5625, 'temperature': 38.1875}, 'timestamp': '230717012119.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012119.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.49055480957031}, 'timestamp': '230717012119.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012121.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012123.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98383.5, 'altitude': 248, 'temperature': 38.25}, 'timestamp': '230717012124.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.4703140258789}, 'timestamp': '230717012124.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012125.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012127.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98384.75, 'altitude': 247.875, 'temperature': 38.25}, 'timestamp': '230717012129.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012129.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.40402221679688}, 'timestamp': '230717012129.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012131.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012133.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98388.75, 'altitude': 247.125, 'temperature': 38.25}, 'timestamp': '230717012134.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.44589233398438}, 'timestamp': '230717012134.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012135.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012137.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98395.5, 'altitude': 246.6875, 'temperature': 38.25}, 'timestamp': '230717012139.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012139.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.39215850830078}, 'timestamp': '230717012139.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012141.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012143.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98401, 'altitude': 246.5625, 'temperature': 38.3125}, 'timestamp': '230717012144.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.32935333251953}, 'timestamp': '230717012144.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012145.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012147.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98393.75, 'altitude': 246.375, 'temperature': 38.3125}, 'timestamp': '230717012149.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012149.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.47869110107422}, 'timestamp': '230717012149.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012151.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012153.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98393.25, 'altitude': 247.125, 'temperature': 38.3125}, 'timestamp': '230717012154.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.46961975097656}, 'timestamp': '230717012154.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012155.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012157.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98399.75, 'altitude': 246.6875, 'temperature': 38.3125}, 'timestamp': '230717012159.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012159.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.34540557861328}, 'timestamp': '230717012159.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012201.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012203.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98405, 'altitude': 246, 'temperature': 38.3125}, 'timestamp': '230717012204.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.27422332763672}, 'timestamp': '230717012204.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012205.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012207.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98409.5, 'altitude': 246, 'temperature': 38.3125}, 'timestamp': '230717012209.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012209.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.21910095214844}, 'timestamp': '230717012209.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012211.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012213.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98404, 'altitude': 246, 'temperature': 38.3125}, 'timestamp': '230717012214.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.2881851196289}, 'timestamp': '230717012214.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012215.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012217.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98399.5, 'altitude': 246.4375, 'temperature': 38.3125}, 'timestamp': '230717012219.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012219.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.3349380493164}, 'timestamp': '230717012219.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012221.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012223.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98390.75, 'altitude': 247.25, 'temperature': 38.375}, 'timestamp': '230717012224.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.28678894042969}, 'timestamp': '230717012224.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012225.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012227.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98381, 'altitude': 247.875, 'temperature': 38.375}, 'timestamp': '230717012229.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012229.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.39913940429688}, 'timestamp': '230717012229.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012231.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012233.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98376.5, 'altitude': 248.125, 'temperature': 38.375}, 'timestamp': '230717012234.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.46961975097656}, 'timestamp': '230717012234.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012235.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012237.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98372.25, 'altitude': 249.0625, 'temperature': 38.375}, 'timestamp': '230717012239.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012239.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.2463150024414}, 'timestamp': '230717012239.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012241.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012243.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98371.25, 'altitude': 248.875, 'temperature': 38.375}, 'timestamp': '230717012244.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.3614501953125}, 'timestamp': '230717012244.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012245.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012247.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98381.75, 'altitude': 248.125, 'temperature': 38.4375}, 'timestamp': '230717012249.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012249.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.41239166259766}, 'timestamp': '230717012249.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012251.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012253.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98375, 'altitude': 248.125, 'temperature': 38.375}, 'timestamp': '230717012254.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.51148223876953}, 'timestamp': '230717012254.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012255.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012257.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98372, 'altitude': 248.375, 'temperature': 38.4375}, 'timestamp': '230717012259.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012259.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.48497009277344}, 'timestamp': '230717012259.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012301.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012303.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98365, 'altitude': 249.375, 'temperature': 38.4375}, 'timestamp': '230717012304.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.43263244628906}, 'timestamp': '230717012304.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012305.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012307.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98362.75, 'altitude': 249.4375, 'temperature': 38.4375}, 'timestamp': '230717012309.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012309.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.5491714477539}, 'timestamp': '230717012309.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012311.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012313.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98362.25, 'altitude': 249.6875, 'temperature': 38.5}, 'timestamp': '230717012314.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.51567077636719}, 'timestamp': '230717012314.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012315.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012317.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98360, 'altitude': 249.5625, 'temperature': 38.5}, 'timestamp': '230717012319.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012319.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.55963897705078}, 'timestamp': '230717012319.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012321.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012323.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98360.5, 'altitude': 249.8125, 'temperature': 38.5}, 'timestamp': '230717012324.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.57498931884766}, 'timestamp': '230717012324.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012325.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012327.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98362.5, 'altitude': 249.75, 'temperature': 38.5}, 'timestamp': '230717012329.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012329.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.54219055175781}, 'timestamp': '230717012329.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012331.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012333.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98361.25, 'altitude': 249.8125, 'temperature': 38.5}, 'timestamp': '230717012334.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.56521606445312}, 'timestamp': '230717012334.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012335.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012337.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98359.75, 'altitude': 249.6875, 'temperature': 38.5}, 'timestamp': '230717012339.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012339.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.69570922851562}, 'timestamp': '230717012339.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012341.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012343.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98362.5, 'altitude': 249.75, 'temperature': 38.5625}, 'timestamp': '230717012344.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.74456024169922}, 'timestamp': '230717012344.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012345.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012347.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98357.25, 'altitude': 250, 'temperature': 38.5625}, 'timestamp': '230717012349.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012349.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.5491714477539}, 'timestamp': '230717012349.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012351.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012353.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98357, 'altitude': 250.1875, 'temperature': 38.5625}, 'timestamp': '230717012354.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.55474853515625}, 'timestamp': '230717012354.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012355.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012357.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98351.5, 'altitude': 250.3125, 'temperature': 38.5625}, 'timestamp': '230717012359.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012359.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.61406707763672}, 'timestamp': '230717012359.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012401.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012403.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98349.75, 'altitude': 250.625, 'temperature': 38.625}, 'timestamp': '230717012404.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.45984649658203}, 'timestamp': '230717012404.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012405.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012407.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98345, 'altitude': 251.1875, 'temperature': 38.625}, 'timestamp': '230717012409.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012409.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.4451904296875}, 'timestamp': '230717012409.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012411.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012413.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98343.75, 'altitude': 251.375, 'temperature': 38.625}, 'timestamp': '230717012414.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.59382629394531}, 'timestamp': '230717012414.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012415.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012417.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98343.25, 'altitude': 251.3125, 'temperature': 38.625}, 'timestamp': '230717012419.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012419.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.5777816772461}, 'timestamp': '230717012419.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012421.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012423.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98345, 'altitude': 250.8125, 'temperature': 38.625}, 'timestamp': '230717012424.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.77246856689453}, 'timestamp': '230717012424.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012425.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012427.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98338.5, 'altitude': 251.4375, 'temperature': 38.625}, 'timestamp': '230717012429.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012429.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.6245346069336}, 'timestamp': '230717012429.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012431.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012433.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98335.75, 'altitude': 251.75, 'temperature': 38.6875}, 'timestamp': '230717012434.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.7180404663086}, 'timestamp': '230717012434.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012435.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012437.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98331.25, 'altitude': 251.875, 'temperature': 38.6875}, 'timestamp': '230717012439.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012439.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.70548248291016}, 'timestamp': '230717012439.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012441.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012443.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98333.25, 'altitude': 252.125, 'temperature': 38.6875}, 'timestamp': '230717012444.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.73688507080078}, 'timestamp': '230717012444.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012445.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012447.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98332.25, 'altitude': 252.1875, 'temperature': 38.6875}, 'timestamp': '230717012449.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012449.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.75711822509766}, 'timestamp': '230717012449.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012451.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012453.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98332.5, 'altitude': 252.1875, 'temperature': 38.6875}, 'timestamp': '230717012454.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.70269012451172}, 'timestamp': '230717012454.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012455.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012457.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98332.25, 'altitude': 252, 'temperature': 38.6875}, 'timestamp': '230717012459.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012459.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.73897552490234}, 'timestamp': '230717012459.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012501.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012503.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98336.25, 'altitude': 251.9375, 'temperature': 38.75}, 'timestamp': '230717012504.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.75851440429688}, 'timestamp': '230717012504.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012505.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012507.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98327.75, 'altitude': 252.625, 'temperature': 38.6875}, 'timestamp': '230717012509.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012509.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.77386474609375}, 'timestamp': '230717012509.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012511.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012513.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98327.25, 'altitude': 252.1875, 'temperature': 38.75}, 'timestamp': '230717012514.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.7801513671875}, 'timestamp': '230717012514.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012515.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012517.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98324.75, 'altitude': 253, 'temperature': 38.75}, 'timestamp': '230717012519.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012519.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.8666763305664}, 'timestamp': '230717012519.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012521.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012523.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98311.5, 'altitude': 254.1875, 'temperature': 38.75}, 'timestamp': '230717012524.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.91901397705078}, 'timestamp': '230717012524.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012525.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012527.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98298.25, 'altitude': 255.1875, 'temperature': 38.8125}, 'timestamp': '230717012529.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012529.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.90435791015625}, 'timestamp': '230717012529.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012531.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012533.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98283.75, 'altitude': 256.0625, 'temperature': 38.8125}, 'timestamp': '230717012534.000'}
+{'sensor': 'humidity', 'data': {'humidity': 67.99298095703125}, 'timestamp': '230717012534.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012535.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012537.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98269.25, 'altitude': 257.6875, 'temperature': 38.8125}, 'timestamp': '230717012539.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012539.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.06485748291016}, 'timestamp': '230717012539.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012541.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012543.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98255, 'altitude': 258.8125, 'temperature': 38.8125}, 'timestamp': '230717012544.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.11998748779297}, 'timestamp': '230717012544.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012545.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012547.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98241.25, 'altitude': 259.8125, 'temperature': 38.8125}, 'timestamp': '230717012549.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012549.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.13813018798828}, 'timestamp': '230717012549.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012551.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012553.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98225, 'altitude': 261.125, 'temperature': 38.875}, 'timestamp': '230717012554.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.14790344238281}, 'timestamp': '230717012554.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012555.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012557.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98213.5, 'altitude': 262.25, 'temperature': 38.875}, 'timestamp': '230717012559.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012559.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.06485748291016}, 'timestamp': '230717012559.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012601.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012603.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98201.25, 'altitude': 263.5, 'temperature': 38.875}, 'timestamp': '230717012604.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.16813659667969}, 'timestamp': '230717012604.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012605.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012607.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98191.5, 'altitude': 264.4375, 'temperature': 38.9375}, 'timestamp': '230717012609.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012609.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.181396484375}, 'timestamp': '230717012609.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012611.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012613.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98178.5, 'altitude': 265.125, 'temperature': 38.9375}, 'timestamp': '230717012614.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.19674682617188}, 'timestamp': '230717012614.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012615.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012617.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98169, 'altitude': 266.1875, 'temperature': 38.9375}, 'timestamp': '230717012619.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012619.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.20372772216797}, 'timestamp': '230717012619.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012621.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012623.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98158.75, 'altitude': 266.9375, 'temperature': 38.9375}, 'timestamp': '230717012624.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.23233795166016}, 'timestamp': '230717012624.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012625.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012627.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98147.5, 'altitude': 267.6875, 'temperature': 39}, 'timestamp': '230717012629.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012629.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.2483901977539}, 'timestamp': '230717012629.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012631.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012633.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98136, 'altitude': 268.75, 'temperature': 39}, 'timestamp': '230717012634.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.26722717285156}, 'timestamp': '230717012634.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012635.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012637.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98127, 'altitude': 269.6875, 'temperature': 39.0625}, 'timestamp': '230717012639.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012639.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.30421447753906}, 'timestamp': '230717012639.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012641.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012643.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98118.5, 'altitude': 270.4375, 'temperature': 39.0625}, 'timestamp': '230717012644.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.27979278564453}, 'timestamp': '230717012644.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012645.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012647.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98111.25, 'altitude': 270.875, 'temperature': 39.0625}, 'timestamp': '230717012649.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012649.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.32654571533203}, 'timestamp': '230717012649.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012651.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012653.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98104, 'altitude': 271.5, 'temperature': 39.0625}, 'timestamp': '230717012654.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.28886413574219}, 'timestamp': '230717012654.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012655.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012657.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98103.5, 'altitude': 271.6875, 'temperature': 39.125}, 'timestamp': '230717012659.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012659.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.33491516113281}, 'timestamp': '230717012659.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012701.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012703.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98107, 'altitude': 271.625, 'temperature': 39.125}, 'timestamp': '230717012704.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.37259674072266}, 'timestamp': '230717012704.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012705.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012707.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98101.25, 'altitude': 271.875, 'temperature': 39.125}, 'timestamp': '230717012709.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012709.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.36283111572266}, 'timestamp': '230717012709.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012711.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012713.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98098, 'altitude': 272.3125, 'temperature': 39.125}, 'timestamp': '230717012714.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.49751281738281}, 'timestamp': '230717012714.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012715.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012717.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98100.5, 'altitude': 271.875, 'temperature': 39.1875}, 'timestamp': '230717012719.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012719.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.43331146240234}, 'timestamp': '230717012719.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012721.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012723.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98104.75, 'altitude': 271.5, 'temperature': 39.1875}, 'timestamp': '230717012724.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.50308990478516}, 'timestamp': '230717012724.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012725.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012727.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98106.5, 'altitude': 271.25, 'temperature': 39.1875}, 'timestamp': '230717012729.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012729.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.4961166381836}, 'timestamp': '230717012729.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012731.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012733.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98113.25, 'altitude': 271.4375, 'temperature': 39.1875}, 'timestamp': '230717012734.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.62521362304688}, 'timestamp': '230717012734.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012735.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012737.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98112.75, 'altitude': 270.9375, 'temperature': 39.1875}, 'timestamp': '230717012739.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012739.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.55961608886719}, 'timestamp': '230717012739.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012741.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012743.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98119.5, 'altitude': 270.5625, 'temperature': 39.1875}, 'timestamp': '230717012744.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.526123046875}, 'timestamp': '230717012744.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012745.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012747.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98124, 'altitude': 270.1875, 'temperature': 39.25}, 'timestamp': '230717012749.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012749.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.55682373046875}, 'timestamp': '230717012749.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012751.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012753.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98127, 'altitude': 269.75, 'temperature': 39.25}, 'timestamp': '230717012754.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.52193450927734}, 'timestamp': '230717012754.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012755.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012757.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98137, 'altitude': 269.0625, 'temperature': 39.25}, 'timestamp': '230717012759.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012759.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.55054473876953}, 'timestamp': '230717012759.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012801.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012803.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98144.25, 'altitude': 268.375, 'temperature': 39.3125}, 'timestamp': '230717012804.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.43470764160156}, 'timestamp': '230717012804.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012805.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012807.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98146.5, 'altitude': 267.875, 'temperature': 39.3125}, 'timestamp': '230717012809.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012809.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.47308349609375}, 'timestamp': '230717012809.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012811.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012813.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98143.5, 'altitude': 267.9375, 'temperature': 39.3125}, 'timestamp': '230717012814.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.49332427978516}, 'timestamp': '230717012814.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012815.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012817.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98143.75, 'altitude': 267.9375, 'temperature': 39.375}, 'timestamp': '230717012819.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012819.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.4423828125}, 'timestamp': '230717012819.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012821.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012823.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98146.25, 'altitude': 267.8125, 'temperature': 39.375}, 'timestamp': '230717012824.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.51774597167969}, 'timestamp': '230717012824.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012825.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012827.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98146.25, 'altitude': 268.125, 'temperature': 39.375}, 'timestamp': '230717012829.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012829.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.4375}, 'timestamp': '230717012829.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012831.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012833.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98147, 'altitude': 267.9375, 'temperature': 39.4375}, 'timestamp': '230717012834.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.4521484375}, 'timestamp': '230717012834.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012835.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012837.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98153, 'altitude': 268.25, 'temperature': 39.4375}, 'timestamp': '230717012839.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012839.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.51355743408203}, 'timestamp': '230717012839.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012841.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012843.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98152.5, 'altitude': 267.75, 'temperature': 39.4375}, 'timestamp': '230717012844.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.48494720458984}, 'timestamp': '230717012844.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012845.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012847.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98149.75, 'altitude': 267.6875, 'temperature': 39.4375}, 'timestamp': '230717012849.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012849.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.58892822265625}, 'timestamp': '230717012849.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012851.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012853.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98151.5, 'altitude': 267.625, 'temperature': 39.5}, 'timestamp': '230717012854.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.52960968017578}, 'timestamp': '230717012854.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012855.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012857.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98151, 'altitude': 267.8125, 'temperature': 39.5}, 'timestamp': '230717012859.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012859.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.57357025146484}, 'timestamp': '230717012859.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012901.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012903.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98151, 'altitude': 267.5625, 'temperature': 39.5}, 'timestamp': '230717012904.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.51146697998047}, 'timestamp': '230717012904.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012905.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012907.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98150, 'altitude': 267.625, 'temperature': 39.5}, 'timestamp': '230717012909.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012909.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.56938934326172}, 'timestamp': '230717012909.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012911.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012913.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98144, 'altitude': 268.125, 'temperature': 39.5}, 'timestamp': '230717012914.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.64056396484375}, 'timestamp': '230717012914.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012915.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012917.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98137.75, 'altitude': 268.625, 'temperature': 39.5625}, 'timestamp': '230717012919.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012919.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.72151184082031}, 'timestamp': '230717012919.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012921.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012923.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98132.75, 'altitude': 269.125, 'temperature': 39.5625}, 'timestamp': '230717012924.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.81222534179688}, 'timestamp': '230717012924.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012925.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012927.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98127, 'altitude': 269.8125, 'temperature': 39.625}, 'timestamp': '230717012929.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012929.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.9622573852539}, 'timestamp': '230717012929.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012931.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012933.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98120, 'altitude': 270.3125, 'temperature': 39.625}, 'timestamp': '230717012934.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.85409545898438}, 'timestamp': '230717012934.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012935.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012937.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98113, 'altitude': 270.75, 'temperature': 39.6875}, 'timestamp': '230717012939.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012939.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.84712219238281}, 'timestamp': '230717012939.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012941.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012943.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98103.25, 'altitude': 271.375, 'temperature': 39.6875}, 'timestamp': '230717012944.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.87294006347656}, 'timestamp': '230717012944.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012945.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012947.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98097.75, 'altitude': 272.3125, 'temperature': 39.6875}, 'timestamp': '230717012949.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012949.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.87154388427734}, 'timestamp': '230717012949.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012951.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012953.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98090.5, 'altitude': 272.875, 'temperature': 39.75}, 'timestamp': '230717012954.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.85619354248047}, 'timestamp': '230717012954.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012955.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012957.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98081.75, 'altitude': 273.4375, 'temperature': 39.75}, 'timestamp': '230717012959.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717012959.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.84642028808594}, 'timestamp': '230717012959.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013001.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013003.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98071, 'altitude': 274.4375, 'temperature': 39.75}, 'timestamp': '230717013004.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.85131072998047}, 'timestamp': '230717013004.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013005.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013007.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98062.75, 'altitude': 275, 'temperature': 39.75}, 'timestamp': '230717013009.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013009.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.87503051757812}, 'timestamp': '230717013009.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013011.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013013.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98057.5, 'altitude': 275.625, 'temperature': 39.8125}, 'timestamp': '230717013014.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.91201782226562}, 'timestamp': '230717013014.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013015.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013017.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98055.5, 'altitude': 275.6875, 'temperature': 39.8125}, 'timestamp': '230717013019.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013019.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.90643310546875}, 'timestamp': '230717013019.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013021.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013023.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98053, 'altitude': 275.9375, 'temperature': 39.8125}, 'timestamp': '230717013024.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.90853118896484}, 'timestamp': '230717013024.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013025.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013027.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98047.25, 'altitude': 276.375, 'temperature': 39.875}, 'timestamp': '230717013029.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013029.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.87503051757812}, 'timestamp': '230717013029.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013031.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013033.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98045.75, 'altitude': 276.8125, 'temperature': 39.875}, 'timestamp': '230717013034.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.89875793457031}, 'timestamp': '230717013034.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013035.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013037.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98038.75, 'altitude': 276.9375, 'temperature': 39.9375}, 'timestamp': '230717013039.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013039.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.88131713867188}, 'timestamp': '230717013039.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013041.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013043.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98031.25, 'altitude': 277.625, 'temperature': 39.9375}, 'timestamp': '230717013044.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.84921264648438}, 'timestamp': '230717013044.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013045.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013047.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98021.75, 'altitude': 278.375, 'temperature': 39.9375}, 'timestamp': '230717013049.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013049.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.93643951416016}, 'timestamp': '230717013049.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013051.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013053.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98029, 'altitude': 277.9375, 'temperature': 40}, 'timestamp': '230717013054.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.98458862304688}, 'timestamp': '230717013054.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013055.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013057.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98037.5, 'altitude': 277.25, 'temperature': 40}, 'timestamp': '230717013059.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013059.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.9343490600586}, 'timestamp': '230717013059.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013101.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013103.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98036.75, 'altitude': 277.0625, 'temperature': 40}, 'timestamp': '230717013104.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.93714141845703}, 'timestamp': '230717013104.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013105.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013107.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98041.75, 'altitude': 276.9375, 'temperature': 40}, 'timestamp': '230717013109.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013109.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.95947265625}, 'timestamp': '230717013109.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013111.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013113.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98041.25, 'altitude': 276.8125, 'temperature': 40}, 'timestamp': '230717013114.000'}
+{'sensor': 'humidity', 'data': {'humidity': 69.0697250366211}, 'timestamp': '230717013114.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013115.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013117.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98045, 'altitude': 276.875, 'temperature': 40.0625}, 'timestamp': '230717013119.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013119.000'}
+{'sensor': 'humidity', 'data': {'humidity': 69.00762176513672}, 'timestamp': '230717013119.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013121.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013123.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98043.75, 'altitude': 276.9375, 'temperature': 40.0625}, 'timestamp': '230717013124.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.90643310546875}, 'timestamp': '230717013124.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013125.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013127.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98041.5, 'altitude': 276.6875, 'temperature': 40.125}, 'timestamp': '230717013129.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013129.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.98179626464844}, 'timestamp': '230717013129.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013131.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013133.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98043, 'altitude': 276.875, 'temperature': 40.125}, 'timestamp': '230717013134.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.8973617553711}, 'timestamp': '230717013134.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013135.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013137.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98043, 'altitude': 276.875, 'temperature': 40.125}, 'timestamp': '230717013139.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013139.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.94271850585938}, 'timestamp': '230717013139.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013141.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013143.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98045.75, 'altitude': 276.375, 'temperature': 40.1875}, 'timestamp': '230717013144.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.97901153564453}, 'timestamp': '230717013144.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013145.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013147.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98039.75, 'altitude': 277.25, 'temperature': 40.1875}, 'timestamp': '230717013149.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013149.000'}
+{'sensor': 'humidity', 'data': {'humidity': 69.02088165283203}, 'timestamp': '230717013149.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013151.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013153.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98036.75, 'altitude': 277.125, 'temperature': 40.1875}, 'timestamp': '230717013154.000'}
+{'sensor': 'humidity', 'data': {'humidity': 69.04530334472656}, 'timestamp': '230717013154.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013155.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013157.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98035.5, 'altitude': 277.6875, 'temperature': 40.1875}, 'timestamp': '230717013159.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013159.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.99505615234375}, 'timestamp': '230717013159.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013201.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013203.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98032.75, 'altitude': 277.6875, 'temperature': 40.25}, 'timestamp': '230717013204.000'}
+{'sensor': 'humidity', 'data': {'humidity': 69.02157592773438}, 'timestamp': '230717013204.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013205.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013207.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98033.25, 'altitude': 277.8125, 'temperature': 40.25}, 'timestamp': '230717013209.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0026773761492222548, 'oms_risk': 'Low'}, 'timestamp': '230717013209.000'}
+{'sensor': 'humidity', 'data': {'humidity': 69.0459976196289}, 'timestamp': '230717013209.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013211.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013213.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98038.25, 'altitude': 277.0625, 'temperature': 40.25}, 'timestamp': '230717013214.000'}
+{'sensor': 'humidity', 'data': {'humidity': 69.08019256591797}, 'timestamp': '230717013214.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013215.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013217.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98041.5, 'altitude': 276.9375, 'temperature': 40.25}, 'timestamp': '230717013219.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013219.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.8387451171875}, 'timestamp': '230717013219.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013221.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013223.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98051, 'altitude': 276.25, 'temperature': 40.25}, 'timestamp': '230717013224.000'}
+{'sensor': 'humidity', 'data': {'humidity': 69.0313491821289}, 'timestamp': '230717013224.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013225.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013227.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98061.75, 'altitude': 275.5625, 'temperature': 40.3125}, 'timestamp': '230717013229.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013229.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.90434265136719}, 'timestamp': '230717013229.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013231.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013233.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98071.5, 'altitude': 274.625, 'temperature': 40.3125}, 'timestamp': '230717013234.000'}
+{'sensor': 'humidity', 'data': {'humidity': 69.00064086914062}, 'timestamp': '230717013234.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013235.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013237.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98087, 'altitude': 273.4375, 'temperature': 40.3125}, 'timestamp': '230717013239.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013239.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.94690704345703}, 'timestamp': '230717013239.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013241.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013243.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98091.25, 'altitude': 272.5625, 'temperature': 40.3125}, 'timestamp': '230717013244.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.91410827636719}, 'timestamp': '230717013244.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013245.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013247.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98095.25, 'altitude': 272.5625, 'temperature': 40.3125}, 'timestamp': '230717013249.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013249.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.96365356445312}, 'timestamp': '230717013249.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013251.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013253.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98097.25, 'altitude': 272.5625, 'temperature': 40.3125}, 'timestamp': '230717013254.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.93783569335938}, 'timestamp': '230717013254.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013255.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013257.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98098.25, 'altitude': 272.125, 'temperature': 40.3125}, 'timestamp': '230717013259.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013259.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.9343490600586}, 'timestamp': '230717013259.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013301.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013303.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98098, 'altitude': 272.0625, 'temperature': 40.3125}, 'timestamp': '230717013304.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.94062805175781}, 'timestamp': '230717013304.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013305.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013307.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98097.25, 'altitude': 271.875, 'temperature': 40.3125}, 'timestamp': '230717013309.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013309.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.8973617553711}, 'timestamp': '230717013309.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013311.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013313.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98097.5, 'altitude': 272.1875, 'temperature': 40.3125}, 'timestamp': '230717013314.000'}
+{'sensor': 'humidity', 'data': {'humidity': 69.04669952392578}, 'timestamp': '230717013314.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013315.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013317.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98097.75, 'altitude': 272.25, 'temperature': 40.3125}, 'timestamp': '230717013319.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013319.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.96854400634766}, 'timestamp': '230717013319.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013321.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013323.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98097.5, 'altitude': 272.125, 'temperature': 40.3125}, 'timestamp': '230717013324.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.99017333984375}, 'timestamp': '230717013324.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013325.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013327.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98096.25, 'altitude': 272.125, 'temperature': 40.3125}, 'timestamp': '230717013329.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013329.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.98319244384766}, 'timestamp': '230717013329.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013331.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013333.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98097.75, 'altitude': 272, 'temperature': 40.3125}, 'timestamp': '230717013334.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.96435546875}, 'timestamp': '230717013334.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013335.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013337.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98097.75, 'altitude': 272.1875, 'temperature': 40.375}, 'timestamp': '230717013339.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013339.000'}
+{'sensor': 'humidity', 'data': {'humidity': 69.0327377319336}, 'timestamp': '230717013339.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013341.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013343.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98095, 'altitude': 272.5, 'temperature': 40.375}, 'timestamp': '230717013344.000'}
+{'sensor': 'humidity', 'data': {'humidity': 69.04460144042969}, 'timestamp': '230717013344.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013345.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013347.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98097.75, 'altitude': 272.4375, 'temperature': 40.375}, 'timestamp': '230717013349.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013349.000'}
+{'sensor': 'humidity', 'data': {'humidity': 69.09205627441406}, 'timestamp': '230717013349.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013351.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013353.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98097.25, 'altitude': 272.3125, 'temperature': 40.375}, 'timestamp': '230717013354.000'}
+{'sensor': 'humidity', 'data': {'humidity': 68.98529052734375}, 'timestamp': '230717013354.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013355.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013357.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98096.25, 'altitude': 272.125, 'temperature': 40.375}, 'timestamp': '230717013359.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013359.000'}
+{'sensor': 'humidity', 'data': {'humidity': 69.05227661132812}, 'timestamp': '230717013359.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013401.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013403.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98102.25, 'altitude': 271.8125, 'temperature': 40.375}, 'timestamp': '230717013404.000'}
+{'sensor': 'humidity', 'data': {'humidity': 69.25883483886719}, 'timestamp': '230717013404.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013405.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013407.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98110.5, 'altitude': 271.125, 'temperature': 40.375}, 'timestamp': '230717013409.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013409.000'}
+{'sensor': 'humidity', 'data': {'humidity': 69.11508178710938}, 'timestamp': '230717013409.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013411.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013413.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98116.25, 'altitude': 270.5625, 'temperature': 40.375}, 'timestamp': '230717013414.000'}
+{'sensor': 'humidity', 'data': {'humidity': 69.13113403320312}, 'timestamp': '230717013414.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013415.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013417.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98124.25, 'altitude': 269.9375, 'temperature': 40.4375}, 'timestamp': '230717013419.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013419.000'}
+{'sensor': 'humidity', 'data': {'humidity': 69.14788055419922}, 'timestamp': '230717013419.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013421.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013423.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98125.25, 'altitude': 270, 'temperature': 40.4375}, 'timestamp': '230717013424.000'}
+{'sensor': 'humidity', 'data': {'humidity': 69.10880279541016}, 'timestamp': '230717013424.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013425.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013427.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98124.75, 'altitude': 269.875, 'temperature': 40.4375}, 'timestamp': '230717013429.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013429.000'}
+{'sensor': 'humidity', 'data': {'humidity': 69.03692626953125}, 'timestamp': '230717013429.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013431.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013433.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98119.25, 'altitude': 270.125, 'temperature': 40.4375}, 'timestamp': '230717013434.000'}
+{'sensor': 'humidity', 'data': {'humidity': 69.13322448730469}, 'timestamp': '230717013434.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013435.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013437.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98122.5, 'altitude': 270.25, 'temperature': 40.4375}, 'timestamp': '230717013439.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013439.000'}
+{'sensor': 'humidity', 'data': {'humidity': 69.17509460449219}, 'timestamp': '230717013439.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013441.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013443.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98122.5, 'altitude': 270.0625, 'temperature': 40.5}, 'timestamp': '230717013444.000'}
+{'sensor': 'humidity', 'data': {'humidity': 69.13182830810547}, 'timestamp': '230717013444.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013445.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013447.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98123.25, 'altitude': 269.8125, 'temperature': 40.5}, 'timestamp': '230717013449.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013449.000'}
+{'sensor': 'humidity', 'data': {'humidity': 69.19673156738281}, 'timestamp': '230717013449.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013451.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013453.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98119.5, 'altitude': 270.125, 'temperature': 40.5}, 'timestamp': '230717013454.000'}
+{'sensor': 'humidity', 'data': {'humidity': 69.0746078491211}, 'timestamp': '230717013454.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013455.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013457.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98121.5, 'altitude': 269.9375, 'temperature': 40.5}, 'timestamp': '230717013459.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013459.000'}
+{'sensor': 'humidity', 'data': {'humidity': 69.0327377319336}, 'timestamp': '230717013459.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013501.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013503.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98122.75, 'altitude': 270.125, 'temperature': 40.5625}, 'timestamp': '230717013504.000'}
+{'sensor': 'humidity', 'data': {'humidity': 69.18276977539062}, 'timestamp': '230717013504.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013505.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013507.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98122, 'altitude': 270.375, 'temperature': 40.5625}, 'timestamp': '230717013509.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013509.000'}
+{'sensor': 'humidity', 'data': {'humidity': 69.13392639160156}, 'timestamp': '230717013509.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013511.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013513.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98122.75, 'altitude': 269.9375, 'temperature': 40.5625}, 'timestamp': '230717013514.000'}
+{'sensor': 'humidity', 'data': {'humidity': 69.17440032958984}, 'timestamp': '230717013514.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013515.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013517.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98124.75, 'altitude': 269.8125, 'temperature': 40.5625}, 'timestamp': '230717013519.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013519.000'}
+{'sensor': 'humidity', 'data': {'humidity': 69.12066650390625}, 'timestamp': '230717013519.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013521.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013523.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98124.25, 'altitude': 269.875, 'temperature': 40.625}, 'timestamp': '230717013524.000'}
+{'sensor': 'humidity', 'data': {'humidity': 69.1953353881836}, 'timestamp': '230717013524.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013525.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013527.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98124.5, 'altitude': 270.125, 'temperature': 40.625}, 'timestamp': '230717013529.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013529.000'}
+{'sensor': 'humidity', 'data': {'humidity': 69.17928314208984}, 'timestamp': '230717013529.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013531.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013533.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98122.5, 'altitude': 269.75, 'temperature': 40.625}, 'timestamp': '230717013534.000'}
+{'sensor': 'humidity', 'data': {'humidity': 69.19254302978516}, 'timestamp': '230717013534.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013535.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013537.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98125.25, 'altitude': 269.9375, 'temperature': 40.625}, 'timestamp': '230717013539.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013539.000'}
+{'sensor': 'humidity', 'data': {'humidity': 69.19393920898438}, 'timestamp': '230717013539.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013541.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013543.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98125, 'altitude': 270, 'temperature': 40.6875}, 'timestamp': '230717013544.000'}
+{'sensor': 'humidity', 'data': {'humidity': 69.19812774658203}, 'timestamp': '230717013544.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013545.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013547.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98126.5, 'altitude': 269.5625, 'temperature': 40.6875}, 'timestamp': '230717013549.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013549.000'}
+{'sensor': 'humidity', 'data': {'humidity': 69.23231506347656}, 'timestamp': '230717013549.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013551.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013553.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98130.75, 'altitude': 269.1875, 'temperature': 40.6875}, 'timestamp': '230717013554.000'}
+{'sensor': 'humidity', 'data': {'humidity': 69.29791259765625}, 'timestamp': '230717013554.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013555.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013557.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98138, 'altitude': 268.75, 'temperature': 40.6875}, 'timestamp': '230717013559.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013559.000'}
+{'sensor': 'humidity', 'data': {'humidity': 69.27628326416016}, 'timestamp': '230717013559.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013601.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013603.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98139.75, 'altitude': 268.5625, 'temperature': 40.6875}, 'timestamp': '230717013604.000'}
+{'sensor': 'humidity', 'data': {'humidity': 69.33419799804688}, 'timestamp': '230717013604.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013605.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013607.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98140.5, 'altitude': 268.6875, 'temperature': 40.6875}, 'timestamp': '230717013609.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013609.000'}
+{'sensor': 'humidity', 'data': {'humidity': 69.3558349609375}, 'timestamp': '230717013609.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013611.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013613.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98138.25, 'altitude': 268.5, 'temperature': 40.6875}, 'timestamp': '230717013614.000'}
+{'sensor': 'humidity', 'data': {'humidity': 69.34048461914062}, 'timestamp': '230717013614.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013615.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013617.000'}
+{'sensor': 'pressure_temperature', 'data': {'pressure': 98136, 'altitude': 268.5625, 'temperature': 40.75}, 'timestamp': '230717013619.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013619.000'}
+{'sensor': 'humidity', 'data': {'humidity': 69.45841217041016}, 'timestamp': '230717013619.000'}
+{'sensor': 'ultraviolet', 'data': {'uv_index': 0.0013386880746111274, 'oms_risk': 'Low'}, 'timestamp': '230717013621.000'}

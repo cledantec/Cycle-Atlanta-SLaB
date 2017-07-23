@@ -92,33 +92,114 @@ prox_second <- prox[c(1826:nrow(prox)),]
 
 first_join <- prox_first %>% left_join(first, by=c("time"))
 
-time <- as.vector(c(""))
-k = 0
-index = 1
-for(i in 1:length(first_join$video_time)){
-  if (k%%100 == 0 ){
-    time[index] <- as.character(first_join$video_time[i])
-    index <- index+1
-    k = 0
-  }  
-  k <- k+1
-}
+first_join$seq <- paste(as.character(first_join$video_time), as.character(first_join$id), sep="_")
+first_join$seq <- as.factor(first_join$seq)
 
-LR <- ggplot(first_join, aes(x = id, y = LidarRight)) +
-      geom_line() +
-      geom_point(size = 0.5, color="red")  + 
-      ylim(c(0,9000)) +      
-      scale_x_continuous(breaks=1:4, labels=c) +
+#Video-time-based high-resolution graph
+LR <- ggplot(first_join, aes(x = video_time)) +
+      geom_line(aes(y = LidarRight), color="black") +
+      geom_point(aes(y = LidarRight),size = 0.5, color="red")  +      
+      ylim(c(0,9000))  + 
+      scale_x_datetime(breaks=date_breaks("30 sec"), labels=date_format("%H:%M:%S")) +      
       theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Distance (cm)") + 
       xlab("Dummy Time (x200ms)")  + ggtitle("Lidar Right (Raw Data)") 
 
-LL <- ggplot(first_join, aes(x = id, y = LidarLeft)) +
-      geom_line() +
-      geom_point(size = 0.5, color="red")  + 
-      ylim(c(0,9000)) +
+LL <- ggplot(first_join, aes(x = video_time)) +
+      geom_line(aes(y = LidarLeft), color="black") +
+      geom_point(aes(y = LidarLeft),size = 0.5, color="red")  +       
+      ylim(c(0,9000))  + 
+      scale_x_datetime(breaks=date_breaks("10 sec"), labels=date_format("%H:%M:%S")) +
+      theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Distance (cm)") + 
+      xlab("Dummy Time (x200ms)")  + ggtitle("Lidar Left (Raw Data)")
+
+multiplot(LR, LL, cols=1)
+
+# Close-up
+LR <- ggplot(first_join[c(500:550),], aes(x = id)) +
+      geom_line(aes(y = LidarRight), color="black") +
+      geom_point(aes(y = LidarRight),size = 0.5, color="red")  + 
+      geom_line(aes(y=100*(speed)), color="blue") + 
+      geom_point(aes(y=100*(speed)),size = 0.5, color="blue")  +
+      ylim(c(0,3000))  + 
+#       scale_x_datetime(breaks=date_breaks("30 sec"), labels=date_format("%H:%M:%S")) +      
+      theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Distance (cm)") + 
+      xlab("Dummy Time (x200ms)")  + ggtitle("Lidar Right (Raw Data)") 
+
+LL <- ggplot(first_join[c(500:550),], aes(x = id)) +
+      geom_line(aes(y = LidarLeft), color="black") +
+      geom_point(aes(y = LidarLeft),size = 0.5, color="red")  + 
+      geom_line(aes(y=100*(speed)), color="blue") + 
+      geom_point(aes(y=100*(speed)),size = 0.5, color="blue")  +
+      ylim(c(0,3000))  + 
+#       scale_x_datetime(breaks=date_breaks("10 sec"), labels=date_format("%H:%M:%S")) +
       theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Distance (cm)") + 
       xlab("Dummy Time (x200ms)")  + ggtitle("Lidar Left (Raw Data)")
 
 multiplot(LR, LL, cols=1)
 
 ```
+
+
+# Time domain to Distance domain
+```{r}
+first_join$dist <- 0
+time_interval <- 0.2994975 #seconds
+
+# distance intervals (just for reference)
+dists <- as.vector(c(0))
+
+for (i in c(1:nrow(first_join))){
+  if (i==nrow(first_join)) break
+  sp <- first_join[i,]$speed * 0.514444444 # changing the speed to meters/sec
+  first_join[i+1,]$dist <- first_join[i,]$dist + (sp * time_interval)
+  dists[i] <- (sp * time_interval)
+}
+
+#Distance-based plot
+LR <- ggplot(first_join, aes(x = dist)) +
+      geom_line(aes(y = LidarRight), color="black") +
+      geom_point(aes(y = LidarRight),size = 0.5, color="red")  +      
+      ylim(c(0,9000))  +       
+      scale_x_continuous(breaks =seq(0, 1550, 50)) + 
+      theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Lidar Distance (cm)") + 
+      xlab("Distance Traveled (m)")  + ggtitle("Lidar Right (Distance-based)") 
+
+LL <- ggplot(first_join, aes(x = dist)) +
+      geom_line(aes(y = LidarLeft), color="black") +
+      geom_point(aes(y = LidarLeft),size = 0.5, color="red")  +       
+      ylim(c(0,9000))  +       
+      scale_x_continuous(breaks = seq(0, 1550, 50)) + 
+      theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Lidar Distance (cm)") + 
+      xlab("Distance Traveled (m)")  + ggtitle("Lidar Left (Distance-based)")
+
+multiplot(LR, LL, cols=1)
+
+
+# Close-up
+LR <- ggplot(first_join, aes(x = dist)) +
+      geom_line(aes(y = LidarRight), color="black") +
+      geom_point(aes(y = LidarRight),size = 0.5, color="red")  +      
+      ylim(c(0,9000))  +       
+      scale_x_continuous(breaks =seq(0, 1550, 50)) + 
+      theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Lidar Distance (cm)") + 
+      xlab("Distance Traveled (m)")  + ggtitle("Lidar Right (Distance-based), Close-up") 
+
+LL <- ggplot(first_join, aes(x = dist)) +
+      geom_line(aes(y = LidarLeft), color="black") +
+      geom_point(aes(y = LidarLeft),size = 0.5, color="red")  +       
+      ylim(c(0,9000))  +       
+      scale_x_continuous(breaks = seq(0, 1550, 50)) + 
+      theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Lidar Distance (cm)") + 
+      xlab("Distance Traveled (m)")  + ggtitle("Lidar Left (Distance-based), Close-up")
+
+multiplot(LR, LL, cols=1)
+
+
+
+```
+
+
+
+
+
+
