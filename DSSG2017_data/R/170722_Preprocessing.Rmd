@@ -737,12 +737,14 @@ sig_total[sig_total$right_class=="Yard wall",]$right_class <- "Wall"
 sig_total[sig_total$right_class=="Parallel ",]$right_class <- "Parallel"
 sig_total[sig_total$right_class=="Road Sign ",]$right_class <- "Tree"
 
-sig_total$left_class <- as.factor(sig_total$left_class)
-sig_total$right_class <- as.factor(sig_total$right_class)
+# sig_total$left_class <- as.factor(sig_total$left_class)
+# sig_total$right_class <- as.factor(sig_total$right_class)
 
 sig_total <- sig_total[,c("seq", "left_class", "right_class")]
 sig_total <- first_join %>% left_join(sig_total, by=c("seq"))
 
+first_regular_dist$left_class <- ""
+first_regular_dist$right_class <- ""
 
 for (i in c(1:nrow(first_regular_dist))){    
   print(i)
@@ -750,16 +752,17 @@ for (i in c(1:nrow(first_regular_dist))){
     break
   }
   
-  first_regular_dist[i,]$dist <- i - 1  
   index <- which.min(abs(sig_total$dist - i + 1))
   
   first_regular_dist[i,]$left_class <- sig_total[index,]$left_class
   first_regular_dist[i,]$right_class <- sig_total[index,]$right_class
 }
 
+first_regular_dist$left_class <- as.factor(first_regular_dist$left_class)
+first_regular_dist$right_class <- as.factor(first_regular_dist$right_class)
 
 
-write.table(sig_total, "220717_classifications.csv", row.names=F, col.names=T, sep=",")
+write.table(first_regular_dist, "220717_dist_classifications.csv", row.names=F, col.names=T, sep=",")
 
 
 ```
