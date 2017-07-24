@@ -1,11 +1,12 @@
 ---
-title: "Cycle Data Preprocessing"
+title: "Cycle Data Pre-processing"
 author: "Myeong Lee"
 date: "7/22/2017"
 output: html_document
 ---
 
-This script preprocess the cycle sensors data so that they can be used as features and classifiers.
+This script pre-processes the cycle sensors data so that they can be used as features and classifiers.
+Pre-processing includes (1) converting the time domain to the distance domain, (2) interpolating missing values in the distance domain, (3) resampling variables based on the distances, and (4) appling the Gaussian filter to the signal to minimize the noise. 
 
 ```{r}
 library(jsonlite)
@@ -18,6 +19,7 @@ library(dplyr)
 library(tidyr)
 library(geosphere)
 library(scales)
+library(smoother)
 
 setwd("/Users/myeong/git/Atl_DSSG/Cycle-Atlanta-SLaB/DSSG2017_data/sample_data/Javier/")
 
@@ -293,7 +295,7 @@ write.table(first_join, "220717_first_part_interpolated_lidars.csv", row.names=F
 ```
 
 
-# Adjusting data points into the regular grid (1m): Resampling
+# Resampling: Adjusting data points into the regular grid (1m)
 ```{r}
 # Given the median value of distances per lidar reading (=1.29 m), we set 1m as a unit to generate a regular-grid distance-based data
 first_regular_dist <- as.data.frame(matrix(ncol=16, nrow = as.integer(max(first_join$dist))))
@@ -425,11 +427,136 @@ LL <- ggplot(first_regular_dist[c(364:491),], aes(x = dist)) +
 
 multiplot(LR, LL, cols=1)
 
-classifiers <- c("car", "stop-car", "parallel", "tree", "posts", "trashcan", "wall", "nothing", "people", "bike")
+map <- get_map(c(lon = mean(first_regular_dist$lon), lat = mean(first_regular_dist$lat)), zoom = 16, source = "stamen", maptype = "toner")
+mapPoints <- ggmap(map) + geom_point(aes(x = lon, y = lat, color=dist), data = first_regular_dist, alpha = 0.9, size = 1) + 
+  scale_colour_gradient(low = "#FFCCCC", high = "#FF0033") +
+  labs(color="Time Sequence") + ggtitle("Javier, 0722, 3AM")
+mapPoints
 
-first_regular_dist$classification <- sample(classifiers, nrow(first_regular_dist), replace = T)
-write.table(first_regular_dist, "220717_first_part_resampled.csv", row.names=F, col.names=T, sep=",")
+
+
+LR <- ggplot(first_regular_dist, aes(x = dist)) +      
+      geom_line(aes(y = LidarRight), color="black") +
+      geom_point(aes(y = LidarRight), size = 0.5, color="red")  +   
+      geom_line(aes(y = USRight), color="grey") +
+      geom_point(aes(y = USRight), size = 0.3, color="orange")  +      
+      ylim(c(0,9000))  +       
+      scale_x_continuous(breaks =seq(0, 1550, 30)) + 
+      theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Distance (cm)") + 
+      xlab("Distance Traveled (m)")  + ggtitle("Lidar/Sonar Right (Re-sampled)") 
+
+LL <- ggplot(first_regular_dist, aes(x = dist)) +      
+      geom_line(aes(y = LidarLeft), color="black") +
+      geom_point(aes(y = LidarLeft), size = 0.5, color="red")  + 
+      geom_line(aes(y = USLeft), color="grey") +
+      geom_point(aes(y = USLeft), size = 0.3, color="orange")  +  
+      ylim(c(0,9000))  +       
+      scale_x_continuous(breaks = seq(0, 1550, 30)) + 
+      theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Distance (cm)") + 
+      xlab("Distance Traveled (m)")  + ggtitle("Lidar/Sonar Left (Re-sampled)")
+
+multiplot(LR, LL, cols=1)
+
+
+# Just for testing...
+random_classifiers <- c("car", "stop-car", "parallel", "tree", "posts", "trashcan", "wall", "nothing", "people", "bike")
+
+first_regular_dist$left_class <- sample(random_classifiers, nrow(first_regular_dist), replace = T)
+first_regular_dist$right_class <- sample(random_classifiers, nrow(first_regular_dist), replace = T)
+write.table(first_regular_dist, "220717_first_part_resampled_random.csv", row.names=F, col.names=T, sep=",")
 
 ```
 
+
+# Smoothing Lidar and Sonar
+```{r}
+window <- 3
+first_regular_dist$LLgaussian <- smth.gaussian(x=first_regular_dist$LidarLeft, window = window)
+first_regular_dist$LRgaussian <- smth.gaussian(x=first_regular_dist$LidarRight, window = window)
+
+# Close-up
+LR <- ggplot(first_regular_dist[c(700:800),], aes(x = dist)) +      
+      geom_line(aes(y = LidarRight), color="grey") +
+      geom_point(aes(y = LidarRight), size = 1, color="red")  +   
+      geom_line(aes(y = LRgaussian), color="black") +
+      geom_point(aes(y = LRgaussian), size = 1.5, color="orange")  +      
+      ylim(c(0,3000))  +       
+      scale_x_continuous(breaks =seq(0, 1550, 5)) + 
+      theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Distance (cm)") + 
+      xlab("Distance Traveled (m)")  + ggtitle("Gaussian-filtered Lidar (Right, Window_size=3)") 
+
+LL <- ggplot(first_regular_dist[c(700:800),], aes(x = dist)) +      
+      geom_line(aes(y = LidarLeft), color="grey") +
+      geom_point(aes(y = LidarLeft), size = 1, color="red")  + 
+      geom_line(aes(y = LLgaussian), color="black") +
+      geom_point(aes(y = LLgaussian), size = 1.5, color="orange")  +  
+      ylim(c(0,3000))  +       
+      scale_x_continuous(breaks = seq(0, 1550, 5)) + 
+      theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Distance (cm)") + 
+      xlab("Distance Traveled (m)")  + ggtitle("Gaussian-filtered Lidar (Left, Window_size=3)")
+
+multiplot(LR, LL, cols=1)
+
+# total
+LR <- ggplot(first_regular_dist, aes(x = dist)) +      
+      geom_line(aes(y = LidarRight), color="grey") +
+      geom_point(aes(y = LidarRight), size = 0.5, color="red")  +   
+      geom_line(aes(y = LRgaussian), color="black") +
+      geom_point(aes(y = LRgaussian), size = 0.3, color="orange")  +      
+      ylim(c(0,3000))  +       
+      scale_x_continuous(breaks =seq(-10, 1600, 30)) + 
+      theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Distance (cm)") + 
+      xlab("Distance Traveled (m)")  + ggtitle("Gaussian-filtered Lidar (Right, Window_size=3)") 
+
+LL <- ggplot(first_regular_dist, aes(x = dist)) +      
+      geom_line(aes(y = LidarLeft), color="grey") +
+      geom_point(aes(y = LidarLeft), size = 0.5, color="red")  + 
+      geom_line(aes(y = LLgaussian), color="black") +
+      geom_point(aes(y = LLgaussian), size = 0.3, color="orange")  +  
+      ylim(c(0,3000))  +       
+      scale_x_continuous(breaks = seq(-10, 1600, 30)) + 
+      theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Distance (cm)") + 
+      xlab("Distance Traveled (m)")  + ggtitle("Gaussian-filtered Lidar (Left, Window_size=3)")
+
+multiplot(LR, LL, cols=1)
+
+
+# Gaussian filtering for Sonar
+window <- 3
+first_regular_dist$SRgaussian <- smth.gaussian(x=first_regular_dist$USRight, window = window)
+first_regular_dist$SLgaussian <- smth.gaussian(x=first_regular_dist$USLeft, window = window)
+
+# Close-up
+LR <- ggplot(first_regular_dist[c(870:970),], aes(x = dist)) +      
+      geom_line(aes(y = USRight), color="grey") +
+      geom_point(aes(y = USRight), size = 1, color="red")  +   
+      geom_line(aes(y = SRgaussian), color="black") +
+      geom_point(aes(y = SRgaussian), size = 1.5, color="orange")  +      
+      ylim(c(0,800))  +       
+      scale_x_continuous(breaks =seq(0, 1550, 5)) + 
+      theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Distance (cm)") + 
+      xlab("Distance Traveled (m)")  + ggtitle("Gaussian-filtered Sonar (Right, Window_size=3)") 
+
+LL <- ggplot(first_regular_dist[c(870:970),], aes(x = dist)) +      
+      geom_line(aes(y = USLeft), color="grey") +
+      geom_point(aes(y = USLeft), size = 1, color="red")  + 
+      geom_line(aes(y = SLgaussian), color="black") +
+      geom_point(aes(y = SLgaussian), size = 1.5, color="orange")  +  
+      ylim(c(0,800))  +       
+      scale_x_continuous(breaks = seq(0, 1550, 5)) + 
+      theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Distance (cm)") + 
+      xlab("Distance Traveled (m)")  + ggtitle("Gaussian-filtered Sonar (Left, Window_size=3)")
+
+multiplot(LR, LL, cols=1)
+
+write.table(first_regular_dist, "220717_first_part_gaussian.csv", row.names=F, col.names=T, sep=",")
+```
+
+
+# Changing signatures 
+```{r}
+sig <- read_delim("0722Signatures_Erica/.csv", delim = ",", col_names = T)
+
+
+```
 
