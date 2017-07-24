@@ -655,29 +655,34 @@ generate_right_signature <- function(temporal_sig) {
     return (right_sig)
 }
 
-# Car signature (Lidar Frequency-domain Feature + Sonar Freq-domain Feature)
+
+# Signatures (Lidar Frequency-domain Feature + Sonar Freq-domain Feature)
 car <- read_delim("0722Signatures_Erica/Car LS_3.csv", delim = ",", col_names = F)
-human <- read_delim("0722Signatures_Erica/Human LS.csv", delim = ",", col_names = F)
 parallel <- read_delim("0722Signatures_Erica/Parallel_2.csv", delim = ",", col_names = F) # both side
 tree <- read_delim("0722Signatures_Erica/Tree RS_22.csv", delim = ",", col_names = F)
 car_block <- read_delim("0722Signatures_Erica/Tunnel.csv", delim = ",", col_names = F) #both
 wall <- read_delim("0722Signatures_Erica/Wall RS.csv", delim = ",", col_names = F)
 nothing <- read_delim("0722Signatures_Erica/Back Noise.csv", delim = ",", col_names = F) # Left
+# human <- read_delim("0722Signatures_Erica/Human LS.csv", delim = ",", col_names = F)
+# car_stop <- read_delim("0722Signatures_Erica/Car Stop RS.csv", delim = ",", col_names = F) # Right
 
 car <- generate_left_signature(car)
-human <- generate_left_signature(human)
-parallel <- generate_left_signature(parallel)
-tree <- generate_left_signature(tree)
-car_block <- generate_left_signature(car_block)
-wall <- generate_left_signature(wall)
+parallel <- generate_right_signature(parallel)
+tree <- generate_right_signature(tree)
+car_block <- generate_right_signature(car_block)
+wall <- generate_right_signature(wall)
 nothing <- generate_left_signature(nothing)
+# human <- generate_left_signature(human)
+# car_stop <- generate_right_signature(car_stop)
 
+
+
+## Testing
 ggplot(car, aes(x = index, y = abs(value), colour=sensor)) +
   geom_line() +
   geom_point(size = 1) +  
   theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Amplitude") + 
   xlab("Frequency")  + ggtitle("Discrete Cosine Transform of the Car Signature") 
-
 
 # Normalized signature (for testing)
 car_left_lidar_sig$value <- scale(car_left_lidar_sig$value)
