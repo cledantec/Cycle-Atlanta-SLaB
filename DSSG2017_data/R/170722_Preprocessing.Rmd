@@ -20,6 +20,7 @@ library(tidyr)
 library(geosphere)
 library(scales)
 library(smoother)
+library(dtt)
 
 setwd("/Users/myeong/git/Atl_DSSG/Cycle-Atlanta-SLaB/DSSG2017_data/sample_data/Javier/")
 
@@ -64,7 +65,7 @@ prox <- read_delim("220717_prox.csv", delim = ",", col_names = T)
 gps$id <- c(1:nrow(gps))
 prox$id <- c(1:nrow(prox))
 
-first <- gps[c(1:468),c("time", "lon", "lat", "video_time", "way", "speed", "LidarRight", "LidarLeft")]
+first <- gps[c(1:468),c("seq", "time", "lon", "lat", "video_time", "way", "speed", "LidarRight", "LidarLeft")]
 
 LR <- ggplot(first, aes(x = video_time, y = LidarRight)) +
       geom_line() +
@@ -86,16 +87,14 @@ multiplot(LR, LL, cols=1)
 
 # Actual riding begins at 0:02:00 in the video.
 # Until 2017-07-22 03:54:38
-first <- gps[c(139:468),c("time", "lon", "lat", "video_time", "way", "speed")]
-second <- gps[c(474:nrow(gps)),c("time", "lon", "lat", "video_time", "way", "speed")]
+first <- gps[c(139:468),c("seq", "time", "lon", "lat", "video_time", "way", "speed")]
+second <- gps[c(474:nrow(gps)),c("seq", "time", "lon", "lat", "video_time", "way", "speed")]
 
 prox_first <- prox[c(723:1825),]
 prox_second <- prox[c(1826:nrow(prox)),]
 
 first_join <- prox_first %>% left_join(first, by=c("time"))
 
-first_join$seq <- paste(as.character(first_join$video_time), as.character(first_join$id), sep="_")
-first_join$seq <- as.factor(first_join$seq)
 
 #Video-time-based high-resolution graph
 LR <- ggplot(first_join, aes(x = video_time)) +
@@ -460,9 +459,9 @@ multiplot(LR, LL, cols=1)
 
 # Just for testing...
 random_classifiers <- c("car", "stop-car", "parallel", "tree", "posts", "trashcan", "wall", "nothing", "people", "bike")
-
 first_regular_dist$left_class <- sample(random_classifiers, nrow(first_regular_dist), replace = T)
 first_regular_dist$right_class <- sample(random_classifiers, nrow(first_regular_dist), replace = T)
+
 write.table(first_regular_dist, "220717_first_part_resampled_random.csv", row.names=F, col.names=T, sep=",")
 
 ```
@@ -553,10 +552,144 @@ write.table(first_regular_dist, "220717_first_part_gaussian.csv", row.names=F, c
 ```
 
 
-# Changing signatures 
+# Environmental Signatures 
 ```{r}
-sig <- read_delim("0722Signatures_Erica/.csv", delim = ",", col_names = T)
+first_join <- read_delim("220717_first_part_interpolated_lidars.csv", delim = ",", col_names = T)
+first_regular_dist <- read_delim("220717_first_part_gaussian.csv", delim = ",", col_names = T)
+sig_total <- read_delim("0722Signatures_Erica/0722_prox_gps_join.csv", delim = ",", col_names = T)
+cols <- colnames(sig_total) 
+cols[4] <- "left_class"
+cols[5] <- "right_class"
+colnames(sig_total) <- cols
+
+sig_first <- sig_total[c(1:468),]
+sig_first[is.na(sig_first$left_class),]$left_class <- "nothing"
+sig_first[is.na(sig_first$right_class),]$right_class <- "nothing"
+sig_first$left_class <- as.factor(sig_first$left_class)
+sig_first$right_class <- as.factor(sig_first$right_class)
 
 
+# function that generates an environmental signature 
+# parameter: a temporal signature data frame
+# return: frequency-domain signature for Lidar and Sonar (15 m)
+analysis_unit <- 15
+generate_left_signature <- function(temporal_sig) {
+    sig_cols <- c("course", "speed", "day", "time", "lon", "lat", "seq", "way", "video_time", "USRight", "USLeft", "USRear", "LidarRight", "LidarLeft",
+                  "CO", "SO", "O3", "NO", "P10", "P25")   
+    colnames(temporal_sig) <- sig_cols
+    sig <- first_join[first_join$seq %in% temporal_sig$seq,]
+    sig <- first_regular_dist[first_regular_dist$dist >= as.integer(min(sig$dist)) & first_regular_dist$dist <= as.integer(max(sig$dist)),]
+    
+    if (nrow(sig) > analysis_unit) {
+      gap <- as.integer((nrow(sig) - analysis_unit)/2)
+      sig <- sig[c(gap:(gap+analysis_unit-1)),]
+    } else {
+      gap <- as.integer((analysis_unit - nrow(sig))/2)
+      i = 0
+      while (nrow(sig) < analysis_unit) {        
+        if (i%%2 == 0){
+          sig <- rbind(sig[1,], sig)
+        } else {
+          sig <- rbind(sig, sig[nrow(sig),])
+        }
+        i <- i+1        
+      }      
+    }
+    
+    sig$seq <- c(1:nrow(sig))
+    
+    left_lidar_sig <- dtt(sig$LidarLeft, type = c("dct"))
+    left_lidar_sig <- as.data.frame(left_lidar_sig[2:length(left_lidar_sig)])
+    colnames(left_lidar_sig) <- c("value")
+    left_lidar_sig$sensor <- "lidar"
+    
+    left_sonar_sig <- dtt(sig$USLeft, type = c("dct"))
+    left_sonar_sig <- as.data.frame(left_sonar_sig[2:length(left_sonar_sig)])
+    colnames(left_sonar_sig) <- c("value")
+    left_sonar_sig$sensor <- "sonar"
+    
+    left_sig <- rbind(left_lidar_sig, left_sonar_sig)
+    left_sig$index <- c(1:nrow(left_sig))
+    left_sig$sensor <- as.factor(left_sig$sensor)
+    return (left_sig)
+}
+
+generate_right_signature <- function(temporal_sig) {
+    sig_cols <- c("course", "speed", "day", "time", "lon", "lat", "seq", "way", "video_time", "USRight", "USLeft", "USRear", "LidarRight", "LidarLeft",
+                  "CO", "SO", "O3", "NO", "P10", "P25")   
+    colnames(temporal_sig) <- sig_cols
+    sig <- first_join[first_join$seq %in% temporal_sig$seq,]
+    sig <- first_regular_dist[first_regular_dist$dist >= as.integer(min(sig$dist)) & first_regular_dist$dist <= as.integer(max(sig$dist)),]
+    
+    if (nrow(sig) > analysis_unit) {
+      gap <- as.integer((nrow(sig) - analysis_unit)/2)
+      sig <- sig[c(gap:(gap+analysis_unit-1)),]
+    } else {
+      gap <- as.integer((analysis_unit - nrow(sig))/2)
+      i = 0
+      while (nrow(sig) < analysis_unit) {        
+        if (i%%2 == 0){
+          sig <- rbind(sig[1,], sig)
+        } else {
+          sig <- rbind(sig, sig[nrow(sig),])
+        }
+        i <- i+1        
+      }      
+    }
+    
+    sig$seq <- c(1:nrow(sig))
+    
+    right_lidar_sig <- dtt(sig$LidarRight, type = c("dct"))
+    right_lidar_sig <- as.data.frame(right_lidar_sig[2:length(right_lidar_sig)])
+    colnames(right_lidar_sig) <- c("value")
+    right_lidar_sig$sensor <- "lidar"
+    
+    right_sonar_sig <- dtt(sig$USRight, type = c("dct"))
+    right_sonar_sig <- as.data.frame(right_sonar_sig[2:length(right_sonar_sig)])
+    colnames(right_sonar_sig) <- c("value")
+    right_sonar_sig$sensor <- "sonar"
+    
+    right_sig <- rbind(right_lidar_sig, right_sonar_sig)
+    right_sig$index <- c(1:nrow(right_sig))
+    right_sig$sensor <- as.factor(right_sig$sensor)
+    return (right_sig)
+}
+
+# Car signature (Lidar Frequency-domain Feature + Sonar Freq-domain Feature)
+car <- read_delim("0722Signatures_Erica/Car LS_3.csv", delim = ",", col_names = F)
+human <- read_delim("0722Signatures_Erica/Human LS.csv", delim = ",", col_names = F)
+parallel <- read_delim("0722Signatures_Erica/Parallel_2.csv", delim = ",", col_names = F) # both side
+tree <- read_delim("0722Signatures_Erica/Tree RS_22.csv", delim = ",", col_names = F)
+car_block <- read_delim("0722Signatures_Erica/Tunnel.csv", delim = ",", col_names = F) #both
+wall <- read_delim("0722Signatures_Erica/Wall RS.csv", delim = ",", col_names = F)
+nothing <- read_delim("0722Signatures_Erica/Back Noise.csv", delim = ",", col_names = F) # Left
+
+car <- generate_left_signature(car)
+human <- generate_left_signature(human)
+parallel <- generate_left_signature(parallel)
+tree <- generate_left_signature(tree)
+car_block <- generate_left_signature(car_block)
+wall <- generate_left_signature(wall)
+nothing <- generate_left_signature(nothing)
+
+ggplot(car, aes(x = index, y = abs(value), colour=sensor)) +
+  geom_line() +
+  geom_point(size = 1) +  
+  theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Amplitude") + 
+  xlab("Frequency")  + ggtitle("Discrete Cosine Transform of the Car Signature") 
+
+
+# Normalized signature (for testing)
+car_left_lidar_sig$value <- scale(car_left_lidar_sig$value)
+car_left_sonar_sig$value <- scale(car_left_sonar_sig$value)
+car_left_sig <- rbind(car_left_lidar_sig, car_left_sonar_sig)
+car_left_sig$index <- c(1:nrow(car_left_sig))
+car_left_sig$sensor <- as.factor(car_left_sig$sensor)
+
+ggplot(car_left_sig, aes(x = index, y = abs(value), colour=sensor)) +
+  geom_line() +
+  geom_point(size = 1) +  
+  theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Amplitude") + 
+  xlab("Frequency")  + ggtitle("Discrete Cosine Transform of the Car Signature") 
 ```
 
