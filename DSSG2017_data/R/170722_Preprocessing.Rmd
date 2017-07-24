@@ -293,31 +293,98 @@ write.table(first_join, "220717_first_part_interpolated_lidars.csv", row.names=F
 ```
 
 
-# Adjusting data points into the regular grid (1m)
+# Adjusting data points into the regular grid (1m): Resampling
 ```{r}
 # Given the median value of distances per lidar reading (=1.29 m), we set 1m as a unit to generate a regular-grid distance-based data
-first_regular_dist <- as.data.frame(matrix(ncol=4, nrow = 1560))
-colnames(first_regular_dist) <- c("dist", "LidarLeft", "LidarRight", "time")
+first_regular_dist <- as.data.frame(matrix(ncol=16, nrow = as.integer(max(first_join$dist))))
+colnames(first_regular_dist) <- c("dist", "LidarLeft", "LidarRight", "time", "video_time", "USLeft", "USRight", "USRear", "CO", "SO", "NO", "O3", "P10", "P25", "lon", "lat")
+first_regular_dist$video_time <- as.POSIXct(first_regular_dist$video_time)
+attr(first_regular_dist$video_time, "tzone") <- "UTC"
 first_regular_dist$time <- as.POSIXct(first_regular_dist$time)
 attr(first_regular_dist$time, "tzone") <- "UTC"
+resolution <- 10
 
 for (i in c(1:nrow(first_regular_dist))){    
-  
+  print(i)
+  if (max(first_join$dist) < i-1) {
+    break
+  }
   first_regular_dist[i,]$dist <- i - 1  
   index <- which.min(abs(first_join$dist - i + 1))
   
   if (first_join[index,]$dist <= i-1) {
     lidar_left <- (((i - 1 - first_join[index,]$dist)*(first_join[index+1,]$adjustedLidarLeft - first_join[index,]$adjustedLidarLeft)) / (first_join[index+1,]$dist - first_join[index,]$dist)) + first_join[index,]$adjustedLidarLeft
     lidar_right <- (((i - 1 - first_join[index,]$dist)*(first_join[index+1,]$adjustedLidarRight - first_join[index,]$adjustedLidarRight)) / (first_join[index+1,]$dist - first_join[index,]$dist)) + first_join[index,]$adjustedLidarRight    
+    us_left <- (((i - 1 - first_join[index,]$dist)*(first_join[index+1,]$USLeft - first_join[index,]$USLeft)) / (first_join[index+1,]$dist - first_join[index,]$dist)) + first_join[index,]$USLeft
+    us_right <- (((i - 1 - first_join[index,]$dist)*(first_join[index+1,]$USRight - first_join[index,]$USRight)) / (first_join[index+1,]$dist - first_join[index,]$dist)) + first_join[index,]$USRight
+    us_rear <- (((i - 1 - first_join[index,]$dist)*(first_join[index+1,]$USRear - first_join[index,]$USRear)) / (first_join[index+1,]$dist - first_join[index,]$dist)) + first_join[index,]$USRear
+    
+    dist_rate <- resolution * (i - 1 - first_join[index,]$dist) / (first_join[index+1,]$dist - first_join[index,]$dist)
+    dist_rate <- as.integer(dist_rate)
+    points <- gcIntermediate(first_join[index,c("lon","lat")], first_join[index+1,c("lon","lat")], resolution-1)
+        
+    if (dist_rate == 0 | nrow(points) == 1){
+      first_regular_dist[i,]$lat <- first_join[index,]$lat
+      first_regular_dist[i,]$lon <- first_join[index,]$lon
+    } else if (dist_rate == resolution) {
+      first_regular_dist[i,]$lat <- first_join[index+1,]$lat
+      first_regular_dist[i,]$lon <- first_join[index+1,]$lon
+    } else {      
+      first_regular_dist[i,]$lat <- points[dist_rate,2]
+      first_regular_dist[i,]$lon <- points[dist_rate,1]
+    }    
+    
   } else {
     lidar_left <- (((i - 1 - first_join[index-1,]$dist)*(first_join[index,]$adjustedLidarLeft - first_join[index-1,]$adjustedLidarLeft)) / (first_join[index,]$dist - first_join[index-1,]$dist)) + first_join[index-1,]$adjustedLidarLeft
     lidar_right <- (((i - 1 - first_join[index-1,]$dist)*(first_join[index,]$adjustedLidarRight - first_join[index-1,]$adjustedLidarRight)) / (first_join[index,]$dist - first_join[index-1,]$dist)) + first_join[index-1,]$adjustedLidarRight
+    us_left <- (((i - 1 - first_join[index-1,]$dist)*(first_join[index,]$USLeft - first_join[index-1,]$USLeft)) / (first_join[index,]$dist - first_join[index-1,]$dist)) + first_join[index-1,]$USLeft
+    us_right <- (((i - 1 - first_join[index-1,]$dist)*(first_join[index,]$USRight - first_join[index-1,]$USRight)) / (first_join[index,]$dist - first_join[index-1,]$dist)) + first_join[index-1,]$USRight
+    us_rear <- (((i - 1 - first_join[index-1,]$dist)*(first_join[index,]$USRear - first_join[index-1,]$USRear)) / (first_join[index,]$dist - first_join[index-1,]$dist)) + first_join[index-1,]$USRear
+    
+    dist_rate <- resolution * (i - 1 - first_join[index-1,]$dist) / (first_join[index,]$dist - first_join[index-1,]$dist)
+    dist_rate <- as.integer(dist_rate)    
+    points <- gcIntermediate(first_join[index-1,c("lon","lat")], first_join[index,c("lon","lat")], resolution-1)
+    
+    if (dist_rate == 0 | nrow(points) == 1){
+      first_regular_dist[i,]$lat <- first_join[index-1,]$lat
+      first_regular_dist[i,]$lon <- first_join[index-1,]$lon
+    } else if (dist_rate == resolution) {
+      first_regular_dist[i,]$lat <- first_join[index,]$lat
+      first_regular_dist[i,]$lon <- first_join[index,]$lon
+    } else {      
+      first_regular_dist[i,]$lat <- points[dist_rate,2]
+      first_regular_dist[i,]$lon <- points[dist_rate,1]
+    }
   }
   
   first_regular_dist[i,]$LidarLeft <- lidar_left
   first_regular_dist[i,]$LidarRight <- lidar_right    
+  first_regular_dist[i,]$USLeft <- us_left
+  first_regular_dist[i,]$USRight <- us_right
+  first_regular_dist[i,]$USRear <- us_rear
+  first_regular_dist[i,]$CO <- first_join[index,]$CO  
+  first_regular_dist[i,]$SO <- first_join[index,]$SO  
+  first_regular_dist[i,]$O3 <- first_join[index,]$O3  
+  first_regular_dist[i,]$NO <- first_join[index,]$NO  
+  first_regular_dist[i,]$P10 <- first_join[index,]$P10  
+  first_regular_dist[i,]$P25 <- first_join[index,]$P25  
   first_regular_dist[i,]$time <- first_join[index,]$time  
+  first_regular_dist[i,]$video_time <- first_join[index,]$video_time
+  
 }
+
+first_regular_dist <- first_regular_dist[!is.na(first_regular_dist$lon),]
+
+#### gcIntermediate function test
+# inter <- gcIntermediate(first_join[27,c("lon","lat")],first_join[28,c("lon","lat")], 10)
+# inter <- rbind(first_join[5,c("lon","lat")], inter)
+# inter <- rbind(inter, first_join[26,c("lon","lat")])
+# inter$id <- c(1:nrow(inter))
+# 
+# map <- get_map(inter[3,], zoom = 18, source = "stamen", maptype = "toner")
+# mapPoints <- ggmap(map) + geom_point(aes(x = lon, y = lat, colour=id ), data = inter, alpha = 0.9, size = 0.5) + ggtitle("gcIntermediate Test")
+# mapPoints
+
 
 
 # Close-up (random segment)
@@ -357,6 +424,9 @@ LL <- ggplot(first_regular_dist[c(364:491),], aes(x = dist)) +
       xlab("Distance Traveled (m)")  + ggtitle("Lidar Left (Re-sampling), Close-up")
 
 multiplot(LR, LL, cols=1)
+
+
+write.table(first_join, "220717_first_part_resampled_lidars.csv", row.names=F, col.names=T, sep=",")
 
 ```
 
