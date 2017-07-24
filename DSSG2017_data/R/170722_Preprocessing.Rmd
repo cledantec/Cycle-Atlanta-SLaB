@@ -425,8 +425,10 @@ LL <- ggplot(first_regular_dist[c(364:491),], aes(x = dist)) +
 
 multiplot(LR, LL, cols=1)
 
+classifiers <- c("car", "stop-car", "parallel", "tree", "posts", "trashcan", "wall", "nothing", "people", "bike")
 
-write.table(first_join, "220717_first_part_resampled_lidars.csv", row.names=F, col.names=T, sep=",")
+first_regular_dist$classification <- sample(classifiers, nrow(first_regular_dist), replace = T)
+write.table(first_regular_dist, "220717_first_part_resampled.csv", row.names=F, col.names=T, sep=",")
 
 ```
 
