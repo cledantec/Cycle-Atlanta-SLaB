@@ -21,6 +21,9 @@ library(geosphere)
 library(scales)
 library(smoother)
 library(dtt)
+library(e1071)
+library(stringr)
+library(randomForest)
 
 setwd("/Users/myeong/git/Atl_DSSG/Cycle-Atlanta-SLaB/DSSG2017_data/sample_data/Javier/")
 
@@ -663,7 +666,7 @@ tree <- read_delim("0722Signatures_Erica/Tree RS_22.csv", delim = ",", col_names
 car_block <- read_delim("0722Signatures_Erica/Tunnel.csv", delim = ",", col_names = F) #both
 wall <- read_delim("0722Signatures_Erica/Wall RS.csv", delim = ",", col_names = F)
 nothing <- read_delim("0722Signatures_Erica/Back Noise.csv", delim = ",", col_names = F) # Left
-# human <- read_delim("0722Signatures_Erica/Human LS.csv", delim = ",", col_names = F)
+human <- read_delim("0722Signatures_Erica/Human LS.csv", delim = ",", col_names = F)
 car_stop <- read_delim("0722Signatures_Erica/Car Stop RS.csv", delim = ",", col_names = F) # Right
 
 car <- generate_left_signature(car)
@@ -672,7 +675,7 @@ tree <- generate_right_signature(tree)
 car_block <- generate_right_signature(car_block)
 wall <- generate_right_signature(wall)
 nothing <- generate_left_signature(nothing)
-# human <- generate_left_signature(human)
+human <- generate_right_signature(human)
 car_stop <- generate_right_signature(car_stop)
 
 
@@ -763,6 +766,203 @@ first_regular_dist$right_class <- as.factor(first_regular_dist$right_class)
 
 
 write.table(first_regular_dist, "220717_dist_classifications.csv", row.names=F, col.names=T, sep=",")
+
+
+```
+
+
+# Predicting Each Segment of Distances
+```{r}
+
+left_signature <- function(sig) {
+    if (nrow(sig[is.na(sig$LLgaussian),]) != 0){
+      sig[is.na(sig$LLgaussian),]$LLgaussian <- mean(sig$LLgaussian, na.rm =T)
+      sig[is.na(sig$SLgaussian),]$SLgaussian <- mean(sig$SLgaussian, na.rm =T)
+    }
+    
+    if (nrow(sig) > analysis_unit) {
+      gap <- as.integer((nrow(sig) - analysis_unit)/2)
+      sig <- sig[c(gap:(gap+analysis_unit-1)),]
+    } else {
+      gap <- as.integer((analysis_unit - nrow(sig))/2)      
+      i = 0
+      while (nrow(sig) < analysis_unit) {        
+        if (i%%2 == 0){
+          sig <- rbind(sig[1,], sig)
+        } else {
+          sig <- rbind(sig, sig[nrow(sig),])
+        }
+        i <- i+1        
+      }      
+    }
+    
+    sig$seq <- c(1:nrow(sig))
+    
+    left_lidar_sig <- dtt(sig$LLgaussian, type = c("dct"))
+    left_lidar_sig <- as.data.frame(left_lidar_sig[2:length(left_lidar_sig)])
+    colnames(left_lidar_sig) <- c("value")
+    left_lidar_sig$sensor <- "lidar"
+    
+    left_sonar_sig <- dtt(sig$SLgaussian, type = c("dct"))
+    left_sonar_sig <- as.data.frame(left_sonar_sig[2:length(left_sonar_sig)])
+    colnames(left_sonar_sig) <- c("value")
+    left_sonar_sig$sensor <- "sonar"
+    
+    left_sig <- rbind(left_lidar_sig, left_sonar_sig)
+    left_sig$index <- c(1:nrow(left_sig))
+    left_sig$sensor <- as.factor(left_sig$sensor)
+    return (left_sig)
+}
+
+
+#generating the ground-truth table
+unit_analysis <- 15 # meters
+
+left_table <- as.data.frame(matrix(nrow=0, ncol=31))
+colnames(left_table) <- c("id", "dist", "class", paste0("f", as.character(seq(1,28,1))))
+
+
+
+for (i in c(1:nrow(first_regular_dist))){
+  print(i)
+  if (i > nrow(first_regular_dist)){
+    break
+  }
+  dist <- i-1
+  
+  left_table[i,]$id <- i
+  left_table[i,]$dist <- dist
+  
+  tmp <- first_regular_dist[c(i:(dist+unit_analysis)),]
+  
+  classes <- tmp$left_class
+#   hist <- table(classes)
+    
+  for (c in c("Car", "Human", "Car Stop", "Parallel" , "Wall", "Tree", "nothing" )){
+    if (c %in% classes) {
+      left_table[i,]$class <- c
+      break
+    }
+  }
+
+  left_sig <- left_signature(tmp)
+    
+  left_table[i,c(4:ncol(left_table))] <- left_sig$value  
+  
+}
+
+
+left_table$class <- as.factor(left_table$class)
+left_table <- left_table[complete.cases(left_table),]
+
+
+# Prediction
+#Baseline Model: when selecting "nothing" for everything: 0.34  
+
+#SVM 
+num_test = 20
+proportion <- c(10,20,30,40,50)
+rand_error_table <- matrix(NA,nrow=length(proportion),ncol=4)
+colnames(rand_error_table) <- c("train", "accuracy", "error", "F1")
+
+ii =  1
+for (j in proportion){
+  print(j)
+  temp_table <- matrix(nrow=num_test, ncol=3)
+  colnames(temp_table) <- c("accuracy", "error", "F1")
+  for (i in c(1:num_test)){
+    index <- 1:nrow(left_table)
+    testindex <- sample(index, trunc(length(index) * j / 100 ))
+    testset <- left_table[testindex,]      
+    trainset <- left_table[-testindex,]
+    row.names(testset) <- testset$id
+    
+    features <- str_c(paste0("f", as.character(seq(1,28,1))),collapse='+')   
+    model <- svm (as.formula(paste("class ~", features)), data=trainset)
+    pred <- predict(model, testset)
+    tb <- table(pred = pred, true= testset$class )      
+    performance <- c(classAgreement(tb)$diag, 1-sum(diag(tb))/sum(tb))
+    
+    n = sum(tb)
+    nc = nrow(tb)
+    diag = diag(tb)
+    rowsums = apply(tb, 1, sum)
+    colsums = apply(tb, 2, sum)
+    precision = diag / colsums 
+    recall = diag / rowsums 
+    F1 <- (2 * precision * recall) / (precision + recall)
+    mean_F1 <- mean(F1, na.rm = TRUE)
+                        
+    temp_table[i,] <- c(sum(diag)/n, 1 - sum(diag)/n, mean_F1)
+  }
+  temp_table <- apply(temp_table, 2, mean)         
+  rand_error_table[ii,] <- c(100-proportion[ii], temp_table["accuracy"], temp_table["error"], temp_table["F1"])
+  ii <- ii + 1
+}
+
+
+# Random Forest
+rand_error_table_rf <- matrix(NA,nrow=length(proportion),ncol=4)
+colnames(rand_error_table_rf) <- c("train", "accuracy", "error", "F1")
+
+ii =  1
+for (j in proportion){
+  print(j)
+  temp_table <- matrix(nrow=num_test, ncol=3)
+  colnames(temp_table) <- c("accuracy", "error", "F1")
+  for (i in c(1:num_test)){
+    index <- 1:nrow(left_table)
+    testindex <- sample(index, trunc(length(index) * j / 100 ))
+    testset <- left_table[testindex,]      
+    trainset <- left_table[-testindex,]
+    row.names(testset) <- testset$id
+    
+    features <- str_c(paste0("f", as.character(seq(1,28,1))),collapse='+')   
+    model <- randomForest (as.formula(paste("class ~", features)), data=trainset, importance=TRUE, proximity=TRUE, na.action=na.omit) 
+    pred <- predict(model, testset)
+    tb <- table(pred = pred, true= testset$class )      
+    performance <- c(classAgreement(tb)$diag, 1-sum(diag(tb))/sum(tb))
+    
+    n = sum(tb)
+    nc = nrow(tb)
+    diag = diag(tb)
+    rowsums = apply(tb, 1, sum)
+    colsums = apply(tb, 2, sum)
+    precision = diag / colsums 
+    recall = diag / rowsums 
+    F1 <- (2 * precision * recall) / (precision + recall)
+    mean_F1 <- mean(F1, na.rm = TRUE)
+                        
+    temp_table[i,] <- c(sum(diag)/n, 1 - sum(diag)/n, mean_F1)
+  }
+  temp_table <- apply(temp_table, 2, mean)         
+  rand_error_table_rf[ii,] <- c(90-proportion[ii], temp_table["accuracy"], temp_table["error"], temp_table["F1"])
+  ii <- ii + 1
+}
+
+rand_error_table <- as.data.frame(rand_error_table)
+rand_error_table <- rand_error_table[order(rand_error_table[,c("train")]),]
+rand_error_table$model <- "SVN"
+
+rand_error_table_rf <- as.data.frame(rand_error_table_rf)
+rand_error_table_rf <- rand_error_table_rf[order(rand_error_table_rf[,c("train")]),]
+rand_error_table_rf$train <- c(50,60,70,80,90)
+rand_error_table_rf$model <- "RF"
+
+agg <- rbind(rand_error_table, rand_error_table_rf)
+agg$model <- as.factor(agg$model)
+
+
+ggplot(agg, aes(x = train, colour = model)) +      
+    geom_line(aes(y = F1), linetype=5) +
+    geom_point(aes(y = F1), size = 3, shape=2)  + 
+    ylim(c(0,0.6)) + 
+    geom_line(aes(y = accuracy)) +
+    geom_point(aes(y = accuracy), size = 3)  +  
+    theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="F1 Score / Accuracy") + 
+    labs(colour="Model") +
+    xlab("Proportion of Train Set (%) ")  + ggtitle("Prediction Performance using Frequency-based Features ")
+
 
 
 ```
