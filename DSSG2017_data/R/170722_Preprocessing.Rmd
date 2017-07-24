@@ -664,7 +664,7 @@ car_block <- read_delim("0722Signatures_Erica/Tunnel.csv", delim = ",", col_name
 wall <- read_delim("0722Signatures_Erica/Wall RS.csv", delim = ",", col_names = F)
 nothing <- read_delim("0722Signatures_Erica/Back Noise.csv", delim = ",", col_names = F) # Left
 # human <- read_delim("0722Signatures_Erica/Human LS.csv", delim = ",", col_names = F)
-# car_stop <- read_delim("0722Signatures_Erica/Car Stop RS.csv", delim = ",", col_names = F) # Right
+car_stop <- read_delim("0722Signatures_Erica/Car Stop RS.csv", delim = ",", col_names = F) # Right
 
 car <- generate_left_signature(car)
 parallel <- generate_right_signature(parallel)
@@ -673,7 +673,7 @@ car_block <- generate_right_signature(car_block)
 wall <- generate_right_signature(wall)
 nothing <- generate_left_signature(nothing)
 # human <- generate_left_signature(human)
-# car_stop <- generate_right_signature(car_stop)
+car_stop <- generate_right_signature(car_stop)
 
 
 
@@ -696,5 +696,71 @@ ggplot(car_left_sig, aes(x = index, y = abs(value), colour=sensor)) +
   geom_point(size = 1) +  
   theme_bw() + theme(legend.text=element_text(size=15)) + ylab(label="Amplitude") + 
   xlab("Frequency")  + ggtitle("Discrete Cosine Transform of the Car Signature") 
+```
+
+
+# Classifying
+```{r}
+
+sig_total <- read_delim("0722Signatures_Erica/0722_prox_gps_join.csv", delim = ",", col_names = T)
+cols <- colnames(sig_total) 
+cols[4] <- "left_class"
+cols[5] <- "right_class"
+colnames(sig_total) <- cols
+
+sig_total[is.na(sig_total$left_class),]$left_class <- "nothing"
+sig_total[is.na(sig_total$right_class),]$right_class <- "nothing"
+sig_total[sig_total$left_class=="Bench",]$left_class <- "Tree"
+sig_total[sig_total$left_class=="Bike Racks",]$left_class <- "Tree"
+sig_total[sig_total$left_class=="Car ",]$left_class <- "Car"
+sig_total[sig_total$left_class=="Cone",]$left_class <- "Car Block"
+sig_total[sig_total$left_class=="Parallel ",]$left_class <- "Parallel"
+sig_total[sig_total$left_class=="Person",]$left_class <- "Human"
+sig_total[sig_total$left_class=="Road Sign ",]$left_class <- "Tree"
+sig_total[sig_total$left_class=="Short Post",]$left_class <- "Car Block"
+sig_total[sig_total$left_class=="Sing ",]$left_class <- "Car Block"
+sig_total[sig_total$left_class=="Stairs",]$left_class <- "Wall"
+sig_total[sig_total$left_class=="Tree, Tunnel",]$left_class <- "Tree"
+sig_total[sig_total$left_class=="Yard Wall",]$left_class <- "Wall"
+
+sig_total[sig_total$right_class=="Bike",]$right_class <- "Tree"
+sig_total[sig_total$right_class=="Mountain",]$right_class <- "Wall"
+sig_total[sig_total$right_class=="Table+Chairs",]$right_class <- "Tree"
+sig_total[sig_total$right_class=="Trash Can",]$right_class <- "Tree"
+sig_total[sig_total$right_class=="Tree, Human",]$right_class <- "Human"
+sig_total[sig_total$right_class=="Tree ,Human",]$right_class <- "Human"
+sig_total[sig_total$right_class=="Person",]$right_class <- "Human"
+sig_total[sig_total$right_class=="Tunnel",]$right_class <- "Car Block"
+sig_total[sig_total$right_class=="Sign",]$right_class <- "Car Block"
+sig_total[sig_total$right_class=="Yard Wall",]$right_class <- "Wall"
+sig_total[sig_total$right_class=="Yard wall",]$right_class <- "Wall"
+sig_total[sig_total$right_class=="Parallel ",]$right_class <- "Parallel"
+sig_total[sig_total$right_class=="Road Sign ",]$right_class <- "Tree"
+
+sig_total$left_class <- as.factor(sig_total$left_class)
+sig_total$right_class <- as.factor(sig_total$right_class)
+
+sig_total <- sig_total[,c("seq", "left_class", "right_class")]
+sig_total <- first_join %>% left_join(sig_total, by=c("seq"))
+
+
+for (i in c(1:nrow(first_regular_dist))){    
+  print(i)
+  if (max(sig_total$dist) < i-1) {
+    break
+  }
+  
+  first_regular_dist[i,]$dist <- i - 1  
+  index <- which.min(abs(sig_total$dist - i + 1))
+  
+  first_regular_dist[i,]$left_class <- sig_total[index,]$left_class
+  first_regular_dist[i,]$right_class <- sig_total[index,]$right_class
+}
+
+
+
+write.table(sig_total, "220717_classifications.csv", row.names=F, col.names=T, sep=",")
+
+
 ```
 
