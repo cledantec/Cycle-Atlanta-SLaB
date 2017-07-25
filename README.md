@@ -6,8 +6,8 @@ Cycle Atlanta: Seeing Like a Bike
 The Cycle Atlanta project aims to create sensor systems that allow a bike to "see" its environment and collect data as a participatory effort to help the City of Atlanta make informed decisions about biking infrastructures. The team from Atlanta's Data Science for Social Good 2017 Summer program particularly worked on (1) reverse engineering all the prototypes developed separately by the LMC6650 team and consolidating all sensors into two microcontoller units (Raspberry Pi and Arduino) using the Master-Slave architecture; (2) identifying hardware/software bugs and refining systems iteratively; (3) implementing failure-tolerence techniques; (4) classifying environmental factors (to detect semantci-level objects) after collecting data using GoPro, voice recorders, and sensors; and (5) visualizing and analyzing the collected data using 3D models and machine learning techniques. 
 
 ## Credits
-### Fellows:
-* PI: Dr. [Christopher Le Dantec](https://ledantec.net/)
+### PI:
+* Dr. [Christopher Le Dantec](https://ledantec.net/)
 ### Fellows:
 * [Javier Argota](http://jard.us)
 * [Myeong Lee](http://myeonglee.com)
