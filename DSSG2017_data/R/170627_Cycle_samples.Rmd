@@ -491,8 +491,8 @@ map <- get_map(c(lon = -84.395, lat = 33.780), zoom = 16, source = "stamen", map
 mapPoints <- ggmap(map) + geom_point(aes(x = lon, y = lat, colour=way), data = gps, alpha = 0.9, size = 1) + labs(colour="Way", size="Speed") + ggtitle("Javier, 0722")
 mapPoints
 
-map <- get_map(c(lon = -84.399, lat = 33.778), zoom = 17, source = "stamen", maptype = "toner")
-mapPoints <- ggmap(map) +geom_point(aes(x = lon, y = lat, colour=way), data = gps[340:345,], alpha = 0.8, size = 0.5)
+map <- get_map(c(lon = -84.397, lat = 33.779), zoom = 18, source = "stamen", maptype = "toner")
+mapPoints <- ggmap(map) +geom_point(aes(x = lon, y = lat, colour=way), data = gps[300:360,], alpha = 0.8, size = 5)
 mapPoints
 
 # 341 is the reference point to sync between GoPro video and the GPS data

@@ -949,8 +949,53 @@ rand_error_table_rf <- rand_error_table_rf[order(rand_error_table_rf[,c("train")
 rand_error_table_rf$train <- c(50,60,70,80,90)
 rand_error_table_rf$model <- "RF"
 
-agg <- rbind(rand_error_table, rand_error_table_rf)
+
+# Baseline
+rand_error_table_rd <- matrix(NA,nrow=length(proportion),ncol=4)
+colnames(rand_error_table_rd) <- c("train", "accuracy", "error", "F1")
+
+ii =  1
+for (j in proportion){
+  print(j)
+  temp_table <- matrix(nrow=num_test, ncol=3)
+  colnames(temp_table) <- c("accuracy", "error", "F1")
+  for (i in c(1:num_test)){
+    index <- 1:nrow(left_table)
+    testindex <- sample(index, trunc(length(index) * j / 100 ))
+    testset <- left_table[testindex,]      
+    trainset <- left_table[-testindex,]
+    row.names(testset) <- testset$id
+        
+    pred <- rep("nothing", nrow(testset))
+    tb <- table(pred = pred, true= testset$class )      
+    performance <- c(classAgreement(tb)$diag, 1-sum(diag(tb))/sum(tb))
+    
+    n = sum(tb)
+    nc = nrow(tb)
+    diag = diag(tb)
+    rowsums = apply(tb, 1, sum)
+    colsums = apply(tb, 2, sum)
+    precision = diag / colsums 
+    recall = diag / rowsums 
+    F1 <- (2 * precision * recall) / (precision + recall)
+    mean_F1 <- mean(F1, na.rm = TRUE)
+                        
+    temp_table[i,] <- c(sum(diag)/n, 1 - sum(diag)/n, mean_F1)
+  }
+  temp_table <- apply(temp_table, 2, mean)         
+  rand_error_table_rd[ii,] <- c(90-proportion[ii], temp_table["accuracy"], temp_table["error"], temp_table["F1"])
+  ii <- ii + 1
+}
+
+rand_error_table_rd <- as.data.frame(rand_error_table_rd)
+rand_error_table_rd <- rand_error_table_rd[order(rand_error_table_rd[,c("train")]),]
+rand_error_table_rd$train <- c(50,60,70,80,90)
+rand_error_table_rd$model <- "Baseline"
+
+
+agg <- rbind(rand_error_table, rand_error_table_rf, rand_error_table_rd)
 agg$model <- as.factor(agg$model)
+
 
 
 ggplot(agg, aes(x = train, colour = model)) +      
