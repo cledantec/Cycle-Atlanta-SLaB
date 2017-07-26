@@ -7,8 +7,8 @@ The Cycle Atlanta project aims to create sensor systems that allow a bike to "se
 
 ## Documentations
 * [System Overview](DSSG2017_doc/overview.md)
-* [Hardware (Electrical Devices and Circuits)](DSSG2017_doc/hardware.md)
-* [Software (Linux Configurations and Scripts)](DSSG2017_doc/software.md)
+* [Hardware Systems (Electrical Devices and Circuits)](DSSG2017_doc/hardware.md)
+* [Software Systems (Server Configurations and Scripts)](DSSG2017_doc/software.md)
 * [Cases Design](DSSG2017_doc/cases.md)
 * [Data Visualization (3D)](DSSG2017_doc/dataviz.md)
 * [Data Analysis](DSSG2017_doc/data.md)
