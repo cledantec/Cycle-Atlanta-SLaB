@@ -140,6 +140,7 @@ write.table(gas_all, "gas_testbed_aggregated.csv", row.names=F, col.names=T, sep
 
 # Official Values
 ```{r}
+setwd("/Users/myeong/git/Atl_DSSG/Cycle-Atlanta-SLaB/DSSG2017_data/gas_station_data/")
 official <- read_delim("official_agg.csv", delim = ",")
 official$Time <- as.character(official$Time)
 official$time <- paste0(official$Date, "-", official$Time)

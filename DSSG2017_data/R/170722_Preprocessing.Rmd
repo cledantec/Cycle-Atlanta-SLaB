@@ -27,8 +27,14 @@ library(randomForest)
 
 setwd("/Users/myeong/git/Atl_DSSG/Cycle-Atlanta-SLaB/DSSG2017_data/sample_data/Javier/")
 
-multiplot <- function(..., plotlist=NULL, file, cols=1, layout=NULL) {
-  library(grid)
+multiplot <- function(..., plotlist=NULL, file, cols=1, layout=NULL) {  
+  #' multiplot(): Generating multiple plots in one window  
+  #'
+  #' @param plotlist a number of ggplots to be aggregated
+  #' @param cols the number of columns for the given ggplots when layout is not given
+  #' @param layout the layout of the given ggplots (rows and columns)
+
+  library(grid)  
 
   # Make a list from the ... arguments and plotlist
   plots <- c(list(...), plotlist)
