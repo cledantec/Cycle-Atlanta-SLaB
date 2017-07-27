@@ -4,22 +4,30 @@ Visualization of the data is performed in a 3D environment supported by Rhinocer
 
 Requirements for running viz routine:
 
- - Install Rhino 5
- - Install Grasshopper for Rhino
- - Install following libraries from Food4Rhino (list libraries)markdown
+ - Install [Rhino 5](https://www.rhino3d.com/download) (90-trial version available).
+ - Install [Grasshopper for Rhino](http://www.grasshopper3d.com/)
+ - Install the following libraries fro Grasshopper from [Food4Rhino](http://www.food4rhino.com/) by unlocking the downloaded zip files and copying their contents to the Grashopper components folder, accesible from the Grasshopper menu (File > Special Folders > Components Folder):
+    - [Human](http://www.food4rhino.com/app/human)
+    - [Mosquito](http://www.food4rhino.com/app/mosquito-media-4-grasshopper)
+    - [ykTools](http://www.food4rhino.com/app/yktools-curves-excel-zoom)
+
+
+The basic workflow with Grasshopper on Rhino is pretty straightforward. After starting Rhinoceros, Grasshopper can be initialized by typing "Grasshopper" on the command line of Rhino. The visualizer script is available  
 
 [![Viz 01](https://img.youtube.com/vi/wCEoFJBNNqI/0.jpg)](https://www.youtube.com/watch?v=wCEoFJBNNqI "Viz 01")
 
 *Ride between Midtown and Home Park displaying proximity sensors values*
 
-[![Viz 01](https://img.youtube.com/vi/T3A6QMPTH-8/0.jpg)](https://www.youtube.com/watch?v=T3A6QMPTH-8 "Viz 01")
+[![Viz 02](https://img.youtube.com/vi/T3A6QMPTH-8/0.jpg)](https://www.youtube.com/watch?v=T3A6QMPTH-8 "Viz 01")
 
 *Ride between Midtown and Downtown displaying proximity and PM 10 values. Notice the peak of PM 10 values when crossing a traffic jam on Spring St.*
 
-[![Viz 01](https://img.youtube.com/vi/t7hX2DIzW0o/0.jpg)](https://www.youtube.com/watch?v=t7hX2DIzW0o "Viz 01")
+[![Viz 03](https://img.youtube.com/vi/t7hX2DIzW0o/0.jpg)](https://www.youtube.com/watch?v=t7hX2DIzW0o "Viz 01")
 
 *Ride around Midtown displaying proximity and PM 10 values. Notice the huge peak of PM 10 values when crossing West Peachtree St. due to a pollution cloud caused by a malfunctioning car engine.*
 
-[![Viz 01](https://img.youtube.com/vi/dccJTJ-jEKw/0.jpg)](https://www.youtube.com/watch?v=dccJTJ-jEKw "Viz 01")
+[![Viz 04](https://img.youtube.com/vi/dccJTJ-jEKw/0.jpg)](https://www.youtube.com/watch?v=dccJTJ-jEKw "Viz 01")
 
 *Ride between Midtown and Home Park displaying proximity sensors values and classification of the obstacles detected.*
+
+
