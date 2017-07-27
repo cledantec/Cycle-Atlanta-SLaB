@@ -34,14 +34,14 @@ Since the stress level of the riders can vary depending on different types of ob
 Classifying the objects on the left and right side of the bike from the video was a long process since we had to pause the video every second to write down the objects found. Once we had documented our findings, we added them to a CSV file containing the data captured by the sensors. The following table is an example of one of our csv files. 
 
 |   ...| day   | time  | video_time | LS Classifier | RS Classifier |  USRight  |  USLeft |  USRear| LidarR| LidarL |...| 
-| ----- |:------:| :-----:| :-----:| :------:| :------: | :------:| :-----:|:-----:| :---:| :---:| :----:| :-------:| :------:| :---:|      
-| |220717 |03:49:37| 00:02:28  |    Parallel   |  Parallel     |  308.18    | 640.08  |  640.08 |619.333| 1778.66| 
-|  |220717 |03:49:38| 00:02:29  |           |  Tree      |  589.91    | 640.08  |  640.08 |832.25| 1      | 
-|  |220717 |03:49:39| 00:02:30  |            |  Tree      |  642.62    | 640.08  |  640.92 |506   | 603    | 
-|  |220717 |03:49:40| 00:02:31  |           |  Tree      |  642.11    | 640.08  |  640.08 |521.2 | 366.2  | 
-|   |220717 |03:49:41| 00:02:32  |   Parallel    |  Parallel |  487.68    | 640.08  |  640.08 |433   | 616.333| 
-|  |220717 |03:49:42| 00:02:33  |               |  Car Stop  |  148.59    | 640.71  |  641.35 |114.5 | 943.5  | 
-|  |220717 |03:49:43| 00:02:34  |               |  Car Stop  |  241.93    | 640.08  |  641.35 |744.5 | 770    | 
+| ----- |:------:| :-----:| :-----:| :------:| :------: | :------:| :-----:|:-----:| :---:| :---:| :----:| 
+| |220717 |03:49:37| 00:02:28  |    Parallel   |  Parallel     |  308.18    | 640.08  |  640.08 |619.333| 1778.66| |
+|  |220717 |03:49:38| 00:02:29  |           |  Tree      |  589.91    | 640.08  |  640.08 |832.25| 1      | |
+|  |220717 |03:49:39| 00:02:30  |            |  Tree      |  642.62    | 640.08  |  640.92 |506   | 603    | |
+|  |220717 |03:49:40| 00:02:31  |           |  Tree      |  642.11    | 640.08  |  640.08 |521.2 | 366.2  | |
+|   |220717 |03:49:41| 00:02:32  |   Parallel    |  Parallel |  487.68    | 640.08  |  640.08 |433   | 616.333| |
+|  |220717 |03:49:42| 00:02:33  |               |  Car Stop  |  148.59    | 640.71  |  641.35 |114.5 | 943.5  | |
+|  |220717 |03:49:43| 00:02:34  |               |  Car Stop  |  241.93    | 640.08  |  641.35 |744.5 | 770    | |
 
 
 ## Inter-Reliability Test
