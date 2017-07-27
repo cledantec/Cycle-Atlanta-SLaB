@@ -11,7 +11,7 @@ Since GoPro does not keep the real time, it was necessary to sync between the vi
 
 <img src="https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/images/gps_reference.png?raw=true" style="width: 500px;"/>
 
-In other words, we first plotted the GPS data on the map, and pin-pointed the timestamp of the data point at the corner. Also, in the video, the cornering time was captured as a sync point. Based on these reference times, other times were matched each other. The final data table looks like this (`time` is the GPS time, and `video_time` is the time of the corresponding video):
+In other words, we first plotted the GPS data on the map, and pin-pointed the timestamp of the data point at the corner. Also, in the video, the cornering time was captured as a sync point. Based on these reference times, other times were matched each other. The final data table looks like this (`time` is the GPS time, and `video_time` is the corresponding time of the video):
 
 |  ...| day   | time  | video_time | lon   | lat   |   USRight  |  more...| 
 | ---- |:-----:| :-----:| :-----:| :---:| :------: | :-------:|:-----:|
@@ -56,29 +56,67 @@ Classifying process was conducted by two members of our team separately. They fo
 Since the inter-reliability score for the RS classifier was not satisfactory, both coders discussed the criterion in classfing objects, and repeated the process. In the second interation, the scores increased as follows:
 
 | LS Classifier | RS Classifier       
-| :------: |:-------------:| 
-|   86%            | 76%|
+| :------: |:------:| 
+|   86%    |  76% |
 
-We cannot say these scores are perfect, but reasonable at this time for doing some analysis. Special attention should be put on the labels of the classifiers. Different labels for a same object can be a cause of a low inter-reliabilty score. These are the list of our classifiers in the first iteration: **Tree**, **Bike**, **Parallel**, **Car Stop**, **Car**, **Trash Can**, **Wall**, **Cone**, **Bike racks**, **Tunnel**, **Person**, and, **Road sign** 
+We cannot say these scores are perfect, but reasonable enough for doing some analysis. Special attention should be put on the labels of the classifiers. Different labels for a same object can be a cause of a low inter-reliabilty score. These are the list of our classifiers in the first iteration: **Tree**, **Bike**, **Parallel**, **Car Stop**, **Car**, **Trash Can**, **Wall**, **Cone**, **Bike racks**, **Tunnel**, **Person**, and, **Road sign** 
 
 
-## Sensor Data Processing (1): Converting to the Distance Domain 
+## Sensor Data Processing 
+Given the nature of the sensory data such as high noise level and sensor errors, the data cannot be directly used in the raw format. There need to be several steps to clean up the signals instead. Some techniques for processing noisy sensor/electrical data are known in the field of signal processing. This section describes steps how the data are processed to be used for machine learning. Particularly, we focused on the proximity data (i.e., Lidars and Sonars). R scripts for this are available at [this location](https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/DSSG2017_data/R/170722_Preprocessing.Rmd).
 
-## Sensor Data Processing (2): Interpolation
+### (1) Converting to the Distance Domain 
+Since the bike speed varies depending on the traffic and other factors, signal patterns can be different as well depending on it (even if the objects are same). This led us to normalize the speed by changing the time domain to the distance domain. Since GPS data provide the speed, it was possible to conver the domain easily in R. Some paramters/points to consider carefully are as follows:
 
-## Sensor Data Processing (3): Resampling
+* the GPS speed unit is "knot". 1 knot = 0.514444444 m/s
+* the time interval of Lidar/Sonar data collection is 0.2994975 seconds (this was calculatated by dividing the entire time span by the number of rows). In the code, the loop time interval is set to 200ms, but the actual interval is a bit more than this due to the script execution time. 
 
-## Sensor Data Processing (4): Gaussian Smoothing
+```
+distance (m) = speed (m/s) * time_interval (sec)
+``` 
+Once the proximity data is converted to the distance-domain signals, the signal pattern looks normalized and consistent regardless of bike spped. However, the intervals between data points become inconsistent (intervals vary depending on the speed). An example of the distance-domain data is as follows:
 
-## Sensor Data Processing (5): Feature Generation using DCT
+<img src="https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/images/lidar_distance_based_close_up.png?raw=true" style="width: 100%;"/>
 
-## Predictions using SVM and Random Forest
+### (2) Interpolation
+Before making the gaps between data points consistent, some errors that came from the sensorse themselves had to be fixed anyhow. One major observation from lidars is that the signal often goes down to 1 or 0 (cm), which in theory is not possible. In order to compensate this sensor errors, we adopted a simple interpolation method. The way we interpolate erroneous data points is to make them same to the previous values whenever the value goes down to 1 or 0. It is also possible to use other interpolation techniques to compensate missing sensory data, but in order to do that, some research on the characteristcs of sensors needs to be conducted, and appropriate assumptions about data need to be made. An example of the naïve interpolation result is shown below.
 
+<img src="https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/images/lidar_interpoliation_close_up_car_passing.png?raw=true" style="width: 100%;"/>
+
+### (3) Resampling
+Now, it is possible to resample the signal to make the gaps between data points consistent. By prorating the hights of the desired data points based on the distances between original data points, it was possible to reconstruct a fixed-distance axis. The data resolution was set to 1m as it was close to the median value of distance intervals in the distance domain. 
+
+<img src="https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/images/distances_density.png?raw=true" style="width: 100%;"/>
+
+An example of resampled data is as follows:
+
+<img src="https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/images/resampled_lidar_car_passing.png?raw=true" style="width: 100%;"/>
+
+
+### (4) Gaussian Smoothing
+As the last step of the signal clean-up, the sensor noise was supressed using the Gaussian filter. The window size of the filter can be optimized in the future after conducting some sensitivity analysis. For the initial try, we set the window size to three for both lidars and sonars. The shape of the data before and after the smoothing is as below:
+
+<img src="https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/images/gaussian_lidar_eg.png?raw=true" style="width: 100%;"/>
+
+
+### (5) Feature Generation using DCT
+For generating features from the processed dataset, we decided to use the [Discrete Cosine Transform (DCT)](https://en.wikipedia.org/wiki/Discrete_cosine_transform) for making frequency-based patterns of environmental factors. Since the position of the object in a data segment can vary significantly depending on the time chunking strategies, and this variance in the patterns makes it hard to use the temporal signature of the data. This led us to convert the time-domain data into the frequency-domain data. We set the length of the unit size of the data chunk into 15m (i.e., 15 points of data. The chunk size can be also tuned better after doing some testing), and generated frequency-domain signautres of all the 15m chunks from about 1550 observations. 
+
+Since the frequency-based score for 0 (i.e., freq(0)) is high due to the boundary condition for DCT results, we removed values for 0, and took a vector of 28 elements as the feature (14 for a lidar, and 14 for a sonar).
+An example frequency-based feature (when a car is passing by) is like this:
+
+<img src="https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/images/car_DCT.png?raw=true" style="width: 100%;"/>
+
+## Predictions 
+Using the vector of 28 frequency-based pattern feature, two machine learning algorithms, [Support Vector Machine (SVM)](https://en.wikipedia.org/wiki/Support_vector_machine) and [Random Forest](https://en.wikipedia.org/wiki/Random_forest) were used to predict the classifier of each data segment. To compare the performance of the prediction models to the baseline classification power (when randomly predicting classifiers), we plot them together with varying train-test sets. The results are as follows:
+
+<img src="https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/images/prediction_base.png?raw=true" style="width: 100%;"/>
 
 
 ## Future Work
+This data analysis is an initial exploration of data, and there are many parameters and methods that we can tune the prediction models (e.g., Gaussian window size, the size of data chunks, types of features in addition to the frequency-domain patterns, machine learning algorithms, and interpolation resolution). 
 
-
+Actually, our overarching goal is to identify environmental factors that give rise to bike riders' stress level. In order for this, the identification of environment should be achieved first as sensors cannot detect semantic-level objects. Once we can tune and refine the prediction model for detecting environmental fators through feature engineering and modeling, it would be possible to advance to answering the real question -- how bicycle infrastructures and environmental factors affect bike riders' stress level? and how these relationships can be used for constructing the Level of Traffic Stress (LTS) model?
 
 
 
