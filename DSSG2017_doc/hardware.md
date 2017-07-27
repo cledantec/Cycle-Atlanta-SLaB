@@ -29,7 +29,7 @@ Our GPS system consists of a GTPA010 GPS, a CP2102 USB, and a small piece of pcv
 The connection of pins is the folow:
 
 
-![alt gps structure](https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/images/gpsStructure.png?raw=true "Gps structure")
+![alt gps structure](https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/images/gpsStructure1.png?raw=true "Gps structure")
 
 
        
