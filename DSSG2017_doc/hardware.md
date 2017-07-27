@@ -16,21 +16,16 @@ Hardware Systems
 
 ## GPS Fabrication
 
-Our GPS system consists of a GTPA010 GPS, a CP2102 USB, and a small piece of pcv board. As you can see in the picture below, we connected the gps to the CP2102 USB by using the pcv board as intermediate.
+Our GPS system consists of a GTPA010 GPS, a CP2102 USB, and a small piece of pcv board. As you can appreciate in the picture below, we connected the gps to the CP2102 USB by using the pcv board as intermediate.
 
 
-![gps](https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/images/gps2.jpg)
+![gps](https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/images/gps2.jpg?raw=true)
 
-![alt text][gps]
-
-[gps]: https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/images/gps2.jpg "Gps"
-
-
-The connection of pins is the folow:
-
+###The **connection of pins** is the folowing:
 
 ![alt gps structure](https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/images/gpsStructure1.png?raw=true "Gps structure")
 
+The code uses the default settings of the GPS and returns the following data: **course**, **longitud**, **latitude**, **speed**, **day**, and, **utc_time**       
 
        
 
