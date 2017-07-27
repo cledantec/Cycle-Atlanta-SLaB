@@ -6,7 +6,7 @@ Our long-term goal is to refine and complement the LTS model by supplementing se
 ## Ground-Truth Data Collection 
 When collecting the data, we installed a GoPro camera on the bike along with sensor systems. This was to collect ground-truth data. If we want to detect sementic-level factors, we need to know what objects actually exist around the bike way. 
 
-## Data Syncronization
+## Data Synchronization
 Since GoPro does not keep the real time, it was necessary to sync between the video and sensor data. Sensor data's timestamps are based on the GPS data, so the time was accurate. Meanwhile, the video had only times based on the play time. In order to sync them, we used a corner of the map as a reference point. 
 
 <img src="https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/images/gps_reference.png?raw=true" style="width: 500px;"/>
@@ -21,7 +21,7 @@ In other words, we first plotted the GPS data on the map, and pin-pointed the ti
 
 ## Classifier Generation
 
-Given the syncronized data, we recorded surrounding environment every second by watching the GoPro video. When recording the surrounding factors, we classified them into specific labels. Major objects found on the left *or* right side of the bike were considered **classifiers**. These classifiers were generated separately for the left and right sides (so there are two different kinds of classifiers each second). 
+Given the synchronized data, we recorded surrounding environment every second by watching the GoPro video. When recording the surrounding factors, we classified them into specific labels. Major objects found on the left *or* right side of the bike were considered **classifiers**. These classifiers were generated separately for the left and right sides (so there are two different kinds of classifiers each second). 
 
 Since the stress level of the riders can vary depending on different types of objects, we tried to distinguish a similar type of objects based on their status. For instance, our classifiers for a car are in the following table.
 
