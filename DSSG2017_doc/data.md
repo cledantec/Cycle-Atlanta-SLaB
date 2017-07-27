@@ -33,23 +33,21 @@ Documenting the objects in the left and right side of the bike from the video wa
 ###Inter-Reliability
 **Two coders** 
 
-This process was ejected by two remembers of our team individually, the followed the same steps without discussing their findings to each other. The only thing they discussed was the classifier labels so they do have same label for same object. After the two coders documented their findings in the CSV file individually, we were able to find the similarity percentage between them by using R studio. And this were the results:  
+This process was ejected by two remembers of our team individually, they followed the same steps without discussing their findings to each other. The only thing they discussed was the classifier labels so they do have same label for same object. After the two coders documented their findings in the CSV file individually, we were able to find the similarity percentage between them by using R studio. And these were the results:  
 
 | LS Classifier | RS Classifier       
 | ------------- |:-------------:| 
 |   81%            | 64%|
 
 
-The similarities percent in the RS classifier was so bad so both coders repeated the process and after that, and after reviewing their classifier labels we got the follow similarities percentage
+The similarities percentage in the RS classifier was so bad so both coders repeated the process and after that, and after reviewing their classifier labels we got the follow similarities percentage
 
 
 | LS Classifier | RS Classifier       
 | ------------- |:-------------:| 
 |   86%            | 76%|
 
-This new percentage is not good but not bad at this time, we believe that by analyzing more data this percentage will increase percentage will increase. Special attention should be put on the labels of the classifiers. Different labels for same objects can be the first cause of a low similarities percentage. 
-
-This are some of our classifiers - **Tree**, **Bike**, **Parallel**, **Car Stop**, **Car**, **Trash Can**, **Wall**, **Cone**, **Bike racks**, **tunnel**, **Person**, and, **Road sign** 
+This new percentage is not good but not bad at this time, we believe that by analyzing more data this percentage will increase percentage will increase. Special attention should be put on the labels of the classifiers. Different labels for same objects can be the first cause of a low similarities percentage. This are some of our classifiers - **Tree**, **Bike**, **Parallel**, **Car Stop**, **Car**, **Trash Can**, **Wall**, **Cone**, **Bike racks**, **tunnel**, **Person**, and, **Road sign** 
 
 
 
