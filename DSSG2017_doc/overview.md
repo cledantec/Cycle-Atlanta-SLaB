@@ -31,4 +31,4 @@ Arduino has a type-B USB port, a power port, and mutiple pins for GPIOs and Digi
 The master unit and slave unit communicate through a USB-based serial cable using a basic protocol. The master unit sends out commands to the slave unit regularly depending on the behavior of the slave. The slave unit either sends a line of sensory data to the master unit or resets itself. The details are presented in the [Software Systems](software.md) document. 
 
 ****
-#### NEXT PAGE: [Hardware Systems](DSSG2017_doc/hardware.md)
+#### NEXT PAGE: [Hardware Systems](hardware.md)
