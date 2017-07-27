@@ -76,27 +76,27 @@ distance (m) = speed (m/s) * time_interval (sec)
 ``` 
 Once the proximity data is converted to the distance-domain signals, the signal pattern looks normalized and consistent regardless of bike spped. However, the intervals between data points become inconsistent (intervals vary depending on the speed). An example of the distance-domain data is as follows:
 
-<img src="https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/images/lidar_distance_based_close_up.png?raw=true" style="width: 100%;"/>
+<img src="https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/DSSG2017_data/graphs/lidar_distance_based_close_up.png?raw=true" style="width: 100%;"/>
 
 ### (2) Interpolation
 Before making the gaps between data points consistent, some errors that came from the sensorse themselves had to be fixed anyhow. One major observation from lidars is that the signal often goes down to 1 or 0 (cm), which in theory is not possible. In order to compensate this sensor errors, we adopted a simple interpolation method. The way we interpolate erroneous data points is to make them same to the previous values whenever the value goes down to 1 or 0. It is also possible to use other interpolation techniques to compensate missing sensory data, but in order to do that, some research on the characteristcs of sensors needs to be conducted, and appropriate assumptions about data need to be made. An example of the naïve interpolation result is shown below.
 
-<img src="https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/images/lidar_interpoliation_close_up_car_passing.png?raw=true" style="width: 100%;"/>
+<img src="https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/DSSG2017_data/graphs/lidar_interpoliation_close_up_car_passing.png?raw=true" style="width: 100%;"/>
 
 ### (3) Resampling
 Now, it is possible to resample the signal to make the gaps between data points consistent. By prorating the hights of the desired data points based on the distances between original data points, it was possible to reconstruct a fixed-distance axis. The data resolution was set to 1m as it was close to the median value of distance intervals in the distance domain. 
 
-<img src="https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/images/distances_density.png?raw=true" style="width: 100%;"/>
+<img src="https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/DSSG2017_data/graphs/distances_density.png?raw=true" style="width: 100%;"/>
 
 An example of resampled data is as follows:
 
-<img src="https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/images/resampled_lidar_car_passing.png?raw=true" style="width: 100%;"/>
+<img src="https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/DSSG2017_data/graphs/resampled_lidar_car_passing.png?raw=true" style="width: 100%;"/>
 
 
 ### (4) Gaussian Smoothing
 As the last step of the signal clean-up, the sensor noise was supressed using the Gaussian filter. The window size of the filter can be optimized in the future after conducting some sensitivity analysis. For the initial try, we set the window size to three for both lidars and sonars. The shape of the data before and after the smoothing is as below:
 
-<img src="https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/images/gaussian_lidar_eg.png?raw=true" style="width: 100%;"/>
+<img src="https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/DSSG2017_data/graphs/gaussian_lidar_eg.png?raw=true" style="width: 100%;"/>
 
 
 ### (5) Feature Generation using DCT
@@ -105,12 +105,12 @@ For generating features from the processed dataset, we decided to use the [Discr
 Since the frequency-based score for 0 (i.e., freq(0)) is high due to the boundary condition for DCT results, we removed values for 0, and took a vector of 28 elements as the feature (14 for a lidar, and 14 for a sonar).
 An example frequency-based feature (when a car is passing by) is like this:
 
-<img src="https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/images/car_DCT.png?raw=true" style="width: 100%;"/>
+<img src="https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/DSSG2017_data/graphs/car_DCT.png?raw=true" style="width: 100%;"/>
 
 ## Predictions 
 Using the vector of 28 frequency-based pattern feature, two machine learning algorithms, [Support Vector Machine (SVM)](https://en.wikipedia.org/wiki/Support_vector_machine) and [Random Forest](https://en.wikipedia.org/wiki/Random_forest) were used to predict the classifier of each data segment. To compare the performance of the prediction models to the baseline classification power (when randomly predicting classifiers), we plot them together with varying train-test sets. The results are as follows:
 
-<img src="https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/images/prediction_base.png?raw=true" style="width: 100%;"/>
+<img src="https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/DSSG2017_data/graphs/prediction_base.png?raw=true" style="width: 100%;"/>
 
 
 ## Future Work
