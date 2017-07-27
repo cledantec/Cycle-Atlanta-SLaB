@@ -17,11 +17,13 @@ The Cycle Atlanta project aims to create sensor systems that allow a bike to "se
 ## DSSG Credits
 ### PI:
 * [Dr. Christopher Le Dantec](https://ledantec.net/)
+
 ### DSSG Fellows:
 * [Javier Argota](http://jard.us)
 * [Myeong Lee](http://myeonglee.com)
 * [Noel Mannariat](mailto:noelmannariat@gmail.com)
 * [Erica Pantoja](mailto:ericapantoja1190@gmail.com)
+
 ### Special Thanks To:
 * Dr. Kari Watkins
 * Mariam Asad
