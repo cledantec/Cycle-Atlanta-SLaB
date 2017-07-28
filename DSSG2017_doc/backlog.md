@@ -29,4 +29,4 @@ Backlog
 * [**Need to Check**] Wire Orders <br> For now, the pin orders of sensor connectors (wires) are not consistent. Some are reversed way, and some are correct way. In the sensor boxes, we made sure that they're correct for each box, but in the future, it is necessary to check wiring orders whenever you change something in each box. 
 
 ****
-#### PREV PAGE: [System Overview](data.md)
+#### PREV PAGE: [Data Analysis](data.md)

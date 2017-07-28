@@ -49,3 +49,6 @@ The workflow within the vizualiser has 5 steps which need to be defined by the u
 *Ride between Midtown and Home Park displaying proximity sensors values and classification of the obstacles detected. Superior view.*
 
 
+****
+#### PREV PAGE: [Cases Design](cases.md)
+#### NEXT PAGE: [Data Analysis](data.md)
