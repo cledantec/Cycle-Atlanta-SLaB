@@ -64,12 +64,47 @@ We made use of the following gas sensor design from the Spring 2017 team.
 
 ![gps](https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/images/gasSensor.png?raw=true)
 
-We made seven of them and these are our observations from try-and-error testing. 
+#### Observations and Try-and-Error Refinements
 
 1. The holes for resistors in the gas sensor boards are small and different sizes, it was so hard to push the lead of the resistors down, and for those resistors which did not fit into the holes we replace them with smaller resistors different in voltage. For instance, we replaced the 560 K Ohms resitor with 470 K Ohms resitor. This replacement worked fine. 
 
 2. Gas sensor board's behaviour are not consistent. Three out of seven fabricated boards (#1, 4, 7) works fine, and the rest of them has a flaw in at least one sensor. Detailed information about each of the seven sensor boards is found [here](https://docs.google.com/spreadsheets/d/18mLQVb0HjoA-88Tq4y8rYqyIrmJ9yjPXizwVc3SuRZM/edit?usp=sharing).
-		
+
+
+#### Circuits
+A raw value from ADC is a 12-bit reading of voltage status when the power supply is from 0 to 5V. Since an OP-AMP supplies 2.5V as the ground voltage to the final amplifier, the 12-bit value comes out of the range between 0 and 2.5V. So, the raw values can vary, theoretically, between 0 to 2048 where 0 means 0V and 2048 means 2.5V. Even if all the circuit settings and sensor type are same, however, the baseline voltage that comes out of each sensor can vary. Thus, it is required to figure out the baseilne values when none of the target gases exists. 
+
+**Baseline Calibration** In order to get the baseline values of all sensors, we used Wine Preserver Gas in a vacuum bag. First we made a gas sensor testbed that can connect up to three gas boards (using different addresses). The Arduino code for this and sample data coleected is available at the [testbed folder](https://github.com/cledantec/Cycle-Atlanta-SLaB/tree/master/DSSG2017_gas_testbed). After pulling out the air out the vacuum bag, we sprayed the wine preserver gas into the bag and see how the values change. Some photos and graphs for this are as follows:
+
+<img src="https://github.com/cledantec/Cycle-Atlanta-SLaB/tree/master/images/gas_calibration_setting.jpg" width="500px">
+<img src="https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/DSSG2017_data/graphs/Gas_board1_good.png?raw=true" width="500px">
+<img src="https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/DSSG2017_data/graphs/Gas_board2_bad.png?raw=true" width="500px">
+
+The baseline values can be calculated by averaging the second half of the values (after the signals become stable). The board 2 graph shows that some sensors never become stable. In this case, we mark it as "bad". The overall status of the gas sensors is presented at the [Google Spread Sheet](https://docs.google.com/spreadsheets/d/18mLQVb0HjoA-88Tq4y8rYqyIrmJ9yjPXizwVc3SuRZM/edit?usp=sharing).
+
+**Gas Value Calculation** The gas sensor board composed of two OP-AMP devices, four sensors, and an ADC. Each op-amp chip has four op-amps embedded in it. Each sensor uses two op-amps. The first op-amp is for supplying a stable voltage to the sensor. Our base power for all the sensors is 5V, and the first op-amp supplies 2.5V power to the sensor. The sensor's voltage change outputs to the input of the second op-amp.  
+
+<img src="https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/DSSG2017_data/graphs/gas_circuit.png?raw=true" width="700px">
+
+The second op-amp actually amplifies the sensor signal. The amplification rate is determined by dividing R6 by R5 (150 Ohm now). So the actual voltage change due to a gas stimulus can be calculated as follows:
+
+```
+# the units are V
+V_gas = (V_out - V_base) / amplification_rate 
+```
+where `amplification_rate = R6/R5`, `V_out = (2.5V * ADC_reading_output)/2048`, and `V_base = (2.5V * ADC_reading_base)/2048` (here, ADC_reading_base is coming from the mean of the vacuum bag gas values.
+
+Once we have `V_gas` value in V, it's possible to calculate the actual ppm or ppb value of the gas.
+For example, if looking at the [CO sensor's data sheet](https://www.spec-sensors.com/wp-content/uploads/2016/04/3SP_CO_1000-P-Package-110-102.pdf), the spec says the sensitivity is 4.75 nA/ppm. This means `V_gas = (4.75nA * CO_ppm) * 150 Ohm`. Thus,
+
+```
+CO_ppm = V_gas / (4.75nA * 150 Ohm)
+```
+
+Of course, there can be electrical noise, bias, and the impact of other sensors. These need to be adjusted. The impact of temperature, humidity, and other gases can be adjusted based on the data sheet's information. Also for ensuring the accuracy of the gas sensors, we co-located out testbed at the offical Atlanta gas station. 
+
+**Official Sensing Station** Even though we calculated gas values correctly using formula, it is possible that gas sensors are biased electrically. So, the best way to adjust it is to use the real gas values as ground-truth and adjust them empirically given the theoretical values. We co-located gas sensors at the station for 48 hours, and observed how they change over time. The official gas sensor values are available at [this folder](https://github.com/cledantec/Cycle-Atlanta-SLaB/tree/master/DSSG2017_data/gas_station_data). We used gas board #1, #4 and $7 since they were only boards without erroneous sensors. The testbed values are available at [this folder](https://github.com/cledantec/Cycle-Atlanta-SLaB/tree/master/DSSG2017_data/gas_station_data/original_testbed). Based on these two datasets, we need to find a coefficient for each sensor, and adjust the values.
+
 					
 <a name="box"></a>
 ## Sensing Box design

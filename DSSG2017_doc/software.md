@@ -161,7 +161,7 @@ sudo dd if=/dev/rdisk2 of=[out_path/output_file_name.img] bs=1m
 ```
 This will take a few minutes.
 
-Note that `/dev/rdisk2/` can be different depending on Mac configurations. You need to check the exact file name for the SD card's symbolic link. 
+Note that `/dev/rdisk2` can be with a different number (e.g., not 2 but 3) depending on Mac configurations. You need to check the exact file name for the SD card's symbolic link. 
 
 ****
 #### PREV PAGE: [Hardware Systems](hardware.md)
