@@ -1,0 +1,20 @@
+,,,,,,,,,,,
+ID,Board Type,CO - R6,SO2 - R12,O3 - R18,NO2 - R24,Condition,Address,CO - baseline,SO2 - baseline,O3 - baseline,NO2 - baseline
+1,rev. 1 (original),500K,500K,500K,500K,Good,0x48,847.77,875.63,834.66,836.12
+2,rev. 1,510K,514K,510K,510K,Bad,0x48,850.57,,,840.64
+3,rev. 1.2,470K,470K,470K,470K,Bad,0x49,,,,
+4,rev. 1.2,470K,470K,470K,470K,Good,0x4A,835.01,920.3,829.84,831.23
+5,rev. 1.2,470K,470K,470K,470K,"Good, but NO2 is not stable",0x48,847.92,927.13,816.38,797.37
+6,rev. 1.2,470K,470K,470K,470K,"Good, but O3 not working -- OP AMP might be the issue",0x48,,,,
+7,rev. 1.2,470K,470K,470K,470K,Good,0x49,847.49,937.19,821.09,834.76
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,* Findings from try-and-error testing,,,,,,,,,,
+,1. SO2 sensor stopped working when exceeding 530K OHM --> we're using all the amplifying resistors with 470 K (instead of 560K),,,,,,,,,,
+,"2. Some ADCs are not working for some address settings (e.g., #5 didn't work for 0x4A and 0X4B)",,,,,,,,,,
+,"3. 5V was better than 3.3 V not only in the resolution of signals, but also in terms of sensor stability --> we're changing power sources to 5V for gas sensors.",,,,,,,,,,
+,"4. There are a few, random sensor/amplifier flaws. ",,,,,,,,,,
