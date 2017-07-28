@@ -101,5 +101,5 @@ The assembly of the component of the box can be followed on the posted video. Th
 
 ****
 #### PREV PAGE: [System Overview](overview.md)
-#### NEXT PAGE: [Software Systems](hardware.md)
+#### NEXT PAGE: [Software Systems](software.md)
 
