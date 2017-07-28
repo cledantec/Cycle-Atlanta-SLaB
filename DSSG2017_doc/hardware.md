@@ -23,7 +23,7 @@ Our GPS system consists of a GTPA010 GPS, a CP2102 USB, and a small piece of pcv
 
 ###The **connection of pins** is the folowing:
 
-![alt gps structure](https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/images/gpsStructure3.png?raw=true)
+![alt gps structure](https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/images/gpsStructure4.png?raw=true)
 
 The code uses the default settings of the GPS and returns the following data: **course**, **longitud**, **latitude**, **speed**, **day**, and, **utc_time**
 
@@ -43,9 +43,9 @@ We engineered seven of them and these are our observations from try-and-error te
 
 1. The holes for resistors in the gas sensor boards are small and different sizes, it was so hard to push the lead of the resistors down, and for those resistors which did not fit into the holes we replace them with smaller resistors different in voltage. For instance, we replaced the 560 K Ohms resitor with 470 K Ohms resitor. This replacement worked fine. 
 
-2. Gas sensor board's behaviours are not consistent. 
+2. Gas sensor board's behaviour are not consistent. 
 
-Detailed information about each of the seven sensor boards is found [here] (https://docs.google.com/spreadsheets/d/18mLQVb0HjoA-88Tq4y8rYqyIrmJ9yjPXizwVc3SuRZM/edit?usp=sharing).
+Detailed information about each of the seven sensor boards is found [here](https://docs.google.com/spreadsheets/d/18mLQVb0HjoA-88Tq4y8rYqyIrmJ9yjPXizwVc3SuRZM/edit?usp=sharing).
 					
 
 
