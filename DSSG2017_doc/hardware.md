@@ -43,10 +43,9 @@ We engineered seven of them and these are our observations from try-and-error te
 
 1. The holes for resistors in the gas sensor boards are small and different sizes, it was so hard to push the lead of the resistors down, and for those resistors which did not fit into the holes we replace them with smaller resistors different in voltage. For instance, we replaced the 560 K Ohms resitor with 470 K Ohms resitor. This replacement worked fine. 
 
-2. Gas sensorrs board's behaviour was not consistent at the beguining. 
+2. Gas sensor board's behaviours are not consistent. 
 
-3. SO2 sensor stopped working when exceeding 530K OHM --> we're using all the amplifying resistors with 470 K (instead of 560K)								
-Detailed information about each of the seven sensor boards is found [here] (https://docs.google.com/spreadsheets/d/18mLQVb0HjoA-88Tq4y8rYqyIrmJ9yjPXizwVc3SuRZM/edit#gid=0).
+Detailed information about each of the seven sensor boards is found [here] (https://docs.google.com/spreadsheets/d/18mLQVb0HjoA-88Tq4y8rYqyIrmJ9yjPXizwVc3SuRZM/edit?usp=sharing).
 					
 
 
