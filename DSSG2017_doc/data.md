@@ -114,9 +114,9 @@ Using the vector of 28 frequency-based pattern feature, two machine learning alg
 
 
 ## Future Work
-This data analysis is an initial exploration of data, and there are many parameters and methods that we can tune the prediction models (e.g., Gaussian window size, the size of data chunks, types of features in addition to the frequency-domain patterns, machine learning algorithms, and interpolation resolution). 
+This data analysis is an initial exploration of data, and there are many parameters and methods that we can tune for refining the prediction models (e.g., Gaussian window size, the size of data chunks, types of features in addition to the frequency-domain patterns, machine learning algorithms, and interpolation resolution). 
 
-Actually, our overarching goal is to identify environmental factors that give rise to bike riders' stress level. In order for this, the identification of environment should be achieved first as sensors cannot detect semantic-level objects. Once we can tune and refine the prediction model for detecting environmental fators through feature engineering and modeling, it would be possible to advance to answering the real question -- how bicycle infrastructures and environmental factors affect bike riders' stress level? and how these relationships can be used for constructing the Level of Traffic Stress (LTS) model?
+Our overarching goal is to identify environmental factors that give rise to bike riders' stress level. In order for this, the identification of environment should be achieved first as sensors cannot detect semantic-level objects. Once we can tune and refine the prediction model for detecting environmental fators through feature engineering and modeling, it would be possible to advance to answering the real questions: how bicycle infrastructures and environmental factors affect bike riders' stress level?; how these relationships can be used for constructing the Level of Traffic Stress (LTS) model?; and how policy-makers can use this knowledge to make polices for bike infrastructures?
 
 
 
