@@ -20,7 +20,7 @@ For being able to visualize the csv file, the data needs to be formatted and nam
 
 The workflow within the vizualiser has 5 steps which need to be defined by the user as inputs for the main component of the definition (DSSG2017 CycleAtlanta Viz). For connecting inputs and outputs from each component (box-like element), just drag and drop links in between the nodes. The required inputs are:
 
- - Specify in a new panel the whole path to the CSV file and connectc it to the *CSV file path input* of the DSSG2017 CycleAtlanta Viz.
+ - Specify in a new panel the whole path to the CSV file and connectc it to the *CSV file path* input of the DSSG2017 CycleAtlanta Viz.
 
  - Press the Reload button on the Vecor Maps component for downloading and displaying OSM data as basemap for the visualization. It will take a while depending on the size of the targeted area. The map area can be recalculated if needed by modifying the location provided in the connected panel.
 
