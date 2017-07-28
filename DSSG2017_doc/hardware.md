@@ -52,6 +52,7 @@ The documentation for the wiring of the box has been designed using Fritzing, co
 *Schematic view of the connections*
 
 <img src="https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/DSSG2017_SensingBox_Arduino/Fritzing_Schema/PCB%20Cycle%20Atlanta/BackBoxConnections_PCBView.png?raw=true">
+
 *PCB view of the connections (2-layer Design)*
 
 The original Fritzing file for editing and designing a custom PCB board in the same software can be found [here](https://github.com/cledantec/Cycle-Atlanta-SLaB/raw/master/DSSG2017_SensingBox_Arduino/Fritzing_Schema/PCB_BackBox_2layers.fzz) for downloading. Original bridge boards were completely wired manually, although a custom PCB would be highly advisable in the future.
