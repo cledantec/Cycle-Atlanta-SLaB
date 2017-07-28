@@ -25,9 +25,22 @@ From the hardware perspective, the connections of the sensors to the Arduino boa
 
 The documentation for the wiring of the box has been designed on Fritzing, common software in the Arduino and Raspberry Pi community. It can be downloaded for free from [its website](http://fritzing.org/home/). Additional parts libraries may be required depending on the particular version of the program, but they can be add *ad hoc* from the own program. It is particularly important for being able to use LIDAR or thrid-party components not that common for Arduino users.
 
-![BreadboardView](https://github.com/cledantec/Cycle-Atlanta-SLaB/raw/master/DSSG2017_SensingBox_Arduino/Fritzing_Schema/PCB%20Cycle%20Atlanta/BackBoxConnections_BreadboardView.png)]
+![BreadboardView](https://github.com/cledantec/Cycle-Atlanta-SLaB/raw/master/DSSG2017_SensingBox_Arduino/Fritzing_Schema/PCB%20Cycle%20Atlanta/BackBoxConnections_BreadboardView.png)
 *Breadboard view of the connections*
 
+![SchematicView](https://github.com/cledantec/Cycle-Atlanta-SLaB/raw/master/DSSG2017_SensingBox_Arduino/Fritzing_Schema/PCB%20Cycle%20Atlanta/BackBoxConnections_SchematicView.png)
+*Schematic view of the connections*
+
+The original Fritzing file for editing and designing a custom PCB board in the same software can be found [here](https://github.com/cledantec/Cycle-Atlanta-SLaB/raw/master/DSSG2017_SensingBox_Arduino/Fritzing_Schema/PCB_BackBox_2layers.fzz) for downloading.
+
+Original bridge boards were completely wired manually, although a custom PCB would be highly advisable in the future.
+
+The box is completed by providing electric power to the Arduino board and and outlet externally for the Raspberry located on the front unit of the bike, as well as completing the TTL to USB connection for communicating the Arduino with the Raspberry Pi.
+
+The assembly of the component of the box can be followed on the posted video. The only difference in the last iteration of the design is the replacement of the wooden board separating the battery and the Arduino board by a yoga mat under the microcontroller.
+
+[![Assembly](https://img.youtube.com/vi/Jq7rCaWT5Fk/0.jpg)](https://www.youtube.com/watch?v=t7hX2DIzW0o "Assembly")
+*Timelapse of the assembly of the box v.1.0.3*
 
 
 
