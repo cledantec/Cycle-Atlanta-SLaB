@@ -23,7 +23,7 @@ Our GPS system consists of a GTPA010 GPS, a CP2102 USB, and a small piece of pcv
 
 ###The **connection of pins** is the folowing:
 
-![alt gps structure](https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/images/gpsStructure4.png?raw=true)
+![alt gps structure](https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/images/gpsStructure5.png?raw=true)
 
 The code uses the default settings of the GPS and returns the following data: **course**, **longitud**, **latitude**, **speed**, **day**, and, **utc_time**
 
