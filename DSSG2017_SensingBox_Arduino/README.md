@@ -15,5 +15,20 @@ Inside the box the components which can be found are the following ones:
 - 3 SONAR sensors for proximity on left, right, and rear sides.
 - a PM NOVA sensor for detecting Particulates Matters under 10μm and 2.5μm as air quality metric.
 - a custom gas sensor board for the detection of ozone, carbon monoxide, sulfur dioxide, and nitrogenn dioxide as air pollution metric from other vehicles.
-- an Arduino UNO board as microcontroller which gather all the data from those sensors. 
+- an Arduino UNO board as microcontroller which gather all the data from those sensors.
+
+From the software perspective, the code for the communication between the sensors and the Arduino board are provided in this [folder](https://github.com/cledantec/Cycle-Atlanta-SLaB/tree/master/DSSG2017_SensingBox_Arduino/oneArduinoAllAggregated).
+
+For the correct working all of the required sensors, additional libraries are needed for the ADS1015 (custom gas sensors board) and for the LIDAR sensors. They can be found on the repositories for each sensor, in the Arduino library manager, but as well they are provided [here](https://github.com/cledantec/Cycle-Atlanta-SLaB/tree/master/DSSG2017_SensingBox_Arduino/libraries%20to%20install).
+
+From the hardware perspective, the connections of the sensors to the Arduino board is made through a shield / bridge-boards mounted on top of the microcontroller.
+
+The documentation for the wiring of the box has been designed on Fritzing, common software in the Arduino and Raspberry Pi community. It can be downloaded for free from [its website](http://fritzing.org/home/). Additional parts libraries may be required depending on the particular version of the program, but they can be add *ad hoc* from the own program. It is particularly important for being able to use LIDAR or thrid-party components not that common for Arduino users.
+
+![BreadboardView](https://github.com/cledantec/Cycle-Atlanta-SLaB/raw/master/DSSG2017_SensingBox_Arduino/Fritzing_Schema/PCB%20Cycle%20Atlanta/BackBoxConnections_BreadboardView.png)]
+*Breadboard view of the connections*
+
+
+
+
 
