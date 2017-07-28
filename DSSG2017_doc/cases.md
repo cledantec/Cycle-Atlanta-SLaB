@@ -1,7 +1,4 @@
-Sensor Box and Cases
-========
-Noel Thomas
-
+﻿Sensor Box and Cases
 ## **Back Unit**
 ![Front Cases](https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/images/Front_iterations.PNG?raw=true)
 #### Description 
