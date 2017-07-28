@@ -27,7 +27,7 @@ It is easy to make mistakes when connecting the pins and it is so hard to unsold
 
 The **connections of pins** are as follows. Please note that GTPA010 **DOES NOT** use 5V for VDD, but use 3.3V that comes out of a small pin in the CP2102 device. 
 
-<img src="https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/images/gpsStructure4.png?raw=true" width=600px>
+<img src="https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/images/gpsStructure5.png?raw=true" width=600px>
 
 The code uses the default settings of the GPS and returns the following data: **course**, **longitude**, **latitude**, **speed**, **day**, and, **utc_time**
 
@@ -105,7 +105,7 @@ Of course, there can be electrical noise, bias, and the impact of other sensors.
 
 **Official Sensing Station** Even though we calculated gas values correctly using formula, it is possible that gas sensors are biased electrically. So, the best way to adjust it is to use the real gas values as ground-truth and adjust them empirically given the theoretical values. We co-located gas sensors at the station for 48 hours, and observed how they change over time. The official gas sensor values are available at [this folder](https://github.com/cledantec/Cycle-Atlanta-SLaB/tree/master/DSSG2017_data/gas_station_data). We used gas board #1, #4 and $7 since they were only boards without erroneous sensors. The testbed values are available at [this folder](https://github.com/cledantec/Cycle-Atlanta-SLaB/tree/master/DSSG2017_data/gas_station_data/original_testbed). Based on these two datasets, we need to find a coefficient for each sensor, and adjust the values.
 
-					
+
 <a name="box"></a>
 ## Sensing Box design
 
