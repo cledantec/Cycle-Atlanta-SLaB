@@ -45,7 +45,7 @@ We engineered seven of them and these are our observations from try-and-error te
 
 2. Gas sensor board's behaviour are not consistent. 
 
-Detailed information about each of the seven sensor boards is found [here] (https://docs.google.com/spreadsheets/d/18mLQVb0HjoA-88Tq4y8rYqyIrmJ9yjPXizwVc3SuRZM/edit?usp=sharing).
+Detailed information about each of the seven sensor boards is found [here](https://docs.google.com/spreadsheets/d/18mLQVb0HjoA-88Tq4y8rYqyIrmJ9yjPXizwVc3SuRZM/edit?usp=sharing).
 					
 
 
