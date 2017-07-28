@@ -124,7 +124,7 @@ Inside the box the components which can be found are the following ones:
 - 3 SONAR sensors for proximity on left, right, and rear sides.
 - a PM NOVA sensor for detecting Particulates Matters under 10μm and 2.5μm as air quality metric.
 - a custom gas sensor board for the detection of ozone, carbon monoxide, sulfur dioxide, and nitrogenn dioxide as air pollution metric from other vehicles.
-- an Arduino UNO board gatherㄴ all the data from those sensors.
+- an Arduino UNO board gathers all the data from those sensors.
 
 [![Assembly](https://img.youtube.com/vi/Jq7rCaWT5Fk/0.jpg)](https://www.youtube.com/watch?v=t7hX2DIzW0o "Assembly")<br>
 *Timelapse of the assembly of the box v.1.0.3*

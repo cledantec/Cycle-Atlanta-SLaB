@@ -1,4 +1,4 @@
-﻿Sensor Box and Cases
+Sensor Box and Cases
 ## **Back Unit**
 ![Front Cases](https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/images/Front_iterations.PNG?raw=true)
 #### Description 
@@ -58,3 +58,7 @@ The walls in the Bottom model needs to be raised slightly to provide support for
 [Case design files](https://github.com/cledantec/Cycle-Atlanta-SLaB/tree/master/DSSG2017_Case_Design)
 
 
+
+****
+#### PREV PAGE: [Software Systems](software.md)
+#### NEXT PAGE: [Data Viz (3D)](dataviz.md)
