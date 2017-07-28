@@ -14,7 +14,7 @@ The Cycle Atlanta project aims to create sensor systems that allow a bike to "se
 * [Data Analysis](DSSG2017_doc/data.md)
 * [Backlog (Issues and Solutions)](DSSG2017_doc/backlog.md)
 
-## DSSG Credits
+## Credits (DSSG)
 ### PI:
 * [Dr. Christopher Le Dantec](https://ledantec.net/)
 
