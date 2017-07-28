@@ -4,6 +4,8 @@ The back unit is in charge of collecting proximity and air quality data, as well
 
 The case of the back unit is based on a basic electricity connection box made of ABS plastic which is laser cut for providing the required slots for the sensors as well as the ventilation inlets.
 
+Sources files for their fabrication are found [here](https://github.com/cledantec/Cycle-Atlanta-SLaB/tree/master/DSSG2017_SensingBox_Arduino/ABS_laser_cutting).
+
 The box is screwed directly on a rack which is mounted in the back part of the bike. After different iterations, direct drilling and screwing with an elastic material between the box and the rack is showed as the most solid alternative.
 
 Inside the box the components which can be found are the following ones:
