@@ -76,7 +76,7 @@ A raw value from ADC is a 12-bit reading of voltage status when the power supply
 
 **Baseline Calibration** In order to get the baseline values of all sensors, we used Wine Preserver Gas in a vacuum bag. First we made a gas sensor testbed that can connect up to three gas boards (using different addresses). The Arduino code for this and sample data coleected is available at the [testbed folder](https://github.com/cledantec/Cycle-Atlanta-SLaB/tree/master/DSSG2017_gas_testbed). After pulling out the air out the vacuum bag, we sprayed the wine preserver gas into the bag and see how the values change. Some photos and graphs for this are as follows:
 
-<img src="https://github.com/cledantec/Cycle-Atlanta-SLaB/tree/master/images/gas_calibration_setting.jpg" width="500px">
+<img src="https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/images/gas_calibration_setting.jpg?raw=true" width="500px">
 <img src="https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/DSSG2017_data/graphs/Gas_board1_good.png?raw=true" width="500px">
 <img src="https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/DSSG2017_data/graphs/Gas_board2_bad.png?raw=true" width="500px">
 
@@ -84,7 +84,7 @@ The baseline values can be calculated by averaging the second half of the values
 
 **Gas Value Calculation** The gas sensor board composed of two OP-AMP devices, four sensors, and an ADC. Each op-amp chip has four op-amps embedded in it. Each sensor uses two op-amps. The first op-amp is for supplying a stable voltage to the sensor. Our base power for all the sensors is 5V, and the first op-amp supplies 2.5V power to the sensor. The sensor's voltage change outputs to the input of the second op-amp.  
 
-<img src="https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/DSSG2017_data/graphs/gas_circuit.png?raw=true" width="700px">
+<img src="https://github.com/cledantec/Cycle-Atlanta-SLaB/blob/master/images/gas_circuit.png?raw=true" width="700px">
 
 The second op-amp actually amplifies the sensor signal. The amplification rate is determined by dividing R6 by R5 (150 Ohm now). So the actual voltage change due to a gas stimulus can be calculated as follows:
 
