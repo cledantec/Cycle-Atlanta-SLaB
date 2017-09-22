@@ -126,7 +126,7 @@ Inside the box the components which can be found are the following ones:
 - a custom gas sensor board for the detection of ozone, carbon monoxide, sulfur dioxide, and nitrogenn dioxide as air pollution metric from other vehicles.
 - an Arduino UNO board gathers all the data from those sensors.
 
-[![Assembly](https://img.youtube.com/vi/Jq7rCaWT5Fk/0.jpg)](https://www.youtube.com/watch?v=t7hX2DIzW0o "Assembly")<br>
+[![Assembly](https://img.youtube.com/vi/Jq7rCaWT5Fk/0.jpg)](https://youtu.be/Jq7rCaWT5Fk "Assembly")<br>
 *Timelapse of the assembly of the box v.1.0.3*
 
 The box is completed by providing electric power to the Arduino board and outlet externally for the Raspberry located on the front unit of the bike, as well as completing the TTL-to-USB connection for communicating the Arduino with the Raspberry Pi.
