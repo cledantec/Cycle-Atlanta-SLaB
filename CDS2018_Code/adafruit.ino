@@ -1,3 +1,8 @@
+// Code taken from https://learn.adafruit.com/pm25-air-quality-sensor/arduino-code
+// This code should be uploaded to the Arduino Uno in order to correctly
+// interpret the values from the attached PMS 5003 sensor
+// More details can be found at https://docs.google.com/document/d/1I8xmGfs4VO0Fzg1p6Oc82itw5EJrkmoB5Z0F4hIMUvA/edit?usp=sharing
+
 // On Leonardo/Micro or others with hardware serial, use those!
 // uncomment this line:
 // #define pmsSerial Serial1
