@@ -1,0 +1,95 @@
+This file contains instructions for how to run slabScriptV1.py and compileData.py, as well as an overview of the arduino scripts. 
+
+Instructions for Downloading Raw Data:
+1. Go to the SLaB oneDrive Folder, then go to the Raw Data folder.
+2. There are a lot of folders in the raw data folder, each containing all data from a specific SLaB box up until the date in the folder's name. The boxes are differentiated by their place in the lab (L for left, C for center, and R for right).
+3. Download as much raw data as you need, making sure not to mix up data from different sensors. 
+4. Make sure the raw data and whichever script you are running are in the same folder. The two scripts are stored (along with this readme) in the Scripts onedrive folder.
+5. Move on to instructions for how to run the scripts. 
+
+slabScriptV2: 
+This is a script that takes in up to two sets of raw data for a single run and creates up to two output files that contain the air quality data. 
+
+
+Instructions:
+   1. Change the runDate variable below to the data you are getting data from. This should match
+      the data in the data files, though it's not a problem if you switch the month and day or make
+     other necessary changes. IMPORTANT: there is no check in place to make sure you entered the corrent
+      runDate. The script will happily let you pull data from 09-11-18 with a runDate of 09-10-18,
+      creating an output file named 09-10-18 with the data from the 11th. 
+
+   2. Enter the first and/or second input files in the fields: input_files_one and input_files_two. The correct
+      format is: input_files_one = ['090119_gps_data.json', '090119_proximity.json','090119_imu.log','090119_sensor.log']
+      for example. If you only want to input files from one SLaB box then comment out the other line of input files
+      and uncomment the line input_files_two = [] right below it. If the input_files_two variable is an empty array
+      the code will move past it. 
+
+   3. Run the code. Remember to SAVE first. If you are running this code in sumblime text, go to the Tools menu and
+      click Build. If you are running this code in the commandline, navigate to the correct folder and enter
+      python slabScriptV2.py
+
+   4. If the code runs successfully, the output should look something like:
+
+            Compiling Data from 01-09-19
+            one complete
+            two complete (or two ommitted if you didn't include a second set of data)
+            Success
+            [Finished in 0.2s]
+
+   5. Finally, check the output file(s) to make sure they are what you expect, given the raw data files from the SLaB
+      boxes.
+
+
+compileData.py
+This script takes in a single set of raw data file for a single run and creates an output file containing all data in json format for import into the database. It is important to remember to check the output of this script before putting it in the database. 
+
+Instructions:
+  1. Change the runID variable below to the following format: MM-DD-YYYYRunID_sensorNumber. The RunID 
+     should be the route abbreviation (IP, etc) and the run number. The sensor Number should correspond with 
+     the box the data is pulled off of (right = 1, center = 2, left = 3). The date should match
+     the date in the name of in the data files, though it's not a problem if you switch the month and day or make
+     other necessary changes. IMPORTANT: there is no check in place to make sure you entered the correct
+     runID. The script will happily let you pull data from a piedmont park run on 09-11-18 with senor 1 with a runID 
+     of 09-10-18IP1_2, creating a misleading data file. Though the timestamps in the file will still have the 
+     right date and the gps coordinates will be unchanged, there is no way to identify which sensor was used from the data.
+
+  2. Enter each input file into the list called input_files, following the example:
+      input_files = ['040219_gps_data.json', '040219_proximity.json','040219_imu.log','040219_sensor.log']
+     The script should be in the same folder as all four files, and all files should be from the same date.
+     IMPORTANT: there is no check in place making sure the input files are from the same date.
+
+  3. Run the code. Remember to SAVE first. If you are running this code in sumblime text, go to the Tools menu and
+     click Build. If you are running this code in the commandline, navigate to the correct folder and enter
+     python compileData.py . This script takes a little longer to compile than slabScriptV1.
+
+  4. If the code runs successfully, the output should look something like:
+
+           Compiling Data from <runID>
+           Compiling GPS Data
+           Compiling PROX Data
+           Compiling IMU Data
+           Compiling Sensor Data
+           Success
+           [Finished in 5.0s]
+
+  5. Finally, check the output file(s) to make sure they are what you expect, given the raw data files from the SLaB
+     boxes. Be sure to give the script a moment to completely finish, which you'll know once the BAK file appears.
+     If you see lots of '?' in the file, the script has not finished. Things to look for: the timestamps incrementing 
+     properly and the correct data matching up to the correct timestamp
+
+  Known Bugs:
+      1. the second } after the last entry in each section of the data is sometimes on the wrong line - this happens because
+      the script expects the last line in each file to be unreadable (the norm) but this is not always the case. 
+
+      2. entries in the raw data files will sometimes be preceeded by lines of <0x00> (a break in the data) 
+      if a line follows a break in the data (is on the same line) and will be skipped by the script because it can't process it
+
+      3. rarely, the increment in the imu data will be slightly too large and result in two rows with duplicate timestamps
+         duplicate timestamps. An eary fix is to use a json checker and shift the first of the duplicates down by .001 to .999.
+
+Arduino Scripts:
+ TwoPMSsOrig: allows the arduino to take data from two PM sensors and print it all out to the console in a readable manner
+ 
+ arduinoAll: does the same thing, but works with the SLaB box. In the event that you're building a box from scratch, the arduino_receiver.py file needs to be updated to work with this script. The updated script can be found on all three SLaB boxes.
+ 
+ arduinoAllFinished: the same script as above, but cleaned up and with some comments. I ran out of time to do a just-in-case test on it so I'm uploading this copy as well as the original.
