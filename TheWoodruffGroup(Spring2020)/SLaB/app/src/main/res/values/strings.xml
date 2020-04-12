@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ThirdTimesTheCharm</string>
+    <string name="button_log">Log Data</string>
+    <string name="button_stop_log">Stop Data Log</string>
+    <string name="status_text">Data Log Status</string>
+    <string name="file_status">File NOT Created</string>
+    <string name="sensor">Sensor Data</string>
+    <string name="buttonStatus">Button NOT Pressed</string>
+    <string name="gyroText">Gyro Data</string>
+    <string name="micStatus">MIC NOT RECORDING</string>
+    <string name="fusedLoc">No FLC Data</string>
+    <string name="debugMode">Developer Mode</string>
+    <string name="fileLocation_debug">No File Located</string>
+    <string name="gyroData_debug">No Gyro Data</string>
+    <string name="accelData_debug">No Accelerometer Data</string>
+    <string name="recordStatus_debug">NOT RECORDING</string>
+    <string name="writeStatus_debug">NOT WRITING TO LOG</string>
+    <string name="buttonStatus_debug">Button NOT Pressed</string>
+    <string name="FLCData_debug">No FLC Data</string>
+
+</resources>
