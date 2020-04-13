@@ -19,11 +19,12 @@ screen displays the essentials for the app:
 - Log Data Button: Large button pressed to being data logging. Disables audio recording switch and developer mode button.
 - Developer Mode Button: Text that shows developer mode when pressed.
 
-Developer mode has the same funcitonalities as the main screen but displays all data that is recorded. This extra data includes:
+Developer mode has the same functionalities as the main screen but displays all data that is recorded. This extra data includes:
 - Gyro Data
 - Accelerometer Data
 - File location
 - Location accuracy data
+
 While the main screen does not display these, they are still recorded and written to the stored text file.
 
 ## Data Collected
