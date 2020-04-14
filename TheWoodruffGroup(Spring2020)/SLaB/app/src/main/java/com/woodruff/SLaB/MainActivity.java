@@ -1,4 +1,4 @@
-package com.example.SLaB;
+package com.woodruff.SLaB;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;

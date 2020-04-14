@@ -1,4 +1,4 @@
-package com.example.SLaB;
+package com.woodruff.SLaB;
 
 import org.junit.Test;
 
