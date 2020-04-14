@@ -56,3 +56,10 @@ order the data is written to the text file. The data is comma-delimited, with ea
 the format is (Time,Latitude,Longitude,Dist_Acc,Speed,Speed_Acc,Altitude,Alt_Acc,Gyro_X,Gryo_Y,Gyro_Z,Accel_X,Accel_Y,Accel_Z).
 The optional recordings are stored as mpeg4.
 
+## The Woodruff Group
+[Ibrahim Abdeally - iabdeally3@gatech.edu](mailto:iabdeally3@gatech.edu)  
+[JP Almagro - jpalmagro97@gmail.com](mailto:jpalmagro97@gmail.com)  
+[Matthew Bowen - matthew.bowen90@gmail.com](mailto:matthew.bowen90@gmail.com)  
+[Aditya Ramanathan - aramanathan31@gatech.edu](mailto:aramanathan31@gatech.edu)  
+[Carrie Wehmeyer - weh.carrie@gmail.com](mailto:weh.carrie@gmail.com)  
+[Andy Zheng - azheng36@gatech.edu](mailto:azheng36@gatech.edu)  
