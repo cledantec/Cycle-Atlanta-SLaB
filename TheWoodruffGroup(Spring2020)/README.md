@@ -45,7 +45,7 @@ The data collected by the app is written to a text file that is time stamped for
 Currently, the files are stored on the phone within the app's data folder in internal storage. To access the files, the "MyFiles" app on an Android phone 
 can be used, or the phone can be connected to a computer and the file opened on a computer.
 
-The files is located at: **Interal storage\Android\data\com.example.SLaB**. Within the files folder, there are two folders for 
+The files is located at: **Interal storage\Android\data\com.woodruff.SLaB**. Within the files folder, there are two folders for 
 which data collected on the main mode and debug mode are stored. The folder "FLC Trip Data" contains data collected on the main screen,
 while the folder "FLC Trip Data_Debug" contains data collected while in developer mode. Optional audio recordings are also stored
 in these folders depending on which screen they are recorded from.
