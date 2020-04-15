@@ -1,6 +1,6 @@
 # Capstone SLaB [The Woodruff Group]
 
-## [Android App](AndroidApp/README.md)
+## [Android App](Android%20App/README.md)
 ## Mechanical System
 ## Electrical System
 
