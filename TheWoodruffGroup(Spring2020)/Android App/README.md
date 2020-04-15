@@ -187,6 +187,8 @@ Tap Build number seven times. After a few taps, steps counting down until develo
 ### Installing the App
 To install the app on an Android device, connect the android device to a computer with Android studio running. If the device is connected and developer mode is enabled, the phone should show in a tool bar at the top of Android studio.
 
+<img src=https://user-images.githubusercontent.com/22283170/79376816-b593c080-7f28-11ea-85c1-c365458dff3a.png width=30%>
+
 Simple click the green "Run" button to install the app on the phone.
 
 ### Enabling Permissions
