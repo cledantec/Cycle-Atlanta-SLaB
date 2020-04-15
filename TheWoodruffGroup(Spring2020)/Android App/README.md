@@ -74,3 +74,10 @@ The data log file is a .txt file. The first line of the text file is a header wh
 order the data is written to the text file. The data is comma-delimited, with each data point being time-stamped. Currently, 
 the format is (Time,Latitude,Longitude,Dist_Acc,Speed,Speed_Acc,Altitude,Alt_Acc,Gyro_X,Gryo_Y,Gyro_Z,Accel_X,Accel_Y,Accel_Z).
 The optional recordings are stored as mpeg4.
+
+## Bluetooth
+
+## Running the App
+
+## Future Work
+
