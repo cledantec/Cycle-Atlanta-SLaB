@@ -25,6 +25,27 @@ Developer mode has the same functionalities as the main screen but displays all 
 
 While the main screen does not display these, they are still recorded and written to the stored text file.
 
+## Build Environment
+- The current app was developed using Android Studio 3.5.3. 
+- The app has been tested on a Samsung Galaxy S10 with Android verison 10.
+- Compile SDK version: 29
+- Build Tools version: 29.0.3
+- Application Min SDK version: 15
+- Application Target SDK version: 29
+- Application ID: "com.woodruff.SLaB"
+
+## Dependencies
+- implementation 'com.google.android.gms:play-services-games:19.0.0'
+- implementation 'com.google.android.gms:play-services-location:17.0.0'
+
+## Permissions
+- "android.permission.BLUETOOTH"
+- "android.permission.BLUETOOTH_ADMIN"
+- "android.permission.INTERNET"
+- "android.permission.ACCESS_FINE_LOCATION"
+- "android.permission.ACCESS_COARSE_LOCATION"
+- "android.permission.RECORD_AUDIO"
+
 ## Data Collected
 Currently, the data collected includes:
 - GPS Location - Longitude and latitude coordinates
