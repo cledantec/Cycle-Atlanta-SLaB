@@ -5,7 +5,7 @@ Android Location Manager (ALM) or Google Play Services’ Fused Location Client 
 passive providers. This includes using satellites, cell towers, and locations determined by other applications. FLC is built on 
 top of ALM. FLC automatically chooses the best provider for the device’s location and is in turn much quicker to update and log a 
 device’s location. Comparing the two, FLC provided more accurate data with less lag. The current app utilizes FLC to report the 
-phone's location and speed. The app has been tested on a Samsung Galaxy S10.
+phone's location and speed. The app has been tested on a Samsung Galaxy S10 and is currently named "SLaB".
 
 The app features two modes which both record data. The main screen is meant to be utilized during experiments and test rides. This
 screen displays the essentials for the app:
@@ -76,8 +76,129 @@ the format is (Time,Latitude,Longitude,Dist_Acc,Speed,Speed_Acc,Altitude,Alt_Acc
 The optional recordings are stored as mpeg4.
 
 ## Bluetooth
+Initial testing was done to determine if Bluetooth(BT) could be used to send data between a BT module and a phone. The app created for testing is named "Blueteeth GATT". The BT module used for testing was the [Adafruit Bluefruit LE UART Friend](https://www.adafruit.com/product/2479). This BT module utilizes [Bluetooth Low Energy](https://developer.android.com/guide/topics/connectivity/bluetooth-le) instead of conventional Bluetooth. This involves using a GATT profile to send attributes over a BLE link. 
+
+### Connecting Devices
+Normally, the app would need to scan for BLE devices, pair, and connect before sending data. However, for the current app, the module is manually linked in the phone's BT settings before testing. 
+
+### Bluetooth Adapter
+A Bluetooth Adapter is required for BLE activity. In the main activity:
+
+`private BluetoothAdapter bluetoothAdapter;`  
+
+And within the onCreate method:
+
+`bluetoothAdapter = bluetoothManager.getAdapter();`
+
+Then app checks that Bluetooth is enabled and that a connection with the BLE module is established. If not, a request should be made for the user to enable BT and connect to the BT module: 
+
+```
+if (bluetoothAdapter == null || !bluetoothAdapter.isEnabled()) {
+    Intent enableBtIntent = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
+    startActivityForResult(enableBtIntent, 0);
+}
+```
+
+### GATT Connection
+Next, the app checks that the correct module is connected. If the module is the "Adafruit Bluefruit LE" module, a connection is made to the GATT server on the BLE device and a [BluetoothGattCallback](https://developer.android.com/reference/android/bluetooth/BluetoothGattCallback) is used to perform operations:
+
+```
+pairedDevices = bluetoothAdapter.getBondedDevices();
+if (pairedDevices.size() > 0) {
+    for (BluetoothDevice device : pairedDevices) {
+        if(device.getName().equals("Adafruit Bluefruit LE")){
+            statusBox.setText(device.getName());
+            BluetoothGatt BTGatt = device.connectGatt(this, true, gattCallback);
+        }
+        else{
+            statusBox.setText("Plz Connect to Bluefruit");
+        }
+    }
+}
+else{
+    statusBox.setText("No Connected Devices");
+}
+```
+
+### Bluetooth GATT Callback
+The GATT callback uses several methods to perform BT operations. The `onConnectionStateChange()` method can be used to check that a successful GATT connection was made and start discovering services:
+
+```
+public void onConnectionStateChange(BluetoothGatt gatt, int status, int newState) {
+super.onConnectionStateChange(gatt, status, newState);
+if(status == BluetoothGatt.GATT_SUCCESS && newState == BluetoothProfile.STATE_CONNECTED){
+    try {
+        Thread.sleep(500);
+    } catch (InterruptedException e) {
+        e.printStackTrace();
+    }
+    gatt.discoverServices();
+}else if(status != BluetoothGatt.GATT_SUCCESS){
+    gatt.disconnect();
+}
+}
+```
+
+Sometimes it is useful to have the thread sleep for 500 ms before beginning service discovery to ensure the GATT connection is made.
+
+The `onServicesDiscovered()` method can be used to get the service from the BLE device as well as read and write characteristics using from the service. The service, read characteristic, and write characteristic have different UUIDs that are specific to the BLE module. These UUIDs are used to get the correct service and characteristic in order to communicate and perform operations with the BLE module:
+
+```
+BluetoothGattService BTservice = gatt.getService(UUID.fromString("6e400001-b5a3-f393-e0a9-e50e24dcca9e"));
+BluetoothGattCharacteristic WriteCharacteristic = BTservice.getCharacteristic(UUID.fromString("6e400002-b5a3-f393-e0a9-e50e24dcca9e"));
+BluetoothGattCharacteristic ReadCharacteristic = BTservice.getCharacteristic(UUID.fromString("6e400003-b5a3-f393-e0a9-e50e24dcca9e"));
+```
+
+To **send data to** the BLE module, the value of the write characterstic can be set and then written:
+
+```
+WriteCharacteristic.setValue("ASDFJKL");
+gatt.writeCharacteristic(WriteCharacteristic);
+```
+
+To **receive data from** the BLE module, a characterstic notification must be set and enabled with the Bluetooth Descriptor:
+
+```
+gatt.setCharacteristicNotification(ReadCharacteristic,true);
+BluetoothGattDescriptor descriptor = ReadCharacteristic.getDescriptor(UUID.fromString("00002902-0000-1000-8000-00805f9b34fb"));
+descriptor.setValue(BluetoothGattDescriptor.ENABLE_NOTIFICATION_VALUE);
+gatt.writeDescriptor(descriptor);
+```
+
+With the notification set, once a characteristic change is detected, the `onCharacteristicChange` method will be called. The incoming data can then be extracted and displayed or saved. 
+
+```
+public void onCharacteristicChanged(BluetoothGatt gatt, BluetoothGattCharacteristic characteristic){
+  String inputText = characteristic.getStringValue(0);
+ }
+```
 
 ## Running the App
+### Enabling USB Debugging
+In order for the app to install on an adroid device from Android Studio, USB debugging must be enabled in the developer options on the phone. Normally, developer options are not shown. 
+
+- If using an Android phone, go to Settings > About phone > Build number. 
+- On a Samsung Galaxy device, go to Settings > About phone > Software information > Build number. 
+- On an HTC device, go to Settings > About > Software information > More > Build number. 
+- On an LG device, go to Settings > About phone > Software info > Build number.
+
+Tap Build number seven times. After a few taps, steps counting down until developer options are unlocked should appear. Once activated, go back to Settings and developer options should be at the bottom of the menu. Under "Debugging" in the developer options, enable "USB debugging".
+
+### Installing the App
+To install the app on an Android device, connect the android device to a computer with Android studio running. If the device is connected and developer mode is enabled, the phone should show in a tool bar at the top of Android studio.
+
+Simple click the green "Run" button to install the app on the phone.
+
+### Enabling Permissions
+To run the "SLaB app, location and mircophone permissons must be granted for the app. These can granted in the phone settings under apps. For the "Blueteeth GATT" app, make sure Bluetooth for the phone is enabled and the correct Bluetooth module is connected.
+
+### Using the App
+Once permissions are granted, the app should be functional. 
+- To record data, simple press the "LOG DATA" button. 
+- To enable audio recordings, switch the "Audio Record" to the on position before starting data collection. 
+- To enter developer mode, press the text at the bottom. 
+- To go back to the main screen from developer mode, use the back arrow at the top of the screen.
 
 ## Future Work
+Future work for the app should focus on integrating Bluetooth functionality into the main "SLaB" app. 
 
