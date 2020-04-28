@@ -10,6 +10,7 @@ The Android App was developed in order to take advantage of the large amount of 
 ## [Mechanical System](Mechanical%20System)
 
 ## [Electrical System](Electrical%20System)
+The electrical system includes the sensors and other electrical components used, as well as the PCB that connects them all. The primary electrical components are a battery, a current sensor, a Teensy microcontroller, 4 LIDARs, and a Bluetooth communication module.
 
 ## The Woodruff Group
 [Ibrahim Abdeally - iabdeally3@gatech.edu](mailto:iabdeally3@gatech.edu)  
