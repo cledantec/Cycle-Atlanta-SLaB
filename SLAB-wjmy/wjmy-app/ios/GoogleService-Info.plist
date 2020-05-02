@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>725069650969-cj9ifu6j1isqgcr8rb14qv050ra95dlf.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.725069650969-cj9ifu6j1isqgcr8rb14qv050ra95dlf</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB80THhjlXaQAM7PYJkusU36Ba0jpyyIeQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>725069650969</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>org.reactjs.native.example.wjmy</string>
+	<key>PROJECT_ID</key>
+	<string>wjmy-81588</string>
+	<key>STORAGE_BUCKET</key>
+	<string>wjmy-81588.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:725069650969:ios:6d7eaf7d09c5e942b6de88</string>
+	<key>DATABASE_URL</key>
+	<string>https://wjmy-81588.firebaseio.com</string>
+</dict>
+</plist>
