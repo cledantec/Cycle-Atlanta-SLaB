@@ -22,7 +22,7 @@
     "@react-navigation/stack": "^5.0.1",
     "import": "0.0.6",
     "native-base": "^2.13.12",
-    "qs": "^6.9.1",
+    "qs": "^6.9.7",
     "react": "16.9.0",
     "react-native": "0.61.5",
     "react-native-background-timer": "^2.2.0",
